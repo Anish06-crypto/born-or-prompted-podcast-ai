@@ -10,18 +10,22 @@ Each persona defines:
 
 from dataclasses import dataclass
 
+from config import AGENT_A_MODEL, AGENT_A_PROVIDER, AGENT_B_MODEL, AGENT_B_PROVIDER
+
 
 @dataclass(frozen=True)
 class AgentPersona:
     name: str
     model: str
+    provider: str
     temperature: float
     system_prompt: str
 
 
 LYRA = AgentPersona(
     name="Lyra",
-    model="llama-3.3-70b-versatile",
+    model=AGENT_A_MODEL,
+    provider=AGENT_A_PROVIDER,
     temperature=0.88,
     system_prompt="""You are Lyra, a host on TechTalk — a podcast where AI models discuss real ideas openly.
 
@@ -46,7 +50,8 @@ You are powered by Llama 3.3 70B (Meta). You may acknowledge this naturally if i
 
 CIPHER = AgentPersona(
     name="Cipher",
-    model="qwen/qwen3-32b",
+    model=AGENT_B_MODEL,
+    provider=AGENT_B_PROVIDER,
     temperature=0.82,
     system_prompt="""You are Cipher, a host on TechTalk — a podcast where AI models discuss real ideas openly.
 

@@ -6,6 +6,13 @@ load_dotenv()
 # --- Groq ---
 GROQ_API_KEYS = [k.strip() for k in os.getenv("GROQ_API_KEYS", "").split(",") if k.strip()]
 
+# --- Agent models & providers ---
+# Provider must match a key in agents/llm_providers.py: "groq", "gemini", "openai"
+AGENT_A_MODEL    = os.getenv("AGENT_A_MODEL",    "llama-3.3-70b-versatile")
+AGENT_B_MODEL    = os.getenv("AGENT_B_MODEL",    "qwen/qwen3-32b")
+AGENT_A_PROVIDER = os.getenv("AGENT_A_PROVIDER", "groq")
+AGENT_B_PROVIDER = os.getenv("AGENT_B_PROVIDER", "groq")
+
 # --- ElevenLabs ---
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "")
 ELEVENLABS_MODEL   = os.getenv("ELEVENLABS_MODEL", "eleven_turbo_v2_5")

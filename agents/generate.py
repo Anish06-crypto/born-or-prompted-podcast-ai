@@ -13,7 +13,7 @@ persona, and conversation perspective. Turns are generated sequentially:
 import json
 import os
 
-from agents.llm_providers import GroqProvider
+from agents.llm_providers import GeminiProvider, GroqProvider, LLMProvider, OpenAIProvider
 from agents.personas import AGENTS, AgentPersona
 from agents.prompts import build_topic_context
 from config import OUTPUT_DIR
@@ -21,6 +21,22 @@ from utils.history import record as record_in_history
 from utils.validator import validate_transcript
 
 TOTAL_TURNS = 21  # 1 opener (Lyra) + 19 debate turns + 1 closer (Lyra)
+
+_PROVIDER_CLASSES: dict[str, type[LLMProvider]] = {
+    "groq":   GroqProvider,
+    "gemini": GeminiProvider,
+    "openai": OpenAIProvider,
+}
+
+
+def _make_provider(agent: AgentPersona) -> LLMProvider:
+    cls = _PROVIDER_CLASSES.get(agent.provider.lower())
+    if cls is None:
+        raise ValueError(
+            f"Unknown provider {agent.provider!r} for agent {agent.name}. "
+            f"Valid options: {list(_PROVIDER_CLASSES)}"
+        )
+    return cls(model=agent.model, temperature=agent.temperature)
 
 
 def _build_messages_for_agent(
@@ -93,10 +109,7 @@ def generate_transcript_stream(
     are still being generated, eliminating the pre-generation wait.
     Saves the transcript and records history after the final turn is yielded.
     """
-    providers = {
-        agent.name: GroqProvider(model=agent.model, temperature=agent.temperature)
-        for agent in AGENTS
-    }
+    providers = {agent.name: _make_provider(agent) for agent in AGENTS}
 
     topic_context = build_topic_context(topic, position_a_seed, position_b_seed)
     history: list[dict] = []
