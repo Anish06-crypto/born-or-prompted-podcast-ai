@@ -18,10 +18,15 @@ from datetime import datetime
 
 _LOG_DIR = os.path.join(os.path.dirname(__file__), "..", "output", "logs")
 
-# Words that count as filler — extend as needed
-_FILLER_WORDS = {
+# Involuntary hesitation sounds — signal uncertainty or thinking out loud
+_HEDGING_FILLERS = {
     "uh", "um", "uhm", "hmm", "huh", "uh-huh", "uhh", "umm",
-    "like", "you know", "i mean", "right", "well", "so",
+    "like", "you know", "i mean",
+}
+
+# Conversational discourse markers — can be stylistic or persona-driven (e.g. Cipher uses "look", "right")
+_DISCOURSE_MARKERS = {
+    "right", "well", "so", "look",
 }
 
 
@@ -29,9 +34,12 @@ def _count_words(text: str) -> int:
     return len(text.split())
 
 
-def _count_fillers(text: str) -> int:
+def _count_filler_categories(text: str) -> tuple[int, int]:
+    """Returns (hedging_count, marker_count)."""
     lowered = text.lower()
-    return sum(lowered.count(f) for f in _FILLER_WORDS)
+    hedging = sum(lowered.count(f) for f in _HEDGING_FILLERS)
+    markers = sum(lowered.count(f) for f in _DISCOURSE_MARKERS)
+    return hedging, markers
 
 
 class SessionLogger:
@@ -43,6 +51,7 @@ class SessionLogger:
         self._turns: list[dict] = []
         self._last_turn_end: datetime | None = None
         self._first_audio_s: float | None = None  # seconds from started_at to first audio
+        self._memory: dict = {}  # per-agent memory stats
 
     # ------------------------------------------------------------------
     # Groq
@@ -69,6 +78,32 @@ class SessionLogger:
             f"tokens={prompt_tokens}→{completion_tokens}  "
             f"key={key_index + 1}  retries={retries}"
         )
+
+    # ------------------------------------------------------------------
+    # Memory
+    # ------------------------------------------------------------------
+    def log_memory(self, agent_name: str, hits: int, scores: list[float], depth: int) -> None:
+        """
+        Record episodic memory stats for one agent at episode start.
+
+        hits   — number of relevant past memories retrieved (0 = cold start)
+        scores — similarity scores for each retrieved memory (rapidfuzz token_set_ratio)
+        depth  — total memories stored for this agent across all episodes
+        """
+        self._memory[agent_name] = {
+            "hits":      hits,
+            "top_score": round(max(scores), 1) if scores else None,
+            "avg_score": round(sum(scores) / len(scores), 1) if scores else None,
+            "scores":    [round(s, 1) for s in scores],
+            "depth":     depth,
+        }
+        cold = "cold start" if hits == 0 else f"{hits} hit(s), top={max(scores):.0f}"
+        print(f"  [memory] {agent_name}: {cold}  depth={depth}")
+
+    def finalize_memory_depth(self, agent_name: str, depth_after: int) -> None:
+        """Update the memory entry with post-episode depth once memories have been written."""
+        if agent_name in self._memory:
+            self._memory[agent_name]["depth_after"] = depth_after
 
     # ------------------------------------------------------------------
     # First audio signal
@@ -99,19 +134,21 @@ class SessionLogger:
         if self._last_turn_end is not None:
             inter_gap_s = round((now - self._last_turn_end).total_seconds(), 3)
 
-        word_count   = _count_words(text)
-        filler_count = _count_fillers(text)
+        word_count                 = _count_words(text)
+        hedging_count, marker_count = _count_filler_categories(text)
 
         entry: dict = {
-            "turn":              turn,
-            "speaker":           speaker,
-            "char_count":        len(text),
-            "word_count":        word_count,
-            "filler_count":      filler_count,
-            "filler_per_100w":   round(filler_count / word_count * 100, 1) if word_count else 0,
-            "tts_fetch_s":       round(tts_fetch_s, 3),
-            "playback_s":        round(playback_s, 3),
-            "inter_turn_gap_s":  inter_gap_s,
+            "turn":               turn,
+            "speaker":            speaker,
+            "char_count":         len(text),
+            "word_count":         word_count,
+            "hedging_count":      hedging_count,
+            "hedging_per_100w":   round(hedging_count / word_count * 100, 1) if word_count else 0,
+            "marker_count":       marker_count,
+            "marker_per_100w":    round(marker_count / word_count * 100, 1) if word_count else 0,
+            "tts_fetch_s":        round(tts_fetch_s, 3),
+            "playback_s":         round(playback_s, 3),
+            "inter_turn_gap_s":   inter_gap_s,
         }
         if gen_latency_s:
             entry["gen_latency_s"] = round(gen_latency_s, 3)
@@ -144,20 +181,24 @@ class SessionLogger:
         for t in self._turns:
             sp = t["speaker"]
             if sp not in speakers:
-                speakers[sp] = {"turns": 0, "words": 0, "fillers": 0}
+                speakers[sp] = {"turns": 0, "words": 0, "hedging": 0, "markers": 0}
             speakers[sp]["turns"]   += 1
             speakers[sp]["words"]   += t["word_count"]
-            speakers[sp]["fillers"] += t["filler_count"]
+            speakers[sp]["hedging"] += t["hedging_count"]
+            speakers[sp]["markers"] += t["marker_count"]
 
         speaker_stats = {}
         for sp, d in speakers.items():
+            w = d["words"]
             speaker_stats[sp] = {
-                "turns":              d["turns"],
-                "turn_ratio":         round(d["turns"] / n, 3) if n else 0,
-                "total_words":        d["words"],
-                "avg_words_per_turn": round(d["words"] / d["turns"], 1) if d["turns"] else 0,
-                "total_fillers":      d["fillers"],
-                "filler_per_100w":    round(d["fillers"] / d["words"] * 100, 1) if d["words"] else 0,
+                "turns":               d["turns"],
+                "turn_ratio":          round(d["turns"] / n, 3) if n else 0,
+                "total_words":         w,
+                "avg_words_per_turn":  round(w / d["turns"], 1) if d["turns"] else 0,
+                "total_hedging":       d["hedging"],
+                "hedging_per_100w":    round(d["hedging"] / w * 100, 1) if w else 0,
+                "total_markers":       d["markers"],
+                "marker_per_100w":     round(d["markers"] / w * 100, 1) if w else 0,
             }
 
         tts_summary = {
@@ -181,6 +222,7 @@ class SessionLogger:
             "total_duration_s":     round(total_s, 2),
             "time_to_first_audio_s": self._first_audio_s,
             "groq":                 self._groq,
+            "memory":               self._memory,
             "tts_summary":          tts_summary,
             "speaker_stats":        speaker_stats,
             "turns":                self._turns,
@@ -211,6 +253,8 @@ class SessionLogger:
             "p95_tts_fetch_s":       tts_summary["p95_fetch_s"],
             "avg_playback_s":        tts_summary["avg_playback_s"],
             "speaker_balance":       {sp: d["turn_ratio"] for sp, d in speaker_stats.items()},
+            "memory_hits":           {agent: s["hits"] for agent, s in self._memory.items()},
+            "memory_depth":          {agent: s["depth"] for agent, s in self._memory.items()},
         }
         summary_path = os.path.join(_LOG_DIR, "summary.jsonl")
         with open(summary_path, "a", encoding="utf-8") as f:

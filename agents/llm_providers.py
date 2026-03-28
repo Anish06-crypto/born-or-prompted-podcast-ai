@@ -24,6 +24,10 @@ def _strip_thinking_tags(text: str) -> str:
 # Max tokens per single podcast turn (2–4 sentences ~ 150–300 tokens; 400 gives headroom)
 _TURN_MAX_TOKENS = 400
 
+# Models that emit <think> blocks by default — disable reasoning at the API level
+# so thinking tokens don't consume the max_tokens budget and leak into the transcript.
+_THINKING_MODELS = ("qwen3", "qwq")
+
 
 class LLMProvider(ABC):
     @abstractmethod
@@ -31,7 +35,7 @@ class LLMProvider(ABC):
         self,
         system_prompt: str,
         messages: list[dict],
-    ) -> tuple[str, float]:
+    ) -> tuple[str, float, int, int]:
         """
         Generate one podcast turn.
 
@@ -45,7 +49,7 @@ class LLMProvider(ABC):
 
         Returns
         -------
-        (text, latency_s)
+        (text, latency_s, prompt_tokens, completion_tokens)
         """
 
 
@@ -60,11 +64,14 @@ class GroqProvider(LLMProvider):
         self,
         system_prompt: str,
         messages: list[dict],
-    ) -> tuple[str, float]:
+    ) -> tuple[str, float, int, int]:
         if not GROQ_API_KEYS:
             raise RuntimeError("No GROQ_API_KEYS configured in .env")
 
         full_messages = [{"role": "system", "content": system_prompt}] + messages
+
+        is_thinking_model = any(m in self.model.lower() for m in _THINKING_MODELS)
+        extra = {"reasoning_effort": "none"} if is_thinking_model else {}
 
         for i, key in enumerate(GROQ_API_KEYS):
             try:
@@ -75,10 +82,14 @@ class GroqProvider(LLMProvider):
                     temperature=self.temperature,
                     max_tokens=_TURN_MAX_TOKENS,
                     messages=full_messages,
+                    **extra,
                 )
                 latency_s = time.perf_counter() - t0
                 raw = response.choices[0].message.content
-                return _strip_thinking_tags(raw), latency_s
+                usage = response.usage
+                prompt_tokens     = usage.prompt_tokens     if usage else 0
+                completion_tokens = usage.completion_tokens if usage else 0
+                return _strip_thinking_tags(raw), latency_s, prompt_tokens, completion_tokens
             except RateLimitError:
                 print(f"  [llm] Key {i + 1}/{len(GROQ_API_KEYS)} rate limited for {self.model}, rotating...")
 
@@ -92,12 +103,12 @@ class GroqProvider(LLMProvider):
 class GeminiProvider(LLMProvider):
     """Google Gemini via google-generativeai SDK. Not yet implemented."""
 
-    def generate_turn(self, system_prompt: str, messages: list[dict]) -> tuple[str, float]:
+    def generate_turn(self, system_prompt: str, messages: list[dict]) -> tuple[str, float, int, int]:
         raise NotImplementedError("GeminiProvider not yet implemented.")
 
 
 class OpenAIProvider(LLMProvider):
     """OpenAI-compatible endpoint. Not yet implemented."""
 
-    def generate_turn(self, system_prompt: str, messages: list[dict]) -> tuple[str, float]:
+    def generate_turn(self, system_prompt: str, messages: list[dict]) -> tuple[str, float, int, int]:
         raise NotImplementedError("OpenAIProvider not yet implemented.")

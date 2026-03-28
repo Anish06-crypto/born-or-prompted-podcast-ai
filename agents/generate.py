@@ -14,6 +14,10 @@ import json
 import os
 
 from agents.llm_providers import GeminiProvider, GroqProvider, LLMProvider, OpenAIProvider
+from agents.memory import count_all as memory_count_all
+from agents.memory import format_memory_context
+from agents.memory import record as record_memory
+from agents.memory import retrieve as memory_retrieve
 from agents.personas import AGENTS, AgentPersona
 from agents.prompts import build_topic_context
 from config import OUTPUT_DIR
@@ -45,6 +49,7 @@ def _build_messages_for_agent(
     history: list[dict],
     turn_index: int,
     closing: bool = False,
+    memory_context: str = "",
 ) -> list[dict]:
     """
     Build the OpenAI-format message list for this agent's next turn.
@@ -54,6 +59,9 @@ def _build_messages_for_agent(
       - The other agent's turns   → role: "user"
     """
     messages: list[dict] = [{"role": "user", "content": topic_context}]
+
+    if memory_context:
+        messages.append({"role": "user", "content": memory_context})
 
     for past in history:
         role = "assistant" if past["speaker"] == agent.name else "user"
@@ -96,6 +104,41 @@ def _save_transcript(transcript: list, topic: str) -> str:
     return path
 
 
+def _record_episode_memories(transcript: list[dict], topic: str) -> None:
+    """
+    Extract per-agent stances and key quotes from the transcript and persist
+    them to the episodic memory store.
+
+    Stance  = agent's first debate turn (not the opener/closer).
+    Key quote = agent's last turn before the closing.
+    Outcome = "unresolved" by default; future versions can infer convergence.
+    """
+    for agent in AGENTS:
+        turns = [t for t in transcript if t["speaker"] == agent.name]
+        # Need at least 2 turns to extract a meaningful stance + quote
+        if len(turns) < 2:
+            continue
+
+        # Skip Lyra's opener (index 0 overall) — it's just a welcome, not a stance
+        debate_turns = turns[1:] if agent.name == AGENTS[0].name else turns
+
+        if not debate_turns:
+            continue
+
+        stance    = debate_turns[0]["text"][:200]
+        # Skip the very last Lyra turn (closing) when picking the key quote
+        quote_pool = debate_turns[:-1] if agent.name == AGENTS[0].name and len(debate_turns) > 1 else debate_turns
+        key_quote  = quote_pool[-1]["text"][:200]
+
+        record_memory(
+            agent_name=agent.name,
+            topic=topic,
+            stance=stance,
+            key_quote=key_quote,
+            outcome="unresolved",
+        )
+
+
 def generate_transcript_stream(
     topic: str,
     position_a_seed: str = "",
@@ -112,8 +155,22 @@ def generate_transcript_stream(
     providers = {agent.name: _make_provider(agent) for agent in AGENTS}
 
     topic_context = build_topic_context(topic, position_a_seed, position_b_seed)
+
+    # Retrieve memories before the episode starts so we can both inject context
+    # and log stats (hits, scores, depth) without querying the DB twice.
+    memory_contexts: dict[str, str] = {}
+    for agent in AGENTS:
+        memories  = memory_retrieve(agent.name, topic)
+        depth     = memory_count_all(agent.name)
+        scores    = [m["similarity"] for m in memories]
+        memory_contexts[agent.name] = format_memory_context(memories)
+        if logger is not None:
+            logger.log_memory(agent.name, hits=len(memories), scores=scores, depth=depth)
+
     history: list[dict] = []
-    total_gen_s = 0.0
+    total_gen_s        = 0.0
+    total_prompt_tok   = 0
+    total_completion_tok = 0
 
     print(f"\nGenerating conversation: {topic!r}")
     print(f"  Lyra  → {AGENTS[0].model}")
@@ -124,9 +181,15 @@ def generate_transcript_stream(
         provider = providers[agent.name]
 
         closing = (i == TOTAL_TURNS - 1)  # last turn is always Lyra's closing
-        messages = _build_messages_for_agent(agent, topic_context, history, i, closing=closing)
-        text, latency_s = provider.generate_turn(agent.system_prompt, messages)
-        total_gen_s += latency_s
+        messages = _build_messages_for_agent(
+            agent, topic_context, history, i,
+            closing=closing,
+            memory_context=memory_contexts[agent.name],
+        )
+        text, latency_s, prompt_tok, completion_tok = provider.generate_turn(agent.system_prompt, messages)
+        total_gen_s          += latency_s
+        total_prompt_tok     += prompt_tok
+        total_completion_tok += completion_tok
 
         turn = {
             "speaker":       agent.name,
@@ -142,10 +205,20 @@ def generate_transcript_stream(
     validated = validate_transcript(history)
 
     if logger is not None:
-        logger.log_groq(latency_s=total_gen_s, key_index=0, retries=0)
+        logger.log_groq(
+            latency_s=total_gen_s,
+            key_index=0,
+            retries=0,
+            prompt_tokens=total_prompt_tok,
+            completion_tokens=total_completion_tok,
+        )
 
     path = _save_transcript(validated, topic)
     record_in_history(topic, path, len(validated))
+    _record_episode_memories(validated, topic)
+    if logger is not None:
+        for agent in AGENTS:
+            logger.finalize_memory_depth(agent.name, memory_count_all(agent.name))
     print(f"\n  {len(validated)} turns saved → {path}")
 
 
