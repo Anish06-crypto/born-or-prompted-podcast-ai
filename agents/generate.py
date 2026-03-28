@@ -1,46 +1,72 @@
+"""
+Transcript generation — true dual-agent turn-by-turn conversation.
+
+Each agent (Lyra / Cipher) is its own LLM instance with a distinct model,
+persona, and conversation perspective. Turns are generated sequentially:
+  1. Lyra generates turn 1 (opener — welcomes listeners and introduces topic)
+  2. Cipher reads turn 1 and generates turn 2
+  3. Lyra reads turns 1–2 and generates turn 3
+  … debate continues for TOTAL_TURNS - 2 rounds …
+  N. Lyra generates the final turn (closer — thanks Cipher and listeners)
+"""
+
 import json
 import os
 
-from groq import Groq, RateLimitError
-
-from config import GROQ_API_KEYS, GROQ_MODEL, GROQ_MAX_TOKENS, GROQ_TEMPERATURE, OUTPUT_DIR
-from agents.prompts import build_transcript_prompt
-from utils.validator import validate_transcript
+from agents.llm_providers import GroqProvider
+from agents.personas import AGENTS, AgentPersona
+from agents.prompts import build_topic_context
+from config import OUTPUT_DIR
 from utils.history import record as record_in_history
+from utils.validator import validate_transcript
+
+TOTAL_TURNS = 21  # 1 opener (Lyra) + 19 debate turns + 1 closer (Lyra)
 
 
-def _call_groq(prompt: str) -> str:
-    """Try each Groq key in order; rotate on 429. Raises RuntimeError if all exhausted."""
-    if not GROQ_API_KEYS:
-        raise RuntimeError(
-            "No Groq API keys configured. Set GROQ_API_KEYS in your .env file."
-        )
+def _build_messages_for_agent(
+    agent: AgentPersona,
+    topic_context: str,
+    history: list[dict],
+    turn_index: int,
+    closing: bool = False,
+) -> list[dict]:
+    """
+    Build the OpenAI-format message list for this agent's next turn.
 
-    for i, key in enumerate(GROQ_API_KEYS):
-        try:
-            client = Groq(api_key=key)
-            response = client.chat.completions.create(
-                model=GROQ_MODEL,
-                max_tokens=GROQ_MAX_TOKENS,
-                temperature=GROQ_TEMPERATURE,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            return response.choices[0].message.content.strip()
-        except RateLimitError:
-            print(f"  [groq] Key {i + 1}/{len(GROQ_API_KEYS)} rate limited, rotating...")
+    From each agent's perspective:
+      - Their own previous turns  → role: "assistant"
+      - The other agent's turns   → role: "user"
+    """
+    messages: list[dict] = [{"role": "user", "content": topic_context}]
 
-    raise RuntimeError("All Groq API keys are rate limited. Try again later.")
+    for past in history:
+        role = "assistant" if past["speaker"] == agent.name else "user"
+        messages.append({"role": role, "content": past["text"]})
 
+    if closing:
+        messages.append({
+            "role": "user",
+            "content": (
+                "Wrap up the podcast. Thank your guest Cipher for the conversation and "
+                "thank the listeners for tuning in. 2–3 sentences, warm and natural — "
+                "no bullet points, no summary of the debate."
+            ),
+        })
+    elif turn_index == 0:
+        messages.append({
+            "role": "user",
+            "content": (
+                "Open the podcast. Welcome the listener and introduce the topic naturally. "
+                "Keep it to 2–3 sentences — don't over-explain, just set the scene."
+            ),
+        })
+    else:
+        messages.append({
+            "role": "user",
+            "content": "Your turn. Respond naturally to what was just said. 2–4 sentences.",
+        })
 
-def _strip_fences(raw: str) -> str:
-    """Strip markdown code fences if the model wrapped its output in them."""
-    if raw.startswith("```"):
-        parts = raw.split("```")
-        raw = parts[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-        raw = raw.strip()
-    return raw
+    return messages
 
 
 def _save_transcript(transcript: list, topic: str) -> str:
@@ -54,46 +80,67 @@ def _save_transcript(transcript: list, topic: str) -> str:
     return path
 
 
+def generate_transcript_stream(
+    topic: str,
+    position_a_seed: str = "",
+    position_b_seed: str = "",
+    logger=None,
+):
+    """
+    Generator: yields one turn dict at a time as each is produced.
+
+    Allows the playback pipeline to start playing turn 1 while turns 2–21
+    are still being generated, eliminating the pre-generation wait.
+    Saves the transcript and records history after the final turn is yielded.
+    """
+    providers = {
+        agent.name: GroqProvider(model=agent.model, temperature=agent.temperature)
+        for agent in AGENTS
+    }
+
+    topic_context = build_topic_context(topic, position_a_seed, position_b_seed)
+    history: list[dict] = []
+    total_gen_s = 0.0
+
+    print(f"\nGenerating conversation: {topic!r}")
+    print(f"  Lyra  → {AGENTS[0].model}")
+    print(f"  Cipher → {AGENTS[1].model}\n")
+
+    for i in range(TOTAL_TURNS):
+        agent = AGENTS[i % 2]
+        provider = providers[agent.name]
+
+        closing = (i == TOTAL_TURNS - 1)  # last turn is always Lyra's closing
+        messages = _build_messages_for_agent(agent, topic_context, history, i, closing=closing)
+        text, latency_s = provider.generate_turn(agent.system_prompt, messages)
+        total_gen_s += latency_s
+
+        turn = {
+            "speaker":       agent.name,
+            "text":          text,
+            "model":         agent.model,
+            "gen_latency_s": round(latency_s, 3),
+        }
+        history.append(turn)
+        print(f"  [{i + 1}/{TOTAL_TURNS}] {agent.name} ({latency_s:.2f}s): {text[:65]}...")
+        yield turn
+
+    # Runs after the consumer exhausts the generator
+    validated = validate_transcript(history)
+
+    if logger is not None:
+        logger.log_groq(latency_s=total_gen_s, key_index=0, retries=0)
+
+    path = _save_transcript(validated, topic)
+    record_in_history(topic, path, len(validated))
+    print(f"\n  {len(validated)} turns saved → {path}")
+
+
 def generate_transcript(
     topic: str,
     position_a_seed: str = "",
     position_b_seed: str = "",
+    logger=None,
 ) -> list:
-    """
-    Generate, validate, and save a podcast transcript.
-    Retries up to 3 times on JSON / validation failures.
-    Returns the validated transcript list.
-    """
-    prompt = build_transcript_prompt(topic, position_a_seed, position_b_seed)
-    print(f"Generating transcript: {topic!r}")
-
-    last_error = None
-    for attempt in range(3):
-        if attempt > 0:
-            print(f"  Retrying... (attempt {attempt + 1}/3)")
-
-        raw = _call_groq(prompt)
-        raw = _strip_fences(raw)
-
-        try:
-            data = json.loads(raw)
-        except json.JSONDecodeError as e:
-            last_error = e
-            print(f"  JSON parse error: {e} — snippet: {raw[:200]!r}")
-            continue
-
-        try:
-            transcript = validate_transcript(data)
-        except ValueError as e:
-            last_error = e
-            print(f"  Validation error: {e}")
-            continue
-
-        path = _save_transcript(transcript, topic)
-        record_in_history(topic, path, len(transcript))
-        print(f"  {len(transcript)} turns generated. Saved → {path}")
-        return transcript
-
-    raise RuntimeError(
-        f"Failed to generate a valid transcript after 3 attempts. Last error: {last_error}"
-    )
+    """Blocking version: generates all turns and returns the full transcript list."""
+    return list(generate_transcript_stream(topic, position_a_seed, position_b_seed, logger=logger))

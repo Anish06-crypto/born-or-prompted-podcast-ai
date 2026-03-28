@@ -1,0 +1,220 @@
+"""
+Session logger — tracks latency, token usage, content quality proxies, and
+UX metrics for every Groq + ElevenLabs call.
+
+Writes structured JSON logs to output/logs/ for later analysis.
+
+Log layout
+----------
+output/logs/
+  session_YYYYMMDD_HHMMSS_<id>.json   ← full per-session detail
+  summary.jsonl                        ← one-line-per-session index
+"""
+
+import json
+import os
+import uuid
+from datetime import datetime
+
+_LOG_DIR = os.path.join(os.path.dirname(__file__), "..", "output", "logs")
+
+# Words that count as filler — extend as needed
+_FILLER_WORDS = {
+    "uh", "um", "uhm", "hmm", "huh", "uh-huh", "uhh", "umm",
+    "like", "you know", "i mean", "right", "well", "so",
+}
+
+
+def _count_words(text: str) -> int:
+    return len(text.split())
+
+
+def _count_fillers(text: str) -> int:
+    lowered = text.lower()
+    return sum(lowered.count(f) for f in _FILLER_WORDS)
+
+
+class SessionLogger:
+    def __init__(self, topic: str) -> None:
+        self.session_id  = uuid.uuid4().hex[:8]
+        self.topic       = topic
+        self.started_at  = datetime.now()
+        self._groq: dict = {}
+        self._turns: list[dict] = []
+        self._last_turn_end: datetime | None = None
+        self._first_audio_s: float | None = None  # seconds from started_at to first audio
+
+    # ------------------------------------------------------------------
+    # Groq
+    # ------------------------------------------------------------------
+    def log_groq(
+        self,
+        *,
+        latency_s: float,
+        key_index: int,
+        retries: int,
+        prompt_tokens: int = 0,
+        completion_tokens: int = 0,
+    ) -> None:
+        self._groq = {
+            "latency_s":         round(latency_s, 3),
+            "key_index_used":    key_index,
+            "retries":           retries,
+            "prompt_tokens":     prompt_tokens,
+            "completion_tokens": completion_tokens,
+            "total_tokens":      prompt_tokens + completion_tokens,
+        }
+        print(
+            f"  [log] Groq  latency={latency_s:.2f}s  "
+            f"tokens={prompt_tokens}→{completion_tokens}  "
+            f"key={key_index + 1}  retries={retries}"
+        )
+
+    # ------------------------------------------------------------------
+    # First audio signal
+    # ------------------------------------------------------------------
+    def log_first_audio(self) -> None:
+        """Call this immediately before the first TTS turn begins playing."""
+        self._first_audio_s = round(
+            (datetime.now() - self.started_at).total_seconds(), 3
+        )
+        print(f"  [log] Time-to-first-audio = {self._first_audio_s:.2f}s")
+
+    # ------------------------------------------------------------------
+    # TTS turn
+    # ------------------------------------------------------------------
+    def log_turn(
+        self,
+        *,
+        turn: int,
+        speaker: str,
+        text: str,
+        tts_fetch_s: float,
+        playback_s: float,
+        gen_latency_s: float = 0.0,
+        model: str = "",
+    ) -> None:
+        now = datetime.now()
+        inter_gap_s = 0.0
+        if self._last_turn_end is not None:
+            inter_gap_s = round((now - self._last_turn_end).total_seconds(), 3)
+
+        word_count   = _count_words(text)
+        filler_count = _count_fillers(text)
+
+        entry: dict = {
+            "turn":              turn,
+            "speaker":           speaker,
+            "char_count":        len(text),
+            "word_count":        word_count,
+            "filler_count":      filler_count,
+            "filler_per_100w":   round(filler_count / word_count * 100, 1) if word_count else 0,
+            "tts_fetch_s":       round(tts_fetch_s, 3),
+            "playback_s":        round(playback_s, 3),
+            "inter_turn_gap_s":  inter_gap_s,
+        }
+        if gen_latency_s:
+            entry["gen_latency_s"] = round(gen_latency_s, 3)
+        if model:
+            entry["model"] = model
+
+        self._turns.append(entry)
+        self._last_turn_end = now
+        gen_note = f"  gen={gen_latency_s:.2f}s" if gen_latency_s else ""
+        print(
+            f"  [log] Turn {turn:>3}  {speaker:<7}"
+            f"fetch={tts_fetch_s:.2f}s  play={playback_s:.2f}s  "
+            f"gap={inter_gap_s:.2f}s  words={word_count}{gen_note}"
+        )
+
+    # ------------------------------------------------------------------
+    # Save
+    # ------------------------------------------------------------------
+    def save(self) -> str:
+        """Write full session JSON + append one line to summary.jsonl. Returns file path."""
+        completed_at = datetime.now()
+        total_s = (completed_at - self.started_at).total_seconds()
+
+        fetch_times    = [t["tts_fetch_s"] for t in self._turns]
+        playback_times = [t["playback_s"]   for t in self._turns]
+        n = len(self._turns)
+
+        # --- Speaker balance ---
+        speakers = {}
+        for t in self._turns:
+            sp = t["speaker"]
+            if sp not in speakers:
+                speakers[sp] = {"turns": 0, "words": 0, "fillers": 0}
+            speakers[sp]["turns"]   += 1
+            speakers[sp]["words"]   += t["word_count"]
+            speakers[sp]["fillers"] += t["filler_count"]
+
+        speaker_stats = {}
+        for sp, d in speakers.items():
+            speaker_stats[sp] = {
+                "turns":              d["turns"],
+                "turn_ratio":         round(d["turns"] / n, 3) if n else 0,
+                "total_words":        d["words"],
+                "avg_words_per_turn": round(d["words"] / d["turns"], 1) if d["turns"] else 0,
+                "total_fillers":      d["fillers"],
+                "filler_per_100w":    round(d["fillers"] / d["words"] * 100, 1) if d["words"] else 0,
+            }
+
+        tts_summary = {
+            "total_turns":      n,
+            "total_chars":      sum(t["char_count"]  for t in self._turns),
+            "total_words":      sum(t["word_count"]  for t in self._turns),
+            "total_fetch_s":    round(sum(fetch_times), 3),
+            "avg_fetch_s":      round(sum(fetch_times) / n, 3)    if n else 0,
+            "p95_fetch_s":      round(sorted(fetch_times)[int(n * 0.95)] if n >= 2 else (fetch_times[0] if n else 0), 3),
+            "min_fetch_s":      round(min(fetch_times), 3)         if n else 0,
+            "max_fetch_s":      round(max(fetch_times), 3)         if n else 0,
+            "total_playback_s": round(sum(playback_times), 3),
+            "avg_playback_s":   round(sum(playback_times) / n, 3)  if n else 0,
+        }
+
+        session_data = {
+            "session_id":           self.session_id,
+            "topic":                self.topic,
+            "started_at":           self.started_at.isoformat(timespec="seconds"),
+            "completed_at":         completed_at.isoformat(timespec="seconds"),
+            "total_duration_s":     round(total_s, 2),
+            "time_to_first_audio_s": self._first_audio_s,
+            "groq":                 self._groq,
+            "tts_summary":          tts_summary,
+            "speaker_stats":        speaker_stats,
+            "turns":                self._turns,
+        }
+
+        os.makedirs(_LOG_DIR, exist_ok=True)
+
+        # Full detail log
+        filename = (
+            f"session_{self.started_at.strftime('%Y%m%d_%H%M%S')}"
+            f"_{self.session_id}.json"
+        )
+        log_path = os.path.join(_LOG_DIR, filename)
+        with open(log_path, "w", encoding="utf-8") as f:
+            json.dump(session_data, f, indent=2, ensure_ascii=False)
+
+        # Summary index (one JSON line per session — easy to load into pandas/excel)
+        summary_line = {
+            "session_id":            self.session_id,
+            "topic":                 self.topic,
+            "started_at":            session_data["started_at"],
+            "total_duration_s":      session_data["total_duration_s"],
+            "time_to_first_audio_s": self._first_audio_s,
+            "groq_latency_s":        self._groq.get("latency_s"),
+            "groq_total_tokens":     self._groq.get("total_tokens"),
+            "turns":                 n,
+            "avg_tts_fetch_s":       tts_summary["avg_fetch_s"],
+            "p95_tts_fetch_s":       tts_summary["p95_fetch_s"],
+            "avg_playback_s":        tts_summary["avg_playback_s"],
+            "speaker_balance":       {sp: d["turn_ratio"] for sp, d in speaker_stats.items()},
+        }
+        summary_path = os.path.join(_LOG_DIR, "summary.jsonl")
+        with open(summary_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(summary_line) + "\n")
+
+        print(f"\n  [log] Session saved → {log_path}")
+        return log_path

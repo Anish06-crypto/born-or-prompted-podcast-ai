@@ -13,13 +13,16 @@ Usage:
 
 import argparse
 import json
+import queue as _queue
 import sys
 import threading
 
-from agents.generate import generate_transcript
-from playback.runner import play_transcript
+from agents.generate import TOTAL_TURNS, generate_transcript, generate_transcript_stream
+from playback.runner import play_from_queue, play_transcript
 from reddit.fetch import fetch_episode_seed
+from utils.cache_stats import record_hit, record_miss
 from utils.history import find_similar, list_all
+from utils.logger import SessionLogger
 from visuals.orbs import run_visuals, signal_done
 
 
@@ -33,9 +36,11 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def _run_playback(transcript: list) -> None:
+def _run_playback(transcript: list, logger: SessionLogger | None = None) -> None:
     """Runs in a background thread so the main thread can drive the visuals."""
-    play_transcript(transcript)
+    play_transcript(transcript, logger=logger)
+    if logger is not None:
+        logger.save()
     signal_done()
 
 
@@ -96,14 +101,29 @@ def main() -> None:
             print(f"Cache hit ({match['similarity']}% match): {match['topic']!r}")
             print(f"Generated: {match['generated_at']}  |  {match['turns']} turns")
             print(f"Replaying cached transcript. Use --fresh to regenerate.\n")
+            record_hit(topic, match["similarity"])
             _load_and_play(match["transcript_path"])
             return
 
-    # --- Generate fresh transcript ---
-    transcript = generate_transcript(topic, position_a_seed, position_b_seed)
+    # --- Generate fresh transcript (pipelined with playback) ---
+    record_miss(topic)
+    logger = SessionLogger(topic)
 
-    print("\nStarting playback...\n")
-    threading.Thread(target=_run_playback, args=(transcript,), daemon=True).start()
+    turn_queue: _queue.Queue = _queue.Queue(maxsize=3)
+
+    def _gen_worker() -> None:
+        for turn in generate_transcript_stream(topic, position_a_seed, position_b_seed, logger=logger):
+            turn_queue.put(turn)
+        turn_queue.put(None)  # sentinel
+
+    def _playback_worker() -> None:
+        print("\nStarting playback...\n")
+        play_from_queue(turn_queue, TOTAL_TURNS, logger=logger)
+        logger.save()
+        signal_done()
+
+    threading.Thread(target=_gen_worker, daemon=True).start()
+    threading.Thread(target=_playback_worker, daemon=True).start()
     run_visuals()
 
 
