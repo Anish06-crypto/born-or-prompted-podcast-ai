@@ -20,7 +20,7 @@ from agents.memory import record as record_memory
 from agents.memory import retrieve as memory_retrieve
 from agents.personas import AGENTS, AgentPersona
 from agents.prompts import build_topic_context
-from config import OUTPUT_DIR
+from config import GROQ_API_KEYS_A, GROQ_API_KEYS_B, OUTPUT_DIR
 from utils.history import record as record_in_history
 from utils.validator import validate_transcript
 
@@ -33,12 +33,23 @@ _PROVIDER_CLASSES: dict[str, type[LLMProvider]] = {
 }
 
 
+# Map agent index → dedicated Groq key pool (index 0 = Lyra/Agent A, 1 = Cipher/Agent B)
+_GROQ_KEYS_BY_AGENT_INDEX = [GROQ_API_KEYS_A, GROQ_API_KEYS_B]
+
+
 def _make_provider(agent: AgentPersona) -> LLMProvider:
     cls = _PROVIDER_CLASSES.get(agent.provider.lower())
     if cls is None:
         raise ValueError(
             f"Unknown provider {agent.provider!r} for agent {agent.name}. "
             f"Valid options: {list(_PROVIDER_CLASSES)}"
+        )
+    if cls is GroqProvider:
+        agent_index = next((i for i, a in enumerate(AGENTS) if a.name == agent.name), 0)
+        return cls(
+            model=agent.model,
+            temperature=agent.temperature,
+            api_keys=_GROQ_KEYS_BY_AGENT_INDEX[agent_index],
         )
     return cls(model=agent.model, temperature=agent.temperature)
 

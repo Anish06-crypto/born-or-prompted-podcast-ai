@@ -4,7 +4,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Groq ---
+# Shared pool — used as fallback if per-agent keys are not set
 GROQ_API_KEYS = [k.strip() for k in os.getenv("GROQ_API_KEYS", "").split(",") if k.strip()]
+
+# Per-agent dedicated keys (comma-separated, same format as GROQ_API_KEYS).
+# Agent A (Lyra / llama) uses GROQ_API_KEY_A; Agent B (Cipher / qwen) uses GROQ_API_KEY_B.
+# If a per-agent key is absent, the agent falls back to GROQ_API_KEYS.
+def _parse_keys(env_var: str) -> list[str]:
+    return [k.strip() for k in os.getenv(env_var, "").split(",") if k.strip()]
+
+GROQ_API_KEYS_A = _parse_keys("GROQ_API_KEY_A") or GROQ_API_KEYS
+GROQ_API_KEYS_B = _parse_keys("GROQ_API_KEY_B") or GROQ_API_KEYS
 
 # --- Agent models & providers ---
 # Provider must match a key in agents/llm_providers.py: "groq", "gemini", "openai"

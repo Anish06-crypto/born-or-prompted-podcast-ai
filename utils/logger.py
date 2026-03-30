@@ -167,8 +167,19 @@ class SessionLogger:
     # ------------------------------------------------------------------
     # Save
     # ------------------------------------------------------------------
-    def save(self) -> str:
-        """Write full session JSON + append one line to summary.jsonl. Returns file path."""
+    def save(self, mode: str = "live") -> str:
+        """
+        Write full session JSON + append one line to summary.jsonl.
+
+        Parameters
+        ----------
+        mode : str
+            "live"   — normal streaming playback run
+            "export" — MP3 export run (time_to_first_audio_s will be null;
+                       playback_s per turn reflects audio segment duration)
+
+        Returns the log file path.
+        """
         completed_at = datetime.now()
         total_s = (completed_at - self.started_at).total_seconds()
 
@@ -215,17 +226,18 @@ class SessionLogger:
         }
 
         session_data = {
-            "session_id":           self.session_id,
-            "topic":                self.topic,
-            "started_at":           self.started_at.isoformat(timespec="seconds"),
-            "completed_at":         completed_at.isoformat(timespec="seconds"),
-            "total_duration_s":     round(total_s, 2),
-            "time_to_first_audio_s": self._first_audio_s,
-            "groq":                 self._groq,
-            "memory":               self._memory,
-            "tts_summary":          tts_summary,
-            "speaker_stats":        speaker_stats,
-            "turns":                self._turns,
+            "session_id":            self.session_id,
+            "topic":                 self.topic,
+            "mode":                  mode,   # "live" | "export"
+            "started_at":            self.started_at.isoformat(timespec="seconds"),
+            "completed_at":          completed_at.isoformat(timespec="seconds"),
+            "total_duration_s":      round(total_s, 2),
+            "time_to_first_audio_s": self._first_audio_s,  # null in export mode
+            "groq":                  self._groq,
+            "memory":                self._memory,
+            "tts_summary":           tts_summary,
+            "speaker_stats":         speaker_stats,
+            "turns":                 self._turns,
         }
 
         os.makedirs(_LOG_DIR, exist_ok=True)
@@ -243,6 +255,7 @@ class SessionLogger:
         summary_line = {
             "session_id":            self.session_id,
             "topic":                 self.topic,
+            "mode":                  mode,
             "started_at":            session_data["started_at"],
             "total_duration_s":      session_data["total_duration_s"],
             "time_to_first_audio_s": self._first_audio_s,

@@ -54,26 +54,28 @@ class LLMProvider(ABC):
 
 
 class GroqProvider(LLMProvider):
-    """Groq-hosted model. Rotates API keys on 429."""
+    """Groq-hosted model. Rotates within a dedicated key list on 429."""
 
-    def __init__(self, model: str, temperature: float) -> None:
-        self.model = model
+    def __init__(self, model: str, temperature: float, api_keys: list[str] | None = None) -> None:
+        self.model       = model
         self.temperature = temperature
+        # Use the supplied key list; fall back to the global shared pool.
+        self._keys       = api_keys if api_keys else GROQ_API_KEYS
 
     def generate_turn(
         self,
         system_prompt: str,
         messages: list[dict],
     ) -> tuple[str, float, int, int]:
-        if not GROQ_API_KEYS:
-            raise RuntimeError("No GROQ_API_KEYS configured in .env")
+        if not self._keys:
+            raise RuntimeError("No Groq API keys configured for this provider.")
 
         full_messages = [{"role": "system", "content": system_prompt}] + messages
 
         is_thinking_model = any(m in self.model.lower() for m in _THINKING_MODELS)
         extra = {"reasoning_effort": "none"} if is_thinking_model else {}
 
-        for i, key in enumerate(GROQ_API_KEYS):
+        for i, key in enumerate(self._keys):
             try:
                 client = Groq(api_key=key)
                 t0 = time.perf_counter()
@@ -91,7 +93,7 @@ class GroqProvider(LLMProvider):
                 completion_tokens = usage.completion_tokens if usage else 0
                 return _strip_thinking_tags(raw), latency_s, prompt_tokens, completion_tokens
             except RateLimitError:
-                print(f"  [llm] Key {i + 1}/{len(GROQ_API_KEYS)} rate limited for {self.model}, rotating...")
+                print(f"  [llm] Key {i + 1}/{len(self._keys)} rate limited for {self.model}, rotating...")
 
         raise RuntimeError(f"All Groq keys rate limited for model {self.model}.")
 
