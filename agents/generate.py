@@ -13,7 +13,7 @@ persona, and conversation perspective. Turns are generated sequentially:
 import json
 import os
 
-from agents.llm_providers import GeminiProvider, GroqProvider, LLMProvider, OpenAIProvider
+from agents.llm_providers import CerebrasProvider, GeminiProvider, GroqProvider, LLMProvider, OpenAIProvider
 from agents.memory import count_all as memory_count_all
 from agents.memory import format_memory_context
 from agents.memory import record as record_memory
@@ -27,9 +27,10 @@ from utils.validator import validate_transcript
 TOTAL_TURNS = 21  # 1 opener (Lyra) + 19 debate turns + 1 closer (Lyra)
 
 _PROVIDER_CLASSES: dict[str, type[LLMProvider]] = {
-    "groq":   GroqProvider,
-    "gemini": GeminiProvider,
-    "openai": OpenAIProvider,
+    "groq":     GroqProvider,
+    "gemini":   GeminiProvider,
+    "cerebras": CerebrasProvider,
+    "openai":   OpenAIProvider,
 }
 
 

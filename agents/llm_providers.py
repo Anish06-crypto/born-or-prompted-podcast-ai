@@ -14,7 +14,7 @@ from abc import ABC, abstractmethod
 
 from groq import Groq, RateLimitError
 
-from config import GROQ_API_KEYS
+from config import CEREBRAS_API_KEY, GEMINI_API_KEY, GROQ_API_KEYS
 
 
 def _strip_thinking_tags(text: str) -> str:
@@ -98,15 +98,91 @@ class GroqProvider(LLMProvider):
         raise RuntimeError(f"All Groq keys rate limited for model {self.model}.")
 
 
-# ---------------------------------------------------------------------------
-# Future provider stubs (implement when needed)
-# ---------------------------------------------------------------------------
-
 class GeminiProvider(LLMProvider):
-    """Google Gemini via google-generativeai SDK. Not yet implemented."""
+    """
+    Google Gemini via the OpenAI-compatible REST endpoint exposed by Google AI Studio.
+    Endpoint: https://generativelanguage.googleapis.com/v1beta/openai/
+    Free tier: gemini-2.5-flash-lite → 1,000 RPD / 15 RPM.
+    """
 
-    def generate_turn(self, system_prompt: str, messages: list[dict]) -> tuple[str, float, int, int]:
-        raise NotImplementedError("GeminiProvider not yet implemented.")
+    _BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+
+    def __init__(self, model: str, temperature: float) -> None:
+        self.model       = model
+        self.temperature = temperature
+
+    def generate_turn(
+        self,
+        system_prompt: str,
+        messages: list[dict],
+    ) -> tuple[str, float, int, int]:
+        if not GEMINI_API_KEY:
+            raise RuntimeError("GEMINI_API_KEY is not set in .env")
+
+        from openai import OpenAI
+        client = OpenAI(api_key=GEMINI_API_KEY, base_url=self._BASE_URL)
+
+        full_messages = [{"role": "system", "content": system_prompt}] + messages
+
+        t0 = time.perf_counter()
+        response = client.chat.completions.create(
+            model=self.model,
+            temperature=self.temperature,
+            max_tokens=_TURN_MAX_TOKENS,
+            messages=full_messages,
+        )
+        latency_s = time.perf_counter() - t0
+
+        raw               = response.choices[0].message.content or ""
+        usage             = response.usage
+        prompt_tokens     = usage.prompt_tokens     if usage else 0
+        completion_tokens = usage.completion_tokens if usage else 0
+
+        return _strip_thinking_tags(raw), latency_s, prompt_tokens, completion_tokens
+
+
+class CerebrasProvider(LLMProvider):
+    """
+    Cerebras inference via the OpenAI-compatible REST endpoint.
+    Endpoint: https://api.cerebras.ai/v1
+    Free tier: 1M tokens/day, 30 RPM — primary model: qwen3-235b.
+    Note: thinking tags are stripped for Qwen3-series models.
+    """
+
+    _BASE_URL = "https://api.cerebras.ai/v1"
+
+    def __init__(self, model: str, temperature: float) -> None:
+        self.model       = model
+        self.temperature = temperature
+
+    def generate_turn(
+        self,
+        system_prompt: str,
+        messages: list[dict],
+    ) -> tuple[str, float, int, int]:
+        if not CEREBRAS_API_KEY:
+            raise RuntimeError("CEREBRAS_API_KEY is not set in .env")
+
+        from openai import OpenAI
+        client = OpenAI(api_key=CEREBRAS_API_KEY, base_url=self._BASE_URL)
+
+        full_messages = [{"role": "system", "content": system_prompt}] + messages
+
+        t0 = time.perf_counter()
+        response = client.chat.completions.create(
+            model=self.model,
+            temperature=self.temperature,
+            max_tokens=_TURN_MAX_TOKENS,
+            messages=full_messages,
+        )
+        latency_s = time.perf_counter() - t0
+
+        raw               = response.choices[0].message.content or ""
+        usage             = response.usage
+        prompt_tokens     = usage.prompt_tokens     if usage else 0
+        completion_tokens = usage.completion_tokens if usage else 0
+
+        return _strip_thinking_tags(raw), latency_s, prompt_tokens, completion_tokens
 
 
 class OpenAIProvider(LLMProvider):

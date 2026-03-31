@@ -16,8 +16,14 @@ def _parse_keys(env_var: str) -> list[str]:
 GROQ_API_KEYS_A = _parse_keys("GROQ_API_KEY_A") or GROQ_API_KEYS
 GROQ_API_KEYS_B = _parse_keys("GROQ_API_KEY_B") or GROQ_API_KEYS
 
+# --- Google AI Studio ---
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+
+# --- Cerebras ---
+CEREBRAS_API_KEY = os.getenv("CEREBRAS_API_KEY", "")
+
 # --- Agent models & providers ---
-# Provider must match a key in agents/llm_providers.py: "groq", "gemini", "openai"
+# Provider must match a key in agents/llm_providers.py: "groq" | "gemini" | "cerebras" | "openai"
 AGENT_A_MODEL    = os.getenv("AGENT_A_MODEL",    "llama-3.3-70b-versatile")
 AGENT_B_MODEL    = os.getenv("AGENT_B_MODEL",    "qwen/qwen3-32b")
 AGENT_A_PROVIDER = os.getenv("AGENT_A_PROVIDER", "groq")
