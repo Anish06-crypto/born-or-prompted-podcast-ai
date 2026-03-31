@@ -124,7 +124,7 @@ def _draw_indicator(
 def run_visuals() -> None:
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_W, SCREEN_H))
-    pygame.display.set_caption("TechTalk — Lyra & Cipher")
+    pygame.display.set_caption("DeepDive — Lyra & Cipher")
     clock = pygame.time.Clock()
 
     pulse_lyra   = 0.0
