@@ -91,17 +91,30 @@ EXPERIMENT_A_MODELS: list[dict] = [
 # Both agents run on the same model — the cleanest isolation design.
 # Only Agent A's system prompt varies across the three persona conditions.
 #
-# Rationale for same-model choice:
-#   Using identical models for A and B eliminates model-pairing as a confound.
-#   The causal claim becomes: "differences in measured behaviour are attributable
-#   to the system prompt alone, not to model interaction dynamics."
-#   llama-3.3-70b-versatile is chosen because it is Lyra's native model
-#   (production status, no deprecation risk during a multi-week run).
+# Model choice: openai/gpt-oss-120b (production, Groq)
+#
+# Rationale:
+#   llama-3.3-70b was rejected as the fixed model because it is Lyra's native
+#   model — its RLHF training likely reinforces warm/collaborative behaviour,
+#   which is Lyra's behavioural profile. Using it would compress the measurable
+#   gap between the Lyra and Baseline conditions (model natural tendency acts
+#   as a confound).
+#
+#   openai/gpt-oss-120b is preferred because:
+#     - Production stable (no deprecation risk over a multi-week run)
+#     - Strongest instruction following of all available production models
+#       (120B reliably adopts whichever persona it is given)
+#     - No native persona bias — different training lineage from both
+#       LLaMA (Lyra) and Qwen (Cipher), so baseline truly reflects
+#       unconstrained output rather than accidentally mimicking a persona
+#     - Present in Experiment A — findings can be directly cross-referenced
+#       (Exp A shows its persona consistency score; Exp B shows how it
+#       responds to Lyra / Cipher / Baseline prompt conditions)
 
-FIXED_MODEL_A_B    = "llama-3.3-70b-versatile"
+FIXED_MODEL_A_B    = "openai/gpt-oss-120b"
 FIXED_PROVIDER_A_B = "groq"
 
-FIXED_MODEL_B_B    = "llama-3.3-70b-versatile"   # same as A — intentional
+FIXED_MODEL_B_B    = "openai/gpt-oss-120b"   # same as A — intentional
 FIXED_PROVIDER_B_B = "groq"
 
 BASELINE_SYSTEM_PROMPT = (
