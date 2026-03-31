@@ -163,6 +163,8 @@ def generate_transcript_stream(
     model_override_b: str | None = None,
     provider_override_b: str | None = None,
     temperature_override: float | None = None,
+    system_prompt_override_a: str | None = None,
+    system_prompt_override_b: str | None = None,
     experiment_mode: bool = False,
 ):
     """
@@ -180,6 +182,9 @@ def generate_transcript_stream(
         Replace the provider ("groq" | "gemini" | "cerebras") for Agent A or B.
     temperature_override
         Apply a single fixed temperature to both agents (e.g. 0.7 for all runs).
+    system_prompt_override_a / system_prompt_override_b
+        Replace the system prompt for Agent A or B — used in persona isolation
+        experiments to test Cipher's prompt or a neutral baseline on Agent A.
     experiment_mode
         When True:
           - Skips episodic memory retrieval and injection (eliminates cross-run confound)
@@ -190,16 +195,18 @@ def generate_transcript_stream(
     active_agents = list(AGENTS)
 
     _overrides_a: dict = {}
-    if model_override_a:                        _overrides_a["model"]       = model_override_a
-    if provider_override_a:                     _overrides_a["provider"]    = provider_override_a
-    if temperature_override is not None:        _overrides_a["temperature"] = temperature_override
+    if model_override_a:                        _overrides_a["model"]         = model_override_a
+    if provider_override_a:                     _overrides_a["provider"]      = provider_override_a
+    if temperature_override is not None:        _overrides_a["temperature"]   = temperature_override
+    if system_prompt_override_a:                _overrides_a["system_prompt"] = system_prompt_override_a
     if _overrides_a:
         active_agents[0] = _dc_replace(active_agents[0], **_overrides_a)
 
     _overrides_b: dict = {}
-    if model_override_b:                        _overrides_b["model"]       = model_override_b
-    if provider_override_b:                     _overrides_b["provider"]    = provider_override_b
-    if temperature_override is not None:        _overrides_b["temperature"] = temperature_override
+    if model_override_b:                        _overrides_b["model"]         = model_override_b
+    if provider_override_b:                     _overrides_b["provider"]      = provider_override_b
+    if temperature_override is not None:        _overrides_b["temperature"]   = temperature_override
+    if system_prompt_override_b:                _overrides_b["system_prompt"] = system_prompt_override_b
     if _overrides_b:
         active_agents[1] = _dc_replace(active_agents[1], **_overrides_b)
 
@@ -288,6 +295,8 @@ def generate_transcript(
     model_override_b: str | None = None,
     provider_override_b: str | None = None,
     temperature_override: float | None = None,
+    system_prompt_override_a: str | None = None,
+    system_prompt_override_b: str | None = None,
     experiment_mode: bool = False,
 ) -> list:
     """Blocking version: generates all turns and returns the full transcript list."""
@@ -298,5 +307,7 @@ def generate_transcript(
         model_override_b=model_override_b,
         provider_override_b=provider_override_b,
         temperature_override=temperature_override,
+        system_prompt_override_a=system_prompt_override_a,
+        system_prompt_override_b=system_prompt_override_b,
         experiment_mode=experiment_mode,
     ))
