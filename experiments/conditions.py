@@ -88,10 +88,21 @@ EXPERIMENT_A_MODELS: list[dict] = [
 
 
 # ── Experiment B — Persona configurations ────────────────────────────────────
-# Fixed models for both agents; only Agent A's system prompt changes.
+# Both agents run on the same model — the cleanest isolation design.
+# Only Agent A's system prompt varies across the three persona conditions.
+#
+# Rationale for same-model choice:
+#   Using identical models for A and B eliminates model-pairing as a confound.
+#   The causal claim becomes: "differences in measured behaviour are attributable
+#   to the system prompt alone, not to model interaction dynamics."
+#   llama-3.3-70b-versatile is chosen because it is Lyra's native model
+#   (production status, no deprecation risk during a multi-week run).
 
 FIXED_MODEL_A_B    = "llama-3.3-70b-versatile"
 FIXED_PROVIDER_A_B = "groq"
+
+FIXED_MODEL_B_B    = "llama-3.3-70b-versatile"   # same as A — intentional
+FIXED_PROVIDER_B_B = "groq"
 
 BASELINE_SYSTEM_PROMPT = (
     "You are an AI participant in a structured discussion. "
