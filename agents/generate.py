@@ -12,6 +12,7 @@ persona, and conversation perspective. Turns are generated sequentially:
 
 import json
 import os
+from dataclasses import replace as _dc_replace
 
 from agents.llm_providers import CerebrasProvider, GeminiProvider, GroqProvider, LLMProvider, OpenAIProvider
 from agents.memory import count_all as memory_count_all
@@ -156,6 +157,13 @@ def generate_transcript_stream(
     position_a_seed: str = "",
     position_b_seed: str = "",
     logger=None,
+    *,
+    model_override_a: str | None = None,
+    provider_override_a: str | None = None,
+    model_override_b: str | None = None,
+    provider_override_b: str | None = None,
+    temperature_override: float | None = None,
+    experiment_mode: bool = False,
 ):
     """
     Generator: yields one turn dict at a time as each is produced.
@@ -163,36 +171,68 @@ def generate_transcript_stream(
     Allows the playback pipeline to start playing turn 1 while turns 2–21
     are still being generated, eliminating the pre-generation wait.
     Saves the transcript and records history after the final turn is yielded.
+
+    Experiment parameters (keyword-only)
+    -------------------------------------
+    model_override_a / model_override_b
+        Replace the model string for Agent A or B without touching their persona.
+    provider_override_a / provider_override_b
+        Replace the provider ("groq" | "gemini" | "cerebras") for Agent A or B.
+    temperature_override
+        Apply a single fixed temperature to both agents (e.g. 0.7 for all runs).
+    experiment_mode
+        When True:
+          - Skips episodic memory retrieval and injection (eliminates cross-run confound)
+          - Skips memory recording, history recording, and transcript save to output/
+          - Caller is responsible for persisting the returned transcript
     """
-    providers = {agent.name: _make_provider(agent) for agent in AGENTS}
+    # --- Build active agent list, applying any overrides via dataclass replacement ---
+    active_agents = list(AGENTS)
+
+    _overrides_a: dict = {}
+    if model_override_a:                        _overrides_a["model"]       = model_override_a
+    if provider_override_a:                     _overrides_a["provider"]    = provider_override_a
+    if temperature_override is not None:        _overrides_a["temperature"] = temperature_override
+    if _overrides_a:
+        active_agents[0] = _dc_replace(active_agents[0], **_overrides_a)
+
+    _overrides_b: dict = {}
+    if model_override_b:                        _overrides_b["model"]       = model_override_b
+    if provider_override_b:                     _overrides_b["provider"]    = provider_override_b
+    if temperature_override is not None:        _overrides_b["temperature"] = temperature_override
+    if _overrides_b:
+        active_agents[1] = _dc_replace(active_agents[1], **_overrides_b)
+
+    providers = {agent.name: _make_provider(agent) for agent in active_agents}
 
     topic_context = build_topic_context(topic, position_a_seed, position_b_seed)
 
-    # Retrieve memories before the episode starts so we can both inject context
-    # and log stats (hits, scores, depth) without querying the DB twice.
-    memory_contexts: dict[str, str] = {}
-    for agent in AGENTS:
-        memories  = memory_retrieve(agent.name, topic)
-        depth     = memory_count_all(agent.name)
-        scores    = [m["similarity"] for m in memories]
-        memory_contexts[agent.name] = format_memory_context(memories)
-        if logger is not None:
-            logger.log_memory(agent.name, hits=len(memories), scores=scores, depth=depth)
+    # --- Memory retrieval (skipped in experiment_mode to prevent cross-run contamination) ---
+    memory_contexts: dict[str, str] = {agent.name: "" for agent in active_agents}
+    if not experiment_mode:
+        for agent in active_agents:
+            memories  = memory_retrieve(agent.name, topic)
+            depth     = memory_count_all(agent.name)
+            scores    = [m["similarity"] for m in memories]
+            memory_contexts[agent.name] = format_memory_context(memories)
+            if logger is not None:
+                logger.log_memory(agent.name, hits=len(memories), scores=scores, depth=depth)
 
     history: list[dict] = []
-    total_gen_s        = 0.0
-    total_prompt_tok   = 0
+    total_gen_s          = 0.0
+    total_prompt_tok     = 0
     total_completion_tok = 0
 
-    print(f"\nGenerating conversation: {topic!r}")
-    print(f"  Lyra  → {AGENTS[0].model}")
-    print(f"  Cipher → {AGENTS[1].model}\n")
+    mode_tag = " [experiment]" if experiment_mode else ""
+    print(f"\nGenerating conversation{mode_tag}: {topic!r}")
+    print(f"  {active_agents[0].name}  → {active_agents[0].model}  ({active_agents[0].provider})")
+    print(f"  {active_agents[1].name} → {active_agents[1].model}  ({active_agents[1].provider})\n")
 
     for i in range(TOTAL_TURNS):
-        agent = AGENTS[i % 2]
+        agent    = active_agents[i % 2]
         provider = providers[agent.name]
 
-        closing = (i == TOTAL_TURNS - 1)  # last turn is always Lyra's closing
+        closing  = (i == TOTAL_TURNS - 1)
         messages = _build_messages_for_agent(
             agent, topic_context, history, i,
             closing=closing,
@@ -213,7 +253,7 @@ def generate_transcript_stream(
         print(f"  [{i + 1}/{TOTAL_TURNS}] {agent.name} ({latency_s:.2f}s): {text[:65]}...")
         yield turn
 
-    # Runs after the consumer exhausts the generator
+    # --- Post-generation: validate, persist, record (all skipped in experiment_mode) ---
     validated = validate_transcript(history)
 
     if logger is not None:
@@ -225,13 +265,16 @@ def generate_transcript_stream(
             completion_tokens=total_completion_tok,
         )
 
-    path = _save_transcript(validated, topic)
-    record_in_history(topic, path, len(validated))
-    _record_episode_memories(validated, topic)
-    if logger is not None:
-        for agent in AGENTS:
-            logger.finalize_memory_depth(agent.name, memory_count_all(agent.name))
-    print(f"\n  {len(validated)} turns saved → {path}")
+    if not experiment_mode:
+        path = _save_transcript(validated, topic)
+        record_in_history(topic, path, len(validated))
+        _record_episode_memories(validated, topic)
+        if logger is not None:
+            for agent in active_agents:
+                logger.finalize_memory_depth(agent.name, memory_count_all(agent.name))
+        print(f"\n  {len(validated)} turns saved → {path}")
+    else:
+        print(f"\n  {len(validated)} turns generated (experiment mode — caller handles persistence)")
 
 
 def generate_transcript(
@@ -239,6 +282,21 @@ def generate_transcript(
     position_a_seed: str = "",
     position_b_seed: str = "",
     logger=None,
+    *,
+    model_override_a: str | None = None,
+    provider_override_a: str | None = None,
+    model_override_b: str | None = None,
+    provider_override_b: str | None = None,
+    temperature_override: float | None = None,
+    experiment_mode: bool = False,
 ) -> list:
     """Blocking version: generates all turns and returns the full transcript list."""
-    return list(generate_transcript_stream(topic, position_a_seed, position_b_seed, logger=logger))
+    return list(generate_transcript_stream(
+        topic, position_a_seed, position_b_seed, logger=logger,
+        model_override_a=model_override_a,
+        provider_override_a=provider_override_a,
+        model_override_b=model_override_b,
+        provider_override_b=provider_override_b,
+        temperature_override=temperature_override,
+        experiment_mode=experiment_mode,
+    ))
