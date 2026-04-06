@@ -2,12 +2,13 @@
 Experiment runner — builds the full condition matrix and executes conversations.
 
 Usage:
-  python -m experiments.runner --dry-run                          # print full matrix, no API calls
-  python -m experiments.runner --experiment model_isolation       # run Experiment A
-  python -m experiments.runner --experiment persona_isolation     # run Experiment B
-  python -m experiments.runner --experiment all                   # run both A then B
-  python -m experiments.runner --status                           # show completion progress
-  python -m experiments.runner --condition modiso__llama-70b__t03__r02  # run one condition
+  python -m experiments.runner --dry-run                               # print full matrix, no API calls
+  python -m experiments.runner --experiment model_isolation            # run Experiment A
+  python -m experiments.runner --experiment persona_isolation          # run Experiment B
+  python -m experiments.runner --experiment cross_model_isolation      # run Experiment C
+  python -m experiments.runner --experiment all                        # run A, B, then C
+  python -m experiments.runner --status                                # show completion progress
+  python -m experiments.runner --condition modiso__llama-70b__t03__r02 # run one condition
 
 Checkpoint-resume:
   The runner checks for an existing output file before each condition.
@@ -27,11 +28,15 @@ from experiments.conditions import (
     EXPERIMENT_A_MODELS,
     EXPERIMENT_TEMPERATURE,
     FIXED_MODEL_A_B,
+    FIXED_MODEL_A_C,
     FIXED_MODEL_B,
     FIXED_MODEL_B_B,
+    FIXED_MODEL_B_C,
     FIXED_PROVIDER_A_B,
+    FIXED_PROVIDER_A_C,
     FIXED_PROVIDER_B,
     FIXED_PROVIDER_B_B,
+    FIXED_PROVIDER_B_C,
     RUNS_PER_CONDITION,
     ExperimentCondition,
 )
@@ -54,7 +59,7 @@ RESULTS_DIR    = os.path.join(DATA_DIR, "results")
 # Cerebras: 30 RPM but 1M tokens/day — sleep prevents token quota exhaustion
 
 _INTER_CONVERSATION_SLEEP: dict[str, int] = {
-    "groq":     4,
+    "groq":     10,   # bumped from 4s — gpt-oss-20b reasoning tokens exhaust RPM faster
     "gemini":   10,
     "cerebras": 6,
 }
@@ -155,6 +160,49 @@ def build_persona_isolation_matrix() -> list[ExperimentCondition]:
                     provider_a               = FIXED_PROVIDER_A_B,
                     model_b                  = FIXED_MODEL_B_B,
                     provider_b               = FIXED_PROVIDER_B_B,
+                    temperature              = EXPERIMENT_TEMPERATURE,
+                    topic                    = topic,
+                    topic_index              = t_idx,
+                    run_index                = run,
+                    persona_slug_a           = slug,
+                    system_prompt_override_a = prompt_override,
+                ))
+
+    return conditions
+
+
+def build_cross_model_isolation_matrix() -> list[ExperimentCondition]:
+    """
+    Experiment C — 3 persona conditions × 8 topics × 3 runs = 72 conditions.
+    Agent A's system prompt varies (Lyra / Cipher / Baseline).
+    Models are *different*: llama-3.3-70b (A, Lyra's native) vs llama4-scout (B, natural Cipher voice).
+
+    This directly tests whether native model advantage (Exp A) + intentional persona
+    produces stronger differentiation than the intra-model design of Experiment B.
+    """
+    from agents.personas import AGENTS  # lazy import avoids circular dependency
+    lyra_prompt   = AGENTS[0].system_prompt
+    cipher_prompt = AGENTS[1].system_prompt
+
+    persona_defs: list[tuple[str, str | None]] = [
+        ("lyra-persona",   None),                # Lyra's default prompt (no override)
+        ("cipher-persona", cipher_prompt),        # Cipher's prompt on Lyra's (native) model
+        ("baseline",       BASELINE_SYSTEM_PROMPT),
+    ]
+
+    conditions: list[ExperimentCondition] = []
+
+    for slug, prompt_override in persona_defs:
+        for t_idx, topic in enumerate(TOPICS):
+            for run in range(1, RUNS_PER_CONDITION + 1):
+                cid = f"crossiso__{slug}__t{t_idx:02d}__r{run:02d}"
+                conditions.append(ExperimentCondition(
+                    condition_id             = cid,
+                    experiment_tag           = "cross_model_isolation",
+                    model_a                  = FIXED_MODEL_A_C,
+                    provider_a               = FIXED_PROVIDER_A_C,
+                    model_b                  = FIXED_MODEL_B_C,
+                    provider_b               = FIXED_PROVIDER_B_C,
                     temperature              = EXPERIMENT_TEMPERATURE,
                     topic                    = topic,
                     topic_index              = t_idx,
@@ -292,14 +340,15 @@ Examples:
   python -m experiments.runner --dry-run
   python -m experiments.runner --experiment model_isolation
   python -m experiments.runner --experiment persona_isolation
+  python -m experiments.runner --experiment cross_model_isolation
   python -m experiments.runner --experiment all
   python -m experiments.runner --status
-  python -m experiments.runner --condition modiso__llama-70b__t03__r02
+  python -m experiments.runner --condition crossiso__lyra-persona__t03__r02
         """,
     )
     parser.add_argument(
         "--experiment",
-        choices=["model_isolation", "persona_isolation", "all"],
+        choices=["model_isolation", "persona_isolation", "cross_model_isolation", "all"],
         help="Which experiment matrix to run",
     )
     parser.add_argument(
@@ -322,20 +371,22 @@ Examples:
 
     matrix_a = build_model_isolation_matrix()
     matrix_b = build_persona_isolation_matrix()
+    matrix_c = build_cross_model_isolation_matrix()
 
     # ── Status mode ──
     if args.status:
         _ensure_dirs()
-        print_status("Experiment A — Model Isolation",  matrix_a)
-        print_status("Experiment B — Persona Isolation", matrix_b)
-        total = len(matrix_a) + len(matrix_b)
-        done  = sum(1 for c in matrix_a + matrix_b if _is_complete(c.condition_id))
+        print_status("Experiment A — Model Isolation",        matrix_a)
+        print_status("Experiment B — Persona Isolation",      matrix_b)
+        print_status("Experiment C — Cross-Model Isolation",  matrix_c)
+        total = len(matrix_a) + len(matrix_b) + len(matrix_c)
+        done  = sum(1 for c in matrix_a + matrix_b + matrix_c if _is_complete(c.condition_id))
         print(f"\n  Overall: {done}/{total}  ({done/total*100:.1f}%)\n")
         return
 
     # ── Single condition mode ──
     if args.condition:
-        all_conditions = matrix_a + matrix_b
+        all_conditions = matrix_a + matrix_b + matrix_c
         match = next((c for c in all_conditions if c.condition_id == args.condition), None)
         if not match:
             print(f"\n  Condition not found: {args.condition!r}")
@@ -357,6 +408,10 @@ Examples:
     if args.experiment in ("persona_isolation", "all"):
         print("\n\n══ EXPERIMENT B — Persona Isolation ══")
         run_experiment(matrix_b, dry_run=args.dry_run)
+
+    if args.experiment in ("cross_model_isolation", "all"):
+        print("\n\n══ EXPERIMENT C — Cross-Model Isolation ══")
+        run_experiment(matrix_c, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

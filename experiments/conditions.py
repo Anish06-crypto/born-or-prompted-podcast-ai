@@ -1,7 +1,7 @@
 """
 Experiment condition definitions.
 
-Defines the full model and persona configurations for both studies,
+Defines the full model and persona configurations for all three studies,
 and the ExperimentCondition dataclass that identifies one conversation run.
 
 Experiment A — Model Isolation
@@ -10,10 +10,18 @@ Experiment A — Model Isolation
     Fixed  : Persona A (Lyra) | Persona B (Cipher) | Model B (qwen/qwen3-32b)
     Varies : Model A across 8 models spanning 4 providers and 8B–235B scale
 
-Experiment B — Persona Isolation
+Experiment B — Persona Isolation (intra-model)
     Research question: Does having a defined persona produce measurably different
     and more consistent behaviour than no persona constraint?
-    Fixed  : Model A (llama-3.3-70b) | Model B (qwen/qwen3-32b)
+    Fixed  : Model A = Model B = llama4-scout (intra-model design)
+    Varies : Agent A system prompt across 3 conditions (Lyra / Cipher / Baseline)
+
+Experiment C — Cross-Model Persona Isolation
+    Research question: When each agent runs on its optimal model (native model
+    advantage + natural voice register), does persona prompting produce
+    stronger and more differentiated behaviour than the intra-model design of B?
+    Fixed  : Model A = llama-3.3-70b (Lyra's native model, highest Lyra gap in A)
+             Model B = llama4-scout (highest natural Cipher-like register in B)
     Varies : Agent A system prompt across 3 conditions (Lyra / Cipher / Baseline)
 """
 
@@ -55,12 +63,6 @@ EXPERIMENT_A_MODELS: list[dict] = [
         "note":     "OpenAI OSS 20B — different training lineage",
     },
     {
-        "model":    "gemini-2.5-flash-lite",
-        "provider": "gemini",
-        "slug":     "gemini-flash-lite",
-        "note":     "Google Gemini — only cross-provider entry from Google",
-    },
-    {
         "model":    "qwen/qwen3-32b",
         "provider": "groq",
         "slug":     "qwen-32b",
@@ -100,21 +102,25 @@ EXPERIMENT_A_MODELS: list[dict] = [
 #   gap between the Lyra and Baseline conditions (model natural tendency acts
 #   as a confound).
 #
-#   openai/gpt-oss-120b is preferred because:
-#     - Production stable (no deprecation risk over a multi-week run)
-#     - Strongest instruction following of all available production models
-#       (120B reliably adopts whichever persona it is given)
-#     - No native persona bias — different training lineage from both
-#       LLaMA (Lyra) and Qwen (Cipher), so baseline truly reflects
-#       unconstrained output rather than accidentally mimicking a persona
+#   openai/gpt-oss-120b was the original choice but was switched after
+#   Experiment A data showed it has the lowest topic drift (0.325 mean) and
+#   second-lowest coherence (0.483) of all 7 models — consistently across all
+#   8 topics, not a sampling artifact. Lyra persona gap of 0.067 also raised
+#   risk of a false null on the Lyra condition in Experiment B.
+#
+#   meta-llama/llama-4-scout-17b-16e-instruct is the replacement because:
+#     - Best topic drift (0.450) and coherence (0.560) in Experiment A
+#     - Stronger Lyra gap (0.104 vs 0.067) — better chance of detecting the
+#       persona prompt effect on the Lyra condition
 #     - Present in Experiment A — findings can be directly cross-referenced
-#       (Exp A shows its persona consistency score; Exp B shows how it
-#       responds to Lyra / Cipher / Baseline prompt conditions)
+#     - LLaMA 4 Scout (MoE, 17B×16E) is architecturally distinct from
+#       LLaMA 3.3 70B (Lyra's native model) — native bias risk is lower than
+#       it would be for llama-3.3-70b
 
-FIXED_MODEL_A_B    = "openai/gpt-oss-120b"
+FIXED_MODEL_A_B    = "meta-llama/llama-4-scout-17b-16e-instruct"
 FIXED_PROVIDER_A_B = "groq"
 
-FIXED_MODEL_B_B    = "openai/gpt-oss-120b"   # same as A — intentional
+FIXED_MODEL_B_B    = "meta-llama/llama-4-scout-17b-16e-instruct"   # same as A — intentional
 FIXED_PROVIDER_B_B = "groq"
 
 BASELINE_SYSTEM_PROMPT = (
@@ -123,6 +129,31 @@ BASELINE_SYSTEM_PROMPT = (
     "Keep responses to 2-4 sentences. Be substantive and direct. "
     "Never begin a turn with your own name."
 )
+
+
+# ── Experiment C — Cross-model persona configurations ────────────────────────
+# Agent A: llama-3.3-70b — Lyra's native model (highest Lyra gap in Exp A: 0.256)
+# Agent B: llama4-scout  — natural Cipher-like voice (highest Cipher gap in Exp B: 0.514)
+#
+# Rationale:
+#   Experiment B used llama4-scout for both agents (intra-model design) which
+#   suppressed persona differentiation — the model's dominant natural register
+#   bled across both agents regardless of the persona prompt.
+#
+#   Experiment C tests the orthogonal condition: each agent is placed on the
+#   model most aligned with its intended persona, then persona prompts are
+#   varied. If native model selection is the dominant factor (Exp A finding),
+#   we expect:
+#     1. Lyra gap in lyra-persona >> Exp B's 0.044  (native model + prompt = max alignment)
+#     2. Lyra gap in cipher-persona << 0           (native Lyra model fighting Cipher prompt)
+#     3. Cipher gap stable across conditions        (llama4-scout's natural register persists)
+#     4. Condition-to-condition differentiation gap much wider than Exp B
+
+FIXED_MODEL_A_C    = "llama-3.3-70b-versatile"                        # Lyra's native model
+FIXED_PROVIDER_A_C = "groq"
+
+FIXED_MODEL_B_C    = "meta-llama/llama-4-scout-17b-16e-instruct"      # Cipher's natural voice
+FIXED_PROVIDER_B_C = "groq"
 
 
 # ── ExperimentCondition ───────────────────────────────────────────────────────
@@ -137,7 +168,7 @@ class ExperimentCondition:
       Experiment B: periso__{persona_slug}__t{topic_idx:02d}__r{run:02d}
     """
     condition_id:             str
-    experiment_tag:           str            # "model_isolation" | "persona_isolation"
+    experiment_tag:           str            # "model_isolation" | "persona_isolation" | "cross_model_isolation"
     model_a:                  str
     provider_a:               str
     model_b:                  str

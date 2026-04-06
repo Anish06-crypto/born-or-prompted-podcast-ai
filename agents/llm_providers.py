@@ -24,9 +24,15 @@ def _strip_thinking_tags(text: str) -> str:
 # Max tokens per single podcast turn (2–4 sentences ~ 150–300 tokens; 400 gives headroom)
 _TURN_MAX_TOKENS = 400
 
-# Models that emit <think> blocks by default — disable reasoning at the API level
-# so thinking tokens don't consume the max_tokens budget and leak into the transcript.
-_THINKING_MODELS = ("qwen3", "qwq")
+# Models that require a reasoning_effort parameter.
+# Qwen3/QwQ accept "none" (fully disables chain-of-thought).
+# gpt-oss-20b requires "low"/"medium"/"high" — use "low" to minimise token
+# consumption on thinking while still producing a non-empty response.
+_THINKING_MODELS: dict[str, str] = {
+    "qwen3":      "none",
+    "qwq":        "none",
+    "gpt-oss-20b": "low",
+}
 
 
 class LLMProvider(ABC):
@@ -72,30 +78,38 @@ class GroqProvider(LLMProvider):
 
         full_messages = [{"role": "system", "content": system_prompt}] + messages
 
-        is_thinking_model = any(m in self.model.lower() for m in _THINKING_MODELS)
-        extra = {"reasoning_effort": "none"} if is_thinking_model else {}
+        effort = next((v for k, v in _THINKING_MODELS.items() if k in self.model.lower()), None)
+        extra  = {"reasoning_effort": effort} if effort is not None else {}
 
-        for i, key in enumerate(self._keys):
-            try:
-                client = Groq(api_key=key)
-                t0 = time.perf_counter()
-                response = client.chat.completions.create(
-                    model=self.model,
-                    temperature=self.temperature,
-                    max_tokens=_TURN_MAX_TOKENS,
-                    messages=full_messages,
-                    **extra,
-                )
-                latency_s = time.perf_counter() - t0
-                raw = response.choices[0].message.content
-                usage = response.usage
-                prompt_tokens     = usage.prompt_tokens     if usage else 0
-                completion_tokens = usage.completion_tokens if usage else 0
-                return _strip_thinking_tags(raw), latency_s, prompt_tokens, completion_tokens
-            except RateLimitError:
-                print(f"  [llm] Key {i + 1}/{len(self._keys)} rate limited for {self.model}, rotating...")
+        _RATE_LIMIT_PAUSE   = 60   # seconds to wait before retrying after all keys exhausted
+        _RATE_LIMIT_RETRIES = 2   # max full-rotation retries before giving up
 
-        raise RuntimeError(f"All Groq keys rate limited for model {self.model}.")
+        for attempt in range(_RATE_LIMIT_RETRIES + 1):
+            for i, key in enumerate(self._keys):
+                try:
+                    client = Groq(api_key=key)
+                    t0 = time.perf_counter()
+                    response = client.chat.completions.create(
+                        model=self.model,
+                        temperature=self.temperature,
+                        max_tokens=_TURN_MAX_TOKENS,
+                        messages=full_messages,
+                        **extra,
+                    )
+                    latency_s = time.perf_counter() - t0
+                    raw = response.choices[0].message.content
+                    usage = response.usage
+                    prompt_tokens     = usage.prompt_tokens     if usage else 0
+                    completion_tokens = usage.completion_tokens if usage else 0
+                    return _strip_thinking_tags(raw), latency_s, prompt_tokens, completion_tokens
+                except RateLimitError:
+                    print(f"  [llm] Key {i + 1}/{len(self._keys)} rate limited for {self.model}, rotating...")
+
+            if attempt < _RATE_LIMIT_RETRIES:
+                print(f"  [llm] All keys rate limited for {self.model} — waiting {_RATE_LIMIT_PAUSE}s before retry {attempt + 1}/{_RATE_LIMIT_RETRIES}...")
+                time.sleep(_RATE_LIMIT_PAUSE)
+
+        raise RuntimeError(f"All Groq keys rate limited for model {self.model} after {_RATE_LIMIT_RETRIES} retries.")
 
 
 class GeminiProvider(LLMProvider):

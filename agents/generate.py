@@ -246,6 +246,7 @@ def generate_transcript_stream(
             memory_context=memory_contexts[agent.name],
         )
         text, latency_s, prompt_tok, completion_tok = provider.generate_turn(agent.system_prompt, messages)
+
         total_gen_s          += latency_s
         total_prompt_tok     += prompt_tok
         total_completion_tok += completion_tok
