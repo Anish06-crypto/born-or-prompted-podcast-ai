@@ -1,4 +1,4 @@
-# DeepDive — AI Podcast & LLM Persona Research Platform
+# DeepDive (AI Podcast) — Persona Consistency in Multi-Agent AI Dialogue
 
 > A dual-agent AI podcast system and controlled experimental framework for studying persona consistency, voice differentiation, and conversation quality across large language models.
 
