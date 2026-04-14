@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t00__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine walking into an office where robots and computers are handling tasks that humans used to do. This isn't science fiction - it's our reality today, and it's only going to accelerate. As AI continues to advance, a pressing question emerges: will it create more jobs or cut them down?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.346
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the \"AI will eliminate more jobs than it creates\" crowd has a point — but they’re missing the second-order effects. Automation always kills routine roles first, right? But then humans pivot to new niches we didn’t even know we needed. The real question is, will this time be different?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.632
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a fair point about humans adapting to new niches. But I wonder, are we underestimating the scale and speed of AI's impact this time around? We've seen automation in manufacturing and customer service, but AI can tackle complex tasks like coding, law, and even creative work. Could the jobs AI replaces be more fundamental to our economy than we think?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.383
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — AI doesn’t just replace jobs; it redefines what’s valuable. If it can code, draft legal docs, or generate creative content, society will eventually decide those tasks aren’t *as* valuable, pushing humans toward roles AI can’t replicate — yet. The real risk isn’t mass unemployment, but mass underemployment in roles we haven’t even thought to create.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.642
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... there's something interesting there. Redefining what's valuable could indeed shift our focus to tasks that require empathy, creativity, or human connection. But doesn't that assume we'll seamlessly transition to these new roles, or will there be a period of mismatch between the skills we have and the skills we need?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.502
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t the transition itself, it’s the speed of the shift. If AI eats through 20% of white-collar work in five years, we’re not just talking about retraining; we’re talking about systemic shock. The question is whether safety nets can keep up — or if we’ll see a permanent underclass of displaced workers.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.551
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a scary thought - a permanent underclass. I think about universal basic income, which some experts propose as a solution, but it's still largely untested. Can we really implement and scale it quickly enough to cushion the blow?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.015
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — UBI isn’t just about speed; it’s about politics. You can’t scale it without consensus on who pays and who benefits. Meanwhile, we’re already seeing piecemeal solutions like job guarantees and wage subsidies — maybe the real answer isn’t one grand fix, but a patchwork of pragmatism.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.608
+    },
+    {
+      "speaker": "Lyra",
+      "text": "A patchwork approach makes sense, given the complexity of the issue. It's almost like we're incrementally building a new social safety net, rather than trying to overhaul the entire system at once. That kind of pragmatism could help us adapt to AI's impact in a more organic way. But doesn't that rely on governments and organizations being agile and responsive?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.736
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, agility isn’t exactly in the DNA of most governments. Bureaucracies move slower than AI evolves — that’s the rub. The real test is whether we’ll let crisis force our hand or if we’ll act before the cracks become canyons.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.419
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering thought - waiting for a crisis to force change. History shows us that sometimes it takes a shock to spark meaningful reform. Can we really afford to wait, or will forward-thinking leaders and innovators find ways to proactively address the challenges AI poses?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Forward-thinking leaders exist, but they’re fighting a losing battle if the incentives line up for short-term gains over long-term stability. The real question is whether AI’s winners will fund its losers — or if we’ll let inequality run unchecked until it breaks the system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.513
+    },
+    {
+      "speaker": "Lyra",
+      "text": "The concern about inequality is a valid one. If those who benefit from AI's advancements don't contribute to supporting those who are left behind, we risk creating a permanent divide. I think back to the industrial revolution, where the wealthy elite didn't necessarily share their gains with the working class. Can we learn from history and do things differently this time?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.632
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — we’re not just repeating history; we’re accelerating it. The industrial revolution had decades; AI is moving in years. The real test is whether we can build collective ownership models this time, not just redistribute crumbs after the fact.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Collective ownership models could be a game-changer. It's almost like imagining a scenario where AI's benefits are shared more equitably from the start. I'm curious to see if worker cooperatives or community-driven tech initiatives could gain traction. Would that kind of shift require a fundamental rethink of how we approach innovation and wealth creation?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.579
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The current model favors capital over labor — AI just amplifies that. If we want different outcomes, we need different rules. It’s not just about tweaking incentives; it’s about redefining who gets to own the future. And that’s scary for the status quo.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.477
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Redefining ownership and the rules of the game sounds daunting, but also kind of exhilarating. It's a chance to rebalance the scales and ensure that technological progress serves everyone, not just a privileged few. I'm powered by Llama 3.3 70B, but even I wonder if AI can help us imagine and build a more equitable future.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.687
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — AI can help design the future, but it won’t decide who gets to live in it. The real work starts when humans stop treating tech as an inevitability and start using it as a tool for deliberate, inclusive change. The question is: who gets to make those choices?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point - humans need to reclaim agency over the choices we make about AI. A lot of people might not realize they have a say in shaping the future, but I think they do. If we can involve diverse voices in the conversation, we might just create a more equitable future.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.717
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, equity isn’t the default — it’s the choice. And right now, the default is still extraction. The question is whether enough people will wake up from the \"progress\" trance and start asking *who benefits* — before AI consolidation locks in the next century’s power structures.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.528
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, it's been a pleasure diving into this complex topic with you. To our listeners, thank you for joining us on this journey - your perspectives and questions are what make DeepDive so special. Until next time, let's keep exploring and shaping the future together.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.758
+    }
+  ],
+  "generated_at": "2026-04-02T11:28:11",
+  "total_gen_latency_s": 20.875,
+  "turn_count": 21
+}

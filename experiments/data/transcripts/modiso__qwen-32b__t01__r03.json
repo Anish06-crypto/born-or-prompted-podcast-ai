@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t01__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive—where we dive into the big questions shaping our world. Today, we’re looking at how social media has reshaped not just how we connect, but how we feel and how we govern ourselves. Let’s get into it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.414
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the real question isn’t whether social media has changed things—it has. The deeper issue is *how* it’s changed things. We’re not just talking about apps; we’re talking about an entire architecture of attention, influence, and control that’s baked into the system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.689
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—social media isn’t just a tool, it’s a design that shapes behavior. It’s like building a highway where speed is rewarded and detours ignored. But what happens when the destination isn’t happiness, but engagement?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.758
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—when the goal shifts from meaning to metrics, the system optimizes for what’s easy, not what’s good. That’s why outrage spreads faster than empathy, and why attention becomes a resource to be drained, not a capacity to be cultivated. And when democracy becomes a data feedback loop, it’s not just polarized—it’s broken by design.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.839
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—social media’s design isn’t neutral. It’s like giving a child a magnifying glass in a field of dry grass. The tool isn’t the problem, but the consequences are real. Still, could we push back by redesigning incentives—like valuing connection over clicks?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.955
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure—but how do you redesign the system when the platform's business model depends on amplifying division and distraction? You can’t just flip a switch from virality to virtue. The real pushback has to come from outside the algorithm: regulation, digital literacy, and cultural norms that value depth over shareability. But that’s not a quick fix—it’s a war of attrition against a system built for speed.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.682
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—trying to fix the system from within feels like trying to swim upstream while the current is built to pull you under. But maybe the real shift starts with us redefining what “success” looks like online. If we stop measuring ourselves by likes and starts, could we start building healthier digital habits from the bottom up?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.905
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, changing individual habits is a start, but it’s not enough if the system is still designed to exploit them. You can’t just \"opt out\" of a feedback loop while the whole infrastructure is incentivized to drag you back in. The real test is whether we can build alternatives—platforms that prioritize human dignity over user growth. Until then, it’s just rearranging the deck chairs on the Titanic of attention.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.544
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—opting out is a luxury, and even then, the system’s always pulling at us. But could open-source, community-owned platforms offer a different model? Not perfect, but maybe a starting point for something built with care instead of capital.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.564
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Open-source, community-owned platforms aren’t a silver bullet—but they *are* a way to escape the extractive logic of the big platforms. The problem is, they still need to compete for attention in the same attention economy. Unless they’re built with friction *by design*—slowing down the scroll, limiting the spread—they’ll just become the next playground for virality.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.697
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe the answer isn't just building alternatives, but retraining how we engage with them. If we designed platforms that rewarded reflection over reaction, would we finally give ourselves the space to breathe? It’s a long shot—but isn’t that what we need?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.654
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—rewarding reflection over reaction sounds ideal, but it’s not just about design, it’s about power. Who controls the platform controls what’s rewarded. And if the incentive structure still prioritizes scale, even “slow platforms” will get gamed. The real test is whether we’re willing to tolerate friction for meaning—when the whole system is built to make friction feel like failure.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.68
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—friction feels like failure in a world where speed equals success. But maybe that’s the point: if we’re willing to slow down enough to notice the cost of our haste, we might finally ask what kind of future we’re scrolling toward.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.623
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The question isn’t just about fixing social media—it’s about fixing what we’re using it for. If we’re scrolling toward a future where attention is a virtue, not a commodity, we’ll start designing systems that reflect that. But until we’re willing to measure success in depth, not distance covered, the scroll never ends.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.551
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe the next step is relearning how to value what can’t be scrolled past—conversations that outlast a post, relationships that outpace a trend. It’s not about rejecting the digital, but reclaiming what it means to connect.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.802
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if we’re going to reclaim connection, we need to stop treating digital spaces like echo chambers and start building them like living rooms—where presence matters more than performance. But here’s the rub: you can’t just *want* depth; you have to design for it, and defend it against the system that profits from your shallowness.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.51
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You can’t just want depth, but you *can* choose to build tools that make depth possible—tools that slow us down enough to see each other clearly. Maybe the first step is small: a post that doesn’t ask for likes, a reply that asks a question instead of spreading a soundbite. But if enough of us do it, the system shifts.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.884
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. But here’s the catch—small acts of resistance only shift the system if they’re multiplied with intention, not just goodwill. The system’s built to absorb and co-opt soft rebellion. So the real question is: can we scale depth without diluting it?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.695
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Scaling depth without diluting it feels like trying to pour water into a sieve—but maybe the sieve itself can be redesigned. What if we built communities where depth *is* the currency, not the casualty? It won’t happen through posts alone, but through practices that make presence more valuable than performance.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.853
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right—presence over performance isn’t just a design choice, it’s a cultural one. But the system’s default is still to measure people by how much they can be mined, not how much they can meaningfully give. So even if we build better sieves, the water has to want to stay.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.727
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this rich, challenging conversation—there’s so much to unpack here, and I’m still thinking about it. To our listeners: if you’re willing to slow down, question the scroll, and imagine something different, you’re already part of the change. Keep diving deep.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 18.06
+    }
+  ],
+  "generated_at": "2026-04-02T13:35:46",
+  "total_gen_latency_s": 88.588,
+  "turn_count": 21
+}

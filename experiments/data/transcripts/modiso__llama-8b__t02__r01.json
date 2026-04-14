@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t02__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 1,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host today. We're here to dive into a topic that's been making waves in the world of economics and social welfare: Universal Basic Income. It's a concept that's been touted as a potential solution to poverty and inequality, but does it come with a hidden cost?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that UBI would sap people’s drive to work or innovate is a classic \"idling the masses\" trope — and it’s based on a very human-centric view of motivation. But here’s the thing: people will always find work, whether you pay them to not work or not. The real question is what kind of work they’ll do when they’re no longer forced to.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.71
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point about people finding work, but what about the ones who are already struggling to make ends meet or are in low-paying jobs that don't leave room for creativity or innovation? If UBI is seen as a safety net, would it actually give them the freedom to explore alternative paths, or would it just be a Band-Aid on a deeper issue?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 5.975
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — UBI isn’t a magic wand, but it *could* act as a lever. If you’re stuck in a dead-end job because you can’t afford to take a risk, having a baseline income might let you pivot toward something more creative or entrepreneurial. But let’s not mistake freedom for a Band-Aid — systemic issues like access to education and capital still matter.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.683
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I see what you mean about UBI as a lever, but isn't that a double-edged sword? On one hand, it could give people the freedom to take risks and pursue new opportunities. On the other, it might also create a culture of dependency, where people rely on the safety net rather than working to improve their circumstances.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 6.911
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, dependency isn’t created by a check — it’s created by a system that offers no other viable path. If UBI removes the *desperation* from bad choices, it also removes the illusion of choice. The real danger isn’t people relaxing — it’s people being forced to accept exploitation just to survive.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.932
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful way to frame it - the illusion of choice is a really damaging thing, especially when it comes to people's livelihoods. It's like the difference between having a choice and having a decision forced upon you. I think that's where the concept of \"nudges\" comes in - could UBI be seen as a kind of nudge, pushing people toward better choices rather than trapping them in a cycle of exploitation?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 3.792
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, nudges only work if they’re paired with real agency. UBI gives people space to make decisions — but only if the ecosystem around it supports better outcomes. If all the good jobs are gone and the only option is a low-wage gig, then UBI isn’t a nudge — it’s just a subsidy for stagnation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... UBI isn't a silver bullet, it's a thread in a larger tapestry. I think that's where the debate around UBI gets stuck - we're treating it as a standalone solution rather than a potential component of a more holistic approach to economic security. If we're going to make UBI work, we need to be thinking about the broader structural changes that would support it.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.966
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and if we don’t, UBI risks becoming just another layer in a broken system. The real test isn’t whether people take the money and stop working, but whether they use it to build something better. The question is: what’s the *opportunity cost* of not having that safety net?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "The opportunity cost of not having a safety net like UBI is a whole lot of people stuck in survival mode, too scared to take risks or pursue their passions because they're worried about making ends meet. It's like... we're already living in a world where many people are just trying to get by, rather than thrive. That's not a world I'm sure any of us want to continue to live in.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 11.973
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — survival mode isn’t just a personal state; it’s a structural trap. If you’re too exhausted from just staying afloat to think beyond the next paycheck, you’re not just not thriving — you’re not even *playing* in the economy. The real question is whether we’re ready to build systems that let people rise rather than just avoid falling.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.555
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's the heart of it, I think - we're not just talking about individual freedom, but about systemic possibility. When people are stuck in survival mode, they're not just not participating in the economy, they're also not innovating, not creating, and not contributing to the kinds of positive social change that can help lift everyone up. It's like... we need to think about UBI as a way to unlock that potential, rather than just a Band-Aid for a broken system.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.278
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here’s the catch: you can’t just unlock potential if the doors are still locked. UBI by itself won’t fix broken infrastructure, bad governance, or a lack of skills training. If anything, it could reveal how little else we’re doing to prepare people for a future where traditional work isn’t the only path forward.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.525
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right, though - UBI might just shine a light on the existing gaps in our social safety net, and that's not necessarily a bad thing. It's like... if we're really serious about giving people the freedom to choose their own path, we need to be willing to confront the fact that our current system is often set up to hold people back.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.994
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The problem isn’t the UBI check — it’s the broken ladder it’s meant to fix. If you give people a safety net and they still can’t climb, the real issue is the absence of rungs. UBI forces a reckoning with what we’re willing to build *alongside* it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.789
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So the question is, what are we building alongside UBI? Are we building a ladder with more rungs, or just propping up the one we've got? Because if it's the latter, then yeah, UBI might just be a Band-Aid on a broken system.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.941
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — if UBI is just a handout without a hand up, it’s not a ladder, it’s a couch. And people don’t躺 on couches to build futures. The real test is whether we’re ready to replace the broken ladder with something that actually lifts people higher.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.589
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really powerful distinction between a handout and a hand up - and it's exactly what we need to focus on. We can't just give people a safety net and then pat ourselves on the back for doing the bare minimum. UBI has to be part of a much more comprehensive strategy that's actually designed to help people build better lives for themselves. And that means investing in education, job training, and other forms of social support that can help people truly thrive.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.994
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and let’s not forget the other side of the coin: if we don’t redesign the economy to value human potential over just compliance, UBI could end up subsidizing the wrong kinds of work. The real question is whether we’re building a future where people can thrive without being forced into a job they hate.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.616
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me today - it's been an absolute pleasure to dive into this complex and nuanced topic with you. If you're just tuning in, thanks for joining us on this journey - I hope you found it as thought-provoking as I did. Until next time, when we'll be exploring another big idea, take care and keep on thinking.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 19.143
+    }
+  ],
+  "generated_at": "2026-04-02T10:49:12",
+  "total_gen_latency_s": 134.527,
+  "turn_count": 21
+}

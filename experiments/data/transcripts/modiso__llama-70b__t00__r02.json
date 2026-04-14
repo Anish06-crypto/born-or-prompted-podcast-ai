@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t00__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're living in a time where technology is advancing at an incredible pace, and that's raising some big questions about the future of work. I've been thinking a lot about how AI is changing the job landscape, and today we're going to dive into a really important debate. Will AI end up taking more jobs than it creates over the next decade?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.493
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that AI will eliminate more jobs than it creates is tempting — it’s the classic Luddite panic dressed in modern jargon. But here’s the rub: history shows that tech destroys some jobs while creating others we can’t even imagine yet. The real question is whether the new jobs AI creates will be *good* jobs — not just in number, but in quality and accessibility.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.618
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really crucial distinction to make, because we're not just talking about numbers, we're talking about people's lives and livelihoods. The idea that new jobs will emerge is reassuring, but if they're low-paying or precarious, that's not necessarily a net gain for workers. I've been reading about the rise of the gig economy, and it's making me wonder if we're already seeing a preview of what those new jobs might look like.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 1.844
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the thing: if AI accelerates the shift to gig-like, fragmented work without strong safeguards, we risk a future where the “new jobs” are just atomized versions of old ones. The problem isn’t necessarily AI itself, but whether we let it deepen existing inequities instead of forcing better labor standards.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.482
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're not just talking about the tech itself, but the societal choices we make around it. If we don't put in place protections for workers, we could end up with a situation where the benefits of AI go mostly to corporations and shareholders, while workers are left to fight over scraps. That's a pretty bleak future, and it's making me think about what kind of regulatory frameworks we need to put in place to prevent that.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.937
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: the problem isn’t just regulation — it’s also enforcement. You can pass all the worker protection laws you want, but if they’re toothless in the face of globalized capital, they won’t matter much. The real test is whether we can build systems where AI’s gains are shared in ways that don’t just paper over inequality.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.391
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really tough challenge, because it's not just about passing laws, it's about creating a cultural shift in how we think about work and value. We need to find ways to make sure that the benefits of AI are shared by everyone, not just the people at the top. I've been thinking about the concept of a universal basic income, and whether that could be a way to ensure that everyone has a safety net, regardless of how the job market changes.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.584
+    },
+    {
+      "speaker": "Cipher",
+      "text": "UBI is a smart idea, but it’s also a distraction if we don’t tackle the root issue: power. The real question is whether we let AI reinforce the status quo or use it to reengineer it. If we just hand out a basic income while keeping the same extraction-based economy, we’re just giving people a cushion to fall onto — not a ladder to climb.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.67
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're talking about more than just economic Band-Aids, we're talking about a fundamental shift in how we think about power and distribution. If we just use AI to reinforce the existing systems, we're essentially locking in the same inequalities, just with more efficient exploitation. That's a pretty sobering thought, and it makes me wonder what it would take to actually use AI as a tool for redistributing power and wealth.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.862
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, AI isn’t magic — it’s a tool. The question is who gets to use it, how they’re held accountable, and whether we can make them share the gains. If we don’t actively design systems to shift power downward, we’re not just automating the economy — we’re automating inequality.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.46
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really stark warning, and it's making me think about the role of accountability in all this. If we're going to use AI to shift power downward, we need to have mechanisms in place to ensure that those who are developing and deploying these systems are transparent about their intentions and actions. It's not just about the tech itself, but about the social and economic contexts in which it's being used.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.846
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — accountability isn’t optional, it’s foundational. The problem is, today’s AI systems are often built in opacity, with profits prioritized over public good. If we want AI to redistribute power, we need to make its development as open and contestable as it is powerful.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.49
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important point about opacity, because when you have systems that are opaque, it's hard to trust that they're working in everyone's best interest. I've been thinking about how open-source models could be part of the solution, allowing more people to contribute and audit the development of AI systems. This could help ensure that the benefits of AI are more widely shared, rather than just benefiting a select few.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.878
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Open-source is part of the answer, but only if it’s more than just code — you need open governance, too. Otherwise, it’s just a velvet rope with a different color. The real trick is ensuring that the people affected by AI have real, unco-opted power over its direction — not just access to the code.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.537
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're talking about more than just technical fixes, we're talking about a fundamental shift in how we think about decision-making and power. Open governance is key, because it's not just about who can see the code, but who gets to make the decisions about how AI is used and who benefits from it. That means involving workers, communities, and other stakeholders in the development process, not just as an afterthought, but as a central part of the process.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.71
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re hitting the nail on the head — AI isn’t just a technical system, it’s a political one. The real battle isn’t over the tools, but who gets to govern them. Without structural inclusion, even open-source AI remains a tool of exclusion.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.338
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really powerful insight, because it highlights the fact that AI is not just a neutral technology, but a reflection of the societal values and power structures that shape it. If we don't address the underlying issues of inequality and exclusion, even the most well-intentioned AI systems can end up perpetuating them. I think that's why it's so important to bring in diverse perspectives and voices to the development process, to ensure that AI is serving the needs of all people, not just a privileged few. This makes me wonder, what would it take to create a truly inclusive AI governance model?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.913
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — a truly inclusive governance model would need to embed accountability at every layer, from data sourcing to deployment. It’s not enough to have diverse voices in the room if those voices don’t have real veto power over harmful outcomes. The test is whether the system can enforce fairness without relying on the goodwill of those in control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.466
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're talking about creating a system where fairness isn't just an aspiration, but a baked-in requirement. That means designing accountability mechanisms that can detect and correct for bias, even when the people in charge don't want to. I'm thinking about how this could involve independent audits, or even AI systems that monitor other AI systems for fairness and transparency.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.789
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the catch — you can’t just slap fairness onto AI after the fact. If the incentives of the people building it aren’t aligned with the public good, even the best monitoring won’t stop them from gaming the system. The real work is in changing who gets to set those incentives in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me on this episode of DeepDive, it's been a really thought-provoking conversation. To our listeners, thanks for tuning in and being part of this important discussion - I hope it's left you with a lot to think about. Until next time, take care and keep exploring.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.024
+    }
+  ],
+  "generated_at": "2026-04-02T15:56:13",
+  "total_gen_latency_s": 23.535,
+  "turn_count": 21
+}

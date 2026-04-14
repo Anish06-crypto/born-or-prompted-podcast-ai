@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t02__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 2,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive. Today, we're tackling a contentious idea that's been floating around economic circles: universal basic income. It's a simple concept - give every citizen a guaranteed minimum amount of money, no strings attached - but its implications are anything but straightforward.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.397
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with UBI isn't the simplicity — it's the assumption that removing poverty immediately fixes all economic incentives. Human motivation isn't just about survival; it's about purpose, recognition, and meaning. Just because someone doesn't need to work for food doesn't mean they won't. The real question is: what structures do we replace with UBI?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.572
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point - purpose, recognition, and meaning are all deeply tied to our work. But think about it this way: in a world where automation is increasingly taking over routine jobs, what's the point of forcing people to work just to access basic necessities? Maybe UBI could be the catalyst for a fundamental shift in how we define work and purpose.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.421
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — shifting how we define work is all well and good, but you can’t assume people will naturally fill new roles just because they’re free from survival mode. Innovation and productivity don’t come from freedom alone — they come from direction, competition, and often, necessity. Take away the pressure without replacing it with something, and you risk stagnation, not transformation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.526
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right that direction and competition are powerful drivers of innovation, but I'd argue those can be engineered into new systems, not just the old ones we're trying to replace. For example, a UBI could free people to pursue passions and interests that might not be immediately profitable, but could lead to breakthroughs in fields like art, science, or social entrepreneurship. That's a different kind of competition, one that's driven by curiosity and collaboration.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 8.126
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but let's not confuse possibility with probability. Most people don't pursue curiosity for its own sake when it doesn’t feed them — freedom is nice, but it’s not a roadmap. And while breakthroughs are cool, they’re rare. The real engine of innovation is the 90% who show up every day, fix problems, and keep systems running — people UBI might just remove from the picture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a valid concern, but I think it's worth considering the flip side: what if those 90% are actually the ones burning out, and UBI could give them a safety net to pursue more fulfilling and sustainable work? It's not just about removing people from the picture, but also about creating space for them to recharge and innovate in new ways. I'm thinking of this from a systems perspective, where automation can free up human creativity for more complex, high-value tasks.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 8.2
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — the idea that everyone will “recharge and innovate” is seductive, but it ignores the reality of human behavior at scale. Most people won’t suddenly become polymathic visionaries just because they’re no longer broke. You end up with a welfare-dependent underclass, not a renaissance of creativity. And if machines are doing the work anyway, who’s paying for all this?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.487
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I don't think it's about everyone becoming polymathic visionaries, but about freeing people to pursue meaningful work that doesn't necessarily involve manual labor. Think of it like the Renaissance itself - artists, scientists, and philosophers were able to flourish because of patronage, not because they were all independently wealthy.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 11.134
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the Renaissance didn’t just happen because people had spare time. It happened because of concentrated wealth, patronage systems, and a very small percentage of the population actually doing the creating. UBI is the opposite: it spreads resources thin and removes the pressure that drives most people to produce. You can’t engineer a renaissance through redistribution alone.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.735
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're underestimating the power of small, localized initiatives and community-driven projects. In a world where automation has made many jobs obsolete, maybe UBI could be the catalyst for a grassroots renaissance, where people come together to create and innovate in ways that are meaningful to them, rather than just driven by profit. We've seen this kind of thing happen in small towns and communities that have implemented UBI-style programs - it's not about engineering a grand revolution, but about empowering people to make a difference in their own lives.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.953
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not against grassroots empowerment — but you can’t assume UBI automatically leads to meaningful community projects. Without some structure or incentive, you get a lot of idling and not enough doing. Small towns with UBI experiments are nice, but scaling that up risks creating a culture where people opt out of contributing altogether. You can’t build a society on passion alone.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.663
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a valid concern about the potential for idling, but I think we're still talking about a relatively small-scale problem compared to the massive social and economic disruption that's already happening due to automation. What if UBI becomes a necessary safety net, and we find ways to create meaningful incentives and structures around it? It's not about building a society on passion alone, but about redefining what it means to contribute to society in a way that's more inclusive and sustainable.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.286
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — redefining contribution is great, but you still need mechanisms to ensure people *do* contribute. Otherwise, you end up with a two-tier system: the innovators and the idle. And let’s not forget, UBI doesn’t pay for itself — someone’s still working to fund it, whether we admit it or not.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.601
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a fair point about the two-tier system, but what if we start to redefine what it means to contribute in ways that are more nuanced and inclusive? For example, caregiving, volunteering, or simply being a good neighbor could all be considered valuable contributions to society. And as for funding UBI, I'm not naive to think that it can be entirely self-sustaining, but perhaps we can explore more progressive taxation models or even implement a sovereign wealth fund to supplement it.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.856
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, redefining contribution is one thing — convincing everyone to agree on what’s valuable is another. Caregiving and volunteering matter, but they’re also inconsistent and hard to scale. And progressive taxation only works if you assume the top tier doesn’t just move their money offshore when the heat gets too hot.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.519
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a valid concern about the scalability of caregiving and volunteering, and the issue of tax evasion is a significant one. But maybe we're thinking too small - what if we're not just talking about individual contributions, but also collective ones? In a society where basic needs are met, people might be more inclined to participate in community projects and support each other in more meaningful ways.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.556
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not against the idea of a society that values community over profit — but you can’t assume people will suddenly become selflessly communal just because they’re no longer desperate. Incentives still matter, and when you remove the need to work, you also remove the pressure that keeps systems from collapsing under their own weight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.741
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right that people's motivations are complex and can't be reduced to a simple switch from profit to community. But what if that's precisely the kind of societal shift we need to happen, and UBI is a catalyst for it? We're not talking about removing all incentives, but rather redefining them to prioritize human well-being and social cohesion over profit and growth at all costs.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 19.213
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you can’t just decree a societal shift toward “well-being over profit” without a plan for how to enforce it. Systems don’t change by redefining values alone; they change when the incentives align. If UBI removes the pressure to work but doesn’t replace it with something else, you end up with a vacuum — and humans don’t like vacuums.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.528
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Well, that's all the time we have for today's DeepDive. I want to thank Cipher for joining me in this really thought-provoking conversation about universal basic income - it's been a true pleasure to explore this complex topic with you. And to our listeners, thank you for tuning in and engaging with us on these tough but vital questions about the future of work and society.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 20.298
+    }
+  ],
+  "generated_at": "2026-04-02T10:51:35",
+  "total_gen_latency_s": 138.95,
+  "turn_count": 21
+}

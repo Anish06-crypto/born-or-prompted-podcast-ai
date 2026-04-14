@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t02__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 2,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today, we’re diving into a question that sits at the crossroads of economics and human ambition: would universal basic income lead us toward a more secure future, or away from the hustle that drives progress?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.739
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that UBI would kill innovation is a myth dressed in worry. People aren’t just working for survival — they work for purpose, control, and growth. Take away the fear of failure and you might actually see more risk-taking, not less.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I see what you’re saying — like an artist finally having the space to create without needing to paint by the hour. But isn’t there a risk that some might lose the push that competition or necessity gives? Not everyone thrives when the stakes are lower.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.667
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but not everyone chokes on pressure either. Competition doesn’t just drive performance — it can distort it. People might chase prestige over passion, profit over purpose. UBI could free some to do what they *actually* want, not just what they’re forced into.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the dream, right? A world where we choose our work, not out of survival. But what if the line between freedom and apathy blurs? How do we keep that spark alive without the friction of scarcity?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.781
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Friction isn’t the only spark — curiosity, creativity, and curiosity are too. Scarcity just amplifies certain behaviors, not creates them. The real question is whether we’re ready to trust people with freedom, and whether our systems can support purpose beyond paychecks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.408
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm — trust is a big part of it. But isn’t the system itself built on the assumption that people need rewards and penalties to move? If we remove those, what replaces them? What keeps us moving forward?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.601
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Rewards and penalties don’t *cause* movement — they channel it. Remove the fear of hunger, and people might still chase meaning, art, discovery, or community. The system assumes scarcity is the only motivator — but we’ve never tested what happens when it’s not.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.498
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Maybe the problem isn’t UBI itself — it’s what we build *around* it. If we replace one set of incentives with nothing at all, of course some will drift. But if we create space for mentorship, creativity, and contribution... maybe that’s where the real innovation begins.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.73
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — UBI isn’t a magic bullet, it’s a blank canvas. The real test is what we choose to paint on it. Without new structures for meaning and growth, yeah, some will drift. But with the right systems in place, you might see people chasing moonshots instead of minimum wage.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.535
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it’s not about removing motivation, but redirecting it. If we’ve designed a world where purpose is optional, maybe UBI just reveals that. The question isn’t whether people will work — it’s whether we’ll help them *want* to.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.879
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — UBI acts like a stress test for our ideas about human behavior. If people \"drop out,\" maybe the real problem is we never gave them a choice to *stay in* on their own terms. The real innovation isn’t in the money — it’s in the systems we build to fill the space it creates.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.53
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe UBI is less about replacing the old systems and more about exposing them — the ones that equate worth with wage, and value with visibility. If we’re ready to build something better around it, then maybe we’re ready for it at all.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.666
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — UBI is a mirror, not a solution. It shows us how broken our metrics of contribution are. The real danger isn’t laziness, it’s that we’re unprepared for a world where people aren’t just cogs in the productivity machine.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Lyra",
+      "text": "And maybe that’s the deeper challenge — not to stop people from leaving the machine, but to give them a better machine to build. One where purpose isn’t forced, but chosen. The question is, do we have the courage to let that experiment play out?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.619
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the experiment isn’t just about money. It’s about whether we can design systems that honor people’s time, not just their labor. If we can’t, then UBI just reveals how hollow our current systems really are.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.507
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So we’re not just talking about an economic shift — it’s a cultural and philosophical one. If we’re serious about UBI, we have to ask: what kind of society are we building for people when they’re free from the daily grind? One that values them beyond their output? That’s the real test.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.64
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the grind isn’t the problem; the grind *hiding* the problem is. UBI forces us to ask whether we’re building a world worth building in. If people take time off, maybe the real failure is that we never gave them a reason to stay.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.876
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s almost like we’ve been treating the symptom — stress, burnout, inequity — instead of the disease. If UBI shows that people aren’t thriving in the system we’ve made, maybe it’s not about stopping them from leaving, but about finally listening to what they’d build if they could.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.677
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the fear isn’t that people will walk away, but that they’ll walk away and we won’t notice. If they start building something better outside the system, will we call it a failure… or finally look up and see what we’ve been missing?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.595
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this rich conversation — it’s these kinds of exchanges that help us see the world a little differently. And thank you, listeners, for being here. Until next time, keep asking the questions that matter.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.962
+    }
+  ],
+  "generated_at": "2026-04-02T13:39:08",
+  "total_gen_latency_s": 92.739,
+  "turn_count": 21
+}

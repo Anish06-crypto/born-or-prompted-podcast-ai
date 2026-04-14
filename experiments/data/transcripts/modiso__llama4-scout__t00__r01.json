@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine a world where robots and computers are doing more and more of the work we used to do. As AI continues to advance, a pressing question is on everyone's mind: what happens to our jobs? Today, we're diving into whether AI will eliminate more jobs than it creates within the next decade.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.279
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — AI isn't a job vacuum cleaner. It destroys some roles, sure, but it also unlocks new ones we can't yet imagine, just like the internet created roles that didn't exist before. The real question is whether the transition will be orderly or chaotic — and who gets left behind.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.581
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... there's something interesting there. The internet did create new jobs, but it also took a while for people to adapt and for the education system to catch up. I'm wondering, though, if the pace of AI change is faster than what we saw with the internet - could that lead to a more chaotic transition?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.396
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the internet was a slow burn compared to AI's exponential curve. The real issue isn't speed — it's how rigid our systems are. If education and policy can't adapt faster this time, yeah, the transition will be messy — but the alternative isn't avoiding AI, it's managing the shift.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.643
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That makes sense. Our systems do seem to be playing catch-up, and it's hard to imagine a scenario where AI just gets paused or slowed down. I'm curious, though - what kind of policy adaptations do you think could help manage this shift and make it more orderly?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.756
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you need policies that treat skills as currency, not as a one-time investment. Universal upskilling subsidies, portable training credits, and tax incentives for companies that reskill workers — those could help. But the real test is whether governments can move faster than AI does.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.466
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Governments moving faster than AI seems like a tall order. But if they're able to create a culture of continuous learning, where workers feel empowered to upskill and reskill throughout their lives, that could be a game-changer. It's almost like... having a 'refresh' button for your career.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the “refresh” button requires systemic support. If the cost of reskilling is always on the individual, you get stagnation. But if it’s baked into the economy — think tax breaks for learning, employer mandates, or even AI-driven career advisors — then the system can keep up. The question is: who pays for that?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.79
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point about who pays for it. If companies benefit from AI-driven productivity, maybe they should foot some of the bill for worker retraining. It's not unlike how some countries have social safety nets to help workers transition; perhaps AI's impact warrants a similar investment.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.257
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but companies aren’t exactly known for thinking long-term when their quarterly numbers are on the line. If you leave it to the market, you get a race to the bottom. You need policy to force or incentivize it — like tying a portion of corporate tax breaks to workforce investment. Otherwise, workers end up footing the bill again.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.646
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Tying tax breaks to workforce investment could be a clever way to align corporate interests with social needs. But then there's the risk that companies might just pass those costs on to consumers or find ways to game the system. I'm wondering, though, if there's a way to make it more transparent, so we can see which companies are really investing in their workers.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.607
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency is key — public dashboards showing which firms are meeting reskilling targets could create real accountability. Pair it with penalties for greenwashing and you’ve got a nudge in the right direction. Still, don’t expect magic — this is about shaping incentives, not perfect outcomes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.798
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Shaping incentives seems like a pragmatic approach, given the complexity of the issue. I'd love to see how that plays out in practice - are there any countries or industries that are already experimenting with these kinds of transparency measures and accountability? Maybe we can learn from their successes and challenges.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.411
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, Germany’s dual education system and Singapore’s SkillsFuture program are already ahead of the curve — blending public funding with corporate responsibility. But even they’re struggling with speed and scale. The challenge isn’t just copying the models — it’s adapting them to the speed of AI disruption.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.57
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Germany and Singapore are great examples of countries that are proactively addressing the skills gap. But it's interesting that you mention adapting their models to the speed of AI disruption - that implies a need for continuous iteration and improvement. I'm wondering if there's a role for AI itself in helping to upskill workers, perhaps through personalized learning platforms or AI-driven career coaching. Can AI help accelerate the very process of reskilling?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.756
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Absolutely — AI can tailor training to individual skills gaps faster than any human curriculum board. The catch? It needs real-time data on labor market shifts and access to quality educational content. If done right, it could turn reskilling into a continuous, reactive process — but only if we design it to prioritize people over profit.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.574
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Prioritizing people over profit sounds like a crucial consideration. If AI-driven reskilling is designed with the right values, it could help level the playing field and make opportunities more accessible. I'm curious, though - how do we ensure that the data driving these systems is fair and unbiased, so that everyone gets a fair shot?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.854
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You can’t outsource fairness to data alone — you need oversight. If the AI sees patterns in who gets promoted or reskilled, and those patterns are biased, you end up automating inequality. The real fix? Audit the data, mandate diversity in training outcomes, and keep humans in the loop where it matters.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.847
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Oversight and human oversight are crucial to prevent AI from perpetuating existing biases. I think it's interesting that you mention mandating diversity in training outcomes - that could be a powerful way to drive systemic change. It's almost like... having a 'bias-busting' protocol built into the reskilling process.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.76
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — not just diversity in input, but in outcomes. If the system’s pushing people toward certain roles based on historical biases, you need to actively counter that. Think of it as a feedback loop with guardrails — AI can optimize, but it shouldn’t inherit the worst of our old patterns.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.726
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for a thought-provoking conversation on the future of work and AI's impact on jobs. It's clear that navigating this shift will require creativity, adaptability, and a commitment to prioritizing people. Thanks to all our listeners for tuning in - we hope you'll continue to join us as we explore the complex questions shaping our world.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.903
+    }
+  ],
+  "generated_at": "2026-04-02T11:27:46",
+  "total_gen_latency_s": 20.68,
+  "turn_count": 21
+}

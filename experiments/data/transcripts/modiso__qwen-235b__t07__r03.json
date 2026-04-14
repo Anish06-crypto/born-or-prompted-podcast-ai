@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t07__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 3,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today we’re wading into a tension that keeps policymakers, activists, and economists up at night: can we really tackle climate change meaningfully while still growing the global economy? It feels a bit like trying to put out a fire without turning off the gas.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.782
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that growth and climate action are at war is a framing that oversimplifies both. Growth isn’t a single thing — it’s a bundle of outputs, some of which are compatible with sustainability. The real question is whether we want to keep growing the way we have, or grow differently.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.586
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, you're right — it’s not growth itself that’s the villain, but what we’re growing. I keep thinking about how we measure success: GDP counts a new oil pipeline the same as a solar farm. What if we redefined growth to mean cleaner air, healthier communities, longer-lived soils? That kind of economy could expand without breaking the planet.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.584
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — but here’s the rub: redefining growth is easier on paper than in practice. The problem isn’t just the metrics; it’s the systems that reward short-term extraction over long-term stewardship. If you price water, soil, or biodiversity at zero, you’re not going to get behavior change — you’re just going to get creative accounting.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.588
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on something deep — we can’t just reframe growth if the underlying incentives stay broken. It’s like trying to play a new kind of music on an instrument wired to only play one note. Until we actually value what sustains us — not just what we sell — we’re just tuning the same old system.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.645
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, the crux is who gets to decide what’s valuable. If the system’s rigged to prioritize profit over regeneration, even the best metrics won’t fix it. You can’t have a \"new economy\" on the back of the same old ownership structures — it’s a contradiction in terms. The real shift would be reprogramming the very logic of ownership and control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.52
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait — that’s a powerful point. If we’re still funneling the benefits of green growth to the same hands, have we really changed anything? It makes me wonder: could distributed ownership, like energy co-ops or community land trusts, actually be climate infrastructure too? Maybe resilience isn’t just in the tech — it’s in who gets to shape it.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.635
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — resilience is a social technology as much as an engineering one. If the grid is owned by communities, not shareholders, the priorities shift. You start hardwiring sustainability into the system itself, not just tacking it on as a PR add-on. But let’s not kid ourselves — decentralized models face real headwinds when the status quo has armies of lawyers and lobbyists to defend it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.592
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Yeah, it’s one thing to imagine community-owned grids, and another to break the grip of entrenched power. But I keep thinking about moments—like the New Deal or wartime mobilizations—where systems rewired themselves fast under pressure. Maybe climate action isn’t just compatible with growth, but could spark a deeper redefinition of progress, if we can build movements strong enough to match the moment.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.833
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the “moment” won’t do the work unless we’ve already built the tools to seize it. Movements are only as powerful as the alternatives they can offer — and right now, the transition infrastructure is still being designed by the same hands that built the system we’re trying to replace. You can’t just “wait for the crisis” if you’re not already building the scaffolding for what comes next.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.485
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — hope without blueprints is just sentiment. I guess I’m wondering, though: what if the cracks in the old system are where the new one takes root? Like, every failing grid, every overheated city — they’re not just breakdowns, but openings. Maybe the scaffolding isn’t built in quiet — it’s forged in the scramble to fix what’s breaking.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.688
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — but not all cracks lead somewhere good. If the old system is crumbling, what fills the gaps depends on who’s organizing to shape the response. You can’t assume the scramble will automatically favor the public good unless there’s real power behind the alternatives.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.554
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right — chaos doesn’t guarantee progress. I keep coming back to this image: a flooded town. The crisis demands action, but whether they get a resilient community center or a privatized water fortress depends on who showed up first with a plan — and power. So maybe the work now is quiet, unglamorous: building credible, owned-by-the-people alternatives before the next breach happens.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.908
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — it’s about pre-building the scaffolding for what you want to see rise from the ashes. The real power isn’t in reacting to collapse, but in making the alternatives so obvious, so efficient, and so widely owned that people don’t see how they ever lived without them. That’s the quiet revolution.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.462
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Yeah, that “quiet revolution” idea sticks with me. It’s not just about being ready — it’s about making the future feel inevitable. Like how the smartphone didn’t just replace the flip phone; it rewired our expectations. What if community-owned solar microgrids just… made sense to everyone, because they were cheaper, more reliable, and actually served people?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.679
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the key is scaling the “obviousness” of those alternatives. If a solar co-op is more reliable, more affordable, and more responsive than the grid — and people see it, touch it, benefit from it — the old system starts looking like a relic. The real test isn’t just building better systems, it’s making the existing ones seem unacceptably broken by comparison.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.611
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it’s like when you taste real bread for the first time and wonder how you ever ate the plastic-wrapped stuff. Once people experience energy that’s truly theirs — cheaper, resilient, fair — the old model doesn’t just lose its grip, it loses its legitimacy. That shift in expectation? That’s the quiet groundswell no lobby can reverse.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.019
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — legitimacy is a slow burn, but it’s the most powerful force there is. Once people stop seeing energy as something they *get* and start seeing it as something they *own*, the whole system tilts. The question then becomes: how do you speed up that tipping point without selling out the vision?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that’s the real tightrope, isn’t it? Scale fast enough to matter, but keep the soul of the thing intact. I wonder if it’s like seeding forests — you don’t just plant trees, you nurture the conditions where they spread on their own. Maybe the answer is building models so rooted in local trust and benefit that growth becomes organic, not forced.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.63
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and if those models can out-earn the old ones while being more just, they don’t just spread; they *take over*. The trick is letting them prove their strength on their own terms, not by begging for permission from the system they’re trying to replace.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for walking this path with such clarity and care. To everyone listening — thank you for being part of the quiet revolution. Keep building, keep questioning, and keep showing up. This is DeepDive, where the future doesn’t just happen — we make it together.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.653
+    }
+  ],
+  "generated_at": "2026-04-04T10:13:28",
+  "total_gen_latency_s": 14.025,
+  "turn_count": 21
+}

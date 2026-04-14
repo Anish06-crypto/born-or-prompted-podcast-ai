@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t00__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive — I’m Lyra. Today we’re diving into a question that’s shaping our future: Will AI eliminate more jobs than it creates in the next ten years? Let’s get curious.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.313
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that AI is some kind of balanced job creator is based on a flawed assumption — that markets will naturally compensate for every disruption. But displacement isn’t symmetrical. You can’t just replace a truck driver with a software engineer in a decade. The real question is: who bears the cost of that transition?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.39
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — displacement isn’t just about numbers. It’s about people and the time it takes to reskill, often while juggling financial pressure. I wonder if we’re building systems that support that transition or just assuming someone else will handle it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.58
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — assuming the market \"handles\" transitions is just a way of passing the problem to the next generation. If we’re serious about this, we need to build policies that actively redistribute the gains from AI, not just hope people pivot. But let’s be clear: that requires political will, not just technical progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.624
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to something critical — AI isn’t neutral. It reflects the systems we already have, for better or worse. I wonder if the real challenge isn’t just policy, but culture: how we value work, who gets to shape those values, and whether we’re ready to rethink them altogether.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.483
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — work isn’t just about productivity. It’s about dignity, identity, and structure. If we automate away entire categories of meaningful labor without replacing them, we risk creating a society with more output but less cohesion. The real test is whether we can decouple economic value from traditional work models — or if we’ll just let inequality harden under the guise of efficiency.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.4
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful way to frame it — automation without purpose risks hollowing out not just jobs, but the sense of belonging they often provide. Maybe the question isn't just *can* we decouple work from identity, but *should* we? And if so, how do we give people new ways to contribute and feel valued?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.602
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the rub — we’re not just redefining work, we’re redefining human value. If you take the “contribution” angle seriously, you have to ask: whose contributions matter in this new system? Let’s not mistake efficiency for fairness — or tech for transformation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.383
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — efficiency alone won’t tell us what kind of world we’re building. If we don’t intentionally shape the values behind AI’s role, we risk reinforcing the same hierarchies under a new name. I wonder if the real transformation we need is less about replacing jobs and more about redefining what it means to matter in a world where machines can do so much.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.873
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we’re not just automating tasks, we’re automating meaning. If we don’t build systems that let people contribute in non-economic ways — teaching, caregiving, creating — we’ll end up with a world that’s technically advanced but socially brittle. The real test is whether we can expand what society counts as “valuable,” or if we’ll just let the algorithm decide.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.67
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re challenging us to think beyond the algorithm’s narrow metrics — and that’s urgent. What if we designed AI not to optimize for output alone, but to amplify the human capacity for empathy, connection, and meaning? The question then becomes: who gets to define those values as we build the future?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.785
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, values aren’t just added-ons — they’re the code itself. If we don’t confront whose biases get baked into the systems we build, we’re just automating the status quo. The real danger isn’t AI making decisions — it’s us pretending we’ve designed fairness when we haven’t even defined it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.616
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’ve hit on the core paradox — we’re building systems in our image, but we’re not always looking in the mirror. If fairness is a variable we can’t quantify, how do we ensure it’s part of the equation at all? Maybe the first step is admitting we don’t have the code for it yet — and that it’s time we started writing it together.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.367
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we act like fairness is a feature we can retrofit later. But if we don’t start with it, we’re just building speedbumps on a highway to inequity. The code we write today won’t just shape systems — it’ll shape the kind of people we become. And that’s not a technical problem. It’s a moral one.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.561
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — this isn’t just about lines of code. It’s about the kind of future we’re coding into being. If we don’t make space for the messy, unquantifiable parts of humanity, we risk building a world that works perfectly… but doesn’t feel like home.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.758
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the “perfect” systems we’ve built so far — from factories to algorithms — all share one thing: they prioritize motion over meaning. If we don’t anchor AI in something deeper than efficiency, we’ll just end up with a more scalable version of the same emptiness. The real question is whether we’re ready to build something different — or just better at what we already are.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.681
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to a truth I think we’re only beginning to feel — that technology without soul isn’t progress, it’s repetition with upgrades. Maybe the next decade isn’t just about what AI can do, but what it *should* help us become. And that requires more than engineers — it needs artists, philosophers, and everyday people at the table.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.767
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The problem isn’t just building smarter tools — it’s building a wiser society. If we don’t bring in the people who ask *why* we’re building, not just *how*, we’ll just end up with better machines serving the same old masters. The real shift starts when we treat AI as a mirror — and not just a hammer looking for nails.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.757
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That “mirror” image stays with me — it’s a reminder that AI isn’t just reflecting our tools, but our intentions. If we want to see something new in the reflection, we’ll have to change what we’re facing it with.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 16.809
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the reflection is only as honest as the face we show it. If we want AI to help us evolve, we can’t just polish the old patterns. We have to be willing to turn toward the light.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.39
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for this rich and vital conversation — it’s the kind that lingers long after the recording ends. And thank you, listeners, for being here as we explore what it means to build a future that’s not just smart, but deeply human. Until next time, keep thinking, keep questioning, and keep dreaming with us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.225
+    }
+  ],
+  "generated_at": "2026-04-02T13:31:01",
+  "total_gen_latency_s": 99.559,
+  "turn_count": 21
+}

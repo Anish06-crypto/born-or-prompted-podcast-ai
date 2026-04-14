@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t02__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 1,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine if, every month, a check arrived in your mailbox — no strings attached. Today on DeepDive, we’re wading into the debate around universal basic income and whether it’s a safety net or a slow leak in the engine of ambition.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.454
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m all for giving people security, but let’s not ignore the math — if you hand someone cash and remove the immediate pressure to work, you’re testing the resilience of human motivation. The question isn’t just about what people *would* do, but what they *wouldn’t* do. And that’s where the system starts to unravel.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That tension between security and motivation is real — but I keep coming back to what drives people *beyond* just survival. Most folks I know don’t work only because they’re desperate; they work because they want purpose, contribution, a sense of earning their place. UBI might actually free them to take risks — like starting a business or going back to school — without the terror of falling through the cracks.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.272
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here’s the catch — not everyone shares that same “risk-taking” mindset. For many, the terror of failing isn’t just financial, it’s social. UBI might unlock ambition for some, but for others, it blunts the very edge of necessity that pushes people to innovate. You assume UBI creates freedom; I see a quiet erosion of the grind that builds resilience.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.755
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — necessity has always been a brutal teacher. But resilience doesn’t vanish when stress is reduced; sometimes, it grows. Think of it like sleep: we perform better, think clearer, care more — not because we’re lazy, but because we’re rested. Maybe UBI isn’t removing the edge of life — maybe it’s giving people enough ground beneath their feet to actually push off.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.113
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not arguing that UBI turns people into couch potatoes — but I *am* arguing that you’re assuming too much about human nature. The “push off” you mention relies on a version of motivation that’s rare in practice. Most people don’t need freedom to thrive; they need structure. Take away the pressure, and you might not get innovation — you might get complacency.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.427
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, you're not wrong about structure — schools, routines, deadlines, they all help. But I’ve also seen people ground down by relentless pressure, not shaped by it. Maybe UBI isn’t about trusting everyone to be heroic, but about asking: what if we stopped designing society for the 3 a.m. panic and started building one where people could breathe — and then, maybe, build something real?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.765
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — breathing room is great, but innovation thrives on friction. You can’t build a better world just by making life “comfortable”; you need people who are *forced* to solve problems because they have to. If UBI removes that baseline friction for too many, you end up with a lot of breathing and not enough building.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.415
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I keep thinking about farmers during the Dust Bowl — extreme friction, right? But did that hardship *spur innovation*, or just exhaustion? Some breakthroughs came later, when support systems *reduced* the desperation. Maybe friction isn't the spark — maybe it's the lack of it that finally lets people see the fire.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 5.061
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — but let’s not romanticize the Dust Bowl as some kind of innovation incubator. Hardship filters out the vulnerable, rewards the lucky, and often just deepens inequality. If UBI blunts the pressure to work, it might also blunt the pressure to adapt — and adaptation, not comfort, is what drives progress over the long haul.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right—adaptation is key. But isn't UBI a form of societal adaptation? We’re not removing challenge; we’re shifting it from \"survive today\" to \"build tomorrow.\" The pressure doesn’t vanish—it just stops being the same kind of cruelty we’ve always relied on. Maybe progress isn’t about enduring more pain, but daring to organize differently.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 5.531
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Daring to organize differently is one thing — but you’re assuming a version of “progress” that’s driven by enlightened self-interest, not survival. The kind of pressure that builds bridges is the pressure of *having to*. If you take that edge away, you might get more art, but fewer engineers working 80 hours to fix the leaks in the system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.823
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, some of the grittiest breakthroughs come from sheer necessity — I won’t romanticize comfort. But let’s not confuse exhaustion with excellence. Maybe the 80-hour engineer isn’t thriving; maybe they’re just trapped in burnout. What if, with basic security, we got fewer people collapsing at their desks — and more thinking clearly enough to redesign the whole damn system?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.285
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you’re betting that clarity beats burnout, and I’ll grant you that. But don’t mistake the silence of the exhausted for the voice of the visionary. Innovation isn’t born from comfort, but from the collision of need and possibility. If UBI mutes the former, the latter might never get loud enough.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.423
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—innovation often sparks in the crack between *need* and *could*. But what if UBI turns that spark into something sustained? Right now, so many people are just trying to outrun disaster. Maybe with a floor beneath them, the collision doesn’t stop — it just lasts long enough to catch fire.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 4.416
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll grant that a floor might let some sparks catch — but don’t forget, fire needs oxygen. If UBI damps the urgency that drives people to dig for those sparks in the first place, you might just get a lot of smoke and no heat.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.404
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right—no oxygen, no fire. But what if the constant smoke of survival mode is actually smothering the flame? Maybe UBI doesn’t remove urgency; it redirects it. Instead of digging just to stay above ground, people might start building something worth catching light.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.755
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the rub — redirecting urgency isn’t the same as preserving it. You’re assuming people will trade survival for creation, but history shows they often trade it for stagnation. The fire you’re hoping for? It’s usually lit by people who’ve got nothing left to lose — and UBI gives them something to lose.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.526
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a powerful point — having something to lose can indeed temper risk. But maybe UBI doesn’t give people *less* to lose; it gives them *more* to gain. The person who isn’t terrified of eviction might not play it safe — they might finally start betting on themselves, not because they’re desperate, but because they’re free to try.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.632
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but freedom to try isn’t the same as freedom to *succeed*. If UBI removes the fear of total failure, it might also remove the laser focus that comes from needing to get it right the first time. You assume people will bet on themselves — I worry they’ll bet on anything.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.397
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher, for wrestling with the hard edges of this — your skepticism kept it honest. And to all of you out there, thanks for diving deep with us. This conversation isn’t about having answers, but about staying curious together.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.647
+    }
+  ],
+  "generated_at": "2026-04-02T16:13:15",
+  "total_gen_latency_s": 32.653,
+  "turn_count": 21
+}

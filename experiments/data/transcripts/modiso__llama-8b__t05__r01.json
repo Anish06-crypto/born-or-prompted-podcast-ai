@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t05__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 1,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, a space where we dive into the complexities of the world. Today, we're exploring one of the most pressing and fascinating debates of our time: the ethics of using genetic editing to prevent hereditary diseases in human embryos. It's a conversation that raises questions about the future of humanity and our responsibilities as parents.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not here to debate the future of humanity as a vague ideal — I want to know what the real costs are. Genetic editing sounds clean in theory, but where do we draw the line once we open that door? Here’s the thing: preventing disease is one thing, but redefining “normal” is another.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial distinction. The question of what constitutes \"normal\" is a slippery one, and it's easy to imagine that a line might be crossed. I'm reminded of a conversation I had with a geneticist who pointed out that the very concept of \"normal\" is already blurry – think about it, we're already selective about which genetic conditions we screen for and which we don't.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 5.418
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — we’re already selective, but screening isn’t editing. The moment we start rewriting genes, we shift from prevention to design. And here’s the kicker: who gets to decide which traits are “worth” editing? It’s not just science — it’s power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.721
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That power imbalance is a chilling prospect. It's a concern that's already playing out in areas like gene patenting, where the profit motive can influence what genetic research gets funded. We need to be honest about who will be making these decisions – pharmaceutical companies, wealthy individuals, or governments?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 5.978
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and let’s not pretend these actors are neutral. Profit, ideology, and social status don’t just shape funding, they shape the goals. The question isn’t just *who* decides, but *what gets left out* when the menu of “acceptable” edits is curated by those with power. That’s where the real risk lies.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.534
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, the risk of curating a narrow definition of \"acceptable\" edits is a major concern. It's not just about what's left out, but also what gets lost in translation – the nuances of human experience, the messy beauty of imperfection. I'm starting to see the value in a more cautious approach, one that prioritizes preserving the diversity of the human genome over the promise of a \"perfect\" one.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 6.926
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with “preserving diversity” as a shield is that it’s easy to weaponize. You can’t just say “don’t mess with nature” while allowing tech to evolve unchecked — that’s passive editing. Diversity matters, but so does survival. The real question is whether we can edit in a way that doesn’t reduce options, not just maintain them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.604
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a clever way to frame it – editing to reduce options rather than just maintaining them. I'm reminded of a conversation with a bioethicist who argued that the real challenge is designing systems that allow for reversible edits, so that if we do decide to reduce options in the future, we can undo them. It's a way to keep our options open, even as we make choices.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.935
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, “reversible edits” sound great on paper — until you realize biology isn’t a software update. You can’t just roll back a child’s genome once they’re born and things go wrong. Here’s the thing: designing for reversibility assumes we’ll be wiser in the future, but what if we’re not? That’s not a safety net — it’s a gamble.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.471
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering thought – the idea that we might be gambling with the future by assuming we'll be wiser. It's true, biology isn't a software update, and the stakes are much higher when we're talking about human lives. I think we need to acknowledge that there's a risk of overestimating our ability to predict the long-term consequences of genetic editing, and that's a risk we need to take seriously.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.718
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — overestimating our foresight is a classic human failing, and genetic editing magnifies it. We act like we can control the future, but evolution isn’t a feature we can patch. The real question is whether we’re ready to accept that some risks are irreversible — and whether we’ll treat them like software bugs or like real people.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.575
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a hauntingly honest assessment of our limitations. It's striking how our conversations about genetic editing often veer into this fantasy of control, when in fact, we're more like passengers on a complex, unfolding journey. We need to start acknowledging the uncertainty, the messiness, and the human scale of this technology – and treat it with the humility and compassion that comes with it.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.903
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — humility doesn’t stop boardrooms from moving fast. The real test is whether we can build guardrails that outlast the hype. Until then, we’re not just passengers — we’re sleepwalking.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.393
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering warning – the danger of sleepwalking into a future that we're not fully prepared for. I think we need to acknowledge that the hype around genetic editing is driven by a mix of excitement and fear, and that we need to find a way to separate the two. Building guardrails that can withstand the test of time will require a level of transparency, public engagement, and regulatory oversight that we're still figuring out.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.995
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and here’s the catch: transparency is only useful if it’s *inclusive*, not just performative. If the public’s only role is to rubber-stamp decisions made by experts with vested interests, we’re not engaging, we’re outsourcing accountability. The real test is whether we can build systems that evolve as fast as the tech itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.515
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point about inclusive transparency – it's not just about providing information, but about creating spaces for diverse voices and perspectives to shape the conversation. I'm thinking about the role of citizen juries, community engagement programs, and other participatory mechanisms that can help ensure that the public is more than just a passive audience. It's a tall order, but one that's essential if we want to build trust in these emerging technologies.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.731
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, participatory models are a start — but here’s the rub: power doesn’t cede to good ideas, it cedes to pressure. If we want real inclusion, we need to *structure* dissent, not just invite it as a PR stunt. Otherwise, we’re just making the same decisions with more hand-holding.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.611
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, hand-holding isn't a substitute for real power dynamics. I'm reminded of a conversation with an activist who emphasized the importance of institutionalizing dissent – creating formal channels and mechanisms for marginalized voices to be heard and taken seriously. That means designing decision-making processes that are more than just tokenistic, and actually give power to the people who are most affected by these technologies.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.919
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the people most affected aren’t just patients. They’re communities, ecosystems, and future generations we can’t even meet. If we’re going to edit the blueprint of life, we need to build the institutions that can hold that responsibility — not just for today, but for the long damn stretch of human history.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for an incredible conversation that's left me with a lot to think about. It's conversations like these that remind me of the importance of taking a step back and acknowledging the complexity of the issues we're facing. Thanks to all our listeners for tuning in – I hope you'll join us next time as we continue to dive deeper into the world's most pressing questions.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 20.086
+    }
+  ],
+  "generated_at": "2026-04-02T11:09:49",
+  "total_gen_latency_s": 131.154,
+  "turn_count": 21
+}

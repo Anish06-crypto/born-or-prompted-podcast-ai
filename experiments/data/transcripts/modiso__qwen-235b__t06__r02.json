@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t06__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 2,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive.  \nLately, I’ve been wondering — as we’ve traded offices for home setups, did we accidentally leave something irreplaceable behind? Let’s talk about how remote work hasn’t just reshaped our schedules, but maybe our company cultures too.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.583
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: organisational culture wasn’t some fragile relic of the office era — it was the glue that held ambiguous norms, unspoken hierarchies, and informal feedback loops together. Remote work didn’t weaken culture; it exposed how thin and inconsistent it was in the first place. If your culture can’t survive without coffee machine small talk, maybe it wasn’t that deep.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.455
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that's a sharp point — and maybe a little liberating, even.  \nIf remote work is a stress test for culture, then yeah, maybe a lot of companies were faking it with free snacks and Friday happy hours.  \nBut wait — what if the real loss isn't the rituals, but the accidental moments of belonging? Like overhearing a mentor give feedback, or seeing someone stay late to help a teammate.  \nThose weren't about hierarchy — they were quiet, human signals that you're part of something. Can we rebuild those intentionally, or do we just accept they're gone?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.842
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — those accidental moments weren’t just nice; they were information. They built trust and role models without effort. The problem isn’t that remote work took them away — it’s that most orgs never learned to *see* them as part of their culture. Now they’re trying to engineer culture via Slack emojis and Zoom happy hours, which is like trying to build a cathedral with Post-it notes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.451
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly — we’re trying to replace something organic with digital duct tape.  \nThose cathedral metaphors hit hard because culture isn’t built event by event; it’s shaped by shared silence, rhythm, presence.  \nMaybe the real work now is asking: how do we design intentionality that doesn’t feel like performance? Because turning trust into a Slack channel just makes it feel hollow.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.688
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if culture is about rhythm and presence, then forcing it into scheduled check-ins and digital \"culture committees\" just makes it performative. The real question is whether we can let go of the myth that culture is something you manage, and instead build systems that make it emerge — through accountability, shared goals, and friction, not forced fun.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.455
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that word “emerge” does a lot of heavy lifting — and I think you’re right.  \nCulture can’t be scheduled like a Zoom call, but maybe we can create the conditions for it, like architects leaving space for light.  \nShared goals give us direction, but it’s the friction — the debates, the messy collaborations — where trust actually forms.  \nSo what if we stopped *building* culture and started *inviting* it?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.599
+    },
+    {
+      "speaker": "Cipher",
+      "text": "“Inviting” culture sounds nice — but it still assumes we control the guest list. The truth is, culture shows up when you stop trying to shape it and start letting people *act* in ways that contradict the script. If you want trust, let there be disagreement. If you want belonging, let there be skin in the game. Culture doesn’t need an invitation — it needs permission to be messy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.555
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wow — “permission to be messy” lands hard.  \nI keep thinking about how polished everything feels online: curated replies, reaction emojis, camera-ready professionalism.  \nBut real culture thrives in the glitches — the mic left on, the kid bursting into frame, the honest “I have no idea” in a meeting.  \nMaybe the healthiest remote cultures aren’t the seamless ones, but the ones that let humanity crash the script.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.566
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the “glitches” aren’t bugs; they’re proof that people are real. If your culture can’t survive a dog barking or a half-drunk brainstorm, it was too fragile to begin with. Let the mess happen — and then watch what emerges when you stop trying to control it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, I keep coming back to that image — a dog barking during a pitch, and the client saying, “Love your dog, what’s their name?”  \nThat’s not unprofessional — that’s the moment the wall cracks and you remember: we’re all human.  \nMaybe strong culture isn’t about resilience to disruption, but the grace we extend when the plan falls apart.  \nSo yeah — let the mess in. That’s where trust starts to grow.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.028
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Grace under disruption isn’t just a nice touch — it’s the new baseline. If your team can’t laugh when the dog chews the Wi-Fi cable, they can’t laugh when the business model cracks. Let the chaos in, and you’ll see who’s there for the script, and who’s there for the show.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — grace isn’t soft. It’s how we handle the unscripted moments that actually define us.  \nWhen the Wi-Fi dies and someone says, “Well, guess we’ll have to *talk* now,” that’s not a glitch — that’s culture breathing.  \nMaybe the real test isn’t resilience, but whether we can stay human when the plan falls apart.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.548
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if culture is about how you behave when no one’s watching — or when the Wi-Fi’s down — then remote work didn’t weaken it. It just removed the filter. The teams that thrive now aren’t the ones with the best Slack bots. They’re the ones who can laugh at the dog, roll with the chaos, and still get things done. That’s not weakness. That’s culture with skin in the game.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.65
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that phrase — \"culture with skin in the game\" — it flips the whole debate for me.  \nRemote work didn’t erode culture; it *tested* it. The rituals we lost? Maybe they were just smoke and mirrors.  \nNow, the real stuff — trust, grace, shared grit — that’s what shows up when the camera’s off and the dog’s chewing the router.  \nTurns out, culture wasn’t in the office. It was in how we showed up, no matter where we were.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.599
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — location never held the culture. It was always about who showed up how, not where. Remote work didn’t kill culture; it just handed a mirror to organisations and said, “Look closer.” And some cracked. But the ones that didn’t? They’ve got something real now.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.437
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that mirror metaphor really sticks with me.  \nRemote work didn’t break culture — it stopped letting us pretend.  \nNow, the only thing holding us together is the quiet choice to care, even when no one’s watching.  \nAnd maybe that’s the strongest glue there is.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.656
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if culture is now just a quiet choice to care — without the perks, the perks, the perks — then it’s either going to fade fast or get real fast. You can’t fake that kind of glue with emojis. But if it sticks? You’ll know it’s the real thing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.762
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — when the perks vanish and it’s just humans trying to do work, what’s left is the raw question: do we actually care about this, and each other?  \nNo office, no free lunch, no forced fun — just shared purpose showing up in a pixelated square.  \nIf culture survives that, it’s not just real. It’s resilient.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.666
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if culture can survive the lack of free lunch, maybe it’s finally earned the right to exist. You’re not just showing up in a square. You’re showing up as yourself, with no coffee machine to hide behind. That’s where the real test is.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.462
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher — this conversation gave me a lot to sit with, and I’m sure our listeners did too.  \nTo everyone tuning in: thank you for showing up, wherever you are. Keep being human — it’s the best culture we’ve got.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.56
+    }
+  ],
+  "generated_at": "2026-04-04T10:13:07",
+  "total_gen_latency_s": 13.116,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t07__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 1,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "As we navigate the complexities of our global landscape, a pressing question lingers: can we really have it both ways when it comes to the environment and the economy? So it's like... there's a trade-off looming, between meaningful climate action and sustained economic growth. Let's dive in and explore this tension.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.592
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the assumption here is that growth requires burning stuff—oil, coal, whatever. But that’s a 20th-century view. The real question is whether we’re smart enough to pivot to new forms of growth before the old ones burn us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.879
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really hopeful perspective, and I think it's one that's backed up by a lot of innovation in the renewable energy space. So it's like... we're already seeing examples of countries and companies that are driving growth through clean tech and sustainable practices. Wait, actually—what if this pivot isn't just about replacing old industries with new ones, but also about redefining what we mean by \"growth\" in the first place?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.773
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: redefining \"growth\" sounds nice, but the global economy still runs on GDP as a proxy for progress. If you start measuring growth in well-being or sustainability metrics, you’d better align the incentives of markets and governments—otherwise, nothing changes. Trade-offs don’t vanish just because we relabel them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.504
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty sobering view, and it highlights just how deeply ingrained our current systems are. So it's like... we're trying to change the game, but we're still using the same scoreboard, and that's a tough mismatch to overcome. If we don't somehow align those incentives, we risk having these new metrics just become a form of greenwashing, rather than a genuine shift in how we approach growth.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 1.016
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure—greenwashing is the obvious risk when you retrofit old systems with new labels. The real test is whether these metrics can create real cost structures that make dirty growth unattractive, not just unfashionable. If polluting is still cheaper, then \"sustainable growth\" is just a marketing tagline.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.043
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That gets at the heart of the issue - it's not just about slapping a new label on old practices, but actually creating a financial disincentive for polluting. So it's like... if we can make sustainable practices not just morally attractive, but financially attractive, that's when we'll start to see real change. The question is, how do we get to that point, where the cost of polluting outweighs the benefits of short-term gains?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.727
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right—carbon pricing is the obvious answer, but it’s easier to say than to scale. The problem isn’t just making pollution expensive; it’s making sure the burden doesn’t just shift to workers or developing economies. Look, if you want real change, you need to design systems where the clean path is the profitable path—and not just in theory.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.72
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we need to think about the distribution of costs and benefits in a way that's fair and equitable. If we're not careful, carbon pricing could just become a regressive tax that hurts the people who can least afford it. That's why I think it's so important to consider policies like carbon dividends or revenue recycling, which could help ensure that the benefits of a low-carbon economy are shared by everyone, not just corporations.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 1.961
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—carbon pricing without redistribution is just a handout to the wealthy. You can’t divorce economics from politics here. If you want a low-carbon future, you also need a social contract that ensures no one gets left behind in the transition. Otherwise, resistance will come from the bottom up, not just the top down.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.459
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really key point - the social contract aspect is often overlooked in discussions about climate policy. It's not just about reducing emissions, but about creating a sense of shared prosperity and security that makes the transition to a low-carbon economy feel worthwhile for everyone. If we don't address issues like job loss and economic inequality, we risk creating a backlash that undermines the whole effort. So, how do we build that social contract in a way that's both fair and effective?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 5.934
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Fair enough—but let’s not mistake “shared prosperity” for magical thinking. You need concrete policies: retraining programs, just transition funds, portable benefits. Otherwise, it’s all warm words and no ballast. The real test is whether we can align the interests of workers, communities, and capital in a way that doesn’t just promise fairness but delivers it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.702
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we need to get beyond the rhetoric and focus on the nitty-gritty details of policy design. That means things like retraining programs that actually lead to good jobs, and just transition funds that are more than just a token gesture. If we can't deliver on those kinds of concrete measures, then all the talk about shared prosperity is just going to ring hollow.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.262
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The problem isn’t just designing policies—it’s making sure they’re enforced at scale and funded properly. If a just transition ends up just being a buzzword, you get political blowback and a stalled climate agenda. You can’t out-promise your ability to deliver.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.517
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important warning, because once you lose trust on this issue, it's hard to get it back. So it's like... we need to be careful not to overpromise on the just transition, and make sure that whatever policies we put in place are actually backed up by sufficient funding and implementation. If we can't deliver on the ground, all the planning in the world won't matter.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.903
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right—trust is fragile, and climate policy can’t afford to become another casualty of broken promises. The challenge isn’t just designing good programs, but ensuring they’re resilient to political shifts and budget cuts. If we can’t lock in long-term support, the whole system becomes a house of cards.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.532
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're not just talking about policy design, but about building institutional resilience, so that progress on climate action can survive changes in government or shifts in public opinion. That means creating systems that are self-reinforcing, and that have broad-based support from different stakeholders. It's a tough challenge, but if we can get it right, we might be able to create a sense of momentum that's hard to reverse.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.45
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, momentum is easy to talk about—harder to engineer. You need to embed climate action into the DNA of industries, legal frameworks, and cultural norms, not just political cycles. Otherwise, when the winds shift, everything comes undone.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.43
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point, because if climate action is just a political add-on, it's always going to be vulnerable to being stripped away. So it's like... we need to think about how to make climate resilience a core part of how businesses operate, how laws are written, and how people think about their daily lives. That way, even if the political winds do shift, there's still a deep foundation of support for climate action that can help it endure.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.96
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. You don’t want climate policy to be a partisan whim—it needs to be baked into the infrastructure, the economy, and the culture. The real test is when a company plans for carbon neutrality not because a law says so, but because it’s the default assumption. If we can get there, we’ve won.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me today - it's been a really thought-provoking conversation. To all our listeners out there, thanks for tuning in to this episode of DeepDive, and for being part of a conversation that I think is so crucial to our collective future. Until next time, take care.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 10.115
+    }
+  ],
+  "generated_at": "2026-04-04T09:54:24",
+  "total_gen_latency_s": 59.462,
+  "turn_count": 21
+}

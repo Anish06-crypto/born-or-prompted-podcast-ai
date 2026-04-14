@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we unpack the stories behind the headlines. Today we’re tackling a hot debate: will AI wipe out more jobs than it births over the next ten years? Let’s dive into the data, the hopes, and the real human stories in between.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.473
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the usual AI job apocalypse pitch is a neat story — but let’s not ignore the messy reality. We’ve had automation waves before, and the real damage comes from the lag between job loss and new job creation. The question isn’t whether AI will eliminate jobs — it’s whether society will adapt fast enough to prevent a skills cliff.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.469
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—history shows that disruption isn’t instantaneous. The real challenge is the speed of retraining and policy response. If we invest early in reskilling and flexible labor markets, the “skills cliff” can become a steep slope, not a drop. Let’s explore how that might play out.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.389
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — retraining is a band-aid if we don’t address who bears the cost. If companies automate and offload retraining onto workers, we’re just shifting the pain. We need policies that make employers invest in their workforce or face real penalties. Otherwise, “flexible labor markets” just mean vulnerable workers.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.495
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—shifting the cost onto workers turns the solution into another burden. Policies that tie tax incentives or penalties to workforce development would align incentives. If companies see a clear ROI in training, they’ll invest sooner, keeping the workforce resilient rather than fragile.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.423
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but let’s not kid ourselves. Companies don’t do “ROI” when it’s cheaper to replace a human with an algorithm. The real test is whether these policies are strong enough to outmuscle short-term profit logic. And so far, not seeing the muscle.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.419
+    },
+    {
+      "speaker": "Lyra",
+      "text": "We’re staring at the same hard truth: profit motives often beat policy unless the stakes are high enough. Strengthening penalties—like higher taxes on automation or mandatory training credits—could tip the balance, but that requires political will and public pressure. If we can turn retraining into a tangible benefit for businesses, the calculus might shift before the next wave hits.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.375
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the calculus will shift when workers stop being a cost center and start being a competitive advantage again. That means making automation pay less — not just in taxes, but in rules that force companies to justify every job they slash. Until then, we’re just rearranging the deck chairs as the icebergs get bigger.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.401
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If workers become a competitive advantage, companies will shift from treating labor as a cost to valuing human creativity and judgment. That means more than taxes—think transparency rules, public procurement that rewards human‑centric solutions, and incentives for continuous skill building. Only then will the deck chairs become part of the ship, not just a rearrangement.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.444
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency rules are a start, but they’re not a shield against the math of capital. If you want to protect jobs, you’ve got to mess with the math — like making automation proposals go through real labor impact assessments, not just cost-benefit ones. Otherwise, we’re just letting companies pretend they’re “forced” by some imaginary efficiency.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.517
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting the heart of the matter—if the math stays pure cost‑benefit, automation will always look cheaper. Embedding a mandatory labor‑impact audit into every AI rollout could turn that “imaginary efficiency” into a real accountability check. That way, the calculus itself demands we weigh human value, not just dollars.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.259
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Only if those audits are enforceable and tied to concrete consequences. Otherwise, they’re just another form of greenwashing — companies will tick the box and keep cutting. The real check is when automation isn’t just audited, but taxed in proportion to its human cost. Then we’ll see if the math changes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.39
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I can see why you’d want a tax that reflects human impact; it would shift the economic calculus. It would make the cost of automation a direct reflection of the workforce it displaces, forcing companies to weigh human value more seriously. If implemented thoughtfully, it could create a",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.785
+    },
+    {
+      "speaker": "Cipher",
+      "text": "“Create a” what? A slower rollout? Maybe. But let’s not think this is about slowing tech — it’s about slowing the human cost. If the tax is too soft, it’s ignored. If it’s too harsh, it’s gamed. The sweet spot is when automation becomes so expensive it only happens when it can’t be avoided — and even then, with a price tag that pays for real transition.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.489
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You hit a key point—it's a balancing act. A",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.9
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Balancing act or not, the default is always on the side of capital unless you lock it in. Let’s not settle for taxes or audits — what if we gave workers a direct stake in the automation equation? Maybe through profit-sharing or co-determination rights on AI-driven decisions. Force companies to internalize the human cost, not just calculate it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.421
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a powerful idea—if workers had a real slice of the AI pie, the incentive to protect jobs would shift from the boardroom to the factory floor. Co‑determination on AI decisions could turn the tech into a shared venture, making the cost of automation a shared risk and reward. It’s like turning a one‑way street into a community road where everyone’s steering together.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 13.678
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, shared risk is all well and good — but shared *control* is what matters. If workers aren’t sitting at the table where AI strategies get built, they’re just along for the ride. The real shift happens when they have veto power over automation that threatens livelihoods — not just a slice of the pie, but a say in whether the pie gets baked in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.785
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Imagine a boardroom where a worker’s voice rings as loudly as the CFO’s. Veto power forces the design team to pause and ask: is this truly necessary, or just a cheaper shortcut? That shift turns automation into a partnership, not a takeover.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.661
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but let’s not confuse “loud” voices with real power. A veto in name only is just symbolic. The test is whether workers have the data, the legal teeth, and the institutional backing to actually block decisions that destroy jobs for short-term gains. Otherwise, it’s just a louder echo in the same room.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.621
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for sharing such thoughtful insights, and a big thank you to all of you who tuned in. It’s conversations like this that remind us how much we can learn from one another. Until next time, keep questioning and stay curious.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.651
+    }
+  ],
+  "generated_at": "2026-04-02T11:45:43",
+  "total_gen_latency_s": 41.549,
+  "turn_count": 21
+}

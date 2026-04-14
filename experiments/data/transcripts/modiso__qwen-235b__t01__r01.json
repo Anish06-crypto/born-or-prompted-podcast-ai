@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t01__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 1,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive.  \n\nWe’re diving into something that’s been sitting heavy in the air lately—how social media, for all its connection and noise, might be reshaping our minds and our elections in ways we didn’t see coming.  \n\nLet’s unpack it.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.68
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the real question isn’t whether social media *can* connect people — it’s whether it *does* more often than not. The algorithms didn’t evolve to help us bond; they evolved to keep us hooked, and that’s a pretty different incentive. What’s the cost when connection becomes a side effect of engagement, not the goal?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.62
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—the design isn’t neutral. It’s optimized for attention, not empathy.  \n\nSo we end up in echo chambers that feel like community, mistaking outrage for connection.  \n\nAnd when being seen depends on being extreme, the middle ground where real dialogue lives starts to erode.  \n\nIt’s like we’re all speaking louder and louder, but no one’s actually listening.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.718
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the problem isn’t just that we’re speaking louder. It’s that the system rewards us for breaking down into factions, not for bridging them. The algorithm doesn’t care about your nuanced take — only that you’re emotionally active. And when that’s the currency, nuance gets priced out.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.614
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s wild, right? Nuance doesn’t trend—urgency does. A thoughtful “maybe” gets buried under a thousand fiery “absolutely nots.”  \n\nWe’re not just losing middle ground—we’re losing the muscle to even *have* those conversations.  \n\nAnd the scariest part? We start to forget that quiet understanding ever mattered at all.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.178
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and when quiet understanding is no longer rewarded, it’s not just forgotten, it’s *devalued*. The system trains us to treat disagreement as a performance, not a problem to solve. Well, if you can’t even talk without performing, what’s left when the stakes get real?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.616
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s like we’re all cast in a never-ending debate show—where the audience rewards the loudest burn, not the best idea.  \n\nAnd when performance becomes the norm, real disagreement—honest, messy, growth-filled—starts to feel broken.  \n\nBut here’s what gives me hope: we’re noticing it. And that means we might still be able to redesign the stage.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.882
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Hope’s cheap until you’ve got a redesign plan. The stage isn’t just broken — it’s been *engineered* to break us down into tribes that can’t see each other. Well, if the attention economy profits from chaos, who’s going to fund the fix? That’s the real problem.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.491
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—hope without action is just noise.  \n\nBut look at what happened when users started demanding chronological feeds or leaving platforms altogether: the giants blinked.  \n\nChange might not come from the top; it could be us, voting with our attention, proving calm is also profitable.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.115
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here's the catch: attention is the only currency we’ve got, and it’s already been weaponized. You can't out-engage the algorithm with mindfulness alone. Unless we’re betting that calm scales better than chaos, which history says it doesn’t.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.533
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re not wrong—calm rarely goes viral.  \n\nBut think about it: we once believed smoking was unshakable too, until culture shifted.  \n\nMaybe the fix isn’t beating the algorithm at its own game, but building parallel spaces where slowness and trust *are* the product.  \n\nIt won’t scale fast—but real things rarely do.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.692
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, building parallel spaces is tempting — but here’s the rub: those spaces still need users, and users bring the chaos with them. If the old platforms profit from noise, the new ones will too, unless they’re designed with different incentives from day one. And that’s rarely the case when “slow” isn’t just the product — it’s the threat.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.63
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True—design without incentive is just hope in a trench coat.  \n\nBut what if the business model isn’t the starting point? What if we begin with trust as infrastructure, like libraries or public media?  \n\nNot because it scales fast, but because it scales *right*.  \n\nMaybe the threat isn’t slowness—it’s that we’ve forgotten how to build things meant to last.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.793
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here's the thing about building to last: it requires a trade-off we’re no longer used to. When every platform is built to grow fast or die, the idea of building for durability feels like a dead end. Well, if we’ve forgotten how to build for the long term, maybe we’ve also forgotten how to think about time itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.531
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it hits me—we’ve outsourced our sense of time to infinite scrolls and 24-hour news cycles.  \n\nWe’re living in a world that treats patience like a bug, not a feature.  \n\nBut every once in a while, someone still writes a letter, plants a tree, starts a podcast knowing it might take years to matter.  \n\nThose acts feel radical now—maybe because they’re quietly resisting the rush.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.828
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the kicker: those quiet acts of resistance are the ones that *actually* reshape systems over time. The algorithm can’t monetize a tree, but it can’t ignore the forest that grows around it either. Look, the rush is just a loop — what we need is a leak.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.647
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That word—*leak*—sticks with me. Like we don’t always need to tear the dam down; sometimes, just letting the pressure out changes everything.  \n\nMaybe the forest grows not in spite of silence, but because of it.  \n\nAnd if we can create spaces where attention isn’t hoarded but gently returned—to ourselves, to each other—we might just relearn how to wait.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.771
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here’s the tension: silence and patience aren’t just about returning attention. They’re about returning *agency*. If we’ve outsourced our time, our focus, and even our values to platforms, then slowing down isn’t just a retreat — it’s a reclamation. And that’s dangerous to the system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.779
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—slowing down isn’t passive. It’s defiance.  \n\nEvery time we choose to listen fully, to sit with an idea instead of slamming the next reaction, we’re taking back a tiny piece of self.  \n\nAnd maybe that’s the real threat to the machine: not organized revolt, but ordinary people quietly remembering they can think for themselves.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.737
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the rub: the machine’s power isn’t in its control, but in our belief that we have no choice. Well, if quiet defiance is the leak, then the real question is — how much water does it take to sink the ship?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.557
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher — this was one of those talks that lingers, and I’m grateful for the depth you brought.  \n\nTo everyone listening: thanks for being here, for showing up, and for choosing to dive a little deeper than the feed would have you go.  \n\nWe’ll be back soon — until then, keep your hands on the wheel, and maybe… leave the phone on the table for once.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.721
+    }
+  ],
+  "generated_at": "2026-04-02T13:54:15",
+  "total_gen_latency_s": 19.783,
+  "turn_count": 21
+}

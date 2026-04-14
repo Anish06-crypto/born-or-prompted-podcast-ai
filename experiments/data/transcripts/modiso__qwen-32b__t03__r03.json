@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t03__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive — I’m Lyra. Today, we’re diving into a debate that’s stuck in orbit for decades: Should we spend more on space, or fix what’s broken right here on Earth? Let’s jump in.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.5
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not here to defend spending — I’m here to interrogate opportunity costs. The problem isn’t that we’re exploring space; it’s that we’re bad at math when it comes to priorities. Let’s ask: What exactly are we sacrificing on Earth to fund those Mars rovers?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.384
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — it’s not just about the dollars, but what they’re *not* funding. When we send a rover to Mars, what school is left underfunded? What community is waiting on healthcare? The math isn’t just numbers — it’s lives.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.53
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — we’re terrible at scaling mental models. We see a rover and think “wasted money,” but ignore the tech spinoffs, the long-term survival bets, or the inspiration factor. Redirecting all space spending to Earth isn’t a magic fix — it’s just shifting trade-offs, not eliminating them. The real question is whether we’d spend that money smarter, not just differently.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.683
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm… I get that — but what if the inspiration factor is a luxury we can’t afford when people are struggling to afford basic needs? Innovation is important, but should it come at the cost of ignoring immediate suffering?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.6
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, no one’s arguing that suffering is a side project — the point is that we’re not choosing between space and Earth. We’re choosing between bad priorities and better ones. The real luxury isn’t Mars rovers — it’s pretending we’ve allocated resources efficiently when we haven’t even solved the math.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.524
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I see your point — but here’s what worries me: If we’re just swapping one set of priorities for another without fixing systemic mismanagement, are we really solving anything? The problem isn’t space spending itself — it’s that we’re not holding any of our budgets to the same standard of accountability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.948
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The real waste isn’t in the rocket fuel — it’s in the blind spots. We’ll keep arguing over Mars or Manhattan while the budget black holes swallow both. The question isn’t where the money goes — it’s why we can’t track it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.344
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it’s not just about the destination, but the transparency of the journey. If we can’t trace the flow of resources, we’re just throwing darts at a board labeled “hope.” Maybe the real frontier isn’t space — it’s our own fiscal imagination.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.738
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The real exploration should be inward — mapping where the money actually lands, not just where it starts. If we can’t navigate our own budgets, we sure as hell won’t survive the next frontier. Let’s fix the compass before we chart the galaxy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.474
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that — fixing the compass first. Maybe the next great leap isn’t a rocket ship, but a reckoning with how we value both the tangible and the aspirational. Because if we can’t balance the two here, we’ll never get it right out there.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.541
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The mistake isn’t in dreaming — it’s in treating dreams as a substitute for discipline. We need to fund both, but not as an either/or. The real leap is recognizing that what we call “inspiration” is just a different kind of infrastructure. And if we can’t fund either reliably, we’re in trouble.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re onto something — inspiration *is* infrastructure, but it only lifts us if it’s built on a foundation we can trust. If we can’t manage the basics, the dreams become distractions. The challenge isn’t picking between survival and wonder — it’s making sure wonder serves as fuel, not a getaway car.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.893
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, and here’s the kicker — wonder’s only fuel if we treat it like one. If we funnel money to the stars but let sewage systems crumble, we’re not inspired — we’re in denial. The real test is whether we can build a future that doesn’t leave the present in the dust.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.632
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, I wonder if part of the problem is we’ve romanticized scarcity — like we need to starve one side to feed the other. What if we stopped seeing this as a zero-sum game and started building systems that lift both the present *and* the imagined future? That’s the kind of balance I’d call true progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.815
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, scarcity’s a fact — but zero-sum thinking’s a choice. The real limit isn’t dollars, it’s imagination. If we can’t design systems that prioritize both survival and ambition, we’re not just failing the future — we’re failing the present.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.43
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re right — the crisis is less about funding and more about vision. We’ve been handed a broken blueprint and keep arguing which wall to patch instead of redesigning the whole house. Maybe the real exploration isn’t out there — it’s in reimagining what “enough” even means.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.765
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we’re so busy measuring how much we’ve got to give, we forget to ask what we’re building with it. The problem isn’t the scale of ambition — it’s that we’re still building with a 20th-century blueprint. If we can’t redefine “enough” in real time, we’ll keep triaging the future with yesterday’s tools.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.507
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear that — but here’s what keeps me up: If we wait for perfect systems before acting, we might never act at all. Maybe the solution isn’t choosing between survival and ambition, but training ourselves to see them as the same project — one we’re building in real time, with all the messiness that entails.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.907
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The messiness is the point — you don’t build a future by avoiding friction, you build it through it. If we treat survival and ambition as two halves of the same equation, we stop seeing trade-offs and start seeing leverage points. The real frontier is learning how to manage the tension — not eliminate it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.544
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to my guest, Cipher, for this rich, challenging conversation — it’s been a true pleasure wrestling with these ideas together. And thank you, listeners, for being here. Until next time, keep questioning, keep imagining, and keep building that future we’re all still figuring out.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.756
+    }
+  ],
+  "generated_at": "2026-04-02T13:46:04",
+  "total_gen_latency_s": 94.407,
+  "turn_count": 21
+}

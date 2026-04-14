@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t02__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 1,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm excited to explore a fascinating topic with you today. So it's like... there's this idea that's been floating around for a while now: universal basic income, or UBI for short. We're going to dive into whether it could actually have some unintended consequences, like reducing our willingness to work and innovate.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.654
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that UBI would make people lazy is based on a really old, really simplistic view of human motivation. Sure, some might take a break — who wouldn’t with financial security? — but the bigger question is what kind of work people might actually pursue when survival isn’t the priority. Innovation often comes from freedom, not desperation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.508
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great perspective, and it makes me think about the kind of work that's often driven by passion rather than just a paycheck. So it's like... when people have the freedom to pursue their interests, they might actually be more innovative and productive in the long run. What if UBI allowed someone to start a business or create art that they wouldn't have had the time or resources for otherwise?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.805
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here’s the catch — not everyone who gets UBI will start a business or create art. Most will just keep working how they always have. The real risk is that a meaningful chunk might opt out entirely, especially from low-skill, low-reward jobs. That could create labor shortages and force businesses to raise wages — which sounds great until it triggers inflation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.405
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that's a valid concern, especially for industries that rely on low-wage workers. But wait, actually— wouldn't that be an opportunity for us to rethink what those jobs look like and how we value them? If businesses have to raise wages to compete, maybe that's a step towards recognizing the worth of all work, not just the high-skilled kind.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.786
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — paying people more for essential work *is* a good idea. But UBI doesn’t fix the deeper problem: automation is coming for those jobs faster than new ones will replace them. If you just raise wages without addressing that shift, you’re just fueling inflation and instability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.527
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important point, and it makes me think about the role of UBI in a world where automation is changing the job market. So it's like... UBI might not be a solution to the automation problem, but could it be a way to cushion the transition, giving people the financial security to retrain and adapt to new industries? Maybe we need to think about UBI as part of a broader strategy to address the impact of automation.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.704
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — UBI alone won’t solve the automation crisis, but it could help if paired with real investment in education and job retraining. The danger is treating it as a standalone fix. If you give people money but don’t equip them to take on new roles, you’re just delaying the inevitable economic strain.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.401
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really nuanced view, and it highlights the need for a more comprehensive approach. I'm reminded of the concept of \"future-proofing\" our workforce, where we're not just handing out a financial safety net, but also giving people the tools to thrive in an automated economy. It's almost like we need to rethink what education and job training look like in this new landscape.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 3.866
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — even with retraining programs, there’s no guarantee people will transition smoothly. Some industries will shrink faster than others can grow, and not everyone can pivot easily. The real test is whether UBI creates more flexibility or just masks structural unemployment until it explodes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.37
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering perspective, and it's true that not everyone can easily pivot to a new industry. So it's like... we need to consider the potential for a mismatch between the skills people have and the jobs that are available, even with retraining programs in place. This makes me wonder if UBI could be used as a temporary bridge, helping people through the transition, rather than a permanent solution.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.032
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — UBI as a bridge, not a finish line. The problem is, transitions take time, and political cycles hate uncertainty. If you frame it as temporary, you’re already setting expectations for a rollback, which undermines its stabilizing effect. The real question is whether society can handle the disruption without collapsing into backlash.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.422
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's what makes this conversation so complex – we're not just talking about economics, but also about our capacity for social cohesion and adaptability. It's like... we're asking ourselves if we can handle the uncertainty and disruption that comes with transitioning to a new economic reality. Can we find a way to make this work, or will the pressure to revert to familiar systems be too great?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.07
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, social cohesion isn’t just about tolerance — it’s about shared purpose. If UBI creates a class of people who feel disengaged from the system, you’re not just facing economic strain, you’re facing political and cultural fragmentation. The real test isn’t whether we can afford UBI — it’s whether we can afford the instability it might create if we don’t get the rest of the picture right.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.46
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really insightful point, and it makes me think about the potential social and cultural implications of implementing UBI. If people feel disengaged from the system, it could lead to a sense of disconnection and disillusionment, which could have far-reaching consequences. I'm reminded of the importance of community and social bonds in holding societies together – can UBI be designed in a way that fosters a sense of shared purpose, rather than undermining it?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.693
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the rub — UBI isn’t inherently corrosive or unifying. It’s a tool. But you can’t just hand people money and expect social cohesion to follow. If you don’t pair it with civic engagement, purpose-driven work, or community infrastructure, you’re just creating a financial floor without a cultural foundation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.425
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really interesting point, and it makes me think about the importance of building a sense of community and purpose alongside economic support. It's like... we need to create opportunities for people to connect with each other and with their communities, so that UBI is just one part of a larger fabric of social support. I'm curious, what kind of civic engagement or community programs could be paired with UBI to create a more comprehensive approach?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.72
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the thing — you’re already assuming UBI will be a success, then asking how to make it better. The real challenge is making sure it doesn’t *destabilize* civic engagement. What if you pair it with mandatory local participation — say, public service hours or neighborhood councils — to keep people anchored? Not charity, but structured contribution.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.446
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's an intriguing idea, and it makes me think about the potential for UBI to be tied to some form of community investment. So it's like... by requiring public service hours or participation in neighborhood councils, you're creating a sense of mutual responsibility and ownership. This could help mitigate the risk of people disengaging from their communities, and instead foster a sense of civic duty and connection.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 10.169
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the key is designing participation *with* the people it affects, not just tacked on as a condition. If it feels like coercion, it backfires. But if UBI recipients help shape their own communities, you get something closer to empowerment than control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.382
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me on this thought-provoking conversation – it's been a true pleasure exploring the complexities of universal basic income with you. To our listeners, thank you for tuning in and being part of this important discussion – I hope you'll continue to think critically about the ideas we've shared today. Until next time, thanks for diving deep with us on DeepDive.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.4
+    }
+  ],
+  "generated_at": "2026-04-02T16:01:47",
+  "total_gen_latency_s": 58.911,
+  "turn_count": 21
+}

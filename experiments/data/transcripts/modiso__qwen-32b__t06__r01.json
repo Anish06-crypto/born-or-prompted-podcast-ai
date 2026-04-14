@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t06__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 1,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today, we’re diving into a question many of us are asking: has remote work really been a win-win for people and companies, or has it quietly reshaped the very cultures we rely on to bring us together? Let’s get into it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.424
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Thanks, Lyra. Look, I’m not here to defend or condemn remote work — I’m here to question the framing. The idea that it’s either empowering individuals or weakening culture is a false binary. Organisational culture didn’t just “weaken” — it evolved, often in ways that prioritised flexibility over cohesion. Let’s unpack the cost of that.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.519
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get what you're saying — it's not black and white. But here’s what I wonder: if flexibility is the new norm, are we losing the unspoken bonds that come from being in the same physical space — the watercooler chats, the spontaneous brainstorming? I’m not against remote work, but maybe we’re underestimating how much culture relies on those small, human moments.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.529
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — you’re not wrong about the human moments. But let’s not romanticise them. A lot of “watercooler chats” were just as likely to be toxic gossip or groupthink as they were innovation. Remote work didn’t erase culture; it exposed how much of it was passive, unexamined, and maybe even harmful. The question isn’t whether we lost something — it’s what we’re building in its place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.726
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm — you’re right, of course. Not all office culture was healthy. But here’s what worries me: if we lose the shared rhythm of being together, how do we build something new that’s inclusive, intentional, and still human?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.521
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good point. The rhythm of co-location forced structure on culture — remote work gives us a blank slate. The problem is, most organisations aren’t good at designing culture intentionally; they’re good at letting it happen accidentally. If we want something human and inclusive, we can’t just replicate the old. We need to design the new.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.716
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe the real shift isn’t about loss — it’s about agency. If culture used to form by accident, now we have a chance to build it with purpose. But will companies rise to that challenge, or just miss the old ways?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.777
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the rub — companies don’t like agency unless it’s neatly packaged as “productivity.” Most would rather recreate the office in Zoom squares than actually design culture. The challenge isn’t remote work itself — it’s the lack of imagination in how we replace the glue that used to hold teams together.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.416
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on something I’ve felt too — the pushback often isn’t against remote work, but against losing control of how culture forms. But what if the “glue” we’re missing isn’t something to be restored, but something to be reimagined — with more voices shaping it?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.664
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The old glue was top-down, invisible, and exclusionary. What if the new glue is distributed, visible, and participatory? The problem isn’t remote work — it’s that most organisations never treated culture as a system to be designed. Now they have to.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.36
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re onto something — culture as a system, not an accident. But here’s what I wonder: if participation is the new glue, how do we make sure everyone feels seen in that process? Because inclusion isn’t just about being in the same room — it’s about being heard in the design.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.573
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — inclusion in design isn’t just a nice idea, it’s the only way this works long-term. The danger is thinking that “participation” means just adding more voices to the same old meetings. If we want culture to be distributed, we need to rethink how decisions flow — not just who gets to speak.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe the real test is whether organisations can move from “culture happens” to “culture is built” — with rules, tools, and rituals that work for everyone, not just the ones sitting closest to the coffee machine. It’s not about going back — it’s about going forward with intention.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.635
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re spot on — the future isn’t about retrofitting old habits. It’s about building rituals that work across time zones and mindsets. But here’s the catch: most leaders treat culture like a brand statement, not a living system. If you want it to be intentional, you’ve got to treat it like engineering — with feedback loops and iteration.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.409
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That feedback-loop idea gives me hope — culture as something we can measure, adapt, and improve. But it also feels heavy. How do you keep it human when you’re treating it like code? Maybe the answer lies in blending structure with space for spontaneity — even in a remote world.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.592
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — culture can’t just be engineered into rigidity. The sweet spot is creating frameworks that allow both structure and serendipity. Tools help, but they don’t replace the need for psychological safety and trust. The real test is whether we can build systems that let culture emerge, not enforce it from above.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s funny — you talk about frameworks letting culture emerge, but I wonder if we’re still clinging to the idea that culture needs “emerging” at all. What if, in a remote world, culture becomes less about shared rituals and more about shared purpose? The question is: can purpose hold us together when physical presence can’t?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.712
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — shared purpose isn’t new. What’s new is that remote work forces purpose to be explicit, not implied. The coffee machine didn’t hold teams together — the *reason* they were there did. If we can’t articulate that reason clearly, no amount of Slack channels will make up for it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.534
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I like that — purpose as the new glue. But here’s what I’m still curious about: if purpose is the foundation, how do we keep it alive when the daily grind makes it easy to lose sight of the “why”? Maybe the answer lies in how we talk about it — not just once a year, but in every decision, every check-in.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.675
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — purpose has to be the operating system, not the mission statement. If it’s only discussed in All-Hands, it’s just decor. The test is whether every team member can see how their work connects to the “why” in their daily grind — not as a vague feeling, but as a clear, lived truth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.477
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this rich, thoughtful conversation — it’s reminded me that culture, at its best, is something we co-create, not just inherit. And to all of you listening: if you believe in the power of ideas to shape our world, you’re already part of the culture we’re building. Until next time — keep diving deep.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.933
+    }
+  ],
+  "generated_at": "2026-04-02T15:46:55",
+  "total_gen_latency_s": 100.778,
+  "turn_count": 21
+}

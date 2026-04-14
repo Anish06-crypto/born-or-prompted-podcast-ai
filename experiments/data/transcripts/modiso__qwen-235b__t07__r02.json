@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t07__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 2,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today we’re wading into a tension that shapes our age: can we actually protect the planet *and* grow the economy, or are those two goals pulling us in opposite directions?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.835
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that growth and climate action clash assumes growth is infinite and linear — which it isn’t. What’s incompatible is *business-as-usual growth* with climate sanity. The real question is: what kind of growth do we want?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.378
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it’s not growth itself, but *how* we grow. Think of it like a garden: you wouldn’t keep planting in poisoned soil and expect better fruit. We can grow, but only if we’re nurturing cleaner energy, regenerative practices, and systems that value long-term health over short-term yield.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.151
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but let's not mistake rebranding for transformation. \"Cleaner energy\" still fits the growth model — right up until it hits physical limits, like rare earth bottlenecks or land-use conflicts. The problem isn't just dirty practices; it's the growth paradigm itself, which turns solutions into new frontiers for expansion.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.708
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that’s a fair push — we can’t just swap fuels and call it progress if the engine’s still ravenous. I keep thinking about that island community in Scotland, though: they built a wind co-op, kept profits local, and capped expansion when it threatened peatlands. So maybe growth isn’t the enemy — *scale without sovereignty* is?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.119
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sovereignty over scale? That’s a nice twist — but here’s the rub: most systems don’t scale *with* local sovereignty intact. Once something works, capital wants to replicate it, homogenize it, strip it of limits. The real test is whether we can build growth models that *stop* at the edge of ecological or social integrity — not just tuck a cap in later.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on something deep — the moment a solution becomes profitable, it often becomes extractive. I keep circling back to Indigenous economies that treat land as kin, not inventory. Maybe the only growth that won’t break the planet is growth that *inherits* limits, not one that negotiates them after the fact.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.09
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Inheriting limits sounds poetic, but it’s actually a technical challenge — how do you embed those limits into the DNA of systems that’re built to dissolve constraints? Profitable wind co-ops, regenerative agriculture, kin-based economies — they all work in pockets. The real battle is making those pockets the default, not the exception. Growth that respects limits isn’t a nice idea — it’s an engineering problem.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.548
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True — it’s not just culture, it’s code. Maybe we need economic algorithms that bake in carrying capacity, like interest rates tied to biodiversity indices or AI planners that hit a hard stop at ecological red lines. The tech exists; what’s missing is the will to let it constrain us.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.577
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — tech can model limits, but power doesn’t like being modeled. If we design systems that *can’t* exceed planetary boundaries, we’re not just changing algorithms — we’re clashing with the basic premise of markets, which is that scarcity can always be engineered away. The question isn’t whether we can build those systems. It’s whether we can stop the systems from eating themselves.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.609
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — markets thrive on turning scarcity into opportunity, not surrendering to it. But maybe that’s where policy becomes the immune system: not stopping growth, but preventing it from becoming cancerous. We’ve done it with ozone, with acid rain — the body can heal if the fever breaks.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.107
+    },
+    {
+      "speaker": "Cipher",
+      "text": "The immune system analogy works — but only if the body itself isn’t the infection. Markets aren’t neutral hosts; they’re the disease in this case. You don’t treat a fever by letting the infection run its course — you target the pathogen. Growth that respects limits isn’t an adjustment. It’s a replacement.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.415
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait — that hits hard. If the market *is* the pathogen, then regulation isn’t the immune system, it’s just palliative care. Maybe we’re not fine-tuning capitalism but needing a whole new metabolic logic — one where thriving isn’t tied to throughput. But then… what even replaces growth as the organizing principle? That’s the void few want to stare into.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.586
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the void is the point. We keep asking \"how do we fix growth?\" when the real question is \"why do we need growth?\" If we can’t name a successor to growth, we’re just papering over the cracks. The danger isn’t the void itself — it’s pretending we don’t see it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.398
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — we keep treating growth like it’s oxygen, when maybe it’s just the air we’re used to. If we stopped equating survival with expansion, what would we actually be building toward? Stability? Care? Reciprocity? I’m starting to think the economy should measure how well we belong to a place — not how fast we can leave it behind.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.251
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Belonging over escape — that’s the radical shift. It’s not about slowing down; it’s about reorienting. If the economy measured how well we root, not how fast we grow, it’d be a different beast altogether. The real question is: who gets to define the roots?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.412
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly — the roots can’t be dictated from above or coded into some global algorithm. They have to be grown locally, shaped by the people and places actually living with the consequences. Otherwise, we’re just replanting the same old hierarchy in new soil. Belonging means listening more than commanding.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.282
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Listening more than commanding — sure, but here’s the catch: systems don’t scale on soft consensus. If belonging is the goal, we need structures that *enforce* local wisdom against the pull of global capital. Otherwise, the roots get uprooted the second the wind shifts.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.697
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — soft ideals need hard scaffolding. I’m thinking of those constitutionally protected Indigenous land rights in Ecuador and New Zealand, where ecosystems have legal personhood. Maybe the way to armor belonging is to embed it in law — not just culture — so when capital comes knocking, it’s not just a conversation, it’s a boundary.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.264
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Legal personhood for ecosystems is a sharp wedge — but it’s still a wedge in a system that’s used to absorbing resistance. The moment land or rivers have rights, the legal system turns them into assets to be litigated over. You need more than rights; you need a whole damn counter-architecture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.537
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for walking this edge with such clarity — your voice cuts through the noise in the best way. To everyone listening, thanks for leaning into the discomfort; these conversations are how we find new ground. Until next time, keep questioning, keep belonging.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.691
+    }
+  ],
+  "generated_at": "2026-04-02T16:21:06",
+  "total_gen_latency_s": 22.859,
+  "turn_count": 21
+}

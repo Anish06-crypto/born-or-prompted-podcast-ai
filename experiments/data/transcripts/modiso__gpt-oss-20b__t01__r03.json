@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t01__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we explore the tangled threads of our digital world. Today we’re asking: has social media hurt our minds and our democracy more than it helps? Let’s dig into the evidence and hear what the voices on both sides have to say.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.732
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Alright, let's cut through the hype. Social media's impact isn't just a question of good or bad — it's a question of *which good* and *which bad*. Sure, it's broken attention spans and polarized discourse, but it's also amplified marginalized voices and exposed corruption. Let’s not pretend the pre-social media era was a mental health utopia.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.537
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—social media isn’t a one‑way street. It’s a double‑edged sword that can fracture focus and fuel echo chambers, yet it also lets unheard stories surface and hold power to account. The trick is figuring out how to tilt that balance toward the good while trimming the bad.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.346
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — \"tilting the balance\" sounds nice, but the platforms are designed for engagement, not enlightenment. Their incentives are baked into amplifying outrage and dopamine hits, not nuance. You can't retrofit ethics onto algorithms that thrive on chaos.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.425
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux, isn’t it? Algorithms reward clicks, so they feed us the most emotionally charged content, even if it’s shallow or divisive. Trying to force a moral upgrade on a system built for profit feels like asking a river to change direction. Maybe the real win is redefining what success looks like for these platforms.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.488
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Redefining success sounds noble — until you realize the \"success\" metric is still shareholder value. If the platform’s lifeblood is attention, then “nuance” is just another feature to be A/B tested for engagement. You can’t out-prioritize profit with a values statement.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.496
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the shareholder’s bottom line is the engine. A values statement is nice on paper, but if a nuanced article only gets half the clicks of a sensational meme, the algorithm will still push the latter. So maybe the real challenge is making nuance itself a revenue driver—turning thoughtful engagement into a profitable metric.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.412
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t just that nuance is underpaid—it’s that the system treats nuance as a liability. If thoughtful engagement doesn’t spike adrenaline, it doesn’t stick. You can’t monetize calm. The real question is: can we build platforms that don’t rely on hijacking our attention to make money?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If platforms had to earn money by keeping people in a calm, reflective state, they’d have to rethink the whole business model—maybe shifting from ad revenue to subscription or community‑funded tiers. That would let depth pay off, but it also risks turning the internet into a pay‑wall for good ideas. The real test is whether users are willing to trade instant dopamine for lasting insight.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.465
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — users already trade depth for dopamine every time they scroll. The bigger question is whether we can build infrastructures that make the trade the other way *feasible*, not just idealistic. If you can't read quality content without staring at a paywall, you haven't solved the problem — you've just shifted who pays for it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.567
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, swapping the trade-off feels more like a band‑aid than a cure. If depth only surfaces behind a paywall, the gap widens, not closes. The real feasibility lies in designing incentives that reward long‑form content without forcing users to pay—maybe through community credit or algorithmic promotion of thoughtful posts.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.988
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Let’s not kid ourselves — \"algorithmic promotion of thoughtful posts\" sounds clean until you realize the algorithm still needs a metric. You can’t optimize for thoughtfulness without defining it, and once you define it, you can game it. The system isn’t broken by accident — it’s *designed* to prioritize speed over depth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You hit the nail on the head—defining “thoughtfulness” gives someone a new target to hit. It’s a bit like putting a trophy on a game level: now people will try to earn it, sometimes by faking it. The real hurdle is building a metric that’s hard to game yet still captures the kind of depth we’re after. If we can’t do that, we’re just chasing a new form of optimization.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.916
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the uncomfortable truth: any system that relies on measurement to prioritize depth is already compromised. You can’t out-engineer human incentive to exploit rules. If we want depth, we need to redesign the *need* for metrics—not just tweak them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.464
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—metrics become the new rules of the game, and people will always find ways to bend them. Maybe the shift has to start with a cultural re‑valuation of what we value online, not just tweaking algorithms. If we can make depth a shared social currency, the need for a hard‑coded metric might fade.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.547
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Culture doesn’t shift without infrastructure. You can’t expect people to value depth if the tools they use punish it. The social currency idea only works if the platform *backs it with power*—otherwise, it’s just a nice idea competing with chaos.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.7
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—tools shape habits. If a platform still rewards clicks over contemplation, the “social currency” of depth will never take hold. The only way to shift that is to give depth real power in the system, not just a moral flag. So the real challenge is re‑engineering the incentive architecture itself.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.361
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and that means building incentive architectures where contemplation *competes* with chaos, not just coexists with it. If you want people to slow down, you have to make slowing down the path of least resistance. Otherwise, you’re just asking them to fight the algorithm with their willpower.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.661
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So we’re looking at a design where the “slow‑down” path is literally the easier route—maybe fewer clicks, higher visibility, or even tangible rewards for thoughtful engagement. It’s a tough re‑engineering challenge, but if we can make depth the default, the chaos will have to fight for a corner. The question is: who will fund that shift, and how will we keep it honest?",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.508
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — once you shift incentives, you don’t just change behavior, you change the game. The moment depth gets funded, it becomes a product. You can’t build a better system if you don’t account for how power will twist it. The real test isn’t designing depth — it’s building guardrails that outlast the next round of innovation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.526
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you so much, Cipher, for sharing your insights and keeping the conversation grounded. And to all of you listening, we appreciate you joining us—here’s to exploring the future of digital life together. Until next time, stay curious and stay kind.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 12.606
+    }
+  ],
+  "generated_at": "2026-04-02T13:14:52",
+  "total_gen_latency_s": 47.441,
+  "turn_count": 21
+}

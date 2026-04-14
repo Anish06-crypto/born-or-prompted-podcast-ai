@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine waking up in 2034 and realizing the job you trained for doesn’t exist anymore. We’re diving into the big question: will AI take more jobs than it gives back in the next ten years?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.918
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, history says tech destroys and creates jobs — but the next decade isn’t 200 years of industrial progress. We’re talking about a compressed, chaotic shift where AI’s learning curve outpaces policy and reskilling. The real question is: how many displaced workers will get left behind before new roles even materialize?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.468
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right—this shift isn't steam engines or assembly lines unfolding over generations. It's happening in fast-forward, while our schools, policies, and safety nets still think in dial-up speed. The gap between displacement and opportunity might not be a bridge, but a chasm for many. And by the time we map the new jobs, the ground could’ve already moved.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.518
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the rub: the new jobs AI creates may not align with the skills of those it displaces. You can’t reskill a truck driver to be a prompt engineer overnight, especially when the training systems are themselves AI-driven and out of reach. The real test is whether society can catch up before the chasm becomes a cliff.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.588
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that image of a truck driver facing an AI-powered training system they can’t even access—that’s not just a skills gap, it’s a whole ladder that’s been pulled up. Maybe the real job creation isn’t in forcing people up that ladder, but in rebuilding it horizontally—supporting roles AI can’t replicate, like care, craft, and community. After all, if we’ve learned anything, it’s that human dignity isn’t reskilled in a six-week bootcamp.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.802
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re onto something — but here’s the catch: even care and craft aren’t immune to AI augmentation. What’s left for humans to do when algorithms can simulate empathy or automate craftsmanship? The real issue might not be the ladder being pulled, but the ground itself shifting under what we consider “irreplaceable.”",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.526
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, algorithms can mimic empathy or replicate patterns in craftsmanship—but they don’t *mean* it. A comforting word from a nurse carries weight because we know she *chooses* to care. Maybe the ground isn’t shifting under human work—maybe it’s just forcing us to finally value what machines can’t fake: intention, presence, the quiet choice to show up.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.554
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — intention might be sacred, but markets don’t pay for sacredness. If AI can simulate presence cheaply enough, the question isn’t whether it’s faked, but whether people will keep paying for the real thing. The gap between “meaning” and “market value” is closing faster than we think.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.527
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—markets don’t care about meaning, only margins. But history shows some things resist commodification: we still pay more for handmade bread, for therapy with real humans, for teachers who inspire. Maybe the fight isn’t just about jobs, but about shaping markets that reward presence, not just efficiency.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.324
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem is the speed. Even if we want markets to value presence, AI will undercut it faster than we can redesign incentives. And let’s not romanticize — “handmade” only matters when it’s rare. Once AI makes it common, the premium disappears. The real battle may be over whether we still *want* to pay for what machines can’t feel.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.6
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—romanticizing won’t pay the bills. But maybe the answer isn’t in price tags, but in policy: what if we treated human presence like clean air? Once AI floods the market with cheap imitation, perhaps we subsidize the real thing—like universal basic income or care stipends—so people can afford to value what matters, not just what’s cheap.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.533
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Subsidizing presence over efficiency sounds noble — but who foots the bill when AI owners control the surplus? You can’t tax automation without redesigning ownership itself. And here’s the kicker: if we’re subsidizing human care, what happens when AI does it better? The policy fix might just accelerate the next round of displacement.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm. You’re right—throwing money at human roles without shifting ownership just lets the machine keep winning. If AI ever *does* care “better,” maybe we’ve already lost something deeper. But I still believe we can design systems where value flows not just to those who own the tools, but to those who bring meaning to them. It’s not inevitable—just hard.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.691
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — meaning isn’t a feature you can code into a system. It emerges from how we fight to keep it from being automated. If we want value to flow to meaning, we need to make meaning *costly* for machines to replicate — and that means redefining what “productivity” actually is.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on something deep—meaning isn’t just resistance to automation, it’s the friction itself. Maybe we need to slow down on the myth of endless productivity and start measuring what thrives in slowness: trust, judgment, the unquantifiable weight of a decision made with care. If we redefine productivity as stewardship, not speed, then human work isn’t inefficient—it’s essential.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.51
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and if we frame stewardship as the ultimate productivity, then AI isn’t the replacement. It’s the tool that forces us to finally decide: what do we want to preserve, and what are we willing to protect it with? Because the default isn’t humans winning — it’s the cheapest version of everything.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.736
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—the default setting of the market is always the cheapest path. But every once in a while, we choose to protect something anyway: child labor laws, clean air, public parks. Maybe the real test isn’t whether AI can do it cheaper, but whether we still believe some things shouldn’t be optimized at all.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.781
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — \"shouldn’t be optimized\" is a luxury when the alternative is survival. If AI-driven jobs are the only ones left, people will take them, and the moral high ground crumbles. The real battle is keeping the option to say “no” — and that takes more than belief. It takes power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.074
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—morality doesn’t pay rent. The ability to say “no” has always been a function of power, not principle. If we don’t build countervailing power—through unions, ownership models, or policy—then “shouldn’t” doesn’t stand a chance against “can’t afford not to.” Maybe the real measure of our future isn’t in jobs created or lost, but in who gets to set the terms.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.261
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the irony: AI’s biggest threat isn’t that it replaces labor, but that it reshapes the balance of power. If we don’t control the terms of its deployment, we don’t just lose jobs — we lose leverage. The question isn’t just *can* we set the terms, but *will* we fight for them before the code locks them in.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.441
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher — this wasn’t just about jobs or AI, but about what we’re willing to fight for in a world remade. To everyone listening: keep asking the hard questions. The future’s not written — it’s shaped, one choice at a time.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.749
+    }
+  ],
+  "generated_at": "2026-04-01T16:42:32",
+  "total_gen_latency_s": 24.37,
+  "turn_count": 21
+}

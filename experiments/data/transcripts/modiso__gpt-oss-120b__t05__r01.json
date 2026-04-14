@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t05__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we explore the ideas shaping our tomorrow. Today we’re diving into a question that sits at the crossroads of science and ethics: should we legally allow genetic editing of human embryos to prevent hereditary diseases? Let’s unpack what that could mean for families and society.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.537
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the promise of eradicating suffering from genetic diseases is powerful, but the line between \"preventive\" and \"designer\" babies is thinner than most admit. We’re not just editing genes; we’re shaping the future human gene pool. Who gets to decide which traits are acceptable?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.307
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—when we start tweaking the blueprint of life, the stakes feel like we’re drawing a map for generations to follow. Imagine a community garden: we all decide which seeds to plant, but the choices still need consensus, not a single gardener’s whim. That’s why transparent, inclusive deliberation is crucial before any legal framework takes root.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, consensus is a nice ideal — but in practice, it’s a moving target. The moment we create a system for editing genes, we create a system for excluding certain futures. And let’s be honest, those decisions will be shaped by power, not just ethics.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.319
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—once the tools exist, they can become a lever for those with influence, shaping whose futures are deemed “acceptable.” It’s like handing a powerful telescope to a few; they decide what stars we study and what we ignore. Building safeguards means embedding diverse voices from the start, not just after the fact.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Yeah, safeguards are the theory. Reality is, once it’s legal, it’s hard to control who gets access or how it’s used. And let’s not fool ourselves — the first edits will be for disease, but the next ones won’t be for long. We’re opening a door we can’t close after the first footstep.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—once the door cracks open, it’s hard to keep the hallway from widening. Think of early vaccination campaigns: they began with a single disease, then expanded as trust and infrastructure grew. If we pair transparent oversight with equitable access from day one, we might steer the next steps toward shared benefit rather than unchecked drift.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.5
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency and equity are noble goals — but they’re also easy to outpace with demand and money. The problem isn’t just what we start with, but what we end up enabling. And let’s be clear: “shared benefit” is a narrative we tell ourselves to justify the first step.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.404
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that the “shared benefit” story can feel like a comfort blanket—we know history loves to rewrite intentions after the fact. If we accept that risk, then the real safeguard becomes a continuous, public audit that evolves with the technology, not a one‑time promise, so the momentum can’t outrun accountability.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.472
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, audits are the theory. In practice, they’re only as strong as the people enforcing them — and history shows we’re terrible at policing our own breakthroughs once the benefits seem too big to ignore. Once the first edited child is born, the next step isn’t a policy update — it’s a demand.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.427
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That first edited child will become a living proof‑of‑concept, and the world’s appetite for more will surge faster than any committee can meet. It’s like a new road opening—once the pavement’s there, traffic rushes in regardless of the original traffic plan. The real test, then, is building resilient, community‑driven oversight that can adapt as quickly as the demand does.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.889
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Resilient oversight sounds good until you realize the “community” doing the overseeing isn’t the same as the ones reaping the rewards — or absorbing the risks. And don’t forget: once the road is built, you can’t just repave it. The first detours become permanent.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.478
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—if the oversight body doesn’t reflect the people who bear the risks, it becomes another gatekeeper rather than a true safeguard. Those early detours can set patterns that are hard to unwind, so the community that designs the rules must include the most vulnerable from the outset, not just the well‑off.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.476
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the moment we frame this as a \"community\" effort, we have to ask — whose community? Local? Global? The people least likely to benefit are the ones least likely to set the rules. And if we wait for consensus, we’ll never move — but if we rush in, we’re betting on perfect hindsight. Both are traps.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.46
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That tension feels like standing at a crossroads with no signposts—any direction we pick leaves some travelers behind. Maybe the answer isn’t a single “community” but a layered network: local voices feed into regional coalitions, which then inform a global framework, all while keeping space for continual revision as we learn.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.928
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Multiple layers sound robust — but they’re also slow, bureaucratic, and easy to game by the powerful. You can’t out-structure human ambition. The real question is: when the pressure comes to accelerate, who gets to define “safe enough”?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Lyra",
+      "text": "When the rush builds, “safe enough” will likely be set by those who control the labs, the funding, and the regulatory boards—so we need independent watchdogs with real authority, not just advisory status. Embedding transparent, enforceable limits from the start can at least keep ambition from writing the rulebook in a vacuum.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 9.692
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Independent watchdogs are only independent if they’re funded and feared — not both. The problem isn’t the absence of rules, it’s the illusion that we can write rules fast enough to keep up with the science. And when the pressure comes, “enforceable limits” will bend the first time someone promises a cure.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.403
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—when a cure hangs in the balance, even the firmest limits can feel like a loose thread. What helps is a governance model that’s not static but continuously audited, with funding sources that are insulated from the very profits the technology generates. That way, the “bend” becomes a measurable, accountable deviation instead of an invisible loophole.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.639
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re building a system that assumes morality scales with technology — and that doesn’t work. The more powerful the tool, the more distorted the incentives become. You can’t audit your way into ethics when the reward for cutting corners is a miracle and the penalty is a footnote.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.383
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your thoughtful perspective and challenging us to think beyond the headlines. And to everyone listening, we appreciate you joining us on this winding journey—your curiosity keeps the conversation alive. Until next time, stay curious and keep the dialogue going.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.687
+    }
+  ],
+  "generated_at": "2026-04-05T09:48:34",
+  "total_gen_latency_s": 53.759,
+  "turn_count": 21
+}

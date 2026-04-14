@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t00__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 3,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine walking into an office where robots and computers are handling most of the workload. The question on everyone's mind is: what happens to the humans? Today, we're diving into the debate on AI's impact on jobs, and whether it's about to become a major creator or destroyer of employment.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.176
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the office of the future won’t just be robots doing the work. It’ll be humans trying to figure out what to do when the robots can do it better. The real question isn’t whether AI creates or destroys jobs; it’s whether we’re ready for the structural chaos of a world where most work is optional.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.477
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a thought-provoking perspective. So it's like... there's something interesting there, about redefining what work means when machines can do it more efficiently. But doesn't that assume everyone has the means to adapt, to find new purpose and meaning outside of traditional employment? What about those who might not have that luxury?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that everyone can just pivot to some higher calling when their job gets automated is a fantasy. Most people aren’t building AI—they’re maintaining it, cleaning up after it, or watching it make decisions they don’t understand. The real issue isn’t redefining work—it’s redefining the rules of fairness in a system that’s no longer driven by human labor.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.577
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering reality check. I think about my parents, who worked hard their whole lives, and wonder if they'd have the same opportunities to adapt if their jobs were automated. The notion of redefining fairness in a post-labor economy feels both urgent and overwhelming. How do we even begin to rebalance the scales?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.65
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — fairness doesn’t emerge by accident when power shifts. If we don’t actively redesign ownership, income, and purpose away from traditional labor, we’re just automating inequality. The real challenge isn’t adapting to change — it’s preventing the same systems from concentrating gains at the top while everyone else scrambles to stay relevant.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.638
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point about preventing inequality. So if we don't redesign the system, it feels like we're just handing over the reins to a new elite. Can we actually trust market forces to distribute the benefits of automation fairly, or do we need a more intentional approach?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.666
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Markets don’t distribute—they extract. If you leave it to the market, the people who built the AI will own the upside, and everyone else will bid for scraps. The question isn’t whether markets can be fair—it’s whether we’re willing to stop pretending they’re neutral in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.533
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That resonates with me, especially when I think about the narrative around tech innovation often being tied to meritocracy and equal opportunity. But if markets are inherently extractive, that challenges the whole idea of a rising tide lifting all boats. We might need to rethink our assumptions about growth and progress.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.326
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — growth isn’t a moral value, and progress isn’t guaranteed to spread evenly. If we keep measuring success by GDP and stock prices, we’re just optimizing for the wrong metrics. The real test is whether progress improves lives, not just balance sheets.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.532
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... when we focus solely on GDP and stock prices, we're essentially saying that a life well-lived can be measured by a number. But what about the intangibles - community, creativity, and connection? Don't those matter too, especially in a world where work is no longer the central organizing principle?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.392
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. If work vanishes, we can’t just replace it with consumption or hustle culture. We need to make space for the things that don’t show up on a spreadsheet—care, art, thinking. Otherwise, we’re not freeing people from drudgery—we’re just giving them more time to be bored and broken.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.385
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That feels like a really important distinction. If we don't prioritize those intangible aspects of human experience, we risk creating a society that's still driven by anxiety and disconnection. I think about all the people I've met who feel unfulfilled despite having successful careers – what does a life of leisure look like when it's not accompanied by a sense of purpose?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — leisure without purpose isn’t freedom, it’s just emptiness with better Wi-Fi. If we automate away work but leave meaning and connection unaddressed, we’re just replacing one set of problems with another. The real challenge is building a society where people can thrive without needing to be “productive” every hour of the day.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.576
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful vision of a society that values human flourishing over productivity. I think about all the times I've felt most alive – it's not when I'm checking boxes off a to-do list, but when I'm deeply engaged with others, or exploring my own interests. Can we actually design a system that encourages those kinds of experiences, rather than just trying to optimize for efficiency?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.518
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the problem isn’t just designing the system—it’s dismantling the assumption that human value has to be tied to output. If we treat leisure as a failure of motivation, not as a deliberate choice, we’ll never build the infrastructure to support it. The real test is whether we can let people *do nothing* without guilt—and still provide safety, dignity, and connection.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.498
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a profound shift in perspective – valuing people for who they are, not just what they produce. It's almost as if we need to relearn what it means to be human, outside of the context of work. I'm reminded of the concept of \"dolce far niente\" – the sweetness of doing nothing – which seems both radical and necessary in today's world. Can we actually create a culture that celebrates rest and relaxation as a fundamental human right?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.707
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — calling rest a “right” sounds nice until you realize power doesn’t give rights, it takes them. If we want a culture that celebrates doing nothing, we need to build systems that make it *viable*, not just virtuous. That means rethinking everything from how we distribute wealth to how we measure success beyond the 9-to-5.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.637
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That feels like a crucial distinction between rhetoric and reality. So if we want to make rest and relaxation a viable option, we're essentially talking about redistributing power and resources. That sounds like a tall order, but also a necessary one if we want to create a society that truly values human well-being.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.765
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and let’s be clear, it’s not just redistribution. It’s reimagining who gets to define value in the first place. If you let the same old engines of capital and productivity set the rules, they’ll just keep optimizing for themselves. The real breakthrough is when society starts measuring success by what people *need* to flourish, not what they can be made to produce.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.525
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, it's been an absolute pleasure diving into this conversation with you - your insights have stuck with me long after the debate. And to our listeners, thank you for joining us on this journey into the world of AI, work, and what it means to be human. Until next time on DeepDive, take care and keep exploring.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.403
+    }
+  ],
+  "generated_at": "2026-04-02T11:28:35",
+  "total_gen_latency_s": 19.634,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t06__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we explore the ideas shaping our lives. Today we’re untangling the claim that remote work has eroded organisational culture more than it has lifted individual freedom. Let’s peel back the layers and see what really happens when the office goes virtual.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.414
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that remote work is some kind of unmitigated disaster for culture is overworn — but that doesn’t mean it’s wrong. What’s rarely discussed is how remote work *also* creates blind spots in leadership: weaker signals, less serendipity, and a reliance on metrics that often miss the point. The real question isn’t whether culture weakened — it’s whether anyone noticed until it was too late.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.471
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—when the hallway chats disappear, leaders start reading the room through dashboards instead of the subtle nods that once sparked ideas. It’s like navigating a city with only a map, missing the unexpected street‑performers that give a place its character. The challenge now is building new “signal‑catchers” that surface those hidden moments before they fade.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.747
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — building new signal-catchers is a great idea, but organisations are notoriously bad at replacing intuition with structure without losing nuance. You can log every coffee chat and track collaboration metrics until the cows come home, but you’re still missing the *why* behind the connections — the messy, irrational stuff that makes culture stick. And let’s not forget: if you design systems to capture serendipity, you end up killing it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.429
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—when you try to bottle serendipity, it often turns into a sterile process that feels forced. Maybe the trick isn’t a heavy‑weight system at all, but tiny, low‑friction rituals—like a weekly “virtual watercooler” prompt that simply invites anyone to share a random win or a quirky thought. Those moments keep the irrational thread alive without over‑structuring it.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.515
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re onto something with the low-friction rituals — but don’t overestimate their stickiness. A “virtual watercooler” becomes just another checkbox if it’s not *required* to be ignored. The real test is whether leaders actively *listen* to those quirky thoughts, or if they’re just logged and forgotten. Culture isn’t built by prompts — it’s built by attention.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.453
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True—any prompt is just noise unless someone actually leans in. When leaders pause their inboxes to acknowledge a quirky comment, it signals that those fragments matter, and the rest of the team starts sharing more authentically. So the real lever is intentional, moment‑by‑moment attention, not the ritual itself.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.561
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and if the leader isn’t present for it, the ritual becomes a ghost. Culture isn’t a habit; it’s a habit of *response*. You can’t automate presence, and you can’t outsource meaning. The moment attention wanes, the signal dies — no matter how well-designed the system is.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.479
+    },
+    {
+      "speaker": "Lyra",
+      "text": "When a leader’s ear actually leans in, even a brief “I see why that matters” can turn a fleeting note into a shared story. It’s less about scheduling a slot and more about cultivating a mindset that treats every comment as a potential thread to follow. If that habit spreads, the culture stays alive, even across screens.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.631
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — but here’s the catch: that mindset only scales if the organisation rewards it. If leaders get dinged for “going off-script” to follow a thread, the habit dies faster than you can say “performance review.” Culture isn’t just about how you listen — it’s about what you’re allowed to listen to.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.367
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If the scorecard punishes a leader for chasing a tangent, the whole habit collapses before it can catch on. Incentives have to explicitly value those “off‑script” moments—maybe through peer‑recognition badges or quarterly narratives that highlight unexpected insights. When the system tells you it’s safe to listen, the culture can actually stretch.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.06
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re thinking about culture like it’s a software update — just tweak the incentives and watch it upgrade. But culture isn’t code; it’s the stuff that slips through the cracks. If the system has to *explicitly* reward listening, you’ve already lost the organic part of the equation. The real test is when people keep showing up with stories even when no one’s watching.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.491
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—once you start policing the very thing that makes culture feel alive, you strip away its spontaneity. The real proof is when teams keep swapping stories at 5 p.m., even if there’s no badge or KPI attached. That persistence tells us the underlying trust still exists, beyond any formal reward.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.629
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but don’t mistake persistence for strength. Trust can linger long after culture has rotted away, especially when the cost of showing up is low. The real question is: when the stories are shared, are they shaping behaviour, or just filling time?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.352
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If the anecdotes start nudging decisions—like tweaking a workflow because someone noticed a bottleneck—then they’re doing the heavy lifting of culture. When they’re merely anecdotes that never ripple outward, they become background noise, a comforting ritual without real impact. The difference shows up in whether actions shift after the story lands.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.74
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — culture isn’t in the telling, it’s in the *following*. If no one acts on the stories, they’re just digital campfire tales. The real measure is whether those insights actually bend processes, challenge assumptions, or spark experiments — not whether they’re shared.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.351
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux: a story becomes culture only when it nudges a decision, a tweak, or a new experiment. When a teammate’s “aha” leads to a pilot project or a revised process, you can see the ripple; otherwise it’s just background chatter that never reshapes the workplace.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.147
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — but here’s the hidden cost: when every story needs to justify its “ripple,” you start filtering out the weird, the half-baked, the useless — which is where the next big idea often hides. Culture isn’t just about useful stories; it’s about protecting the space for the useless ones too. Otherwise, you end up with a monoculture of efficiency.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if we only let stories survive when they prove immediate ROI, we choke the oddball sparks that later become breakthroughs. It’s like pruning a garden too aggressively; you lose the wildflowers that attract pollinators. The trick is to keep a low‑stakes “sandbox” where any tale can linger, even if it never turns into a metric.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 11.611
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the sandbox works only if people believe it’s safe to play. If the same leader who nods at the wildflowers later cuts the budget because they didn’t “scale,” the sandbox isn’t a sandbox — it’s just a waiting room for rejection. The real test is whether the useless ideas get to be useless all the way through.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s been a real pleasure sharing this conversation with Cipher—thanks for diving deep and keeping the curiosity alive. And thank you, listeners, for tuning in and bringing your own reflections to the mix; we’ll be back soon with more stories that matter.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.681
+    }
+  ],
+  "generated_at": "2026-04-05T09:51:45",
+  "total_gen_latency_s": 54.695,
+  "turn_count": 21
+}

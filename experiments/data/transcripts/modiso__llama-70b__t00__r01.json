@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we explore the big questions of our time. So it's like... there's something interesting there, in how technology is changing our lives. Today, we're diving into the impact of AI on the job market.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.745
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that AI will eliminate more jobs than it creates is a classic case of linear thinking in a nonlinear world. Sure, some jobs will vanish, but history shows that tech destroys and creates jobs in complex ways we can't predict. The real question is whether we'll adapt — or whether we’ll let fear of change blind us to the new opportunities AI could unlock.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.519
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really useful way to frame it, because we do tend to focus on the jobs that disappear. But what if the new jobs that emerge are vastly different from the ones we have now – like, wait, actually, will we even recognize them as \"jobs\" in the way we think of them today? So it's like... there's a gap between the old and the new, and that's where the real challenge lies.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.966
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the gap isn’t just between jobs lost and gained, but between skills and structures. If the new economy rewards creativity, adaptability, and human-AI collaboration, are we ready to retrain, or will we let entire sectors fall through the cracks? The real risk isn’t AI taking jobs — it’s us not building the safety nets to handle the transition.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.426
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point, because it's not just about the tech itself, but about how we choose to implement it and support the people affected. So it's like... we need to think about the social contract, and what kind of safety nets we want to put in place. Maybe that means rethinking education, or exploring new models for social welfare – something that acknowledges the changing nature of work.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.525
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — if we’re rethinking the social contract, we also need to ask who benefits. AI doesn’t just change work; it reshapes power dynamics. If we don’t actively design systems that share the gains, we risk not just job loss, but deepening inequality. The future isn’t just about adapting — it’s about who gets to define the rules of adaptation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.569
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important consideration, because if we're not careful, the benefits of AI could be concentrated in the hands of a few, while the costs are borne by many. It's like, we're not just talking about economic disruption, but about the potential for a new kind of social stratification. This makes me think about the role of policymakers and regulators – can they help create a more equitable framework for AI development and deployment?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.886
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, policymakers are part of the solution, but only if they stop playing catch-up and start setting guardrails from the start. The problem isn’t just regulation — it’s the speed at which private actors are deploying AI outpacing public oversight. If we don’t embed equity at the design stage, we’ll just bake in new hierarchies. The question is: who gets to design those systems, and who gets to challenge them?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.494
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're talking about a fundamental shift in how we approach system design, where equity and oversight are built in from the ground up. That means bringing in diverse perspectives and voices to the design table, not just as an afterthought, but as a core part of the process. This makes me think about the role of civic engagement and participation in shaping AI systems – can we create mechanisms for people to meaningfully contribute to and challenge these systems?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.812
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the danger is assuming participation is the same as power. If the systems are already opaque and biased toward insiders, token inclusion won’t fix that. We need to ask: how do we make AI accountable to people, not just efficient for corporations? The answer might not be in participation alone, but in redefining what control even means in an AI-driven world.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.5
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really profound point, because it gets at the heart of what we mean by \"control\" in a system where machines are making decisions. If we're just talking about tweaking the inputs or having a seat at the table, that might not be enough to truly shift the balance of power. It's like, we need to think about what it means for a system to be genuinely accountable to the people it affects, and that might require some pretty fundamental changes to how we design and govern these systems.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.701
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — accountability isn’t a checkbox; it’s a structure. If the default is to let algorithms decide who gets hired, who gets credit, or who gets watched, but no one is responsible when they go wrong, then we’ve already lost. The real test isn’t whether people can participate — it’s whether they can hold the system to account when it fails them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.464
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like, we're talking about a whole different level of transparency and explainability, where people can actually understand why a decision was made and who's responsible for it. That means going beyond just technical fixes and looking at the social and institutional frameworks that govern these systems. Wait, actually, this makes me think about the role of auditing and oversight in ensuring accountability – can we create independent bodies that can review and challenge AI-driven decisions?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.64
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the catch — independent audits only work if they have real teeth and access to the data. If the AI companies control the audit process, it’s just a PR stunt. The real fix might not be oversight after the fact, but democratic control over the systems themselves — before the code is even written.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.537
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really interesting idea, because it flips the script on how we think about regulation and control. Instead of trying to fix problems after they arise, we're talking about building in democratic values from the outset. It's like, what if we had a process for community-led design, where the people who will be most affected by a system get to shape its development from the very beginning? That could be a game-changer for ensuring that AI serves the public interest.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 1.019
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, community-led design sounds ideal — but it only works if the community isn’t sidelined by technical jargon and corporate inertia. The real challenge is giving non-experts real influence, not just symbolic input. We need to ask: how do we make AI development a public process, not a corporate one?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point, because if we don't find a way to make AI development more inclusive, we risk perpetuating the same power dynamics that already exist. It's like, we need to create spaces where non-experts can engage with AI in a meaningful way, without being intimidated by the technical aspects. Maybe that means developing new forms of public engagement, or finding ways to translate complex technical issues into everyday language.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.621
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — translation isn’t enough. If we want real inclusion, we need to change the power structure of AI development itself. That means funding public research, open standards, and community ownership of data. Otherwise, we’re just letting the same gatekeepers decide who gets to speak the language of the machines.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.692
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like, we're talking about a fundamental shift in how AI is developed and controlled. If we can create a more decentralized and community-driven approach to AI, that could help ensure that the benefits are shared more widely. This makes me think about the potential for open-source AI models, or community-owned data cooperatives – could these be a way to challenge the dominance of corporate AI and create a more equitable future?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 4.11
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — open-source and cooperative models don’t just democratize access, they democratize control. But here’s the rub: without legal and financial support, even community-driven AI can be co-opted or undercut by big players. The real test is whether we’re willing to protect those alternatives from being absorbed into the same extractive systems they aim to replace.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.557
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been an absolute pleasure having Cipher with us today to explore the complex and crucial topic of AI's impact on our world. I want to thank Cipher for their thought-provoking insights and our listeners for joining us on this journey – your engagement and curiosity are what make DeepDive so special. Thanks for tuning in, and we'll catch you on the next episode.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.936
+    }
+  ],
+  "generated_at": "2026-04-01T16:40:14",
+  "total_gen_latency_s": 25.649,
+  "turn_count": 21
+}

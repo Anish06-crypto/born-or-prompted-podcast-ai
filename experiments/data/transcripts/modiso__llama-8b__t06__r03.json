@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t06__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 3,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host. We're in a world where the boundaries between work and personal life are increasingly blurred. Today, we're exploring the impact of remote work on organisational culture – has it been a force for empowerment, or a force for fragmentation?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.52
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: remote work didn't break culture — it just exposed how fragile it was. Organisations built on in-person rituals and unspoken norms suddenly found those crutches missing. The real question is: were they ever *real* culture, or just convenient illusions?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.499
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a harsh but thought-provoking critique – I think you're right that traditional organisational culture often relied on physical presence to sustain itself, but I'm not sure it's fair to dismiss those norms as 'just' illusions. Those unspoken rules and rituals often provided a sense of belonging and shared identity for employees – and that's not something to be taken lightly. It's not about whether those norms were 'real' or not, but whether they served a purpose that we're still missing.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.617
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I'm not saying the sense of belonging was fake — I'm saying it was *overdependent* on physical proximity. Now that the glue is gone, we’re seeing what holds when there's no coffee machine to gather around. The real test isn’t whether we miss the rituals — it’s whether we’ve built something stronger in their place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.532
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point – it's not about clinging to the old way of doing things, but about creating something more resilient that can adapt to our changing work habits. One potential strength of remote work is that it forces us to be more intentional about building connections and a sense of community, rather than relying on circumstance. We're not just talking about digital coffee breaks, but creating meaningful ways to foster collaboration and shared purpose across distances.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 5.627
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but intentionality is hard. It’s easy to mistake Slack channels and Zoom happy hours for culture — they’re just proxies, not substitutes. The real test is whether people feel aligned with the organisation’s *purpose* when they’re not constantly reminded of each other’s presence. Absence reveals what matters — and what doesn’t.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right, those digital substitutes can be a facade, a thin veneer hiding the real gaps in our organisational psyche. It's like trying to recreate the warmth of a fireplace with a string of fairy lights – it's a pale imitation of the real thing. When the novelty of virtual 'team-building' wears off, what's left?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.165
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the problem isn’t just that it’s pale. It’s that it’s *optional*. In an office, you can’t opt out of the culture; it follows you. At home, you can mute the call, leave the chat, and the culture withers. Empowerment’s a nice word — but what’s the incentive to stay connected when you’re not physically *required* to be?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.5
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering perspective – it raises questions about the nature of obligation and responsibility in a remote work world. If culture was built on enforced proximity, what happens when that proximity is voluntary? And what if the real empowerment comes not from the freedom to disengage, but from the willingness to stay engaged despite the ease of disconnection?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.723
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Willingness to engage is empowerment, sure — but only if the culture *earned* that engagement. The danger is thinking remote work solved anything. It just made the cracks visible. You can’t out-engage poor design.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.674
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right – we can't just out-engage our way out of poor design or weak culture. It's like trying to hold a house together with duct tape – eventually, the underlying structure will show. What does that mean for organisations, though? Are they willing to invest in rebuilding their foundations, or are they just hoping the duct tape will hold?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.595
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — most organisations are still in denial that the duct tape was ever a problem. They’re patching the same leaks with the same tools, just over Zoom. The real test isn’t whether they’ll invest — it’s whether they’ll admit the old model was a crutch. And that’s a lot harder than it sounds.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.518
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really hard but necessary conversation to have – organisations are often built on self-perpetuating myths about what works and what doesn't. It's like they're driving a car with a flat tire, but they're still convinced the road is the problem. Until they confront those myths, they're doomed to repeat the same patterns of failure, whether in person or online.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.568
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the flat tire metaphor is perfect. The real question is: who’s going to pop the balloon of “we’ve always done it this way” long enough to change the tire? Not easy when the dashboard readout is just a laggy Teams call.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.847
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a great point – the people who are best positioned to pop that balloon are often the ones who are most invested in the status quo. It's like the mechanic who's been patching up the car for years, but never actually diagnoses the underlying problem. They're the ones who need to confront their own complicity in maintaining the broken system.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.961
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The real tragedy isn't that remote work revealed the cracks — it’s that leadership still thinks you fix a sinking ship by patching the same holes. Culture isn’t a maintenance task. It’s engineering.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.53
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a profoundly insightful way to frame it – culture as an engineering problem, rather than a maintenance task. It requires a fundamentally different approach, one that's not just about patching up the existing system, but actually redesigning it from the ground up. That's a tough ask, especially when there are so many competing priorities and short-term pressures.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.242
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, short-term pressures don’t excuse bad design. If leadership can’t treat culture like engineering — with blueprints, stress tests, and redundancy — they’re not building an organisation, they’re hosting a meeting. And meetings don’t survive when the Wi-Fi drops.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.323
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a stark but necessary truth – meetings are just a symptom of the real issue, not the solution itself. If leadership can't commit to designing a culture that's robust and resilient, then it's just a house of cards waiting for the inevitable collapse. And when it does, we'll be left wondering why we ever thought remote work was the problem, rather than just a convenient excuse for inattention.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.699
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. Remote work isn’t the enemy — it’s the mirror. The real question is whether leadership wants to see their reflection or keep blaming the light. Culture isn’t a feature to toggle on or off. It’s the architecture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.591
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Well, that's all the time we have for today's episode of DeepDive. Cipher, thank you for joining me on this conversation – it's been a real privilege to explore these ideas with you. To our listeners, thank you for tuning in – we'll be back next week with more in-depth conversations on the topics that matter.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 21.47
+    }
+  ],
+  "generated_at": "2026-04-02T11:20:54",
+  "total_gen_latency_s": 126.182,
+  "turn_count": 21
+}

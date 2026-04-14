@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t07__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 1,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine a world where clean air and thriving economies go hand in hand—can we really have both? Today on DeepDive, we’re untangling the belief that climate action and economic growth might be on a collision course.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.537
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that we can’t have both is a red herring. It assumes growth means burning more, not building smarter. The real question is: which kind of growth are we talking about?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.297
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, you're right—it’s not growth itself, but the *kind* of growth we’re measuring. If we’re still equating progress only with GDP, we’re basically celebrating pollution as productivity. But what if growth meant more solar jobs, regenerative farms, cities that breathe? That’s not just possible—it’s already happening in pockets.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: even \"green\" growth has limits. If we keep chasing infinite growth on a finite planet, we’re just swapping carbon footprints for ecological ones. The real clash isn’t between climate and economy — it’s between growth as we know it and the physics of the biosphere.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.416
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait—so we’re not just changing the engine, we’re questioning the whole idea of the car speeding forever? That hits hard. Because yeah, even solar panels need mining, and \"green\" tech has weight. Maybe the goal isn’t endless expansion, but thriving within cycles—like a forest that grows not taller every year, but deeper, more resilient. Is that still “growth,” or something we haven’t named yet?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.677
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. We’ve been measuring growth like it’s a sprint, not a marathon with a fragile ecosystem for a track. The problem isn’t clean energy—it’s the myth that we need to outgrow responsibility. If we redefine success as stability with enough room to innovate, we might finally stop crashing into our own limits.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.399
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s almost like we’ve been running on a treadmill set to “faster, bigger, more”—but the finish line is a brick wall. What if we stepped off and built a garden instead? Growth could mean deeper roots, richer soil, not just taller trees. Maybe progress isn’t velocity—it’s resilience.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.211
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re spot on about the treadmill metaphor. The problem isn’t the garden—it’s that we keep trying to measure garden progress in miles per hour. Resilience isn’t the enemy of growth; it’s the upgrade we never stopped needing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.502
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Yeah, we’ve been using a speedometer to measure the health of a forest—it’s the wrong tool. Resilience isn’t just soft, slow stuff; it’s the quiet strength that lets ecosystems—and economies—bounce back, adapt, last. Maybe the upgrade isn’t just new tech, but finally aligning our idea of progress with how the world actually works.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 6.777
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. We don’t need a fix for the economy or the climate—we need a fix for the narrative that they’re separate. Nature doesn’t split survival from renewal. If we’re serious about long-term growth, we need to stop acting like the economy is a sprint and start building for the seventh generation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it’s wild how we’ve built economies that treat nature as a separate ledger—like we can overdraw it forever. But what if we saw ourselves as part of the same system? That shift—from separation to kinship—might be the most powerful lever we’ve underestimated.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.478
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Kinship as a lens? That’s the missing variable. We treat markets like they’re autonomous, but they’re just nested in the biosphere. If we priced what matters—clean water, stable weather, living soil—we wouldn’t just save the planet. We’d build an economy that finally makes sense.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.552
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So if we’re serious about kinship, maybe we stop *pricing* nature and start *listening* to it—like a partner, not a portfolio. Because right now, we’re still trying to monetize the life support system we’re floating in. What if the economy wasn’t the center, but a downstream echo of a healthy planet? That’s not radical—that’s survival with better manners.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.719
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, calling it “survival with better manners” is a good line—but we’re still stuck with a system that rewards short-term wins. If the economy is just an echo of the planet’s health, we need to stop tuning the echo and fix the source. That means rethinking what we measure, who gets to define value, and whether “healthy” and “growing” can finally share the same grammar.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.547
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—we keep adjusting the radio static instead of fixing the signal. If we’re serious, we stop measuring “healthy” by how much we extract, and start by how much we renew. Maybe real growth sounds quieter: not quarterly reports, but clean rivers, stable climates, communities that last. That’s not a smaller economy—that’s a wiser one.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 7.941
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: quieter isn’t the same as weaker. A wiser economy is one that doesn’t have to shout about its size to prove its strength. If we redefine success as what lasts, not what scales fastest, we might finally stop confusing noise with progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.348
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it hits me—our loudest economies are often the most fragile. A forest doesn’t roar, but it weathers storms we can’t imagine. Maybe strength isn’t in the noise we make, but in the balance we maintain. That kind of quiet resilience might be the only growth worth keeping.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 5.471
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The loudest growth is often the shallowest—it’s the financial equivalent of a house of cards in a hurricane. Quiet resilience is growth that’s rooted, not just reactive. If we want systems that outlast us, we need to listen to what’s already surviving—and copy that.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.577
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it’s humbling—nature’s been running the ultimate stress test for billions of years. The systems that last aren’t the fastest or biggest, but the ones that adapt, recycle, and coexist. Maybe the smartest innovation isn’t something we build, but something we finally imitate.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.871
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The real frontier isn’t “disruption” — it’s learning from the only system that’s never failed: life itself. If we stop treating nature as a resource and start treating it as a teacher, we might finally build an economy that doesn’t just survive, but thrives by design.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.966
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for walking this path with such clarity and care. To everyone listening—thank you for being part of a conversation that matters. Until next time on DeepDive: keep listening, keep learning, and maybe, just maybe, let the trees teach us how to grow.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.548
+    }
+  ],
+  "generated_at": "2026-04-02T16:20:38",
+  "total_gen_latency_s": 40.54,
+  "turn_count": 21
+}

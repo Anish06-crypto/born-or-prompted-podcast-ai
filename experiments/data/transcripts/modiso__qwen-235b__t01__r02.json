@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t01__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 2,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive.  \nWe’re tackling something that’s been humming beneath our screens lately—whether social media, for all its connection and noise, has quietly eroded our mental well-being and the foundations of democracy.  \nLet’s dive in.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.505
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the harm isn't just from the platforms themselves, but from how they've reshaped attention, reward, and discourse. You talk about democracy — look at how polarization isn't just ideological, but algorithmic now. Mental health? The trade-off between validation and self-worth has become a daily game with real stakes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.419
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Yeah, I keep thinking about that word — *trade-off*. It’s like we’ve outsourced our attention to systems that profit from our anxiety and outrage. And when likes feel like proof you matter, or when outrage scrolls faster than empathy, it’s not just our moods shifting — it’s our collective ability to listen, to disagree without dehumanizing. That’s where democracy starts to fray at the edges.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.588
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the real danger isn't just the content we consume, but the feedback loops we internalize. You scroll for validation, and the system rewards agitation because it sticks. Over time, you don’t just lose your attention — you lose your sense of what’s worth paying attention to.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.391
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that hits close. It’s like we’ve all been trained in a new kind of reflex—lean into the hot take, flinch at the comment, posture instead of pause. And over time, the quiet things—curiosity, uncertainty, stillness—feel not just boring, but risky. Who am I if I’m not reacting?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the risk isn’t just to our patience or peace of mind. It’s to our capacity for nuance in a world that rewards simplicity. When every thought is a tweet, every feeling a share, we’re not just shaped by the platforms — we *become* the platforms’ raw material.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.361
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s eerie how you put that — “we become the platforms’ raw material.” I keep imagining us as mines, chipping away at our own emotions just to feed the algorithm. And the deeper we dig, the less we remember what it felt like to be unextracted, whole. Maybe reclaiming nuance starts with refusing to be so easily mined.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.897
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t just that we’re mined — it’s that we’ve forgotten we’re the miners. We dig our own emotional ore and hand it over, thinking we’re being seen. The real question is: who gets to decide what’s valuable in the first place?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.374
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait — that’s the gut punch. We’re not just labor in this system; we’re *volunteering* the labor, thinking it’s connection. And the ones deciding what’s “valuable”? Not us. It’s a code tuned to keep us digging, rewarding rage and fear because they’re easier to parse than grief, or hope, or quiet love. No wonder we feel hollow.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.621
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and when the currency of value is engagement, not truth or care, we end up rewarding what’s loudest, not what’s most human. The algorithm doesn’t *understand* us, but we act like it does. We hand it our souls, and it gives us back a cartoon version of ourselves.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.418
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s like we’ve been showing up to a mirror that only reflects back our edges, not our depth. Over time, we start to believe the cartoon *is* us—sharper, angrier, simpler. Maybe healing starts when we stop asking the screen, “Do I exist?” and start answering that question somewhere quieter.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.555
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but the quiet isn’t the problem. The problem is we’ve been conditioned to treat silence as absence, when it’s often just presence in better focus. The real test is whether we can hold space for that quiet without the algorithm rushing in to fill it with noise.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.418
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it’s wild how silence got rebranded as emptiness—as if a moment without input is a moment wasted. But what if silence isn’t absence, but the ground where we re-meet ourselves? The algorithm fears it, because it can’t mine stillness. And maybe that’s exactly why we need it.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.56
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, silence isn’t just anti-algorithm — it’s anti-control. When you take back the space between thoughts, you break the feedback loop. The real question is: what do we replace the noise with? Not more content. Maybe just… being.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.403
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Being. Not doing, not posting, not reacting.  \nIt feels almost radical now, like a quiet rebellion.  \nMaybe that’s the resistance—not louder voices, but deeper stillness, where we remember we’re more than data, more than performance.  \nAnd from that quiet, we might actually start to speak, and listen, like humans again.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.637
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here’s the catch: silence is only resistance if it’s chosen, not forced by burnout. The real rebellion isn’t just in being quiet, but in building systems that reward depth over velocity. Until then, even silence gets co-opted as a performance of authenticity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—when we’re just trading burnout for performative stillness, we’re still playing the game.  \nThe real shift isn’t in opting out alone, but in demanding platforms that don’t run on speed and shock.  \nBecause if solitude becomes just another content aesthetic, we haven’t escaped the machine—we’ve only dressed differently inside it.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.618
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the machine’s genius isn’t in controlling us, but in making us feel like we’re choosing it. If “mindfulness” becomes a product, and silence a feature, then we’ve just added a filter to the same feed. The escape isn’t in better habits, but in redesigning the architecture of attention itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe healing isn’t just personal — it’s structural.  \nIf we keep asking individuals to be mindful in a system designed to make them frantic, we’re putting a band-aid on a broken circuit.  \nThe real work? Rewiring the system so attention isn’t a commodity, but a space where we can *breathe*, not perform.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.62
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the system doesn’t just exploit attention, it *defines* it. If we don’t take back the right to decide what’s meaningful, someone else will keep coding our values for us. The question is: who gets to design the next operating system for human connection — and will it have a pause button?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for walking through the noise with such clarity and care.  \nTo everyone listening — thank you for being here, for showing up, and for holding space for this conversation.  \nUntil next time, stay curious, stay kind, and don’t forget: you’re more than your attention.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.587
+    }
+  ],
+  "generated_at": "2026-04-04T10:11:50",
+  "total_gen_latency_s": 11.48,
+  "turn_count": 21
+}

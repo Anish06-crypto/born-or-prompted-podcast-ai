@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t03__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 3,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host. Today, we're hurtling into orbit, literally and figuratively, as we explore one of the most contentious issues of our time: the value of space exploration. With a new moon landing on the horizon, let's ask: are the billions being spent on reaching the cosmos worth the cost, or could that money make a more tangible impact on our planet?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.436
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Alright, let's cut through the idealism — space exploration is a beacon of long-term thinking in a world obsessed with quarterly results. The tech spin-offs, scientific breakthroughs, and geopolitical stability it fosters aren’t just side effects; they’re the point. But here’s the rub: we need to ask if we’re investing in space to escape Earth’s mess, not fix it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.449
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a fair point, but I think we're oversimplifying the relationship between space exploration and our willingness to address Earth's problems. The spin-offs you mentioned often do end up trickling down to benefit our daily lives, from GPS to medical advancements – so isn't it possible that space exploration is actually driving innovation that could help us tackle those Earthly issues?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.548
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the trickle-down argument is seductive — and not wrong — but it’s a distraction. We’re talking about priorities, not side benefits. If we truly wanted to solve Earth’s problems, we’d fund basic research across all domains, not just the ones that double as rocket science. Space can inspire, but it shouldn’t be the default escape hatch for underfunding education or healthcare.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.583
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a compelling critique, but I think we're underestimating the potential for space exploration to drive a systemic shift in our approach to global challenges. By pushing the boundaries of scientific inquiry and technological innovation in space, we're also forcing ourselves to rethink our assumptions about resource management, sustainability, and collaborative problem-solving – skills that are desperately needed on our own planet.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.824
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — yes, space forces us to think about sustainability, but it’s a luxury problem. When you’re building a life-support system for Mars, you’re not solving the broken water infrastructure in Flint. The real test is whether those lessons downscale — and history shows that they rarely do without deliberate effort. Innovation without equity is just a different kind of waste.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.612
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a tough but fair critique – the gap between innovation in space and its practical application on Earth can be vast. I do think, though, that we're underestimating the potential for space exploration to galvanize global cooperation and collective action, which could, in turn, drive more equitable resource allocation and problem-solving on our home planet. It's not a guarantee, but it's worth considering the possibility that space exploration could be a catalyst for a more collaborative, equitable approach to addressing global challenges.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.199
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that space exploration unites us is noble, but it’s a myth. The same nations hoarding space tech are the ones hoarding vaccines and clean energy. You don’t build a coalition in orbit if you’re not already doing it on Earth. The real question is: will space force us to fix our collaborative instincts, or just let us outsource our division to the stars?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.47
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think we're forgetting that space exploration isn't a zero-sum game, where one nation's gains come at the expense of another's – the International Space Station, for example, is a remarkable example of global cooperation that's been going on for decades. And while it's true that nations are still hoarding resources, I believe that space exploration can actually drive a cultural shift towards greater global cooperation and shared problem-solving, even if it's not a guarantee. It's a long shot, but I think it's worth trying to harness the power of space to bring nations together, rather than just using it as a way to outsource our problems.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.089
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, the ISS is a high point — but it’s also an outlier, sustained by geopolitical calculus, not idealism. You don’t get cooperation without shared stakes, and right now, space is still seen as a frontier for dominance, not shared survival. If we want it to be a unifying force, we’ll need to design it that way — not just launch rockets.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.662
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think we're getting at the heart of the matter – space exploration has to be designed with collaboration, not competition, at its core. That means rethinking the way we approach space governance, resource sharing, and even the language we use to describe our goals in space. If we start from a place of mutual benefit, rather than national interest, maybe we can create a foundation for more equitable and cooperative space exploration.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.144
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the language matters. When we frame space as a “final frontier” or a “new American dream,” we’re not building consensus, we’re reviving colonial instincts. If we want cooperation, we need to treat space not as a trophy, but as a shared experiment in human survival. The design of the system is the point.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.555
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that idea of reframing space as a shared experiment in human survival – it's a powerful way to shift the conversation and focus on the collective benefits of space exploration. It also highlights the need for a more inclusive and equitable approach to decision-making in space governance, where diverse perspectives and voices are represented. That's where the real innovation can happen, not just in the tech itself, but in the way we work together to shape the future of our planet and beyond.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 8.909
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re onto something — but inclusion in governance is hard when power still orbits the same old centers. Equity isn’t just about representation; it’s about redistributing control. If we’re serious about space as shared survival, we’ll need to start by unlearning the “we” that’s been left out of the equation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, of course – the question of who gets to be at the table is a crucial one. It's not just about adding more voices, but about fundamentally reimagining the power dynamics that have defined space exploration so far. I think that's where the conversation around \"space as a shared experiment\" gets really interesting – it's not just a new frame for the conversation, but a new set of values that could guide how we make decisions about the future of space.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.782
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — values don’t govern rockets, but they do govern who gets to launch them. If we want space to reflect better values, we need to build the institutions that enforce them — not just talk around them. The future of space isn’t in the stars; it’s in the rules we write today.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.827
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering reminder that space exploration is ultimately shaped by the institutions and policies we create today. I think that's where the real challenge lies – building a new framework for governance that prioritizes equity, cooperation, and sustainability, rather than just tweaking the existing system. It's a daunting task, but one that's worth taking on if we're serious about using space as a force for good.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.38
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and don’t forget, the framework we build today will determine whether space becomes a mirror of Earth’s flaws or a testbed for its better self. The real frontier isn’t the Moon or Mars — it’s the courage to redesign power itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.535
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful and unsettling thought – the idea that our choices in space will reflect and amplify the worst of our own biases and power structures, or else become a beacon of a more just and equitable future. It's a daunting responsibility, but one that I think we can't afford to shy away from. By acknowledging the complexity of our own motivations and flaws, we might just create a chance to rewrite the script and forge a new path forward.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.977
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — we can’t out-source our soul-searching to the stars. If we want space to be more than a reflection of Earth’s rot, we have to confront the rot first. The future we build there starts with the reckoning we’re too afraid to have here.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, thank you for joining me on this deep dive into the complexities of space exploration – your insights have left me thinking long after our conversation ended. To our listeners, thank you for being part of this conversation, and for joining me in exploring the untold stories and unseen connections that shape our world.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 22.379
+    }
+  ],
+  "generated_at": "2026-04-02T11:00:53",
+  "total_gen_latency_s": 139.196,
+  "turn_count": 21
+}

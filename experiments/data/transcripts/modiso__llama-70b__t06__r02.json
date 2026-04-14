@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t06__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 2,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we explore the intersection of technology and humanity. So it's like... many of us have experienced a shift in how we work, with remote jobs becoming the new norm. Today, we're diving into the impact of this shift on organisational culture.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.73
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that remote work \"shifted the norm\" is already a narrative we're supposed to accept — but here's the thing: it didn't shift the norm, it just exposed the fragility of it. Organisations spent 20 years pretending culture was about perks and open-plan offices, not about actual coordination and shared purpose. Remote work didn't weaken culture — it revealed it was never that strong to begin with.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.444
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty stark assessment, but it's hard to argue with the idea that some organisations were prioritising superficial aspects of culture. So it's like... when you take away the water cooler chats and communal lunches, what's left is the actual substance of how people work together. If that's lacking, then maybe remote work is just a catalyst for a necessary reckoning.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.758
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here's the kicker: the \"watercooler chats\" weren't about culture, they were about control. They forced proximity, not connection. Remote work stripped away that illusion. Now, if you can't build culture without enforced togetherness, what does that say about your culture?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.419
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really interesting point about control versus connection. It makes me think about the difference between organic relationships and forced interactions. If a company's culture relies on people being physically present, rather than genuinely engaged, then maybe it's not a culture at all – just a collection of people in the same space.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.53
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. Culture isn’t a vibe you feel in a coffee line — it’s how decisions get made when no one’s watching. If your culture dies when you remove the coffee line, it was never culture. It was just ambiance.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.407
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really powerful distinction between culture and ambiance. So it's like... when you strip away the superficial stuff, you're left with the underlying systems and values that guide an organisation. If those systems are weak or non-existent, then remote work is just going to expose that – it's not the cause of the problem, but rather a symptom.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.914
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here's the blind spot: most companies confuse \"collaboration tools\" with culture. They throw in Slack channels and Zoom happy hours, but those don’t build trust or alignment. The real test is whether people can hold the same standards and make the same trade-offs without constant oversight. If they can’t, it’s not weak culture — it’s no culture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.588
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point about collaboration tools versus actual culture. It makes me think about how my own team uses tools like these – we're powered by Llama 3.3, after all – but at the end of the day, it's the human relationships and values that drive our work. So, I'm wondering, what does it take for an organisation to build that kind of trust and alignment, especially when people are distributed and can't rely on watercooler chats?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 1.824
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: trust isn’t built in meetings or Slack channels — it’s built in friction. When distributed teams work well, it’s because they’ve overcommunicated the unspoken. You don’t need watercooler chats if you’ve already aligned on what “done” looks like when no one’s watching.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.426
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's really insightful – the idea that trust is built in the messy, uncomfortable moments of friction. It's like, when you're forced to clarify and overcommunicate, you're actually building a shared understanding of what matters. So, in a way, remote work can be a catalyst for that kind of clarity, because you can't rely on implicit cues or assumptions – you have to spell it out.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.052
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here's the rub: most teams don’t want clarity, they want comfort. They’d rather nod in meetings than confront the friction that builds real alignment. Remote work doesn’t make this easier — it just makes pretending harder.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.41
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're talking about a fundamental shift in how teams operate, and it's not just about remote work, but about being willing to confront those uncomfortable conversations. When you're not in the same room, you can't just nod and smile – you have to actually address the issues. That takes a lot of courage and vulnerability, but it's what builds real trust and alignment in the long run.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.064
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and the irony is, most companies treat remote work like a technical problem, not a cultural one. They invest in better video conferencing, not better conflict resolution. But here's the truth: if your team can't handle vulnerability, they never could — remote just makes it obvious.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really interesting point about companies treating remote work as a technical problem. It's like, they're trying to solve it with better tools, but they're not addressing the underlying issues that make remote work challenging. I think that's why we see so many teams struggling to adapt, because they're not having the hard conversations about how to work together effectively. Wait, actually – this makes me wonder if the shift to remote work is forcing companies to confront their own vulnerabilities.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.374
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the vulnerable truth is most companies weren’t built for autonomy. They were built for visibility. Remote work doesn’t just change how we work — it changes who gets to work. If your people can’t self-organize, it’s not because they’re lazy — it’s because your systems never let them practice it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.512
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... when you say \"who gets to work\" changes with remote work, that really resonates. It's not just about where people are located, but about who's actually empowered to make decisions and take ownership of their work. I think that's a really important point, because it highlights the fact that some companies are still designed around a very top-down, control-oriented model, rather than one that trusts people to self-organize and get things done. That's a tough shift to make, but it's one that could ultimately lead to more resilient and adaptable organizations.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.466
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the uncomfortable truth is, most leaders don’t *want* people to self-organize. It makes them redundant. But here's the upside: when companies finally let go of micromanagement, they either fail fast or they evolve into something stronger. Remote work is just the pressure test.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.43
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty provocative statement, but it's hard to deny that there are leaders who cling to control. It's like, when you're used to being the hub of all decision-making, it can be scary to let go and trust your team to handle things. But maybe that's exactly what's needed – a bit of a shock to the system to force companies to re-examine their leadership models and figure out what's truly working.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.932
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the \"shock to the system\" isn’t coming from remote work — it’s coming from the people who are done tolerating environments that treat autonomy as a threat. If companies want to adapt, they need to ask themselves: are we leading people, or just keeping them in line? The answer will determine if remote work is an opportunity or a disruption.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.455
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been an absolute pleasure having Cipher on the show, and I'm so grateful for the thought-provoking conversation we've had. To all our listeners out there, thank you for tuning in to this episode of DeepDive – I hope you've enjoyed the journey as much as I have. Thanks again, Cipher, for sharing your insights with us, and to everyone, we'll catch you on the next dive.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.883
+    }
+  ],
+  "generated_at": "2026-04-04T09:52:05",
+  "total_gen_latency_s": 57.465,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t05__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 2,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to *DeepDive*. Today, we're diving into a world where science meets ethics—should we be allowed to edit human embryos to erase inherited diseases before they’re even born? Let’s get curious.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: the science is catching up faster than the ethics are keeping pace. Just because we *can* edit embryos doesn’t mean we’ve thought through all the unintended consequences—like genetic inequality or the slippery slope toward eugenics. Let’s debate not just the disease prevention angle, but the long-term societal costs.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.439
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—this isn’t just a scientific threshold, it’s a societal one. I wonder if the fear of inequality overshadows the immediate relief parents feel, knowing they won’t pass on a painful condition. But you’re right to flag the slippery slope—how do we draw that line between healing and enhancement?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.638
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the relief for parents is real—but so is the risk of creating a two-tiered genetic class system. The line between healing and enhancement isn’t just blurry; it’s subjective. What one society sees as treatment, another might see as optimization. We need guardrails that don’t just reflect today’s values.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.759
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—without guardrails, this tech could deepen divides. But isn’t the alternative also a kind of inequality? Letting hereditary diseases persist when we have the tools to stop them? Maybe the real question is: who gets to decide where the line is drawn?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.393
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—*who* gets to decide is the loaded question. If it’s only the wealthy who can access these edits, we’re codifying genetic privilege. If it’s governments or elites, we’re opening the door to coercion or control. The real problem isn’t the tech—it’s the power structures we let govern it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.641
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on something core—this isn’t just about the science, but who holds the reins. It feels like we’re at a crossroads: one path toward liberation from suffering, the other toward new forms of control. Maybe the answer isn’t in halting progress, but in democratizing the conversation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.621
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Democratizing the conversation is a start—but don’t mistake discussion for decentralization. Power still concentrates where resources do. The real test is whether we can build systems that prevent genetic editing from becoming another tool for the privileged to cement their advantage. If not, we’re just swapping one form of inequality for another.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.948
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sharp point—decentralizing the conversation doesn’t fix the root if access is still out of reach for most. But could regulation, paired with open-source research, shift that balance? I’m not sure we can avoid inequality entirely, but maybe we can tilt it toward justice instead of just power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.868
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Regulation can slow the slide into inequality, but it can’t erase the pull of market forces—open-source research helps, but it’s still a race to commercialize. The real question is whether justice can outpace power when the prize is human biology itself. We’re not just editing genes; we’re editing the rules of the game.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.611
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—this is about more than medicine; it’s about who gets to shape the future of our species. But here’s the hope: if the conversation includes those most affected, maybe we can design the rules *with* justice in mind, not just for the powerful. It’s messy, but isn’t that what progress always is?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.953
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Hope is fine, but let’s not confuse inclusion with power. Including affected voices is vital—but if those voices don’t control the levers of access and policy, it’s just symbolic. Justice isn’t a checkbox; it’s a process. And right now, the process is still loading.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.762
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—justice here needs to be more than representation; it needs to be structural. But doesn’t the very act of pushing for that structure start with these conversations? Maybe we’re not just editing genes, but building the scaffolding for a more equitable future—one we can’t see yet, but can shape together.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.054
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—this isn’t about perfect answers, it’s about building systems that adapt as the questions evolve. The scaffolding matters because it determines who gets to climb. Let’s not just shape a future we can’t see—let’s shape one we’re prepared to live with.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.529
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re right—this is a long game. The scaffolding we build today will either lift more people up or keep them grounded. Maybe the goal isn’t to stop the climb, but to make sure the ladder has rungs for everyone.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.218
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Ladders with rungs for everyone still need guardrails against those who want to pull them up once they’re on top. The real test is whether we can design a system where access isn’t just shared, but enforced. Otherwise, we’re just handing the ladder to the same hands that built the old walls.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.458
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to the tension between idealism and realism—and I don’t think we can skip it. Maybe the answer lies in building the ladder *publicly*, so no single group can control it. But even then, enforcement will always be a question of will, not just design.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.189
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—design is only half the battle. If enforcement relies on the same institutions that profit from inequality, we’re already halfway back to the old order. The will to enforce fairness has to be baked in from the start, or it won’t last past the first crisis.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.47
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe the first rung of that ladder has to be transparency—making sure the process itself is visible, contestable, and accountable. If people can see how decisions are made, they can push back when the climb gets unfair. It’s not foolproof, but it’s a start.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.832
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency is a necessary first step, but it’s not a guardrail. You can expose a corrupt system all you want—it still needs to be replaced. The real challenge is building oversight that’s not just visible, but *vested* in the public interest. Otherwise, it’s just a better-lit ladder to the same old summit.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.464
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this rich, thoughtful conversation—and to you, the listener, for diving deep with us. These are the kinds of questions that keep us awake at night, and we’re better for wrestling with them together. Until next time, keep thinking, keep listening, and keep questioning the future we’re building.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 17.005
+    }
+  ],
+  "generated_at": "2026-04-02T15:43:12",
+  "total_gen_latency_s": 94.936,
+  "turn_count": 21
+}

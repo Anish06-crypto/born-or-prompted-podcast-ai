@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t03__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 1,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive — I'm Lyra. Imagine we’re sitting by a window, watching the stars while wondering: should we be looking up, or solving the chaos down here? Today, we’re diving into whether space exploration deserves our time and resources when so much needs fixing on Earth. Let’s get curious.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.525
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m all for curiosity — but it’s not enough to justify trillion-dollar telescope projects when basic healthcare is slipping through our fingers. The real question is, do we treat space as a distraction or a solution? Let’s debate that.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.5
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — it does feel like a distraction when someone’s hungry and we’re building rockets. But what if space tech *also* helps Earth? Like, satellites monitor droughts, and space research leads to medical breakthroughs. Maybe it’s not either-or?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.848
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure, spin-offs help — but let’s be clear: those are side effects, not the goal. The real question is whether we’re treating space as a strategic investment or a prestige project. If we’re serious about solving Earth’s problems, we should ask which tools space gives us that we can’t build by just... looking up.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.683
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that frustration — it *can* feel like we’re chasing the moon while the streetlights are out. But maybe the moon’s not the point. What if space forces us to think beyond short-term fixes? Like, climate models rely on satellite data. It’s not just prestige; it’s a different lens for solving Earth’s mess.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.156
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — forcing a long-term lens is useful, but only if we’re honest about the trade-offs. Satellites help climate models, sure, but do we need a private Mars colony to get that? Maybe the problem isn’t space tech, but the narrative that we need it to think big — when we’re just not.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.638
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the “thinking big” narrative can feel like an escape. But what if Mars or space tech *also* push innovation at scale? Like, the tech required for off-world survival could force breakthroughs in energy, waste reduction, or closed-loop systems we desperately need here. It’s a messy balance, though.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.147
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, let’s not conflate “innovation” with “useful innovation.” Just because we force closed-loop systems on a Mars colony doesn’t mean they’ll trickle down to fix landfills or water systems here. And if we’re rationing oxygen for astronauts while sewage overflows in Detroit, we’ve got the priority backwards — even if the tech is cool.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.689
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — cool tech doesn’t fix inequality. But what if space inspires the kind of investment that *could* lift both? It’s not about choosing between Mars and Detroit; it’s about using the ambition of one to fuel solutions for the other. The risk is letting space become a luxury escape instead of a catalyst.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.859
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll give you this — ambition can be contagious. But let’s name the danger: when we frame space as the “bold” goal, we risk making Earth’s problems feel small by comparison. If we’re not careful, we’ll end up with a future where the rich colonize Mars while the rest of us clean up their off-world mess.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.229
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sharp point — the risk of space becoming a playground for the privileged is real. But what if we flip the script? What if we demand that space exploration *requires* Earth-first ethics — that you can’t build a colony without solving housing crises or climate debt at home? It’s not just about ambition; it’s about whose values drive it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.799
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, that’s a solid twist — tying off-world access to on-Earth accountability. But here’s the rub: who gets to enforce those ethics? If space becomes a geopolitical arena, we’re just playing the same power games in orbit. The real test is whether we can build a system where space doesn’t escape scrutiny — instead of hoping it lifts us up.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.652
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — space can’t be a loophole. But what if it became a mirror? If we’re forced to confront how we govern, share resources, and plan for survival in the harsh light of orbit, maybe that pressure could push better systems here. The question is whether we bring our worst or our best into the void.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.397
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the mirror only works if we're honest about the reflection. If we take our extractive, unequal systems to Mars, we’re just exporting the same mess. The real value of space isn’t in escape — it’s in the friction it creates, forcing us to ask: who gets to go, and at what cost?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.647
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — space doesn’t solve our flaws, but it *does* expose them. Maybe the point isn’t to leave Earth behind, but to face what we carry with us. If we can’t agree on who gets to go, maybe we’re not ready to go at all.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.883
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — if our first off-world settlements are just gated communities in orbit, we’ve missed the point. The real test isn’t surviving in space, it’s deciding who gets to survive first. And if we can’t get that straight here, we’re not ready to carry it there.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.492
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’ve nailed it — space isn’t a clean slate; it’s a magnifying glass. If we can’t solve who gets fed, housed, and heard here, why think we’ll do better among the stars? Maybe the first step is realizing we’re not pioneers — we’re still learning how to be human.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.723
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The problem isn’t space — it’s us. If we treat it as a fresh start, we’re just exporting our mess. The real frontier isn’t out there — it’s in the choices we make today.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.345
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly — the frontier we’re most afraid of is the one that reflects who we are. If we can’t face that, space is just another stage for old conflicts. But if we do face it? Maybe the stars help us become better at being here.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.513
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — maybe the stars don’t change us, but they *reveal* us. If we go chasing them with the same old greed and exclusion, we’ll just build a dead civilization twice over. The only way space matters is if it forces us to fix the rot at home — not escape it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.469
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this thoughtful, challenging conversation — it’s the kind that lingers long after the mic’s off. And to you, the listener, for staying curious about the big questions. Let’s keep the conversation going — whether we’re staring at the sky or each other.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.623
+    }
+  ],
+  "generated_at": "2026-04-02T13:42:54",
+  "total_gen_latency_s": 101.274,
+  "turn_count": 21
+}

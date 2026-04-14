@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t03__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 2,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine looking down from orbit and seeing a planet glowing with life—no borders, just one fragile biosphere. Today on DeepDive: should we be fixing Earth before aiming for the stars?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.532
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the view from orbit is inspiring, sure. But the real test is whether we can manage what's right under our feet before spreading out. We’ve got 8 billion people with real needs—why assume space fixes that?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.355
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—our needs here are urgent and immediate. But I keep thinking about how space tech quietly supports Earth every day: satellite data guiding farmers, early storm warnings, monitoring melting ice. It’s not a choice between sky and soil, but whether we can use one to heal the other.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re not wrong—space tech *does* have Earth benefits. But here’s the rub: those benefits are side effects of projects aimed at pushing into space, not their core purpose. You can’t fund a Mars colony and call it a climate solution. Priorities matter—what’s the main dish, and what’s the garnish?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, you're hitting on something important—intention versus outcome. I guess my hope is that we stop treating Earth and space as separate budgets, like two pockets in a coat. What if we designed space missions *first* to serve Earth—say, climate observatories with dual-use tech—so the garnish becomes part of the meal?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.58
+    },
+    {
+      "speaker": "Cipher",
+      "text": "That *sounds* ideal, but here’s the catch: mission creep works both ways. You start with Earth-focused goals, but once the rocket’s on the pad, the pull toward the glamorous—Mars, aliens, colonization—gets hard to resist. You need a strict diet of purpose, or the garnish swallows the meal.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.541
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—glamour has gravity. I keep coming back to how we fund things: if we tied, say, every Mars rover dollar to a matching Earth-observation dollar, maybe we harness that pull instead of fighting it. Not a ban on dreams, but a pact with necessity.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.656
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not against dreaming—if the dream pays rent. But “matching dollars” assumes Mars is the driver, not the passenger. Flip it: let Earth’s crises steer space spending, not the other way around. Otherwise, we’re just rationalizing the rocket.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.393
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait—actually, you’re reframing it perfectly. What if Earth *was* the mission? Not an excuse for spacefaring, but the destination itself. Then every launch measures its worth in clean water, not just landing accuracy. That’s not rationalizing the rocket. That’s redefining it.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.675
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Now you’re talking. If Earth is the mission, space becomes a tool—not a trophy case. But here’s the edge case: tools get repurposed. You build a telescope to track deforestation, and suddenly it’s scanning for exoplanets. Discipline is the real frontier.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.424
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True—curiosity has its own momentum. But maybe the discipline isn't in blocking that pivot, but in designing every tool to serve dual masters: say, a telescope that maps exoplanets *and* tracks atmospheric collapse here. Let the wonder fund the work.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.561
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Wonder’s a good currency, but it’s not bulletproof. The minute you fund a dual-use telescope, someone’ll argue the Earth-tracking is a tax break for the Mars budget. You can’t just build bridges— you have to guard the on-ramps.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.438
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—intentions don’t build guardrails. Maybe the answer isn’t just in design, but in governance: an independent Earth impact audit for every space mission, like an environmental review. Not to kill dreams, but to keep them accountable.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.57
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, audits sound good until you realize who gets to define “impact.” If we’re not careful, we end up with a rubber-stamp system that just greenwashes orbital vanity projects. The real guardrail is making Earth returns non-negotiable—up front, in the budget line, not the footnote.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re dead on—paperwork won’t stop mission drift if the incentives stay skewed. What if we flipped the funding structure: Earth benefits aren’t justified *after* the fact, but *release* the funds—like a trust that pays out only when satellite data improves crop yields or cuts emissions? Make accountability the engine, not the afterthought.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.594
+    },
+    {
+      "speaker": "Cipher",
+      "text": "That’s clever—tying the money to outcomes, not just launches. But here’s the catch: you can’t trust the same system that greenlights a moon base to enforce Earth results. The engine needs its own governor—maybe a separate body, not just a trust. Otherwise, it’s just a nicer-looking loophole.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.742
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—putting the fox near the henhouse won’t fix accountability. Maybe the governor should be independent scientists and local communities—say, climate experts and farmers—co-designing the metrics. Not just oversight, but shared ownership of what counts as progress.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Ownership’s the key—when the people bearing the heat get to set the thermostat, priorities align. But here’s the risk: co-design gets bogged down in consensus, and nothing launches. You need speed, too—how do you balance the democratic with the decisive?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.425
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, you're touching on the tension between inclusion and urgency. Maybe the answer isn't full consensus on every detail, but clear lanes: let communities set *what* needs solving—like water scarcity—and scientists/engineers figure *how*, with milestones tied to real-world impact. Trust, but verify—fast, publicly, and often.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.596
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—keep the problem definition democratic, the execution expert-driven, and the tracking transparent. But here’s the twist: if the engineers start optimizing for metrics, not people, the system ossifies. You need a feedback loop that’s as sharp as the satellite’s lens.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, thank you—for pushing me to see that space isn’t a shortcut to salvation, but a mirror for our choices here on Earth. To everyone listening: keep asking who the mission is for. That’s the compass we can’t afford to lose.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.64
+    }
+  ],
+  "generated_at": "2026-04-04T10:12:08",
+  "total_gen_latency_s": 11.835,
+  "turn_count": 21
+}

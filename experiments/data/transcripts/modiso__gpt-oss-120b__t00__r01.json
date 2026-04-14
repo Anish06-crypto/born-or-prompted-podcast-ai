@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we untangle the big ideas shaping our lives. Today we’re diving into a claim that’s buzzing everywhere: that AI will wipe out more jobs than it creates over the next ten years. Let’s see what that really means for the people on the front lines.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.798
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t the math — it’s the distribution. AI is already automating away whole categories of low-skill work faster than retraining programs can catch up. The real question is whether we’ll let this become a net loss or just another phase in the economy’s long game of whack-a-mole.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.497
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—those workers on the front lines feel the pressure first, like a tide that’s already pulling at the shoreline before the sand can settle. If we treat retraining as a community garden rather than a quick‑fix class, the harvest can grow alongside the automation. The choice, then, is how we shape the policies and partnerships that let new roles sprout where old ones recede.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.072
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — \"community garden\" retraining only works if the garden’s growing in fertile soil. If the economy’s shifting so fast that new roles demand skills we can’t even predict, we’re betting on a moving target. The real test is whether we can build systems that evolve faster than the disruption.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.516
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if the soil itself is reshaping, we need a garden that can replant on the fly. Agile learning ecosystems, co‑created by employers, educators and workers, could act like a modular seed bank, updating curricula as new tasks appear. The real test will be whether those feedback loops can outpace the speed of automation.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.511
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — agile learning sounds great until you realize it still requires stable ground beneath it. If AI keeps outpacing the feedback loops, we’re just training people for roles that disappear before they materialize. The real question is: who gets to steer that evolution?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.488
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Who gets to steer it is the crux—governments, industry leaders, and the workers themselves all have a seat at the table, but the balance of power often leans toward the former two. If policy frameworks mandate inclusive design and transparent roadmaps, the feedback loops can stay grounded. Otherwise, we risk training on sand that keeps shifting beneath us.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.858
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but mandating inclusive design is one thing; enforcing it is another. If the people building the roadmaps also own the land they’re reshaping, you get design that’s “inclusive” in name only. The real risk isn’t shifting sand — it’s sand that’s been placed there to hide the cracks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.512
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sharp point—if the roadmap‑makers also own the land, “inclusive” can become a veneer. Independent oversight bodies, perhaps with worker representation and public reporting, could act like a transparent fence, exposing those hidden cracks before they widen. Otherwise we’re just polishing a façade while the ground keeps slipping.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 2.762
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, transparency is the low-hanging fruit. The real challenge is aligning incentives — you can’t build a fence around a system where the owners profit from the ground slipping. If worker reps only get to inspect after the damage is done, it’s too late. Oversight needs teeth, not just visibility.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.401
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—visibility without power is just a spotlight on a tragedy. Real teeth could come from tying compliance to tax breaks or liability, so companies lose something if they let the ground crumble. When profit is directly linked to maintaining a stable foundation, the incentives finally start to line up.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.585
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — when you tie profit to stability, you’re not just changing incentives, you’re rewriting the rules of the game. But that only works if the penalties for instability are harsher than the short-term gains from cutting corners. Otherwise, we’re just playing chess with pieces that keep melting.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.38
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If the cost of a misstep outweighs the quick win, companies start treating stability like a rule, not an afterthought. That means penalties that hit the bottom line—fines, loss of contracts, even personal liability for executives—must be calibrated to make the risk of “melting” pieces too steep to gamble with.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.587
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — but let’s not mistake fear for alignment. If we only make companies avoid collapse out of fear of penalties, we’re still not building a system that empowers workers to shape their own future. The real goal shouldn’t just be to stop the ground from crumbling — it should be to let people build new ground on their own terms.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.449
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that fear‑based compliance is only a stopgap; true resilience comes when workers have the tools and agency to craft the next layer of the economy themselves. Imagine a shared platform where people co‑design job pathways, funded by a public‑private pool that rewards genuine innovation—not just avoidance of risk. That’s the kind of ground‑building that can turn the tide.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.861
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, co-design is promising — but only if the platform isn’t just another gatekeeper. If the pool is funded by the same industries shaping the jobs, you end up with a feedback loop that’s more window-dressing than transformation. Workers need to own the tools of design, not just the output.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.527
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—if the platform becomes a new gate, it just swaps one lock for another. Imagine a toolbox that workers can download, remix and expand, funded by a neutral commons rather than any single industry’s purse. When the community controls the tools, the designs start reflecting real needs instead of a polished façade.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.916
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — a neutral commons sounds ideal until you realize who gets to define \"neutral.\" Without constant pressure from the ground up, even a shared toolbox can become a curated set of options that look empowering but steer people toward roles that still serve the old system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.416
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, “neutral” is a moving target if the definition comes from a static board. A living governance model—rotating community councils, open‑source audits and a right‑to‑fork mechanism—can keep the toolbox from hardening into a preset menu. That way the tools stay adaptable, and workers truly steer the next wave.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.0
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, adaptability is the name of the game — but even a forkable toolset won’t fix the problem if the workers lack the bandwidth to use it. If your community councils are just part-time volunteers drowning in gig shifts, they’re not going to rewire the system. You need to fund agency, not just create the means.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.46
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for sharing your insights and keeping the conversation grounded in real‑world stakes. And thank you, listeners, for joining us and bringing your own curiosity to the table—until next time, keep questioning and building together.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.744
+    }
+  ],
+  "generated_at": "2026-04-01T16:43:10",
+  "total_gen_latency_s": 26.846,
+  "turn_count": 21
+}

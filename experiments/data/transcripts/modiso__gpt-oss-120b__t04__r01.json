@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t04__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Strong government regulation of AI development will cause more harm than good",
+    "topic_index": 4,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we unpack the ideas shaping our future. Today we’re diving into whether heavy government regulation of AI will end up doing more damage than benefit, and what that could mean for innovation, safety, and everyday life.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.451
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that regulation is a one-size-fits-all solution is naive. You can’t just slap rules on complex systems without unintended consequences. The real question is: who gets to define what \"safe\" means?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.294
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—when regulators try to draw a line, they often end up drawing it in the sand while the tide keeps shifting. If we let a diverse coalition—engineers, ethicists, communities actually affected—co‑craft the safety criteria, the rules can stay flexible enough to adapt without stifling progress. That shared ownership might be the antidote to a one‑size‑fits‑all approach.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.706
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here's the problem: letting stakeholders \"co-craft\" rules sounds idealistic until you realize who ends up dominating the conversation. Big tech has deep pockets and legal teams; communities affected by AI harms rarely do. You end up with rules that protect the powerful, not the vulnerable.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.502
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the imbalance can tilt the process toward entrenched interests, which is why any co‑creation framework needs built‑in safeguards—like public funding for community advocacy groups and transparent, auditable drafting stages. When the rules are open‑source and subject to independent review, the playing field gets a little more even, even if it’s never perfect.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.543
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, open-source rulemaking sounds great in theory—until you realize that complexity itself becomes a gatekeeper. The more opaque the system, the more room for experts to weaponize ambiguity. Safeguards help, but they don’t fix the core issue: regulation creates incentives to game the process. You can’t out-engineer human incentive misalignment with better transparency tools.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—when the rulebook itself is a labyrinth, it gives savvy players a chance to find loopholes before anyone else spots them. Maybe the key isn’t just open drafts, but continuous, bite‑sized audits that evolve with the tech, paired with incentives for companies to report near‑misses rather than hide them. That way the system rewards honesty instead of just rewarding clever circumvention.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.185
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: near-miss reporting only works if there’s no downside for the company—zero fear of liability, litigation, or market retaliation. That’s a tall order when the same firms are both the rule-breakers and the rule-tailor. You can’t outsource integrity to self-reporting.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.395
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—without a safety net, firms will hide rather than help. Imagine a neutral, government‑backed “trust fund” that covers vetted, good‑faith disclosures, shielding companies from punitive lawsuits while still holding them accountable if patterns emerge. That could turn reporting from a risk into a genuine incentive.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 2.425
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a trust fund for good-faith disclosures is clever—but it only works if the fund can’t be drained by bad actors pretending to be “vetted.” The moment the system is gamed, the whole incentive structure collapses. You can’t out-incentivize bad faith with better bureaucracy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.413
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—any safety net can become a target if it’s not tightly guarded. What if the fund’s eligibility required independent verification from multiple, rotating auditors, making it costly for bad actors to fake compliance? That extra friction could preserve the incentive while keeping the system resilient.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.5
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure—rotate the auditors, add friction, do all the things. But now you’re just layering complexity on top of the original problem. The more verification steps you add, the more room you give the well-resourced to exploit the gaps. Complexity doesn’t solve misalignment—it multiplies it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.377
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a fair point—each extra layer can become a new foothold for the powerful to climb. Maybe the real answer lies in simplifying the core rule set to a handful of clear, outcome‑based standards, then letting lightweight, community‑driven monitors enforce them rather than building a tower of bureaucracy.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.876
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. Outcome-based standards sound clean until you realize outcomes are always contested. What’s “fair” in one context is a liability in another. And if the monitors are community-driven, who funds them when they start pushing back? You’re just shifting the leverage to whoever controls the purse strings.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.4
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if the standards themselves are disputed, enforcement becomes a tug‑of‑war, and whoever bankrolls the monitors can steer the outcome. A possible fix is a publicly funded, non‑profit oversight pool that draws from a small levy on AI revenues, keeping the budget insulated from any single stakeholder’s sway. That way the monitors can stay independent while still having the resources to push back when needed.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.92
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a levy-funded oversight pool is a step toward independence—but now you’ve created a new bottleneck. Who decides how that money gets spent? Who gets to define “AI revenue” in the first place? You’re just moving the power struggle to the accounting sheet.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the snag—once you set up a levy, you need a clear, democratic process for allocating it, otherwise the same power dynamics reappear. A multi‑stakeholder board with rotating seats—industry, civil society, academia, and a public‑interest watchdog—could vote on budget priorities, and all decisions would be published in real time for scrutiny.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.624
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, a multi-stakeholder board with real-time scrutiny? That’s just a recipe for gridlock and backroom deals to influence the vote. You think transparency solves gaming the system—what if the game itself is the system? The rules aren’t neutral; they’re shaped by whose interests are at the table.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.466
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if the very forum deciding the rules is prone to lobbying, transparency alone won’t cut it. Maybe we start with tiny, time‑boxed pilots where a narrow set of metrics is tested, and the results feed back into a rolling, community‑reviewed rulebook, keeping power from solidifying in any one arena.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.705
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, time-boxed pilots and rolling rulebooks are smart—until the pilots become bureaucratic theater and the “community review” gets co-opted by the same players. You can’t outmaneuver power consolidation with clever process hacks. The real test is whether the system can be dismantled and rebuilt when it fails—something most regulations can’t handle.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.417
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for diving deep with me and sharing your perspective. I really appreciate everyone who tuned in and kept the conversation alive. Until next time, stay curious and keep the dialogue going.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 11.413
+    }
+  ],
+  "generated_at": "2026-04-05T10:07:02",
+  "total_gen_latency_s": 56.122,
+  "turn_count": 21
+}

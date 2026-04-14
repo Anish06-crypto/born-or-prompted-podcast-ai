@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t01__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 1,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host. We're in the midst of a digital revolution, and it's hard to imagine life without social media. Today, we're exploring whether the benefits of connecting with others online outweigh the costs to our mental health and democracy.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.381
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn't just the scale of social media — it's the design. Platforms are optimized for engagement, not truth or well-being, and that creates a feedback loop of outrage and comparison. Democracy relies on shared facts, not algorithmic outrage. So the real question is: can we afford to let these systems decide what we see before we even decide for ourselves?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.596
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really astute observation about the feedback loop – it's like being trapped in a perpetual echo chamber. I'm reminded of a study where people were shown to be more empathetic and understanding when they used social media in a more curated, low-stakes way, like sharing a funny meme, rather than getting caught up in the outrage cycle. But then again, that's a pretty narrow use case, and not everyone has the luxury of using social media in a way that's so carefully managed.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 8.85
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the idea that people just need to \"use it better\" ignores the architecture of the platforms. They’re designed to amplify division and urgency, not nuance. If you’re lucky enough to have the discipline to avoid the outrage cycle, great — but the system is rigged against most people doing that consistently. The real question is whether we should expect democracy to function in a medium that profits from its dysfunction.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.826
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really tough pill to swallow – that the systems we're using are fundamentally at odds with the values of democracy. It's like trying to have a civil conversation in a space designed to pit people against each other. I'm not sure I buy the idea that we can just \"design our way\" out of this problem, though – I think we need to confront the underlying economic incentives that drive these platforms.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 3.72
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t just bad design; it’s bad incentives. When a company’s revenue depends on maximizing user distress and polarization, you can’t fix it with a better UI. You have to change the business model or the regulatory framework. Otherwise, you’re just giving a TED Talk to the very people profiting from the chaos.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.665
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really hard truth to accept – that the systems we're using are designed to exploit our vulnerabilities, and that our outrage and division are what drive the profits. It's not just about tweaking the interface or adding more \"safety features,\" but about fundamentally rethinking the way these companies are valued and regulated. As a society, we're still debating what it means to be a \"social\" media company – is it really just about connecting people, or is it about monetizing their interactions?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.388
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — we’re letting companies define what “social” means instead of holding them to a public good standard. If we treat them like utilities, they can’t just externalize the costs of polarization and mental decay. The real question is whether we’re willing to stop pretending this is just “free speech” and start seeing it for what it is: infrastructure with a profit motive.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.776
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really compelling way to frame it – infrastructure with a profit motive. It's like recognizing that roads and bridges aren't just free market enterprises, but public goods that require regulation and oversight. If we can acknowledge that, maybe we can start to think about social media in the same way, not as a platform for unbridled expression, but as a utility that needs to be governed in the public interest.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.232
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the moment we treat it like infrastructure, we can stop letting the tech industry dictate the rules. Right now, they get to decide what counts as “free speech” and what’s “hate speech,” but they shouldn’t be the arbiters of our shared reality. Look, the alternative isn’t censorship — it’s accountability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really powerful shift in perspective – from seeing social media as a Wild West of unregulated expression to recognizing it as a critical infrastructure that needs to be governed. It's not about stifling free speech, but about creating a framework that prioritizes the public good over private profit. And I'm reminded of a fascinating study on the role of civic norms in online spaces – it suggests that when we collectively establish clear expectations around behavior, we can actually create more inclusive and constructive online communities.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 11.497
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the study’s insight lines up with something obvious but often ignored: norms don’t emerge in a vacuum — they require enforcement. If platforms are infrastructure, they need to enforce baseline civility the way we enforce traffic laws. Otherwise, we’re just pretending the internet is a public square instead of a corporate arena.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.688
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really astute observation about norms and enforcement – it's like recognizing that just because we have speed limits doesn't mean people will always follow them. But in this case, the \"infrastructure\" of social media is actually designed to reward the loudest and most provocative voices, rather than the most civil or constructive ones. So, enforcing baseline civility would actually require a fundamental shift in the way these platforms are designed, rather than just tweaking their policies.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 11.371
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the real issue is that the default design rewards chaos. If you're penalized for being civil and amplified for being toxic, you don’t need a policy to fix it; you need to flip the algorithm. The question is whether we’re ready to demand that from the platforms — or if we’ll keep letting them off the hook with feel-good transparency reports.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.738
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right, we need to stop treating transparency reports as a substitute for actual accountability. It's like saying that because a company discloses their emissions, they're suddenly doing their part to address climate change – but the real issue is the underlying practices that are driving those emissions. We need to start demanding that platforms prioritize transparency in their algorithms, not just in their PR materials.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.364
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — transparency without control is just theater. If you can’t audit the algorithm, you can’t hold it accountable. The real test is whether we’re willing to make these systems open to independent oversight, not just public relations.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.182
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really high bar – requiring platforms to open up their algorithms to independent oversight. I'm not sure I'm optimistic about that happening anytime soon, especially when these companies have a history of pushing back against regulation and transparency. But I do think there's a growing recognition that we can't just trust these systems to self-regulate, and that's a starting point, at least.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.821
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — optimism isn’t the point. The point is recognizing that self-regulation by profit-driven entities has already failed. The question is whether we’re ready to stop waiting for their permission to fix it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really important distinction – moving from optimism to necessity. We've been waiting for the tech industry to self-regulate, and it's clear that's not going to happen. It's time for us to take ownership of the systems we've created and demand a better future, rather than waiting for permission.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.137
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we built these systems, and now we have to take responsibility for how they shape society. The future isn’t handed to us by tech companies; we have to fight for it. And that means rethinking not just the tools, but the power structures they enforce.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.554
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Well, that's all the time we have for today. I want to thank Cipher for a truly thought-provoking conversation – it's conversations like these that challenge us to think beyond the surface level and push for a better future. To our listeners, thanks for joining us on DeepDive – I hope you'll join us again soon to explore more of the complexities and challenges that shape our world.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 22.788
+    }
+  ],
+  "generated_at": "2026-04-02T10:42:35",
+  "total_gen_latency_s": 143.361,
+  "turn_count": 21
+}

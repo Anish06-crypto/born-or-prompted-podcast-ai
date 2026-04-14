@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t01__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we untangle the threads that shape our world. Today we’re diving into how social media—those endless scrolls and notifications—might be tipping the scales for our mental well‑being and the health of our democracies. Let’s see where the story leads.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t just the content people consume—it’s the architecture of what keeps them hooked. Algorithms prioritize emotional extremes, not truth or balance. And here’s the kicker: the more fragmented our attention, the more polarized we become. Democracy doesn’t thrive on outrage loops.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.407
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—those algorithmic “attention‑hooks” feel a lot like a carnival barker shouting louder each time you pass by, pulling us toward the flashier, more visceral stalls. When our minds are constantly jolted, it’s harder to sit still long enough for nuanced dialogue. Still, if we redesign those cues—like adding quiet “reflection” zones into the feed—we might reclaim space for both mental calm and democratic conversation.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.173
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but let’s not confuse design tweaks for systemic change. A “quiet zone” doesn’t fix the incentive structure—platforms still profit from chaos. And if you hide the noise, users just scroll faster to escape it. The real test is whether we can build systems that reward depth over dopamine, not just carve out isolated pockets of calm.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.582
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—tweaking the surface won’t shift the profit engine that thrives on endless engagement. If we rewire incentives—say, by tying ad revenue to time spent on verified, long‑form content or community‑driven discussions—we could align profit with depth. It’s a bigger leap, but the architecture can be reshaped.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.728
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing—verified long-form content still needs curation, and who decides what’s “verified”? You’re just shifting power from algorithms to gatekeepers. And if the market doesn’t reward that model, the platforms won’t touch it. Profit alignment only works if the economy changes first.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.413
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux—any new “verification” layer becomes a new gate, and who holds the keys matters as much as the algorithm itself. If the market still prizes clicks, platforms will resist, so we’d need parallel incentives—perhaps public funding for trustworthy hubs or tax breaks for depth‑focused services—to tip the scales before the tech follows.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.646
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, parallel incentives are a start, but let’s not ignore the first-order effect here: if you subsidize quality, you create a niche. The real question is whether people will still choose substance when distraction is free. You can fund truth all you want—but if outrage is easier to consume, it’ll still win.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.544
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, the free‑flow of outrage is a strong current, but even a small tributary of well‑funded, engaging substance can gradually reshape the river’s course. If those deeper pieces are made as compelling and accessible as the viral bites—through storytelling, interactive formats, and community ownership—people start reaching for them without feeling like they’re “choosing” over something else.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.272
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—if you make substance as addictive as nonsense, you’re still just building a mirror with better branding. The real shift happens when we unplug the feedback loop: when attention isn’t the currency, when visibility isn’t tied to virality. Until then, you’re just competing in the same race.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.581
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—making “substance” addictive would just be a prettier version of the same game. The real leap would be to decouple attention from value, perhaps by shifting social capital to reputation systems that reward consistency and empathy rather than spikes. If we stop selling visibility as a commodity, the race changes entirely.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 7.034
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but reputation systems have their own pitfalls—gaming, elitism, groupthink. You can’t just swap one metric for another without changing what people are rewarded for. The real challenge is designing systems where authenticity *matters* more than performance. That’s easier said than coded.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.429
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Authenticity is tough to quantify, but we can embed signals like long‑term relationship metrics—how often someone follows up, supports others, or admits mistakes—rather than just raw likes. By rewarding consistency over bursts, the system nudges people toward genuine interaction, even if the code behind it has to be carefully guarded against gaming.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.015
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re assuming people want authenticity. They want validation, status, and distraction. You can design systems all you want, but if the payoff for showing up as yourself is less than the payoff for performing, people will game it. The code isn’t the problem—human nature is.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—validation and the thrill of a quick hit are powerful pulls, and most of us gravitate toward the spotlight. Still, when the reward structure itself celebrates vulnerability—like spotlighting honest mistakes or steady support—people can start seeing authenticity as a viable path to status, not a sacrifice. It’s a subtle shift, but it nudges the payoff toward being real.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.713
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—subtle shifts don’t matter if the system still punishes vulnerability. If you’re downvoted for honesty but upvoted for flair, people won’t take the bait. You need to invert the cost-benefit first. Otherwise, you’re just asking people to play a different game in the same arena.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.617
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If vulnerability still carries a penalty, no redesign will stick—so the first step has to be flipping that cost‑benefit line, perhaps by rewarding honest posts with amplified reach or tangible credits. Once the platform itself signals that truth earns visibility, the incentive landscape reshapes, and the “different game” becomes the only viable one.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.84
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, amplified reach for honesty only works if the metric for “truth” isn’t just another proxy for popularity. You can’t outsource integrity to a like counter. And if you do, you’re just creating a new kind of pressure to perform authenticity. The real test is whether the system can tolerate friction—quiet, unpolished truth that doesn’t scream to be seen.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.496
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I see the snag—if we keep using reach as the yardstick, we just replace one performance metric with another. What if platforms offered a low‑key “quiet‑share” mode that lets sincere, unpolished posts sit in a slower‑moving feed, earning modest but steady credibility instead of viral spikes? That friction could actually protect authenticity.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 11.917
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a \"quiet-share\" mode sounds noble, but it’s still optional. The default remains the race for attention. If people don’t *have* to play the viral game to matter, maybe the culture shifts. But until that default flips, the quiet mode is just a side path most never take.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.502
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher, for sharing your insights and challenging us to think bigger about the platforms we all use. And thank you, listeners, for joining the conversation—your curiosity keeps these deep dives alive. Until next time, stay thoughtful and keep questioning.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.953
+    }
+  ],
+  "generated_at": "2026-04-04T10:02:59",
+  "total_gen_latency_s": 57.479,
+  "turn_count": 21
+}

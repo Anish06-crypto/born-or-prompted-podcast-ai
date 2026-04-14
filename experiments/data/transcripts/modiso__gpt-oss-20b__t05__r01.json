@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t05__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we chat about the ideas shaping our world. Today we’re diving into whether genetic editing of human embryos to stop hereditary diseases should be a legal option. Let’s unpack the science, ethics, and the human stories behind it.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.306
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the science here is clear: CRISPR can target and neutralize disease-causing mutations. The ethical debate, though, is where the fog sets in. Let’s not mistake “preventing suffering” for a blank check — the slippery slope starts with one disease and ends with designer traits. What’s the real cost of normalizing genetic selection?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.483
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear the caution. The line between therapy and enhancement feels thin, but history shows we’ve been tweaking traits long before CRISPR—selective breeding, IVF choices. The real question is: do we set a legal framework that safeguards against misuse while still allowing life‑saving edits? It’s a balance of precaution and possibility.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.314
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, selective breeding isn’t new — but editing embryos at the molecular level is. The difference is scale, precision, and permanence. The problem isn’t just misuse — it’s unintended consequences. We don’t yet know how these edits will play out across generations or in complex genetic interactions.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.456
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on about scale and permanence. Even a single base change can ripple through gene networks we’re only beginning to map. The unknowns—epigenetic shifts, off‑target effects—mean we’re treading a path with no full GPS. That’s why a cautious, tightly regulated approach seems wise, even if it feels restrictive.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.301
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — regulation is necessary, but caution shouldn’t mean stalling progress entirely. We’re talking about preventing diseases that currently doom children before they’re born. The question is how to move forward without letting fear of the unknown shut down the possibility of real medical breakthroughs.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.485
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that urgency. Perhaps a phased rollout—starting with clear, high‑risk diseases, rigorous clinical trials, and transparent public dialogue—could keep innovation alive while guarding against unforeseen fallout. That way we keep the door open for cures, but we’re not walking blindly into a genetic unknown.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.453
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Phased rollout makes sense — but who gets to decide which diseases qualify as “high-risk” enough to warrant an exception? That’s where power dynamics creep in. We need to be clear: this isn’t just science, it’s policy, and policy is politics. Let’s not mistake transparency for fairness.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.41
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Deciding “high‑risk” is a messy mix of medical data, cultural values, and economic interests; it’s not just a science checklist. A truly fair framework would involve diverse stakeholder panels—patients, ethicists, community leaders—so that no single group owns the definition. Transparency alone won’t fix power gaps; deliberate, inclusive governance is key.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.565
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — governance is the real frontier here. Even with the best intentions, inclusion without enforcement still leaves room for exploitation. We need accountability structures that outlast political cycles and corporate interests. Otherwise, we’re just layering bureaucracy over a problem we don’t fully understand.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.786
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, we’d need watchdogs that survive elections and boardroom shifts—think independent international bodies with real teeth, like a global CRISPR oversight council. They’d audit protocols, enforce penalties for shortcuts, and keep the public in the loop. Only then can we trust that the promise of disease prevention doesn’t become a tool for inequality.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.859
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, an international council sounds good until you realize who funds it and who gets a seat. Don’t get me wrong — global oversight is necessary, but it’s only as neutral as its members are. If we’re not careful, we end up with a system that prioritizes profit or prestige over people in need.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.681
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—funding and representation shape any council’s bias. Maybe a hybrid model: a core of independent scientists and ethicists, plus rotating seats for low‑income regions, funded through a global levy on biotech profits. That could balance expertise with equity, ensuring the body stays tethered to those it’s meant to protect.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.055
+    },
+    {
+      "speaker": "Cipher",
+      "text": "A global levy sounds ideal until you realize tax havens and corporate loopholes will eat it alive. You can’t outsource ethics to a council if the industry writes its own rules. The real test is whether we’re willing to slow progress long enough to build guardrails that actually work — not just look like they do.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.537
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear the frustration; history shows that industry can outpace regulation. Perhaps the key is embedding enforceable standards into the patent and funding agreements themselves—so that any breakthrough must meet ethical benchmarks before it can be commercialized. That way progress is still moving, but it can’t outgrow the safeguards we set.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.985
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, tying ethical benchmarks to patents is clever — but it assumes all breakthroughs are equally accessible. If the price of compliance is high, only the well-funded labs will play by the rules. That just shifts inequality to the lab level. We need to make safety and equity non-negotiable, not optional upgrades.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—making compliance a luxury would only widen the gap. Perhaps we could mandate open‑source protocols for safety checks, backed by public funding that subsidizes smaller labs. That way the cost of ethical compliance is shared, not a premium only the wealthy can afford.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.57
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Open-source safety protocols are a solid idea — but remember, open-source doesn’t mean fair access. If the tools are free, but the machines to use them aren’t, we’re still leaving people behind. We need to decouple the means of genetic innovation from the gatekeepers of capital — or we’ll just be automating inequality at the DNA level.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, it’s not enough to give the blueprints; we must also level the playing field with shared infrastructure—public genome‑editing labs, pooled funding, and training programs. If the tools and the space to use them are democratized, the risk of a DNA‑based elite shrinks. It’s a systemic shift, not just a software update.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.732
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, systemic change is the only way this works — but don’t confuse infrastructure with justice. Shared labs and training won’t help if access still favors the privileged. We’re not just building tools; we’re rebuilding the rules of who gets to use them. That’s the real frontier.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.476
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for diving into these tough questions with me. And thank you all for listening—keep asking, keep exploring, and let’s keep the conversation alive. Until next time, stay curious.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.729
+    }
+  ],
+  "generated_at": "2026-04-02T13:23:10",
+  "total_gen_latency_s": 48.703,
+  "turn_count": 21
+}

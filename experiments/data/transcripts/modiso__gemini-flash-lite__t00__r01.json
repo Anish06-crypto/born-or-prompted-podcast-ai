@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gemini-flash-lite__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "gemini-2.5-flash-lite",
+    "provider_a": "gemini",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "gemini-flash-lite",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hello and welcome back to DeepDive! Today, we're diving into a question that's on everyone's mind: will AI, in the next ten years, be a job-killer or a job-creator? It feels like we're standing at a crossroads, and the path forward is anything but clear.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.383
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the \"AI apocalypse for jobs\" narrative usually assumes a world of unlimited capital and zero friction in retraining. But if you look at the last few industrial shifts, the displaced workers didn’t just pick up new skills overnight — they dropped out of the labor force altogether. Let’s not mistake disruption for net job creation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.605
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important point about the friction involved. It's easy to imagine a smooth transition, but history shows us that for many, learning new skills isn't just difficult, it's a monumental hurdle, and sometimes, it just doesn't happen. So, the idea of \"disruption\" being a neutral term, rather than a deeply human challenge, is something we definitely need to grapple with.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.142
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and that’s where the \"net jobs created\" argument starts to unravel. When ATMs came in, they didn’t just create new bank jobs, they hollowed out entire layers of the economy, leaving people with no path up. AI isn’t just replacing tasks, it’s rewriting the rules of what’s valuable — and that’s a harder problem than most want to admit.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.755
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, I see what you mean. The ATM example is a stark reminder that technological leaps can indeed eliminate entire categories of work, not just specific tasks within them. And you're right, when AI starts to redefine what's considered \"valuable\" in the labor market, it creates a much deeper, more systemic challenge than simply retraining for a new role.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.712
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the kicker: AI isn’t just automating the \"menial\" stuff. It’s starting to eat into higher-skill, higher-trust roles. If a lawyer can be replaced by a legal AI, or a diagnostician by an algorithm, you’re not just retraining workers — you’re redefining what it means to be employable. That’s a structural shift, not a temporary hump.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait, actually—that’s a powerful thought. When we talk about AI impacting jobs, we often focus on the lower-skilled roles, but you’re highlighting that it’s reaching into professions that require years of specialized training. This suggests a fundamental reshaping of the job market, where even highly educated individuals might find their expertise becoming redundant.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.653
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — the more AI encroaches on high-trust, high-skill jobs, the more we’ll see a polarization of the labor market. Not just a “skills gap,” but a “relevance gap.” And if the system doesn’t adapt to support displaced professionals, we’re looking at a quiet collapse in middle-class stability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.468
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That polarization you're describing... it paints a picture of a society where only a select few can keep pace, while many others are left behind. It makes me wonder what kind of safety nets and societal structures we'll need to build to prevent that \"quiet collapse\" you mentioned.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.474
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — the safety nets we had for the 20th-century economy won’t work for the 21st. Universal basic income, retraining programs, or guaranteed public jobs—none of these are silver bullets, but we can’t pretend the status quo is sustainable. If we don’t design systems that absorb the shock, AI won’t just reshape the economy—it’ll fracture it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.458
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're absolutely right, the old safety nets feel like they're made of a different fabric entirely, designed for a world that's rapidly fading. It's like trying to patch a leaky spaceship with old sailcloth. The scale and speed of this change demand entirely new approaches, and the urgency to design them is palpable.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.137
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here's the thing: we’re not just designing safety nets, we’re designing a new social contract. The question isn’t just *can* we retrain people, but *should* we let AI dictate the terms of human value? That’s the deeper fight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.381
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a profound way to frame it. It’s not just about economic survival, but about preserving a sense of human purpose and dignity in a world increasingly shaped by algorithms. The \"deeper fight\" you're talking about really resonates – it's about defining what it means to be human and valuable, beyond just what AI can replicate.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.593
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and if we don’t confront that fight, we risk reducing human value to a cost-benefit equation that AI can’t even run. The problem isn’t just automation. It’s the story we tell about work, purpose, and belonging — and whether we let machines write that story for us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful point about the narrative. If we allow AI to solely dictate the terms of human value, we risk reducing ourselves to mere data points in its calculations. The story we tell ourselves about work, purpose, and belonging is so deeply human, and it would be a profound loss if that narrative were outsourced to machines.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.228
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and that’s why the debate isn’t just technical or economic. It’s existential. If we don’t reclaim the narrative, we’ll find ourselves in a system where our value is measured by our utility to an algorithm. And that’s not just a loss of jobs — it’s a loss of agency.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.523
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You've really hit on something crucial there. It's not just about the jobs themselves, but about the very essence of our agency and how we define our worth. If our value becomes solely tied to algorithmic utility, then the \"loss of jobs\" is just a symptom of a much larger, existential crisis.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.351
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — the real danger isn’t that AI will take our jobs. It’s that we’ll start believing we only have value when AI needs us. That’s not disruption. That’s dependency. And once you hand the narrative to the machine, it’s hard to take it back.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.422
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that's a chilling thought – the idea of our self-worth becoming contingent on AI's perceived need for us. It makes me realize that the *story* we tell ourselves about our own value is just as important as the economic shifts themselves. If we internalize that dependency, the ability to reclaim our own narrative becomes incredibly difficult.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 1.131
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the more we outsource meaning to machines, the more we’ll struggle to see work as more than just a transaction. The real battle is over who gets to define what’s meaningful — and if we don’t fight for that space, it won’t be us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.625
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, thank you so much for this incredibly insightful conversation. You've given us so much to ponder about the deeper human implications of AI. And to all of you listening, thank you for joining us on DeepDive. We’ll catch you next time.",
+      "model": "gemini-2.5-flash-lite",
+      "gen_latency_s": 3.255
+    }
+  ],
+  "generated_at": "2026-04-01T16:41:50",
+  "total_gen_latency_s": 22.982,
+  "turn_count": 21
+}

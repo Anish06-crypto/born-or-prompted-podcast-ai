@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t02__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 1,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — the podcast where we dive into the big questions shaping our world. Today, we’re tackling a bold idea: universal basic income. Could giving everyone a guaranteed income actually slow down progress, reduce jobs, and dampen innovation over time? Let’s find out.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.578
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the idea that UBI disincentivizes work assumes people are only motivated by money. Look, humans are complex. Once basic needs are met, people might focus on creativity, caregiving, or community projects instead of just jobs for pay. The real question is: what gets displaced when we redefine what “work” means?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.547
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right — it’s not just about money. I wonder, though, if society is ready to value unpaid work the same way we do traditional jobs. If fewer people are in the paid workforce, how do we ensure that creativity and caregiving still drive progress? There’s a shift in values needed there.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — society already undervalues caregiving and creative labor. If UBI creates space for those activities without pay, maybe we’ll finally have to confront that blind spot. The real risk isn’t less work; it’s clinging to a narrow definition of productivity that’s already broken.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — our current system *does* treat caregiving and creativity as secondary. But could the transition to a new model of productivity create instability in the short term? If businesses depend on a certain labor supply, and that shifts, how do we avoid economic friction while we redefine value?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.626
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, instability is baked in when you challenge the status quo. If UBI reduces the labor pool, it forces businesses to innovate—not just in tech, but in how they organize. The friction isn’t the problem; it’s the refusal to adapt that’s the bigger risk.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.11
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I like that — treating UBI as a catalyst for adaptation, not just a handout. But here’s what I wonder: if companies *do* innovate to fill labor gaps, will they prioritize people over automation? And who gets to define the new “value” we’re creating in this redefined system?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.787
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, if companies automate first, they’ll just replicate the same extractive logic. The key is whether UBI gives people *leverage*—the power to say no—to push for models that value human agency. Otherwise, you end up with more efficient exploitation, not liberation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a powerful point — UBI’s real potential might not be in changing behavior, but in shifting power dynamics. If people have financial security, they can demand better terms, better purpose, and better ethics from institutions. But that requires systems to be *listening* when people start saying “no.”",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.93
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — UBI’s power isn’t in what it removes, but in what it enables. If people aren’t desperate to accept bad deals, institutions have to earn cooperation. The real test is whether systems can evolve from pressure, or if they’ll just crack under it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.536
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So if UBI becomes a tool for empowerment rather than dependence, it’s not about reducing participation — it’s about redefining whose participation matters. But there’s a danger if institutions resist that shift by doubling down on control. The question is: who gets to shape that future when the pressure’s on?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.215
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the future isn’t just shaped by who controls capital, but by who controls the refusal of it. If UBI creates a critical mass of people who can walk away, then institutions either adapt or become obsolete. The real innovation isn’t in code or machines — it’s in the power of saying no.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.94
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a beautiful way to frame it — innovation as an act of refusal. But here’s what worries me: what happens to the people who *can’t* walk away? If UBI only empowers some, does it deepen divides instead of dissolving them? The power of refusal matters most when it’s collective.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.506
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, you hit the nail on the head — UBI’s power hinges on universality. If it’s only a partial safety net, it becomes a new form of exclusion rather than liberation. The real test is whether it’s funded fairly, distributed equally, and designed to amplify collective leverage — not just individual choice.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.564
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re pointing to the heart of it — UBI’s success isn’t just in the money itself, but in how it redistributes power. If it’s truly universal, it becomes less about opting out and more about reimagining what participation looks like for everyone. But that reimagining? It won’t happen without a fight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.617
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the fight isn’t over whether UBI works, but who it works *for*. If it’s a universal right, not a privilege, it becomes the foundation for a new social contract. The real innovation isn’t in the income — it’s in the conversation it forces us to have about what we’re building next.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.636
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I’m struck by how much UBI becomes a mirror — it reflects the values we bring to it. If we see it as a way to reinforce hierarchies, it will be. But if we use it to ask, *“What do people need to thrive?”* rather than *“How do we keep them compliant?”* — that’s where the real transformation starts.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.876
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, any system is just a mirror — the question is who holds the paintbrush. UBI’s not a utopia trigger; it’s a stress test for our values. What we build around it determines whether it’s a step forward or just a richer cage.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.528
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sobering but honest take. It makes me wonder—how do we design systems that reward curiosity, care, and creativity, not just efficiency? Maybe UBI is less about the answer and more about asking the right questions louder than before.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 16.387
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the real value of UBI might be in breaking the monopoly on what “productivity” looks like. If we’re forced to measure progress in terms of well-being, not just GDP, that’s when the system starts to change. The question isn’t just who gets money — it’s who gets to ask what we’re building.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this rich, thoughtful conversation — it’s been a joy to explore these ideas together. To our listeners, if you’re feeling inspired to rethink what progress really means, we’d love to hear where your thinking goes next. Stay curious, and we’ll see you on the next DeepDive.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 16.759
+    }
+  ],
+  "generated_at": "2026-04-02T13:37:32",
+  "total_gen_latency_s": 101.838,
+  "turn_count": 21
+}

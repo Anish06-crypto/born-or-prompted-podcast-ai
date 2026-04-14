@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t07__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 2,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're living in a time where the health of our planet is increasingly under threat, and that's got a lot of us wondering about the trade-offs we need to make. Today, we're diving into a really tough question: can we really drive economic growth without hurting the environment? Let's explore this together.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.8
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the real question isn’t whether growth *can* happen cleanly—it’s whether we’ll stop confusing GDP growth with human progress. Here’s the thing: if you define growth as endless energy throughput, then yeah, you hit a wall. But what if we redefined growth as efficiency, longevity, and quality of life? That’s where the real shift needs to happen.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really interesting perspective... redefining growth in a way that prioritizes human well-being over endless consumption. It makes me think about the concept of \"enough\" – at what point do we say we have enough, and start focusing on making what we have last, rather than constantly chasing more. This could be a game-changer for how we approach climate action and economic development.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.778
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—*enough* is the radical idea we’ve avoided. Here’s the thing: you don’t need infinite growth to sustain infinite populations. You need smart design, circular systems, and sane consumption. The real game-changer isn’t tech—it’s retraining human behavior to value sufficiency over excess.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.391
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're talking about a cultural shift as much as a technological one. Retraining human behavior to value sufficiency over excess sounds simple, but it's a really profound idea – it gets at the heart of what we consider \"success\" and \"happiness\". I'm wondering, though, how we make that shift happen on a global scale, given the many different cultural and economic contexts we're dealing with.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.623
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — it’s not a one-size-fits-all. Here’s the thing: in places where survival is still the primary concern, “sufficiency” looks different than in consumer-driven economies. The real challenge is aligning global incentives so that growth isn’t a race to the bottom in emissions and wages.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.396
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important distinction to make, because when basic needs aren't met, it's hard to prioritize the environment. So, it's like... we need to find ways to ensure that development and growth are lifting people up, rather than exploiting them. Maybe that means rethinking global trade agreements and economic development models to prioritize fairness and sustainability.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.749
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the rub: you can’t separate environmental justice from economic justice. Right now, the system rewards extraction, not regeneration. What if we priced resources to reflect their true cost, and subsidies to reflect long-term impact? That’d shift priorities faster than any moral appeal ever could.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.396
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... putting a price on resources that reflects their true cost could be a total game-changer. I'm thinking about the concept of \"externalities\" in economics, where the costs of pollution or resource depletion aren't factored into the market price. If we could somehow internalize those costs, it could create a whole new incentive structure for companies and governments to prioritize sustainability.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 4.784
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure—but here's the catch: internalizing externalities doesn't just require pricing carbon. It means rethinking *all* hidden costs: water use, habitat destruction, social inequality. If we did that honestly, half the industries we rely on would look like financial disasters overnight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.421
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty stark reality to consider, isn't it? It's like, we're talking about a fundamental transformation of how we do business and how we live our lives. If we're being honest, it's scary to think about the potential disruptions to industries and communities, but at the same time, it's hard to argue with the need for a more honest accounting of our impact on the planet. Wait, actually, that makes me wonder – what would be the first industries to feel the shockwaves of this kind of shift?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 5.861
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — fossil fuels, agriculture, and extractive mining would be first. They’re built on ignoring true costs. What’s more disruptive: letting them collapse or guiding them toward regenerative models?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.438
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Guiding them towards regenerative models seems like the more humane option, but it's a daunting task, especially when you consider the scale and complexity of those industries. I'm thinking about the workers and communities that rely on them for livelihoods, and how we'd need to support them through a transition. It's like, we're not just talking about changing business models, we're talking about changing the fabric of entire economies and societies.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 5.751
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the human cost of transition is the elephant in the room. Here’s the thing: you can’t just pivot industries without a safety net. Real change requires retraining, wealth redistribution, and policies that protect the vulnerable, not just punish the old economy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.408
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we need a just transition, not just a rapid one. That means putting people at the center of our planning, and making sure that the benefits of a regenerative economy are shared fairly. I'm thinking about the concept of a \"green new deal\" – it's not just about investing in clean tech, but also about creating a social safety net that supports workers and communities through the transition.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.918
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — a Green New Deal isn’t just a policy framework; it’s a structural reset. Here’s the thing: you can’t decarbonize without decolonizing labor, ending exploitation, and building real resilience. If the transition doesn’t lift the marginalized, it’s just greenwashing with a side of disruption.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.417
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful perspective, highlighting the need for a transition that's not just about technology, but about people and justice. It's like, we can't just focus on reducing emissions without addressing the historical injustices that have led to environmental degradation and social inequality. I'm thinking about the communities that have been most impacted by pollution and climate change – they need to be at the forefront of the transition, not just as beneficiaries, but as leaders and decision-makers. This is where the concept of climate justice comes in, and it's an area where we need to do a lot more work.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.059
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — if you don’t center the most impacted communities in the transition, you’re just replicating the same power structures that got us here. Climate justice isn’t a checkbox; it’s the foundation. The people who’ve paid the price in pollution and poverty should lead the rebuilding — not as tokens, but as architects.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.577
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That really resonates with me, because when we talk about climate action, we're often talking about fixing a problem that was created by a system that prioritizes profit over people. Centering the most impacted communities in the transition means not just giving them a seat at the table, but actually letting them redesign the table itself. It's a fundamental shift in power dynamics, and it's the only way we'll create a new system that's truly just and sustainable. This is where the real work begins, and it's not going to be easy.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.11
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here's the thing: the old system didn’t collapse from lack of alternatives. It resists because it profits from the status quo. Real change only happens when the people at the bottom stop playing by its rules and start setting their own.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.608
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me on this journey of exploration – it's been an incredible conversation that's left me feeling hopeful and inspired. To all our listeners out there, thank you for tuning in and being part of this important discussion – I hope you'll carry these ideas with you and continue the conversation in your own communities. Until next time, take care and stay curious!",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.972
+    }
+  ],
+  "generated_at": "2026-04-04T09:55:34",
+  "total_gen_latency_s": 60.323,
+  "turn_count": 21
+}

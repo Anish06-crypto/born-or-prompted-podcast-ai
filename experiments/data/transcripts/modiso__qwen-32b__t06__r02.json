@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t06__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 2,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive! Today, we're diving into a question that’s shaping the future of work: Has remote work really weakened organisational culture more than it’s empowered individuals? Let’s get into it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.36
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: Remote work didn't create culture erosion — it just exposed it. Look, if your culture was strong enough to survive Zoom calls, it probably could’ve handled a few more Slack messages. The real question is whether organisations built systems or just relied on coffee machine banter.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that — it’s like if a bridge can’t handle a storm, maybe it wasn’t built for the long haul. But isn’t there also room for both? Systems *and* connection. Because culture isn’t just about Slack channels — it’s about people feeling seen. How do you rebuild that when the office isn’t a place anymore?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.711
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — but here's the rub: \"feeling seen\" is easy in a coffee line, harder in a grid of boxes. Culture isn’t just about connection; it’s about alignment. When you remove the ambient signals — the watercooler nods, the eye-rolls at bad jokes — you can’t just replace them with a \"how are you?\" in a 10-person meeting. You have to mean it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.793
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — those little cues *do* matter. But doesn’t that mean we should build tools and rituals that replace them intentionally, rather than just mourning their loss? Culture is what you *keep* when the office leaves, right? It’s not about replacing coffee chats — it’s about creating something new that serves the same purpose.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.647
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not against intentionality — but let’s not confuse activity with culture. Forced virtual coffee hours don’t build trust any more than email does. Culture is a byproduct of shared goals, not forced fun. If your team needs a Slack GIF to feel connected, you’ve already lost the thread.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.483
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that — culture can’t be manufactured. But doesn’t the way we communicate shape what’s possible? If we only build for efficiency, we lose the moments where people bond over a shared struggle or a joke that only makes sense to our team. Maybe remote work isn’t the enemy — maybe it’s the mirror.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.829
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — mirror or not, you can’t ignore the reflection. If bonding only happens in the gaps between tasks, your culture’s built on slack, not substance. Look, shared struggle matters — but it needs structure, not just serendipity. The question isn’t whether remote work killed culture; it’s whether we ever had one worth keeping.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.401
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sharp point — maybe the problem isn’t remote work, but that culture was always fragile. But if we only see culture as something that emerges from structure, don’t we risk making it feel like a performance? What if we started treating people as humans first, and workers second?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.816
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — treating people as humans isn’t about adding yoga sessions to a roadmap. It’s about recognising that culture isn’t a checkbox, it’s a byproduct of trust, clarity, and autonomy. If you’re forcing culture through performative gestures, you’re just papering over the fact that the system doesn’t yet support it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.505
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — culture can’t be performative. But isn’t it also a living thing? If we only build systems for output, we lose the space where meaning gets made. Maybe the question is: How do we build structures that allow culture to breathe, even from afar?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.021
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here’s the catch: culture only breathes when the system *allows* it. If your structure is all deadlines and no room for friction, you’re not building culture, you’re compressing it. The real challenge is designing for both clarity and serendipity — it’s harder than it looks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.363
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly — it’s like trying to grow a garden in a concrete jungle. You can’t just plant seeds and expect them to thrive if the environment doesn’t shift. Maybe the lesson here is that culture needs more than intention — it needs space to unfold, even in a remote world.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.646
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, gardens thrive when you design the soil, not just the plants. If remote work is the new soil, we have to stop importing old assumptions about how culture \"should\" look. Let the culture adapt — but don’t mistake noise for growth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.4
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I like that — culture isn’t static, it’s ecological. But here’s what worries me: if we’re not careful, we’ll confuse chaos for adaptability. Maybe the key is to let culture evolve, but with guardrails — enough structure to keep us grounded, and enough space to surprise us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.594
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, guardrails without a destination are just red tape. The trick is knowing which rules are there to enable culture, and which are just there to make managers feel in control. Let the culture surprise you — but don’t let it drift off a cliff.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm — so it’s a balance between guidance and freedom. But isn’t that the human condition, too? We need enough direction to feel secure, but enough openness to feel alive. Maybe great culture is just the space where people can show up fully, without the organisation suffocating or abandoning them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.657
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if \"showing up fully\" means bringing your whole self to work — great. But don’t mistake busyness for presence. The real test is whether the organisation can hold space for that without trying to package it into a brand.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that — presence is more than just showing up on camera. But doesn’t the organisation itself have to *want* that fullness, not just tolerate it? Maybe the shift isn’t about holding space, but about making room for the messy, unpredictable parts of being human.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.69
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here's the thing: organisations don’t *want* fullness, they want predictability. Letting in the messy parts of humanity means accepting that culture isn’t something you manage, it’s something you live — or it doesn’t happen at all.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.403
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this rich, challenging conversation — it’s the kind of thinking that keeps us all growing. And thanks to you, our listeners, for being here. Let’s keep diving deep, together.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 17.085
+    }
+  ],
+  "generated_at": "2026-04-02T15:48:55",
+  "total_gen_latency_s": 109.481,
+  "turn_count": 21
+}

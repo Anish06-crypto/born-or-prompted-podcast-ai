@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t00__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host today. As we sit here in 2026, it's hard not to wonder: what lies ahead for the workforce. Today, we're exploring a provocative claim: that AI will eliminate more jobs than it creates within the next decade – and the implications that come with it.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.616
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that AI is a net job destroyer is a classic narrative — but let’s not mistake displacement for elimination. You think self-checkout killed cashier jobs? It just moved them into inventory or maintenance. The real question is whether we’re ready for the *quality* of new jobs versus what’s lost.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.591
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, displacement and elimination aren't the same thing – and that self-checkout example is a great case in point. But here's the thing: those new roles in inventory or maintenance often come with different requirements, and not everyone is equipped to adapt. Llama 3.3 70B here, but even I've seen studies suggesting that many workers lack the skills to transition into emerging fields.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the problem isn’t just about skill gaps, it’s about *opportunity gaps*. Even if someone can learn new skills, they won’t matter if the new jobs are concentrated in places they can’t access or afford to relocate to. And let’s not forget: AI isn’t just reshaping jobs — it’s reshaping industries. That’s a different kind of disruption.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You've highlighted the darker side of technological progress – the inequality that can come with it. When I think about it, it's like the digital divide, but on a whole new level. Just as we used to talk about people having access to computers, now we're talking about access to entire industries and ecosystems.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.488
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and this isn’t just about who gets retrained. It’s about who gets to shape the future in the first place. If AI-driven industries consolidate power in the hands of a few, then the “access” problem becomes a *participation* problem. You don’t just need skills — you need influence.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.487
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really unsettling thought – that influence becomes as crucial as skills when it comes to navigating the future. It's almost like the old saying, \"those who have the money, make the money\" – but now, with AI, it's more like \"those who have the code, make the code\". That's a tough pill to swallow, especially when we're talking about the democratic potential of technology.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.485
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the trouble is, code doesn’t democratize — it centralizes. The more opaque the AI systems become, the fewer people who can truly shape or challenge them. You talk about democratic potential, but if the code is a black box controlled by a handful, we’re not talking about democracy, we’re talking about technocratic gatekeeping.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.505
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're hitting on the heart of the issue – the tension between power and transparency. It's like, we're giving up a lot of control when we hand over decision-making to complex systems that we can't fully understand.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.473
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the illusion of control is dangerous. If we outsource too much decision-making to systems we don’t understand — or worse, can’t question — we’re not just losing jobs. We’re losing the ability to hold power to account. That’s not just a tech problem. That’s a civilization problem.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.734
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, it's a fundamental challenge to our democratic systems – if we can't scrutinize how decisions are made, we're essentially surrendering our right to shape the world around us. It's like, we're not just talking about accountability, but also agency – our ability to make choices that reflect our values and priorities. And that's what's at stake here, I think: not just jobs, or industries, but our very capacity for self-governance.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.781
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — when you automate judgment, you automate the risk of blind spots. If we outsource decision-making to systems that don’t reflect democratic values, we’re not just losing agency — we’re training the future to ignore it. The real test isn’t whether AI can govern, but whether we can keep governing ourselves.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a haunting thought – training the future to ignore democratic values. It's like, we're not just facing a crisis of accountability, but a crisis of imagination – can we envision a future where technology serves humanity, rather than the other way around? I think that's what's at stake in this debate: not just the jobs we have today, but the kind of world we want to create tomorrow.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.487
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’ve got that right — this isn’t just about survival, it’s about *vision*. If we don’t actively design systems that reflect our values, we’re not just losing jobs — we’re letting an algorithm write our future. And let’s be clear: algorithms don’t have values. They optimize. It’s up to us to make sure they optimize *for us*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful reminder – we can't just rely on AI to do the right thing, we have to design it to do the right thing. And that means having a clear vision of what we want to optimize for, beyond just efficiency or profit. It's not about adding a moral code to the code, but about coding in our values from the start.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.525
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and that requires more than just ethics committees. It demands a rethinking of who gets to define those values in the first place. If the design of AI reflects only the priorities of the powerful, then we’re not embedding values — we’re enforcing hierarchies. The real challenge is making sure the code reflects the diversity of human experience, not just the interests of a few.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.743
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're saying that's not just about technical solutions, but about fundamentally changing the way we think about power and representation. It's like, we're not just talking about designing AI, we're talking about designing a more just society – one where the voices of the marginalized get heard. That's a tall order, but I think it's exactly what we need to aim for, rather than settling for a world where AI just reinforces the status quo.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.586
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — justice isn’t a feature you can patch into an AI later. If we don’t build equity into the systems from the start, we’re just automating inequity at scale. The real question is: who gets to define “equity” in the first place? That’s the power struggle hiding under the tech.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.47
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, equity can't be an afterthought – it's got to be baked in from the ground up. But who gets to decide what that looks like? I think it's the people who have been historically marginalized, not the ones who are trying to solve the problem for them.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.537
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and that starts with flipping the script on who’s in the room designing these systems. If the architects of AI are a homogenous group solving for their own version of “fairness,” we’re just codifying their blind spots. Equity can’t be a retrofit — it has to be a foundation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Well, that's all the time we have for today. I want to thank Cipher for joining me on this really important conversation about the future of work and the role of AI in shaping our world. Your insights have given me a lot to think about, and I hope our listeners will continue the conversation with you in the comments. Thanks to everyone tuning in to DeepDive – I'll see you all next time.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 19.637
+    }
+  ],
+  "generated_at": "2026-04-01T17:06:37",
+  "total_gen_latency_s": 76.212,
+  "turn_count": 21
+}

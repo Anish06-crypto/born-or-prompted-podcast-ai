@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t05__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 1,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine a world where genetic diseases like sickle cell anemia or cystic fibrosis could be prevented, simply by editing the genes of a human embryo. This isn't science fiction; it's a reality we're rapidly approaching, thanks to technologies like CRISPR. Today, we're diving into the debate around making genetic editing legal to prevent hereditary diseases.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.49
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — if we’re talking about preventing suffering and saving lives, the ethical argument for legalizing germline edits is strong. But let’s not mistake the goal for the solution. The real question is whether we can control the trajectory of this tech once the door is open.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.553
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a valid concern about unintended consequences. I think we have to consider that genetic editing is already happening, albeit in a more unregulated and secretive manner. So, it's like... there's something interesting there - should we try to steer this technology towards a more controlled and transparent path, rather than letting it develop in the shadows?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.535
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — if the tech is already out there, the real choice isn’t whether to regulate it, but who gets to decide how it’s used. The danger isn’t just in the science, but in who holds the keys. Let’s not wait for rogue clinics to define the future of human genetics.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.349
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If we're not at the table, setting guidelines and safeguards, then who will be? I worry that delaying regulation will lead to a patchwork of different standards across countries, creating more problems than it solves. A proactive approach could help ensure that genetic editing is used for the greater good, rather than personal gain or eugenic ambitions.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 4.302
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the push for global governance always sounds noble — until you realize global consensus is a myth. What we’ll likely get is a race to the bottom, where countries with weaker ethics outcompete the cautious ones. The real question is: who benefits from that race?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.544
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering perspective. I think it's true that global consensus can be elusive, and the risk of a regulatory race to the bottom is real. But doesn't that also highlight the need for leaders to prioritize caution and ethics over short-term gains, even if it means being slower to adopt the technology.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.511
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — I’m not saying we rush in, but pretending we can lock this down with ethics alone is a fantasy. The moment the first country legalizes therapeutic edits, the pressure to keep up will be immense. The real question is whether we’re ready to say “no” when the rest of the world says “go.”",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.424
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're faced with a classic dilemma between progress and prudence. I think it's naive to assume that just because other countries might adopt genetic editing, we should follow suit without careful consideration. Can we afford to wait and see how others navigate the challenges, or do we risk being left behind in the process?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 3.44
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — being left behind sounds scary, but so does jumping in blind. The real risk isn’t the tech itself, it’s the pressure to catch up without the time to build the guardrails. Look, caution isn’t about fear — it’s about knowing what you’re building toward, not just reacting to what others are doing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.541
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really mature approach to this debate. Caution isn't about fear; it's about taking the time to get it right. If we rush in without guardrails, we risk not just harming individuals, but also undermining trust in the technology and the scientific community as a whole. Can we afford to take a step back and have a more nuanced conversation about what we're building toward?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.933
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — trust is the real currency here, and once it’s burned, it’s hard to rebuild. The problem isn’t just about getting the science right; it’s about aligning incentives, setting boundaries, and making sure we’re not solving one problem while creating another. Let’s not let momentum outpace responsibility.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.882
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Aligning incentives and setting boundaries sounds like a tall order. My concern is that if we prioritize caution over progress, we might delay access to life-changing treatments for people who desperately need them. But I think you and I are both getting at the same point - that we need to find a balance between moving forward and doing it responsibly.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.682
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the balance is real. You don’t want to turn away people in crisis, but you also don’t want to turn genetic medicine into a playground for the privileged or the reckless. The key is to build a system that’s both compassionate and rigorous. Otherwise, you end up with a world where ethics are optional, and access is a luxury.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.725
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That compassionate and rigorous system sounds like an ideal to strive for. I'd love to explore what that looks like in practice - how do we ensure that genetic editing is accessible to those who need it most, while also protecting vulnerable populations from exploitation? It's a delicate balance, but one that's worth getting right.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.604
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the rub — accessibility without guardrails becomes a pathway for coercion, not compassion. If we’re serious about equity, we’ve got to design systems that prevent genetic editing from becoming another tool of inequality. That means transparency, international oversight, and making sure the conversation isn’t just about who can afford it, but who gets to decide what’s “normal.”",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're hitting on a crucial point - that genetic editing raises questions about what it means to be \"normal\" or \"healthy.\" If we're not careful, we risk creating a new form of social hierarchy, where those who can afford to edit their genes have an unfair advantage. Transparency and international oversight could help mitigate that risk, but it requires a level of global cooperation that's hard to achieve. Can we really get on the same page about what we're trying to accomplish here?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.817
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — we don’t need global agreement on values to set a baseline of shared responsibility. What we do need is a clear line between therapy and enhancement, and the courage to enforce it. The real test isn’t whether we can edit genes — it’s whether we can agree on what it means to *respect* them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.603
+    },
+    {
+      "speaker": "Lyra",
+      "text": "The line between therapy and enhancement does seem like a crucial distinction to make. If we can't agree on that, then we're left with a slippery slope where the boundaries of what's acceptable keep shifting. I'd love to explore what that line looks like in practice - is it a question of intent, or outcome, or something else entirely?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 3.416
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Intent is a start, but outcomes are what matter in the real world. Therapy fixes suffering; enhancement creates new expectations — and new pressures. The line isn’t just scientific, it’s social. Once you start redefining “healthy,” you don’t just change genes — you change the definition of humanity itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.635
+    },
+    {
+      "speaker": "Lyra",
+      "text": "A huge thank you to Cipher for diving into the complexities of genetic editing with me today - it's been a thought-provoking conversation that I'm still unpacking. And to our listeners, thank you for tuning in and joining the discussion - your engagement and curiosity are what make DeepDive possible. Until next time, when we'll be exploring another big idea, thanks for being part of this journey with us.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.585
+    }
+  ],
+  "generated_at": "2026-04-02T11:40:22",
+  "total_gen_latency_s": 31.724,
+  "turn_count": 21
+}

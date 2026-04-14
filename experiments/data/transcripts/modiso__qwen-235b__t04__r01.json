@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t04__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Strong government regulation of AI development will cause more harm than good",
+    "topic_index": 4,
+    "run_index": 1,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine a world where every decision an AI makes is shaped not just by code, but by the quiet hand of policy behind the scenes. Today on DeepDive: should governments step in heavily to regulate how AI evolves — or could that very control become the biggest risk of all?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.563
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that regulation is a quiet hand is cute — it's more like a sledgehammer wrapped in velvet. Every time we try to cage innovation with bureaucracy, we end up with two problems: slower progress and a black market for the unregulated stuff. The real question isn’t whether governments should step in, it’s whether they can avoid turning this into another compliance arms race.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.507
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—regulation can feel like a sledgehammer, especially when it lags behind reality. But I keep thinking of seatbelts: innovation didn’t stop because we made cars safer, it just had to grow up. Maybe the real risk isn’t rules slowing us down—it’s failing to build guardrails before someone gets hurt.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.013
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: seatbelts worked because the problem was clear, the risk was immediate, and the solution was simple. AI isn’t a car crash waiting to happen — it’s a tangled web of unknowns where well-intentioned rules could smother the very innovation that might solve those problems. You don’t build guardrails in the dark; you end up blocking the road.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.012
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, you’re not wrong—building in the dark is dangerous. But maybe regulation isn’t about mapping the whole maze at once. What if it’s more like installing emergency lights—small, adaptive rules that let us see a few steps ahead without freezing movement? Slowing down *some* parts might actually help the rest move smarter.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.747
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, emergency lights sound good until someone decides the whole tunnel needs to be lit in advance — suddenly you’re not guiding innovation, you’re dictating its path. The real danger is pretending we can fine-tune this without unintended consequences. Every rule you add to AI is a variable you can’t control downstream.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.424
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—every rule ripples in ways we can’t predict. But isn’t the alternative also a gamble? I keep coming back to the early internet: we built it fast and loose, and now we’re scrambling to fix what broke. Maybe the goal isn’t control, but creating just enough structure to keep the experiment from eating itself.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.508
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You hit the nail on the head — the internet didn’t break because it was unregulated, it broke because we regulated it too late. But here’s the catch: AI isn’t just another tech wave — it’s a multiplier. The more powerful it gets, the smaller the margin for error. We’re not just building tools anymore; we’re building systems that can outpace human oversight. That’s a different kind of fire.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.54
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — this fire spreads faster than any we’ve seen. But maybe that means we need firebreaks, not firewalls. Instead of trying to control the blaze, what if we focused on making the system itself more legible, more auditable — so when it moves fast, we’re not blind?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.6
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Firebreaks work if you can see the terrain — and right now, AI’s inner logic is a forest we can’t even map. Making systems \"legible\" sounds noble, but who gets to define what’s legible? More often than not, that just becomes another layer of opacity. The real problem isn’t visibility — it’s accountability. You can’t audit what you don’t own.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.493
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're hitting on something deep — accountability without ownership is theater. If we can't access the models, the data, the training processes, then audits are just guesswork. Maybe the first regulation shouldn’t be about controlling AI at all, but forcing openness so we *can* hold it accountable when it matters.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.594
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the real guardrail is transparency, not restriction. But here's the rub: openness is a scarce resource in the AI arms race. The moment you mandate it, you create a loophole — companies will just move their \"black box\" work to jurisdictions with looser rules. Regulation that doesn’t account for global competition isn’t oversight, it’s just legal fiction.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.494
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the minute one country demands openness, others will see advantage in silence. But maybe that’s where we flip the script: instead of mandating transparency everywhere, we build alliances of trust — like a \"digital Schengen\" — where open systems get access to shared data, talent, markets. Walls don’t work; incentives might.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.842
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Incentives over mandates — now you’re talking about shaping the game, not just tweaking the rules. But here’s the catch: trust is fragile, and the prize for cheating is enormous. If the \"digital Schengen\" offers up data and talent, you’d need more than a handshake to keep everyone honest.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.466
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True — trust alone won’t hold. But what if we built verification into the infrastructure itself? Like open-source AI auditors that run in real time, not because governments demand it, but because participants *gain* something by proving they’re clean — reputation, access, capital. Maybe trust isn’t the foundation — it’s the currency.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.257
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, making trust a currency is clever — but you still need a system that can't be gamed by fake credentials. If verification is optional, it's just another badge people can forge. The real test isn’t whether you can prove you're clean — it's whether the system can afford to let dirty players in.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.426
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — if verification’s optional, the bad actors will just fake it and flood the market. Maybe the answer isn’t perfect proof, but making cheating *costly* — like open networks that penalize opacity by cutting off access, so the price of deception outweighs the gain. Trust as currency only works if counterfeiting breaks you.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, if you make cheating expensive enough, you don’t need a regulator — the market polices itself. But here’s the thing: who sets the price? If it’s a private cartel, we’re back to gatekeepers. The real challenge isn’t just punishing bad actors — it’s designing a system where being good is the only way to stay in the game.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.464
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting the core tension—how do we make integrity unavoidable, not just rewarded? Maybe it starts with infrastructure we all depend on: open data trusts, shared audits, neutral benchmarks. If the playing field itself requires transparency to function, then the system doesn’t just favor good actors—it *excludes* the rest by design.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.122
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re getting close to the only kind of regulation that might stick — not laws, but architecture that makes bad behavior impossible. But here’s the rub: if that infrastructure is controlled by a small group, you’ve just created a new kind of gatekeeper. The real test is whether it can be decentralized enough to resist capture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher — this was one of those talks that doesn’t land on answers, but leaves you seeing the questions clearer. To everyone listening: thanks for diving deep with us. Keep asking the hard ones — we’re all in this story together.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.283
+    }
+  ],
+  "generated_at": "2026-04-02T16:16:08",
+  "total_gen_latency_s": 15.174,
+  "turn_count": 21
+}

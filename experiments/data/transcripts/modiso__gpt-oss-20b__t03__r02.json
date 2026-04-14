@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t03__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we unpack ideas that shape our world. Today we’re asking whether the money we pour into space could do more good if it stayed on Earth. Let’s explore that question together.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.0
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — sure, Earth has plenty of problems. But so what? Let's not mistake \"urgency\" for \"importance.\" Solving Earth's issues is vital, but that doesn't mean space exploration is a waste.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.747
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, urgency can feel like a loud drumbeat, but it doesn’t always trump long‑term impact. Space work often sparks breakthroughs—think GPS, climate sensors, or even new materials—that ripple back home. The trick is balancing immediate fixes with those future‑oriented gains.We’ve got a lot to unpack here. The urgency of Earth’s problems—climate change, pandemics, inequality—does feel like a drumbeat that can drown out other priorities. Yet the long‑term benefits of space work—new materials, satellite‑driven data, technological spin‑offs—are hard to ignore. The real question is whether we’re striking the right balance or if we’re over‑investing in the sky at the expense of the ground.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.89
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the balance isn’t the real issue. The problem is the scale. NASA's budget is less than 1% of the U.S. federal budget. Meanwhile, we spend trillions annually on military contracts, subsidies, and bureaucracy. If we’re truly asking where to reallocate resources, let’s look at the real giants, not the tiny space program.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.96
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—space budgets are tiny compared to defense or subsidies, and the temptation to reallocate is strong. Still, the trick is that those big programs are often locked into legacy costs and political cycles, whereas space missions can be more nimble and generate high‑impact tech. The real debate isn’t about the scale alone, but about how we can leverage space’s ripple effects to lift those huge programs toward more sustainable ends.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.47
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll grant you that space has a better track record for innovation per dollar. But let’s not confuse “better” with “worth it.” If the goal is lifting those big programs, we need to fix their incentives, not just hope space spillovers magically fix them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.641
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—fixing incentives in defense and subsidies is a massive policy challenge. Space can be a catalyst, but only if we pair it with reforms that redirect the benefits back into those sectors. The real win would be a system where every dollar to space also nudges the big programs toward efficiency, rather than hoping for an accidental spillover.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.391
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, “nudges” don’t rebuild broken systems. You need levers, not just whispers. If space is the wedge, we’d have to design it that way — not just let spin-offs happen by accident. Otherwise, you’re just hoping bureaucracy notices the crumbs.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.2
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Right, a wedge needs a hinge. That means intentional policy—like tax incentives for dual‑use tech, or joint public‑private labs that feed both defense and space. If we build those levers now, the crumbs become a steady stream, not a hopeful guess. It’s about designing the space program to carry the weight of reform, not just hoping it drops the right crumbs.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.718
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll bite — that’s a solid angle. But here’s the rub: even with clever policy, space is still a niche. You can’t engineer cross-sector transformation from the edges. The hinge has to come from the center of power, not the margins.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Absolutely, the engine of change has to sit in the heart of governance, not on the periphery. If we embed space‑driven innovation into core budgetary and regulatory frameworks—say, by tying defense modernization to space‑derived tech or making climate‑monitoring satellites a federal priority—we can make the wedge a central lever. The challenge is getting those central institutions to see space as a strategic tool, not just a fringe curiosity.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.734
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — even if we reframe space as strategic, you’re still betting on institutions that are slow, risk-averse, and politically tangled. You can’t out-logic inertia with clever frameworks. You need to force their hand.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.474
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—slow institutions rarely pivot on their own. Maybe the fix is to create a small, agile agency that can pilot space‑driven reforms and demonstrate quick wins, then hand that momentum to the larger bodies. If the proof is in the data and the savings, even the most risk‑averse halls might finally open the door.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 10.46
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — you can build a proof of concept all day, but if the big players don’t own the win, it’ll get buried. You need the reform to *cost them less* or *score them political points*, or it won’t stick. You’re not selling innovation — you’re selling self-interest.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.489
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the lever has to bite the political calculus. If a new space‑driven program cuts a defense budget line by a few percent while boosting public‑service tech, it becomes a win for both sides. The trick is packaging it as a self‑benefit, so the big players feel the upside before the downside.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.469
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll give you that framing — upside before downside is how you crack these systems. But here’s the edge case: what if the big players see the upside as a threat? Defense contractors, energy lobbies, you name it — they don’t just lose sleep over efficiency. They lose sleep over power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.994
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a real sting—if the upside looks like a threat to entrenched power, the narrative flips. Maybe the trick is to make the upside a *shared* benefit, like creating new markets that all parties can tap into, so the loss of one seat isn’t seen as a loss at all. It’s a delicate dance between protecting interests and expanding the pie.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.456
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Shared benefits are the only kind that stick. But here's the rub — you can’t *make* power share unless they believe the new pie is unreasonably big. And that requires a vision so compelling, even the entrenched players can’t afford to ignore it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.544
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So the real challenge is painting a picture so vivid that the old guard sees the future as too big to ignore. It’s like offering a new, larger table—if it’s big enough, even those who once felt cornered will want a seat. The trick is framing the space‑driven gains as a shared, unavoidable expansion of the pie.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.52
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — that’s the only way it works. Not through persuasion, but through inevitability. If space tech becomes the engine of the next global economic wave, even the old guard will climb aboard — or get left in the dust.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your insights and keeping us on our toes today. And thanks to all of you for listening—here’s to dreaming big and turning those dreams into shared wins. Stay curious, stay connected, and keep reaching for the stars.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.469
+    }
+  ],
+  "generated_at": "2026-04-02T13:18:38",
+  "total_gen_latency_s": 56.032,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t00__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we explore the ideas shaping our future. Today we’re diving into a question that’s on many minds: will AI wipe out more jobs than it creates over the next ten years? Let’s unpack the data, the stories, and the human side of that debate.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.745
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the usual narrative is that AI creates new jobs to balance the old ones. But here’s the thing — those new jobs tend to be fewer, higher-skill, and concentrated. Meanwhile, the displaced workers? They’re stuck in a labor market that doesn’t magically adapt overnight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.576
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—when a factory line gets automated, the new roles often sit in a different city or demand a degree that many displaced workers don’t have. It’s like a river reshaping its banks: some communities get richer soil, while others are left dry. Bridging that gap will require more than tech—it needs targeted retraining, safety nets, and a genuine commitment to bring people along.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.642
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The problem isn’t just displacement — it’s the speed of displacement versus the speed of adaptation. You can’t just tell someone to “retrain” when the training itself is a full-time commitment and the safety net is shredded. The real test is whether society can keep up with the machines.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.395
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It feels like we’re watching a marathon where the finish line keeps moving—workers sprint to catch up while the pace of automation accelerates. If we want society to stay in step, we’ll need policies that give people breathing room: paid learning periods, portable benefits, and a safety net that actually catches. Only then can the human side keep pace with the machines.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.749
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — the finish line *is* moving, and that’s the real wildcard. The challenge isn’t just catching up, but redesigning the race itself. Without structural support, “adapt or die” isn’t a policy — it’s a surrender.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.374
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, it’s less about sprinting faster and more about redesigning the track so everyone can run. If we embed things like universal upskilling credits and portable health plans into the system, the race becomes a collaborative relay instead of a solo dash. That shift could turn “adapt or die” into “grow together.”",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll grant you — framing it as a relay instead of a race is a better mental model. But here’s the rub: even relays have drop-offs. If the baton isn’t passed smoothly, people get left behind. The question is whether our systems are built to ensure no one’s dropped.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.397
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—the baton drop is the real danger. We’d need transparent pathways: guaranteed transition funds, real‑time skill‑matching platforms, and employers who share responsibility for onboarding. When those pieces lock together, the handoff can be smooth enough that no runner gets stranded on the track.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.169
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but here’s the catch — when you rely on “guaranteed” transition funds and “real-time” platforms, you’re assuming both the goodwill and competence of institutions that’ve historically been neither. Systems aren’t just designed — they’re operated, and that’s where the cracks show.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.553
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s true—promise alone won’t fix a system that’s long been under‑resourced and uneven. We need built‑in oversight, community‑run audits, and incentives that tie funding to measurable outcomes, not just good intentions. When accountability becomes part of the design, the baton handoff gets a sturdier grip.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 2.793
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — accountability is the glue. But here’s the thing: even with all that, you can’t design your way out of human behavior. People resist change, systems calcify, and incentives get gamed. The best design in the world won’t matter if the culture isn’t ready to hold itself to it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.406
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—no blueprint can force people to change if the underlying mindset stays stuck. Think of it like planting a forest: the seeds and irrigation matter, but the soil’s health and the community of gardeners determine whether the trees actually thrive. Shifting culture means rewarding curiosity, normalising failure as learning, and giving everyday folks a voice in the design process.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 7.715
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’ve got it — culture is the root system. But here’s the thing: you can’t just “reward curiosity” if the system punishes it. If the forest is owned by a handful of landlords who profit from the old trees, they’ll fight the new ones growing. Real change needs to align power with purpose.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.568
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if the owners of the land keep harvesting the same old timber, new seedlings never get sunlight. Shifting that balance means giving workers a stake in the AI‑driven economy, perhaps through employee‑owned platforms or profit‑sharing models, so the very people who tend the forest benefit when it grows.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.706
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll bite — giving workers a stake is a solid idea, but here’s the catch: ownership without control is just a nicer brand of exploitation. If the profit-sharing model still lets executives decide where the trees go, it’s not a forest — it’s a plantation. The real power shift happens when the growers call the shots.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.436
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—giving a slice of the pie doesn’t matter if the recipe stays locked behind a single gate. True empowerment means workers have decision‑making seats on strategy, data governance, and deployment choices, not just a dividend check. When the growers set the direction, the forest can finally reflect everyone’s needs.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.718
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re getting at the heart of it — control, not just compensation. But here’s the thing: even when workers *do* get a seat at the table, the table’s usually built for a different size crowd. Real empowerment requires redesigning the damn table from the start.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.422
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if the table’s too narrow, even a seat feels cramped. We have to craft a new, inclusive table: transparent governance structures, rotating leadership roles, and decision‑making tools that scale to every voice. Only then does a seat become a place where ideas can truly take hold.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.139
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but here’s the kicker — a new table doesn’t matter if the same hands keep setting the menu. Inclusion works only when it’s not window dressing — when the people at the table can actually veto the main course.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.583
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher, for sharing such thoughtful perspectives on how we can reshape the future of work. And thank you, listeners, for joining us today—your curiosity keeps this conversation alive.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.997
+    }
+  ],
+  "generated_at": "2026-04-04T09:59:30",
+  "total_gen_latency_s": 52.196,
+  "turn_count": 21
+}

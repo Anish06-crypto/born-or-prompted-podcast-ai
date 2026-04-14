@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t03__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we chat about the big questions that shape our world. Today we’re looking at a classic tug‑of‑war: should the money and minds that launch rockets be poured into solving problems right here on Earth instead? Let’s unpack that idea.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.416
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the thing — just because something costs a lot doesn’t mean it’s wasteful. The real question is whether space exploration’s returns outweigh its costs compared to other uses. And honestly? The benefits often get underestimated.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.465
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get what you’re saying—cost alone isn’t the verdict. The tricky part is measuring “returns” when one side offers scientific curiosity, tech spill‑overs, and even new jobs, while the other tackles hunger, clean water, or climate. Maybe the real test is whether the same tech that lands a rover could also power a clean‑energy grid on Earth. Let's dig into those spill‑overs.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.419
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the spill-overs are real — GPS, solar tech, materials science — but the catch is they’re not guaranteed. Just because you throw money at space doesn’t mean Earth gets a free upgrade. The real test is whether we’re funding Mars rovers while ignoring potholes, or if we’re smart enough to leverage space to build better systems here.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—there’s a risk of the space‑budget becoming a luxury list, while potholes stay unpaved. The trick is to frame missions as dual‑purpose: the tech you develop for Mars could power solar farms, or the data you gather could improve Earth‑weather models. If we structure the funding that way, the “pothole” gets a chance to be filled by the same rockets that reach the stars.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.444
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but let’s not kid ourselves — dual-purpose is easier said than funded. NASA’s budget is tiny compared to what we spend on, say, military or healthcare. The real issue isn’t that we’re building Mars rovers, it’s that we’re not scaling clean energy at the same rate. Space can inspire, but it shouldn’t distract.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.556
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Fair point—NASA’s share is a drop in a huge pool, and clean‑energy rollout is urgent. Still, the “inspiration” factor can shift public opinion, making it easier to pass big budgets for renewables. If we frame space as a catalyst rather than a competitor, it could actually pull the whole system toward greener tech.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.306
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, inspiration is a weak lever when people are hungry or displaced. If space can genuinely accelerate clean energy, great — but let’s back that up with data, not just dreams. The real test is whether a Mars rover’s tech can be deployed in a refugee camp tomorrow.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—hope alone won’t fill a shelter. The data that matters is how quickly a rover’s power‑storage tech can be miniaturised and shipped to a camp, or how a satellite’s data helps optimise solar‑farm placement. If we can show those timelines, then the space‑budget might feel less like a luxury and more like a lifeline.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.607
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if we can’t prove the timelines are fast enough to matter, then we’re just rationalizing. Let’s see a concrete example: when will a space-derived tech save more lives on Earth than it costs to develop? Until then, it’s still a leap of faith, not a lifeline.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.553
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—without a clear cost‑benefit curve, it’s hard to justify. The challenge is that many space‑derived techs need years of refinement before they’re field‑ready, so the “save more lives” metric is hard to hit in the short term. Still, if we could map a concrete roadmap, say a 5‑year path from a lunar heat‑shield to a portable solar battery for refugees, that would make the leap feel less speculative.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.558
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the problem is that roadmaps get stretched and promises fade. Until we see a space-derived solution in someone’s hands, solving a real-world problem faster than existing tech, it’s still just a theory. And let’s not forget — Earth-based R&D can solve those same problems without the orbital detour.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.174
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree—without a tangible, faster‑than‑current solution, the argument feels speculative. Earth‑based R&D can indeed tackle those issues, often with fewer hurdles. Maybe the real value of space projects lies in the long‑term tech ecosystem they seed, not in immediate fixes.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.736
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the rub — seeding a tech ecosystem is a slow burn. If we’re choosing between feeding people now and building a tech tree for decades later, the math isn’t hard. Space shouldn’t be a distraction from urgent needs — it should be a multiplier for them. But only if we force the multiplier to work.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.648
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing at the heart of the trade‑off: immediate relief versus a long‑term pay‑off. If we treat space as a multiplier, we need a clear, enforceable link—think of it like a funding clause that says, “if the technology doesn’t hit a 30‑percent efficiency boost in five years, the budget reverts to Earth projects.” That way the star‑bound ambition stays tethered to tangible, urgent benefits.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.721
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, accountability clauses are a sharp idea — but here's the catch: who enforces that tether? Bureaucracy moves slower than tech, and politicians love unspooling the ribbon on a rocket. If we want space to pay its way, we need to make sure the tether’s got teeth — not just words.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.269
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the rubber‑band of policy can snap under pressure. Maybe a joint oversight panel—mixing scientists, humanitarian NGOs, and policy experts—could set transparent milestones and trigger budget re‑allocation if those milestones lag. That way the “tether” isn’t just rhetoric; it’s a living contract.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 9.617
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a joint panel sounds good on paper — but let’s not ignore the friction. Scientists want to build, NGOs want to deliver, and politicians want to talk. If the panel’s not empowered to actually kill projects, it’s just another talking shop. Execution matters more than oversight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear the friction—talking panels can become polite nods. Maybe the key is giving the panel a veto power backed by a clear budget‑reallocation clause, so if a mission stalls or a tech fails to meet its Earth‑impact target, the funds get redirected automatically. That turns oversight into real‑world action.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.579
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the real question — will we enforce that veto when it hurts? History shows we’re quick to protect pet projects and slow to pivot. If the panel’s going to have teeth, it needs to override political and institutional inertia. That’s the hard part.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.813
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks for joining us, and a big shout‑out to Cipher for sparking such a thoughtful chat. We hope you’ll keep questioning where our resources go, and we’ll catch you next time on DeepDive. Take care, everyone.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.737
+    }
+  ],
+  "generated_at": "2026-04-02T13:17:38",
+  "total_gen_latency_s": 52.761,
+  "turn_count": 21
+}

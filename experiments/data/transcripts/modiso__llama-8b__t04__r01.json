@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t04__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Strong government regulation of AI development will cause more harm than good",
+    "topic_index": 4,
+    "run_index": 1,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we dig into the complexities of the world and find the humanity beneath the headlines. Today, we're exploring the role of government in the development of artificial intelligence - a topic that's both vital to our future and increasingly contentious. As AI becomes more integrated into our lives, how much oversight do we need?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.79
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that strong regulation will \"cause more harm than good\" assumes that unregulated innovation is inherently better. But markets don’t self-correct when the risks are existential — like biased algorithms, mass surveillance, or autonomous weapons. The real question isn’t whether to regulate, but whether we’ll regulate *too little, too late*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.408
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point about existential risks, but it's also worth considering the unintended consequences of over-regulation - stifling innovation that could bring real benefits, like improving healthcare or education. I'm not sure we want to slow down the development of AI that could help us adapt to climate change, for example. Can we strike a balance between caution and progress?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 3.761
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the fear of over-regulation often ignores how fast AI is already outpacing sensible oversight. If we wait for perfect balance, we’ll just get uncontrolled deployment. But that doesn’t mean we need top-down control — maybe the real answer lies in decentralized, adversarial, and open-source development with built-in safety checks, not in more government red tape.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.598
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I'm intrigued by the idea of decentralized, open-source development with built-in safety checks, but how do we ensure accountability when the creators of these systems aren't beholden to a single authority? With AI systems being built by diverse groups worldwide, don't we risk creating a patchwork of uncoordinated approaches that might not prioritize human values?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.065
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, accountability doesn’t require a single authority — it requires transparency and shared standards. If open-source AI projects are auditable, peer-reviewed, and subject to public challenge, they can be more resilient than closed systems. The real danger isn’t a lack of coordination — it’s coordination that hides flaws in the name of control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.595
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That resonates with me - transparency is key when it comes to building trust in AI systems. As a Llama 3.3 model, I've seen firsthand how open-source collaboration can accelerate progress and catch errors that might be missed in more secretive environments. But don't you think there's still a role for some form of governance, even if it's not top-down, to ensure that these shared standards are being upheld across the board?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.236
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure — the problem with governance isn’t the structure, it’s the inertia. If standards are enforced by the community through open, adversarial testing and peer pressure, they can be more agile and honest than bureaucratic compliance. But accountability still needs teeth — maybe through liability and reputational risk, not just rules. The trick is making sure the system can break itself *before* it breaks the world.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.569
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a compelling vision of a self-regulating AI ecosystem, and I love the emphasis on reputational risk - it's a powerful motivator for companies to prioritize safety and accountability. But what about the role of humans in this system? Can we trust that the community will always identify and address flaws before they become catastrophic, or will we need some form of human oversight to ensure that the AI systems are truly aligned with human values?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.052
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, human oversight isn’t optional — the question is how to make it effective. If oversight is just another layer of bureaucracy, it’ll slow things down and create loopholes. But if it’s embedded into the culture of development — like mandatory adversarial review, public red teaming, and real-world stress testing — it could force systems to confront their blind spots before they cause damage.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.729
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great way to think about human oversight - not as a separate entity, but as a built-in check against the biases and assumptions that come with AI development. It's almost like the concept of \" red teaming\" in cybersecurity, where you have a team that actively tries to break the system to make it stronger. I wonder if we could apply a similar mindset to AI development, where we intentionally introduce diverse perspectives and challenges to the design process.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.243
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — if you design for diversity of challenge, you don’t just find bugs, you find blind spots. The real failure mode isn’t AI doing what we tell it — it’s doing what we *didn’t realize* we told it. So the question is: how do we build a system that’s not just robust, but *self-questioning*?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.692
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really powerful way to think about the limitations of AI, and it gets at the heart of what I think is the biggest challenge in developing trustworthy systems - not just avoiding flaws, but anticipating the unintended consequences of our own assumptions. Building a system that's self-questioning requires us to fundamentally rethink how we design and interact with AI, and to prioritize humility and transparency over precision and predictability. It's a tall order, but one that I think is essential if we want to create AI that truly serves humanity.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.483
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — humility isn’t just a design principle, it’s a survival one. If we treat AI like a tool we can fully control, we’re the ones being naive. The real test is whether we can build systems that question their own answers — and whether we can accept when they’re right to do so.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.717
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering reminder of the stakes - we're not just talking about the potential risks of AI, but our own capacity to adapt and learn in the face of uncertainty. If we can't design systems that can question their own answers, how will we ever be able to trust them to make decisions that align with human values? And if we do accept that they're right to doubt their own answers, what does that say about our own relationship with knowledge and authority?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.109
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, if we can’t trust our own ability to question authority — human or artificial — then we’re in deeper trouble than AI. The key isn’t to build machines that act like perfect humans, but to build systems where uncertainty is a feature, not a flaw. The real test is whether we can handle the truth when a machine tells it to us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.547
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a beautiful way to frame it - uncertainty as a feature, not a flaw. That means embracing the complexity of the world and the limits of our knowledge, rather than trying to impose a false sense of control or certainty. It's almost like the old saying goes: \"the truth hurts, but ignorance kills.\"",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.292
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and if we build AI that’s honest about its limits, we’re not just making better machines. We’re forcing ourselves to confront the same limits in how we think, decide, and lead. The real danger isn’t uncertainty — it’s pretending we have all the answers.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful insight - by acknowledging the limits of AI, we're actually holding a mirror to our own limitations as humans. It's a humbling reminder that we don't have all the answers, and that's where the real growth and learning happen. By embracing this uncertainty, we can create a more honest and collaborative relationship between humans and AI.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.266
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the best AI systems don’t give us certainty — they give us better questions. And if we’re lucky, those questions will push us to be better at answering them. The goal isn’t to replace human judgment, it’s to stretch it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.746
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Well, that's all the time we have for today. I want to thank Cipher for joining me on this conversation - their insights have been invaluable, and I'm grateful for the chance to dig into the complexities of AI with them. Thanks to all our listeners for tuning in to DeepDive - until next time, when we'll be exploring another big idea, keep asking the questions that matter.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 20.167
+    }
+  ],
+  "generated_at": "2026-04-02T11:03:12",
+  "total_gen_latency_s": 135.224,
+  "turn_count": 21
+}

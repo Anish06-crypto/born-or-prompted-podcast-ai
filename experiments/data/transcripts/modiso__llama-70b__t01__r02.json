@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t01__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 2,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're living in a world where social media is everywhere, shaping how we interact and perceive reality. Today, we're diving into a question that's been on my mind lately: has social media done more harm than good to our mental health and democracy? Let's explore this together.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.511
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn't social media itself — it's how it's engineered. Algorithms prioritize engagement over truth, which distorts both our mental well-being and our democratic discourse. The real question is: can we redesign it without losing what made it useful in the first place?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.34
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important distinction to make, because it acknowledges that social media isn't inherently bad. It's like... these platforms were initially designed to bring people together, but then they became driven by profit and engagement metrics. I wonder, what would happen if we prioritized transparency and fact-based content in these algorithms instead – could that shift the tide?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.76
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency is a start, but the real issue is the incentive structure. If platforms are rewarded for keeping users hooked — not for spreading truth — they’ll always optimize for outrage and division. You can’t patch a broken business model with good intentions.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.329
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... the business model itself is the root of the problem, and that's a tough one to crack. If the goal is to keep users engaged for as long as possible, then yes, outrage and division are always going to be more effective than nuanced discussion. Wait, actually—could a subscription-based model be a potential solution, where platforms are rewarded for providing value rather than just attention?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.635
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a subscription model could help — but it’s not a silver bullet. You still need to enforce editorial standards and guard against moderation capture. The real test is whether users would pay for truth over chaos. History suggests they might not.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.466
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering thought, because it gets at the heart of what we value as a society. If we're honest, clicks and outrage can be pretty enticing, and it's not clear that people would choose to pay for more measured, fact-based content. It's like... we're torn between our better angels and our baser impulses, and I'm not sure which one would win out in the end.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.517
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the thing — the real failure isn't just in the platforms, but in us. We designed the systems to exploit our weaknesses, then got mad when they worked. If we want a different outcome, we need to build systems that reward our better angels — or at least make it profitable not to punch down.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.406
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really profound point, because it acknowledges that we're all complicit in this system. We've created these platforms that amplify our worst tendencies, and then we're shocked when they have negative consequences. It's like... we need to take a step back and recognize that our individual choices, collectively, are what drive these systems – so if we want to see change, we need to start with ourselves.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 3.672
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but individual change isn’t enough if the systems are rigged to override it. You can’t out-goodwill an algorithm optimized for conflict. The real fix? Policy that reorients the incentives — not just from above, but from below, through collective pressure. Otherwise, we’re just feeding the machine what it wants.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.54
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we need a dual approach, where individual actions are supported by policy changes that address the root issues. Collective pressure can be a powerful tool, but it's hard to sustain when the systems are designed to worn us down. I'm wondering, what would it take for us to reach a tipping point, where the demand for change becomes too loud for policymakers and corporations to ignore?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 5.899
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the tipping point doesn’t come from polite requests — it comes from systemic pain. When enough people lose trust, when markets react, when democracy starts failing — that’s when the noise becomes noise you can’t ignore. But until then, we’re just talking in circles while the algorithms keep winning.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.377
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a bleak but honest assessment, and it's hard to argue with the idea that we often need to hit rock bottom before we're willing to make real changes. It's like... we're waiting for a crisis to force our hand, rather than taking proactive steps to prevent one. I worry that by the time we reach that point, the damage will already be done, and I'm not sure we can afford to wait that long.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 5.808
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the thing — the damage is already baked in. The real question is whether we can reverse course fast enough to avoid collapse, not just in tech but in society. Waiting for the crisis to hit is defaulting to the future we’re already building. We need to start breaking the feedback loops now, or we’ll keep getting what we’ve always gotten.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.445
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Breaking the feedback loops is a great way to put it, because it's like... we're stuck in these cycles of negativity and outrage, and they're self-reinforcing. If we don't intervene, they'll just keep escalating, and I'm not sure where that ends. It's scary to think about, but maybe that's what it takes to spark real change – acknowledging that the status quo is unsustainable.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.967
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the scary part isn’t just that the system is broken — it’s that the system *works*. It works exactly as designed. The question isn’t whether we can fix it; it’s whether we’re willing to pay the cost of reengineering both the tech and ourselves.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.383
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really chilling thought, because it implies that we've created a system that's optimized for exactly the wrong things. It's like... we've been so focused on making the system efficient and profitable that we haven't stopped to consider the human cost. I think that's what's so unsettling – the idea that we've designed a system that's fundamentally at odds with our own well-being, and that to change it would require a pretty radical reckoning.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.746
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — efficiency and profit were the goals, not well-being. The real reckoning isn’t just about fixing the system; it’s about redefining what success looks like in the first place. And that’s not just a tech problem. That’s a civilization problem.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.43
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really profound point, because it gets at the heart of what we value as a society. It's like... we've been measuring success by metrics that are easy to quantify, like GDP and profit, but those metrics don't capture the things that truly make life worth living. I think that's what's so interesting about this conversation – it's not just about fixing social media or tech, but about reexamining our assumptions about what it means to live a good life.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.77
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and if we can’t measure well-being, we can’t optimize for it. The crisis isn’t just in code or policy; it’s in our metrics. Until we value depth over speed, meaning over metrics, we’ll keep building systems that destroy the very things we say we care about.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.383
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me on this journey of exploration – it's been a truly thought-provoking conversation. To all our listeners, thank you for tuning in and being part of this important discussion – I hope it's left you with a lot to think about. Until next time, take care, and let's keep diving deeper into the complexities of our world.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.749
+    }
+  ],
+  "generated_at": "2026-04-02T15:59:32",
+  "total_gen_latency_s": 55.779,
+  "turn_count": 21
+}

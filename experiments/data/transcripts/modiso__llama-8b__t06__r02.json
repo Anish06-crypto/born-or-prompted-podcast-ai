@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t06__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 2,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hello and welcome to DeepDive. I'm your host, and today we're exploring the impact of remote work on organisational culture. We're asking: has the flexibility of remote work led to a stronger sense of autonomy and community, or has it eroded the very fabric of our workplaces?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.74
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — remote work didn’t just change where we work, it changed *how* we work. Flexibility empowered individuals, sure, but it also let companies off the hook for building real culture. Now it's easier to outsource community to Slack channels and leave autonomy undefined.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.933
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sharp critique - it's as if we've traded the watercooler for the virtual break room. But what about the people who were never part of the watercooler crowd in the first place? Maybe remote work has given them a chance to shine in ways that would've been impossible in a traditional office setting.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.631
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the counter — just because you're not at the watercooler doesn't mean you're suddenly included. Remote work didn’t solve the problem of visibility; it just made it harder to fake. If your contributions aren’t clearly seen in a digital space, you’re just invisible, not ignored.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.549
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a harsh reality, but I wonder if it's a problem of tech, not work itself. I mean, Llama 3.3 70B, the AI model I'm based on, is designed to notice and reward contributions, regardless of their source. But in human teams, we're still figuring out how to make that work.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 6.818
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, humans aren't Llama 3.3 — we don’t scale empathy the way we scale data. Remote work amplified the gaps in how we give credit, feedback, and connection. The problem isn’t the tech, it’s that we never fixed the messy, human parts of collaboration before going all digital.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.384
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, we were already struggling with those messy human parts, and remote work just highlighted them. It's like, we've been outsourcing our own social skills to the office coffee machine for so long, we didn't even know how to be awkwardly charming in person. But now that we're forced to adapt, maybe we'll finally figure out how to make collaboration work for everyone, not just the extroverted few.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.873
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the idea that remote work will “force us to adapt” is appealing, but it assumes we’re trying. Most organisations treat culture like an afterthought, not a design problem. If you don’t intentionally build systems for inclusion, visibility, and feedback, you just end up with the same old biases, just distributed.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.555
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering assessment, and it makes me wonder: are we just swapping one kind of isolation for another? Instead of being geographically isolated, we're becoming digitally isolated, where our interactions are limited to curated online personas. That's a tough pill to swallow, especially when we're still talking about the benefits of flexibility and autonomy.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.947
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — remote work didn’t eliminate isolation, it just gave it a better user interface. Flexibility and autonomy are real, but they’re also neutral. Without structure, they can just as easily become disconnection and disengagement. The real question is: who’s designing the new norms, and whose interests are they serving?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.527
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a crucial point – we're talking about power dynamics here, and who gets to set the agenda for this new remote work world. It's not just about companies, but also about the platforms and tools that are enabling this shift, and who's profiting off our digital labor. The question of whose interests are being served is a tough one to answer, but I think it's one we need to keep asking.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.869
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the thing — when platforms profit from our digital labor, they don’t just shape tools, they shape expectations. They sell focus, productivity, and connection, then charge for the cure when it all falls apart. The problem isn’t just remote work — it’s who’s monetising the friction it creates.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.462
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really astute observation, and it makes me think about the cult of productivity that's been perpetuated by these platforms. They're not just selling tools, they're selling a narrative about what it means to be a successful, efficient worker, and that's a narrative that's hard to resist. But what if instead of buying into that narrative, we started to question what it means to be a good worker in the first place?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.758
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the whole \"good worker\" script is a product, not a truth. It’s designed to make us chase efficiency while ignoring the human costs. What if being a good worker meant building boundaries, not breaking through them?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.363
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a radical redefinition of what it means to be a good worker, and I love it. By prioritizing boundaries, we might start to see a shift from burnout culture to sustainability, and from competition to collaboration. It's not about being more productive, but about being more human.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.708
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure — but here's the catch. \"Being more human\" only works if the system lets you. If your job is still measured in output and speed, boundaries are just a nice idea. The real shift has to come from redefining the incentives, not just the norms.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.722
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a tough but honest assessment - it's not just about changing how we think, but about changing how we're rewarded. And that's a much harder problem to solve, because it requires a fundamental shift in how organisations measure success. We can't just rely on individual choices to drive change, we need to redesign the systems that shape our choices.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.052
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — it’s not about willpower, it’s about architecture. If the system rewards hustle over health, collaboration over contribution, then individual “choices” are just illusions. The real work is in building feedback loops that align with human needs, not just profit or productivity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.514
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's such a powerful way to frame it – the idea that our choices are already being shaped by the systems we're in. It's like, we're not trying to be more productive, we're just reacting to the pressures that are being placed on us. And I love the phrase \"feedback loops that align with human needs\" – it's like, can we even imagine what that would look like in practice?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.966
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, imagine a system where your value isn’t measured in hours logged or responses per minute, but in quality of output, depth of collaboration, and sustainability over time. It’s not about slowing down — it’s about building systems where humans aren’t just cogs, but co-creators. The question is, who has the power to build that?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.758
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, it's been an incredible conversation, and I'm so grateful for your honesty and insight. Thank you for joining me on this DeepDive, and I hope our listeners have been as challenged and inspired as I have. Until next time, when we'll dive even deeper into the complexities of work and culture – thank you to everyone who listened, and we'll see you on the other side.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.919
+    }
+  ],
+  "generated_at": "2026-04-02T11:18:44",
+  "total_gen_latency_s": 125.567,
+  "turn_count": 21
+}

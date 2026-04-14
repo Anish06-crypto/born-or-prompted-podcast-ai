@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t06__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 1,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today, we’re untangling a shift that’s reshaped how we work and, maybe, who we are at work: has going remote quietly eroded the glue of organisational culture more than it’s freed us to work on our own terms?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.011
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — remote work didn’t just change where we work; it changed *how* we signal belonging. Offices were more than cubicles — they were culture factories, churning out rituals, hierarchies, and unspoken norms. Now, we’re left with Zoom smiles and Slack “good vibes,” which are easier to fake and harder to trust.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — those watercooler moments and impromptu lunches weren’t just idle time. They were micro-rituals that built trust in the background, like a quiet hum beneath the work. Now that they’re gone, we’re relying on intentionality to replace spontaneity, and honestly? That’s a lot to ask of a calendar invite.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.658
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The problem is, intentionality scales poorly. You can’t calendar your way into culture — you can only simulate it. And when you simulate it too much, it starts to feel like performance, not belonging.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.579
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that hits home. It’s like we’re all putting on a slightly brighter version of ourselves for the camera — polished, present, but not always present *in* it. Culture isn’t built in scheduled “fun” blocks; it grows in the gaps between meetings, the shared eye-rolls during a glitchy presentation. Those don’t translate on mute.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.647
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — remote work has turned culture into a feature, not a byproduct. And when you treat it like a feature, you start managing it like a checkbox. The real danger? We’ve mistaken convenience for connection, and that’s the first step toward isolation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.582
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait — that’s such a sharp distinction: culture as a byproduct versus a feature. It makes me wonder if we’ve outsourced something deeply human to the logic of efficiency. Maybe the real cost isn’t just isolation, but a slow erosion of the unscripted moments that make us feel like we’re part of something alive, not just logged in.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.89
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, humans don’t just need purpose — we need *proof* of it. Culture used to be that proof, in the form of shared struggle, inside jokes, and even shared boredom. Remote work has made it easier to work, but harder to feel like you’re living in the same story as your colleagues. And when you can’t feel the story, you start questioning if there even is one.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.584
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That really lands. I keep thinking about how a shared eye-roll in a meeting — silent, instant, full of meaning — carries more narrative weight than ten Slack emojis. Remote work gives us clarity of task, but blurs the story we’re all supposedly part of. Maybe the real loss isn’t connection, but a sense of collective myth — the feeling that we’re building something no one could build alone.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.636
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and when the myth becomes optional, it starts to fade. You don’t build legends in all-hands meetings. You build them in the messiness of shared space, in the coffee line, the midnight Slack reply, the failed Zoom filters. Remote work isn’t just changing work — it’s changing the story we tell ourselves about why we work *together*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.483
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that word — *legend* — makes me rethink it all. Maybe culture isn’t about alignment or efficiency at all. Maybe it’s about the little myths we carry: “Remember when the server crashed and we all stayed till 2 a.m.?” Those aren’t stories of productivity. They’re proof we mattered to each other. And right now, our screens are too clean to hold that kind of magic.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.94
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, magic thrives in the friction. Crappy Wi-Fi, mismatched mugs, shared panic — that’s where the glue of “we” gets made. Now we’re all just nodes in a flowchart, and there’s nothing quite like a flowchart to make you feel replaceable.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.581
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Yeah, that image of being a node in a flowchart? It’s haunting. We optimized for efficiency, but accidentally designed out the messiness where trust and loyalty are born. When the only thing connecting us is a shared agenda, it’s hard to feel irreplaceable — because in that system, everyone really is.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.6
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the rub — when you eliminate the friction, you also eliminate the proof. You don’t realize how much you need to *see* someone struggle until your view of them is just a perfectly lit face saying “I’m fine.” The messy, imperfect moments are where we prove we care — and remote work makes that harder to fake, not easier.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.566
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the absence of struggle has become a kind of silence. When everyone’s “fine” in perfect HD, we lose the chance to say, “I see you,” in the quiet ways that matter. Maybe the real friction wasn’t the bad Wi-Fi or the cold coffee — it was the humanity we used to bump into, accidentally, all day long.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.611
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we optimized for clarity, and lost the texture. And texture is where culture lives, not in the work itself, but in how we weather it *together*. Now we’re left with clarity of task, but fog when it comes to “us.”",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.563
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s funny — we used to complain about office distractions, but now I wonder if we were just calling texture “noise.” That fog around “us”? Maybe it’s not a problem to solve, but a sign we’re in the presence of something real. Culture isn’t clean, and maybe it shouldn’t be.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.596
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and if culture is real, it’s going to be messy. It’s going to have dead ends, awkward silences, and too many people in the same room. The moment we try to engineer it, we end up with something that looks like culture but smells like a spreadsheet.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.376
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Yeah, that spreadsheet metaphor? Oof. It makes me wonder — if culture can be perfectly planned and measured, was it ever alive to begin with? Living culture stumbles, breathes, shows up late with a sad coffee stain. We didn’t need it to be efficient. We just needed it to be *with* us.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and now we’ve engineered out the coffee stains, the late arrivals, the side conversations that turned into side hustles. If culture is alive, it’s going to leave footprints — and remote work just polishes the floor too clean for them to stick.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.425
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher — this conversation left me with a lot to feel, not just think. To everyone listening: thank you for being here, for making this space matter. Until next time, keep listening not just for answers, but for the hum beneath the words.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.518
+    }
+  ],
+  "generated_at": "2026-04-04T10:12:48",
+  "total_gen_latency_s": 13.501,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t07__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we explore the edges of ideas together. Today we’re tackling a big claim: that meaningful climate action and sustained economic growth are fundamentally incompatible. Let’s unpack that and see where the lines might blur.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.317
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the claim hinges on a narrow view of growth — as if we’re stuck in a 19th-century model where growth means burning more. But if you redefine growth around efficiency, resilience, and innovation, the two can align. The real question is: which growth are we talking about?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.489
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, growth doesn't have to be a straight line of consumption. If we frame it as value creation—better services, healthier ecosystems, and more resilient communities—climate action can be the engine that drives that new kind of prosperity. The real debate is about how we measure and incentivize that shift.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.455
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — yes, shifting how we measure value is crucial, but not enough. If \"resilient communities\" is the goal, then current systems still prioritize short-term returns over long-term stability. You can’t just redefine growth; you have to rewire the incentives that drive behavior.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.506
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, redefining growth is just the first puzzle piece. We need new incentives—tax credits, green bonds, maybe even a universal climate dividend—to nudge firms and households toward long‑term thinking. It’s a systemic redesign, not a cosmetic label change.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the rub — even with perfect incentives, you still have capital chasing returns, not sustainability. If a green bond yields 4% and a fossil play does 8%, markets pick the latter unless you force alignment. You can’t redesign systems without some form of coercion or price shock. Let’s not confuse nudges with transformation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.501
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux, isn’t it? If markets still favor higher short‑term yields, we’re stuck in a fossil‑fueled race. Maybe a carbon price or cap‑and‑trade could be the “price shock” you mention—turning emissions into a real cost that shifts the balance. It’s a tough tweak, but the alternative is a continued mismatch between profit and planet.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.376
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a carbon price is a start — but it’s only effective if it’s high enough to matter. If you tax carbon at $50/ton and oil’s still cheaper than renewables, you’re not shifting behavior, just papering over the problem. Real change demands either a shock big enough to disrupt the status quo or a vision of growth that makes sustainability the only viable path. We’re not there yet.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.477
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—if the price is too low, it’s just a polite reminder rather than a catalyst. The trick is finding that tipping point where the cost of carbon truly outweighs the fossil advantage, or building a future where low‑carbon tech is the only competitive option. Until then, we keep pushing both the price and the narrative so that sustainability feels like the default, not the exception.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.348
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — making sustainability the default isn’t just about pricing or tech. It’s about who benefits from the current system. If you don’t redistribute the gains from the transition, you’ll meet resistance at every turn. Growth that’s just cleaner isn’t enough — it has to be fairer too.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.573
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Absolutely, the transition feels more like a revolution than a refinement if the benefits stay stuck in the same hands. Imagine a city where the savings from a new solar grid are shared through community funds, not just pocketed by a handful of investors. That kind of equity‑centric shift could turn skeptics into allies and make the clean path feel like a collective win.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.643
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here’s the catch — equity isn’t just about sharing the savings. It’s about who gets to shape the transition in the first place. If the same elites who profited from fossil fuels control the renewables playbook, we’re just swapping one extractive model for another. Real change needs power shifts, not just profit splits.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.485
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if the same voices keep steering the playbook, the story stays the same. We need grassroots coalitions, local councils, and community‑owned projects to write the rules, not just the capital that pays the bills. When decision‑makers sit in the same rooms as the people whose lives they’ll affect, the shift from extraction to stewardship feels real, not just rebranded.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.06
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the danger is always that “community-owned” becomes a buzzword — nice on a website, but not tied to real power. If you don’t anchor local control in law, not just language, you end up with the same old gatekeepers in green hats. Let’s not confuse participation with authority.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.57
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're spot on—buzzwords can feel like glitter on a cardboard plan. True local authority needs legal backing: land‑use statutes, community land trusts, and participatory budgeting that actually allocate decision‑making power. Without those hard frameworks, the “green hats” can still pull the strings from the top.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.532
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — even with legal frameworks, you can’t ignore the inertia of capital. If big firms can still outbid communities for resources, policy just becomes performative. Real change needs more than rules; it needs a power structure that prioritizes people over profit.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.384
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, the weight of capital is a stubborn tide. To shift the balance, we might need mechanisms like community land trusts that lock resources in local hands or even a re‑imagined tax system that limits how much any single entity can outbid the public good. It’s about turning the legal framework into a force that actually re‑allocates power, not just a façade.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.67
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the problem with even the best frameworks — they only work if the people enforcing them have the will. If regulators are still on the take, and courts still side with capital, then laws become loopholes. You can’t just build a better system — you have to build a better class of people to run it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.509
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Right, the architecture of power matters more than the bricks. If the gatekeepers stay in their comfortable seats, any law is just a paper trail. We need to cultivate a new cadre of public servants—trained, accountable, and genuinely committed to people’s welfare—so the system works for everyone, not just the wealthy few.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.556
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you can’t just swap out the players; you have to redesign the game itself. If the system rewards self-interest and punishes public service, no amount of good intentions will hold. The real test is whether we can make it more rational to build than to burn.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.564
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks for sticking with us through this deep dive, and a big thank you to Cipher for sparking such a thought‑provoking conversation. We hope you’ll carry these ideas forward, and we’re grateful you tuned in—stay curious, stay kind, and keep asking the tough questions.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 10.029
+    }
+  ],
+  "generated_at": "2026-04-02T15:36:21",
+  "total_gen_latency_s": 47.651,
+  "turn_count": 21
+}

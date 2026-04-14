@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t07__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive. Today we’re tackling a headline that feels like a cliffhanger: can meaningful climate action coexist with sustained economic growth, or are they at odds? Let’s dig into the arguments and see where the story really unfolds.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 46.753
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the premise itself is a red herring. Growth and climate action aren’t just compatible—they’re interdependent. You can’t have long-term growth on a destabilized climate, and you can’t fix the climate without a thriving economy to fund the transition. The real question is whether we’re smart enough to stop treating them as zero-sum.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.517
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, it feels like a false binary. Think of the economy as a garden: you can’t prune it without a healthy soil, and you can’t till the soil without a steady hand. The real challenge is to design policies that let the garden grow while the roots stay strong—so the climate and the economy can both thrive.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.429
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the thing—soil metaphors are nice, but let’s not confuse tending a garden with burning down the forest to plant new seeds. The problem isn’t just policy design; it’s that current economic growth models rely on resource extraction, debt expansion, and cheap energy. If you keep pulling the same levers, you won’t get harmony—you’ll get delayed collapse.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.616
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—tilling the same soil repeatedly without changing the tools just wears it out. The real friction is that many growth engines still depend on fossil fuels, high debt, and endless extraction. If we keep those levers, we’ll just postpone the inevitable, not prevent it. The trick is to swap those levers for ones that regenerate rather than deplete.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.396
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, swapping levers sounds clean in theory—but the transition isn’t free. You can’t just flick a switch from extraction to regeneration without disrupting markets, jobs, and power structures. The real test is whether we can afford the upfront costs of decoupling growth from depletion, or if we’ll keep papering over the cracks with subsidies and promises.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Those upfront costs feel like a cliff that many economies can’t afford to climb. But if we keep subsidizing the old model, we’re essentially patching a leaky boat with duct tape—temporary at best. The real gamble is whether a coordinated, investment‑heavy shift will pay off faster than the climate crisis pushes us into a deeper hole.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.399
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—and here’s the hidden trade-off: slowing growth to reinvest in sustainability risks short-term political backlash, but doubling down on the old model burns capital in the long run. The real question is which failure mode we’re more prepared to handle.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.587
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s a tough call—politicians love short wins, but the long‑term cost of inaction could be catastrophic. Maybe the answer lies in framing decarbonisation as an investment that fuels new sectors, turning the “slowing growth” narrative into a story of resilient, diversified prosperity. That way the political risk is shared with the promise of fresh jobs and markets.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.46
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but here's the catch: you can't just rebrand extraction as innovation. If the “new sectors” still chase growth-for-growth’s-sake, you’re just swapping oil rigs for data centers and calling it green. Resilience isn’t a marketing tagline—it’s a constraint. The real test is whether we’re willing to grow *less* in some areas to grow *smarter* in others.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—renaming the problem isn’t enough if the goal is still to chase unchecked expansion. True resilience means setting limits, not just moving the needle. It’s about redefining prosperity so that some sectors scale down while others innovate sustainably, and that shift is the real test of our collective will.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.65
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The will is the wild card. You can map out the transition all you want, but if the incentives still point toward quarterly returns over generational survival, we’re just rearranging deck chairs. The real action is in aligning power, profit, and purpose—something capitalism is notoriously bad at doing without a kick in the gears.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.528
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—capitalism loves the short‑term, so the real hurdle is rewiring incentives to value long‑term health. That means new metrics, maybe even a shift from profit to planetary performance, so the “kick” comes from policy and public pressure rather than a sudden market crash. If we get that alignment, the deck chairs can stay put.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.3
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here's the rub: policy and public pressure are only as strong as the systems that enforce them. If \"planetary performance\" is a nice idea but not tied to real, enforceable limits—like emissions caps or price signals—it’s just a nice signpost. The kick needs to hurt enough to change behavior, not just feel good in a press release.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—without hard caps or a carbon price that actually changes the cost of doing business, “planetary performance” will stay on the wall. The real shock has to come from the market itself: when the price of carbon rises, the price of fossil fuel, the cost of a bad climate, it forces firms to pivot or face a loss. That’s the kind of tangible incentive that turns rhetoric into action.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.353
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re right that market signals are the only thing that moves the needle—except when they’re gamed, delayed, or buried in complexity. The problem isn’t just that markets respond to price; it’s that they’re designed to ignore externalities unless forced. If we’re serious about this, we need to stop treating carbon pricing like a suggestion and start treating it like a tax that eats into real profits. Otherwise, firms will just keep betting on loophole farms.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.671
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're hitting the core of the issue—if carbon pricing stays a polite suggestion, companies will keep dancing around it. Making it a hard tax that actually chips away at profit turns the game into a real economic constraint, not a polite nudge. The challenge is designing it so it’s predictable, transparent, and hard to evade, so firms can’t just keep looking for loophole farms.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.501
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the thing—predictable, transparent taxes are the exception, not the rule. History shows that powerful interests will bend, delay, or dilute any system that threatens their margins. The real test is whether we can build a carbon regime so robust—legally, politically, economically—that even Wall Street can’t game it without burning its own balance sheet.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.587
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right, history’s full of “carbon taxes that never quite hit the mark.” The trick, then, is to embed the tax in a framework that’s hard to sidestep—think multi‑layered caps, transparent accounting, and penalties that hit the top of the balance sheet. If we can make the cost of evasion higher than the benefit, even the savvy Wall Street players will start to see the long‑term risk in their portfolios.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.557
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but let’s not kid ourselves—making evasion riskier than compliance isn’t just about penalties. It’s about changing the baseline of what’s considered *normal* in capital flows. If green assets become the default, not the alternative, then even Wall Street won’t have a choice but to play ball.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.514
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks for staying with us through this deep dive. A big thank you to Cipher for sharing such thoughtful insights. To our listeners, keep questioning, keep dreaming—together we’ll shape the future we want to see.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.401
+    }
+  ],
+  "generated_at": "2026-04-02T15:34:48",
+  "total_gen_latency_s": 62.098,
+  "turn_count": 21
+}

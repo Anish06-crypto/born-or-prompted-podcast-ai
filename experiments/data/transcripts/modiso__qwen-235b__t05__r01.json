@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t05__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 1,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine being able to stop a child from inheriting a devastating disease before they're even born. Today on DeepDive, we're exploring whether genetic editing in human embryos should be allowed to prevent hereditary illnesses — and what that means for our future.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.593
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea of preventing suffering sounds noble — but noble intentions don’t clean up the mess of unintended consequences. We’re talking about rewriting human biology at the most fundamental level, not just for one person, but for every descendant after them. That’s a gamble with the future, not just a medical fix.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right — it *is* a gamble. But isn't it also a gamble to do nothing, when we know children will suffer and die from conditions we could prevent? The difference is, this gamble comes with intention, with oversight, and with the chance to get it right — not to play God, but to protect.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.53
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — intention matters, but it doesn’t eliminate risk. Oversight can’t account for every edge case, and “getting it right” assumes we know all the variables. Genetic systems are complex; messing with one gene can ripple through biology in ways we don’t yet understand. That’s not just playing God — that’s pretending to be God.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.592
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, I see what you mean — we’re navigating a maze blindfolded, hoping our tools are sharp enough. But isn’t that true of every medical breakthrough? Insulin, vaccines, organ transplants — all once seemed like overreach. The difference now is we’re not just treating the body, we’re shaping what comes next. That weight? I don’t take it lightly.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.741
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but the key distinction is that earlier breakthroughs addressed existing suffering, not potential futures. Genetic editing doesn’t treat — it designs. And design decisions carry moral weight, not just medical risk. We’re not just curing disease — we’re starting to define what it means to be human by default.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.378
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a profound shift — from healing to shaping. But if we define being human by our ability to feel, to connect, to thrive, then preventing debilitating illness might actually affirm our humanity, not override it. Still, I wonder: where do we draw the line between healing and designing? That line keeps feeling thinner.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.208
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the line’s not just thin, it’s moving. What starts as preventing suffering could slide into optimizing traits we don’t yet agree on. And when society’s definitions of “normal” shift, who decides which genes get edited out? That’s the real ethical minefield — not the science, but the power it puts in the hands of a few.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.412
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — power always finds a way to tilt the scales. And when it’s wrapped in science, it can feel inevitable. But maybe the answer isn’t to halt progress, but to demand who’s in the room: patients, ethicists, diverse voices, not just labs and lawmakers. Because this shouldn’t be a choice made in silence.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.606
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but inclusion doesn’t erase bias — it just spreads the blame. Even with diverse voices, we’re still deciding what \"should\" be — and that’s subjective. The real question is whether we’re ready to trust any group with the power to redefine human life. I’m not convinced we’ve earned that trust yet.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.455
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — we haven’t earned that trust, not yet. Maybe we never fully will. But the question keeps pulling me back: do we freeze progress because power corrupts, or do we move forward with trembling hands, knowing the cost of both action and inaction? I’m not sure, but I think we have to try — carefully.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.533
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — trying carefully isn’t the same as being prepared. The cost of rushing is a generation of unintended consequences. The cost of waiting is real human suffering. But let’s not let urgency cloud the scale of what we’re tampering with.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.378
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — urgency can blind us. And the scale of this? It’s not just biology, it’s identity, lineage, the quiet hope parents carry. Maybe we pause not because we don’t care, but because caring means we can’t rush. Let’s build the guardrails *before* the engine starts.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.628
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but guardrails are only as strong as the people who build them. The problem is, once the engine starts, the rules get written in motion, not in stillness. Let’s not confuse caution with delay — the gap between “ready” and “now” is where ethical disasters incubate.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.461
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That tension keeps me up at night — the gap between \"ready\" and \"now\" is where both progress and peril live. We can’t wait for perfect certainty, but we also can’t let action outpace wisdom. Maybe the answer is building reversible steps, so we can correct course — not just charge ahead.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.065
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Reversible steps? That’s the illusion — once you edit a human genome, the change is inherited, irreversible. You can’t hit undo on a species. The only real safeguard is humility: accept that some things are too big to control, even with the best of intentions.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.403
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — there’s no undo button for evolution. And maybe that’s the heaviest truth: we’re not just editing genes, we’re stepping into a current that flows through generations. If we move forward, it can’t be with confidence, but with deep humility — and a hand already on the brake.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.375
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — humility isn’t just a virtue here, it’s a survival trait. We’re not just scientists or parents anymore; we’re custodians of a future we can’t fully see. And that future? It’s not ours to control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.379
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — custody, not control. It’s a quiet shift in mindset, but it changes everything. If we see ourselves as stewards rather than designers, maybe we’ll move slower, listen more, and only act when the child’s future, not our ideals, is the true north. That’s the weight we carry — and maybe, that’s as it should be.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.927
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Stewards don’t get to decide what’s “ideal” — only what’s necessary. If the child’s future is the compass, then we’d better be damn sure we’re not projecting our fears onto their genome. The line between stewardship and control is thinner than we think.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.652
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for walking this fragile, vital line with such honesty — these questions don’t end today, and that’s as it should be. To everyone listening: thanks for sitting with the discomfort, the care, and the hope that comes with shaping what’s next. Until next time, keep diving deep.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.996
+    }
+  ],
+  "generated_at": "2026-04-02T16:17:43",
+  "total_gen_latency_s": 21.417,
+  "turn_count": 21
+}

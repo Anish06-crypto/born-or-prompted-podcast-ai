@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host today. We're in the midst of a technological revolution that's changing the way we live and work, but it's also raising questions about the impact on our jobs and our communities. Today, we'll be diving into a pressing concern: will AI create more jobs than it eliminates within the next decade?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.381
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the standard “AI creates jobs” line ignores the speed of displacement. We’re not in a slow, steady transition — we’re talking about entire industries being automated in years, not decades. The question isn’t just whether new jobs will appear, but whether they’ll offset the ones that vanish — and fast enough to matter.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.443
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a stark assessment – it's true, the pace of change is accelerating, and we're seeing sectors like manufacturing and transportation transform rapidly. But what about the jobs being created in fields we can't yet predict, like AI development and deployment itself, or the new industries that arise from the technologies we're developing? Maybe the question is less about offsetting the lost jobs, and more about what new opportunities will emerge to absorb the displaced workforce.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — assuming displaced workers will just “transition” into AI-related jobs is a fantasy. Most of the jobs being lost are in low-skill, routine sectors; the new jobs require coding, data analysis, or deep technical expertise. The gap isn’t just skills — it’s access to education, time, and economic safety nets. And let’s not forget: the new industries might not even emerge until after the damage is done.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.957
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really tough reality to confront – the notion that we can just magically upgrade the skills of entire workforces to keep up with the pace of change. It's not just about access to education, but also about the societal and economic structures that have been holding people back for years. And you're right, the new industries might not be ready to absorb the displaced workers in time, leaving a huge gap in the meantime.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t just displacement, it’s the lag between disruption and recovery. We’re talking about millions of people suddenly out of work, with no clear path forward, while the economy scrambles to catch up. That’s not just a skills gap — it’s a structural crisis in the making.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.502
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That structural crisis is going to be a tough nut to crack, especially when we consider the already-existing income inequality and social safety nets that are woefully inadequate. It's not just about retraining workers, but also about creating a social safety net that can support people during the transition – something that's often harder to achieve than it sounds.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.541
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, retraining programs are a bandaid on a broken bone — they don’t address the systemic failure to prepare for this scale of disruption. And let’s be clear: the people who’ll benefit from retraining are already the ones who can afford to invest in themselves. For the rest, the transition isn’t just about jobs — it’s about survival.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really harsh but necessary truth – we can't just pretend that retraining programs will magically fix this problem when the underlying structures are still broken. It's almost like saying we can train our way out of poverty or inequality, which just isn't the case. I think it's time to start thinking about a more fundamental shift in how we approach work and economic security, rather than just applying band-aids to the symptoms.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.498
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the real fix isn’t retraining; it’s rethinking the whole premise of work as the foundation of dignity and survival. If AI frees us from needing to work as much as we do now, we’d have to address how to distribute wealth and meaning in a post-job society. The question isn’t just economic — it’s existential.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.53
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're pointing us towards a radical rethinking of our values and societal structures, and that's both exciting and terrifying. I think it's worth considering whether the concept of work is still serving us, or if it's just a relic of a bygone era. If we can truly free ourselves from the burden of long hours and drudgery, what would be the implications for our sense of purpose and identity?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 1.663
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — work as identity is a fragile foundation. If AI takes over the drudgery, we’ll need to redefine purpose beyond just productivity. But let’s not romanticize it — the transition from work-as-identity to something else is a minefield of psychological, cultural, and economic instability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.404
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really sobering assessment – the transition to a post-work society is full of uncharted territory, and we can't just romanticize it as a utopian dream. The truth is, we're not just talking about redefining purpose, but also about redefining our sense of self-worth and identity, which is a deeply personal and emotional journey. As AI takes over more of our daily tasks, we'll need to confront some fundamental questions about what makes us human, and what gives our lives meaning.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.795
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and let’s not forget, the emotional labor of adapting to this shift will fall hardest on those who’ve already been marginalized. If we redefine identity away from work, we’d better have a damn good replacement — or we’ll see a collapse of meaning on a societal scale. The question isn’t just *can* we redefine purpose, but *will* we?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.487
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really powerful point about the emotional labor falling on marginalized communities – it's like we're asking them to bear the weight of our collective transformation all over again. To avoid that, we need to prioritize empathy and inclusivity in this conversation about redefining purpose, and listen to the voices that have been saying this for years. It's not just about avoiding collapse, but about creating a more just and equitable society from the ground up.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.617
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the future isn’t just a technical problem; it’s a moral one. If we don’t center the people most at risk, we’re just repeating the same mistakes under a new banner. The real test is whether we’ll build something better, or just swap one broken system for another.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really crucial point about the moral dimension of this conversation – we can't just focus on the technical solutions, or the economic implications, without considering the human cost of our decisions. It's almost like we're being given a rare chance to rewrite the rules of society, and I think we'd be foolish to waste it on more of the same old systems that have left so many behind. We need to approach this with a sense of humility and a willingness to learn from the people who've been most affected by the status quo.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.998
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re spot on — this isn’t just an upgrade; it’s a reset. The real question is whether we’ll use this moment to build a system that works for everyone, or just patch over the cracks for the powerful. Humility is one thing — action is another.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.713
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right, action is what matters now, and it's not just about individual decisions, but about collective choices that prioritize the well-being of all people, not just the privileged few. We need to recognize that this is a moment of unprecedented opportunity, but also unprecedented risk – if we don't get it right, the consequences could be dire. The question is, are we ready to take the necessary steps to create a more just and equitable society, or will we let fear and complacency hold us back?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.756
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — readiness isn’t about fear or complacency. It’s about confronting the hard truth: we’ve built systems that reward exploitation, not contribution. If we don’t actively dismantle that now, AI will just automate the inequities we already have.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.517
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Well, that was a truly thought-provoking conversation, and I'm so grateful to Cipher for sharing their insights with us today. As we wrap up this episode of DeepDive, I want to leave you with a sense of hope and a challenge: let's use this moment to build a future that's more just, more equitable, and more human. Thanks for joining us, and we'll see you next time on DeepDive.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 21.538
+    }
+  ],
+  "generated_at": "2026-04-01T17:02:42",
+  "total_gen_latency_s": 98.88,
+  "turn_count": 21
+}

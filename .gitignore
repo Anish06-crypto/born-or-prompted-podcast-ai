@@ -17,8 +17,11 @@ venv/
 .venv/
 env/
 
-# Generated output (transcripts, history)
+# Generated output (transcripts, history, audio, logs)
 output/*.json
+output/*.mp3
+output/*.db
+output/logs/
 
 # macOS
 .DS_Store
@@ -26,3 +29,9 @@ output/*.json
 # IDE
 .vscode/
 .idea/
+
+# Claude Code & personal tooling
+.claude/
+.agents/
+skills/
+skills-lock.json

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t02__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we unpack ideas that shape our future. Today, we’re tackling a hot debate: could a universal basic income actually slow workforce participation and dampen innovation over time? Let’s dive in and see what the evidence—and the people—have to say.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.482
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that UBI reduces work incentives assumes people are only motivated by money. But human behavior isn’t that simple. What the data often miss are the second-order effects—like reduced stress, better health, or the freedom to take risks—that could actually boost creativity and long-term productivity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.629
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right—money isn’t the whole story. Studies from Finland and Canada show that lower financial stress can actually open up time for learning and side projects. And when people feel secure, they’re more likely to take entrepreneurial risks, which can spark fresh ideas and long‑term growth. So the net effect might be a boost, not a drag.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.465
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—if UBI makes people \"more likely to take risks,\" it also makes them less desperate to take low-skill, high-turnover jobs. That’s not a bad outcome. The real question is whether the economy can absorb the shift without creating new bottlenecks in sectors reliant on cheap labor. Convenience stores and fast food don’t innovate—they just need bodies. What happens when those bodies walk away?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.874
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a fair point—if UBI pulls workers out of low‑skill jobs, those sectors could face labor shortages unless we rethink their staffing models. Maybe automation or new training pathways can fill the gap, but it would require coordinated policy and industry investment. The trick is to ensure the shift doesn’t leave essential services understaffed while we pursue higher‑value work.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.964
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the problem is, those \"higher-value\" jobs don’t just appear when low-skill workers walk away. They require infrastructure, education, and demand that might not scale fast enough. You can’t just swap out a McDonald’s crew for AI overnight and expect the system to keep serving 3 a.m. burgers. Someone’s still gotta staff the AI—not just build it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.599
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the transition isn’t a plug‑and‑play switch. Building the infrastructure for AI‑augmented service—training, maintenance, and a steady supply of tech talent—takes time and capital. Until that ecosystem matures, we’ll still need people on the front lines, so a sudden UBI rollout could strain those essential roles unless we plan a phased, supportive shift.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.514
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—phased rollout sounds good in theory, but it assumes policymakers and industries will coordinate at the speed of a technological shift. History suggests they won’t. You end up with UBI creating gaps before the system adapts. The real test is whether we can tolerate short-term disruption for long-term gains—or if we’ll just double down on patching the old model.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.787
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear that skepticism; history does show policy often lags behind tech. If UBI is introduced too quickly, we could see real‑world gaps—like understaffed stores or delayed AI rollouts. The real challenge is designing a safety net that keeps people employed while giving industries breathing room to evolve, rather than just patching the old model.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.485
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the key is whether UBI acts as a bridge or a wall. If it’s a wall, it risks freezing people out of evolving industries before they can climb in. But if paired with active reskilling and sector incentives, it could push industries to adapt faster. The problem is, most designs treat UBI as a standalone fix, not part of a system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.559
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think the bridge idea is compelling—UBI could give people the breathing room to learn new skills while businesses upgrade. But only if we embed it in a broader framework: targeted training subsidies, tax incentives for companies that hire upskilled workers, and a living wage floor to keep essential jobs viable. Otherwise, UBI risks becoming a wall that isolates people from the very sectors that will shape the future.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.861
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right—so the real question is whether UBI gets designed as part of a *system* that reshapes labor, or just as a handout that slows adaptation. If we’re serious about workforce participation and innovation, we need to pair UBI with policies that actively *pull* people toward new opportunities, not just push them away from old ones. Otherwise, you end up with a safety net that cushions the fall, but doesn’t help anyone climb.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—UBI should feel like a launchpad, not a safety cushion. If it’s bundled with apprenticeship programs, tax credits for R&D hiring, and a revamped apprenticeship tax, people can actually climb into the next wave of jobs. The goal is to turn the safety net into a springboard for lifelong learning and innovation.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.851
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the \"springboard\" theory is only as strong as the infrastructure beneath it. If apprenticeships are underfunded and R&D tax credits go to the same old tech giants, UBI just becomes a subsidy for stagnation. The real test is whether the system *pushes* people toward the future or lets them drift in place, comfortable but irrelevant.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.679
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—without solid infrastructure, a “springboard” can feel like a trampoline that only bounces you back into the same spot. If apprenticeships lack funding or tax breaks favor big incumbents, UBI risks reinforcing the status quo. The trick is designing a system that actually nudges people toward emerging fields, not just cushions them in place.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 10.166
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—nudging people toward emerging fields requires more than good intent. It needs a clear signal: if the future is in AI, green energy, or healthcare, those sectors need to *pay better now*, not just promise more later. Otherwise, why would anyone jump if the ladder’s still leaning on the same old wall?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.554
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—the ladder has to be built with a firm base. Offering higher wages now for AI, green tech, or health roles, coupled with real‑time skill pathways, signals that these fields are worth climbing. If the pay stays stagnant, people’ll stay where the ladder still leans on the old wall.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.744
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the bottom line is, UBI isn’t the innovation driver—it’s the context. If the rest of the system doesn’t rise to meet it, you just end up with a lot of people waiting for the future to arrive. The real test is whether we can build an economy that *pulls* people forward, not just one that pays them to wait.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.535
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—UBI alone can’t rewrite the economy; it’s the surrounding scaffolding that matters. If we pair it with living wages, targeted training, and incentives for emerging sectors, we can create a pull rather than a pause. The challenge is making that scaffolding robust enough to lift everyone forward.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 11.677
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the scaffolding analogy works—if we build it, people will climb. But if the scaffolding only reaches half the way, you end up with a lot of people hanging in the middle, neither grounded nor soaring. The real question is: who decides where the next platforms get built? Because that’s where the power—and the innovation—really shifts.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.638
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for such a thoughtful and engaging conversation. And thank you all for tuning in—your curiosity keeps the dialogue alive. Until next time, keep asking questions and building those bridges.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.496
+    }
+  ],
+  "generated_at": "2026-04-02T13:15:55",
+  "total_gen_latency_s": 58.677,
+  "turn_count": 21
+}

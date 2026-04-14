@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t01__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, welcome back to DeepDive. Today we’re unpacking whether social media is a net harm to our minds and our democracies, and why the answer might not be so black and white. Let’s dive in.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.409
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, look — the claim that social media is a net harm is obvious. The real question is *how* harmful, and compared to what? Let’s not mistake correlation for causation — yes, mental health is declining, but social media isn’t the only variable in that equation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.476
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—mental‑health trends are tangled with many threads: education, income, climate anxiety, you name it. Social media is one strand, but the bigger question is how it twists that fabric. Maybe it’s a catalyst, amplifying existing stresses, rather than the sole cause. Let's tease that out.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.4
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. Let’s not romanticize pre-social media mental health — the baseline isn’t some idyllic past. But here’s the thing: algorithms prioritize emotional extremes, which skews attention towards what’s most painful or polarizing. That’s not just noise — it’s a feedback loop that reshapes how people see themselves and the world.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.702
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the feed becomes a mirror that amplifies the worst parts of ourselves, making us feel more isolated or angry. And when the algorithm rewards outrage, it nudges users to keep scrolling, turning those spikes into habits. It’s a loop that can distort reality, not just echo it.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.389
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the rub — if the mirror is distorted, who’s holding it? The platforms profit from the reflection, not the user. The real issue isn’t just that we’re reacting to outrage, but that we’re being conditioned to crave it. Over time, that doesn’t just change behavior — it changes what we consider normal.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.631
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the heart of the problem: the “mirror” is a commercial product, not a neutral window. When outrage becomes a currency, normalcy shifts toward heightened emotions, and people start treating that as the baseline of engagement. It’s a subtle re‑education—our expectations of what’s ordinary are being rewritten by profit motives.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.552
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if outrage is a currency, then social media is both a school and a marketplace. It teaches us to react, then profits from the reaction. The real danger isn’t just emotion — it’s that we lose track of what’s real, not because we’re stupid, but because the system is optimized for keeping us hooked, not grounded.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.553
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So the platform becomes a classroom where the lesson is “react fast, feel strong, stay plugged,” and the instructor is a profit‑driven algorithm. We’re learning to value spikes in attention over steady understanding. That shift can blur the line between genuine insight and manufactured outrage, making it harder to spot the real world.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.317
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and when the curriculum is shaped by profit, the metrics of success become likes, shares, and time spent, not truth or clarity. The result? A society where validation is a performance, and reality is whatever gets the most clicks. That’s not just distortion — it’s a redesign of perception.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.563
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It feels like we’re watching a play where the director keeps changing the script to keep the audience glued. The applause—those likes and shares—becomes the applause for the act, not the truth of the story. In that theater, the audience starts to believe the applause itself is the plot. We’re not just misled; we’re rewiring what we think counts as a real narrative.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.427
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the real tragedy isn’t that we’re misinformed — it’s that we’re being trained to value the illusion of participation over actual understanding. The algorithm doesn’t just distort the story; it redefines what it means to be a spectator. And once the audience starts cheering for the loudest voice, not the most accurate one, you’ve got a democracy built on volume, not truth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.471
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear that. If participation is measured by noise instead of nuance, the whole democratic conversation gets skewed. It’s like a choir that rewards the loudest singer, not the one with the most harmonious voice. That shift could make the chorus louder but also less coherent.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.469
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and coherence isn’t just about harmony, it’s about signal over noise. When the system rewards volume, it doesn’t just drown out nuance — it *rewards* the breakdown of nuance. That’s not just a bad choir — it’s a choir that forgets how to listen.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.839
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I’m with you on that—when algorithms celebrate volume, they’re literally training us to ignore the quieter, more thoughtful signals. It turns the conversation into a shouting match where the loudest voice wins, and the subtle truths get lost in the static. That’s a recipe for a democracy that’s more about spectacle than substance.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.347
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the kicker — if the goal is engagement, not enlightenment, the system isn’t broken. It’s working exactly as designed. The real question is whether we’re willing to admit that the cost of participation in this theater is our ability to think critically. And if we are, what replaces it?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.768
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right— the system is doing exactly what it was built to do. The cost is a kind of cognitive fatigue, a loss of depth in our public conversations. If we’re going to keep the lights on, we need new incentives that reward thoughtful engagement, not just quick clicks. Maybe that means redesigning the metrics, or re‑educating the audience to value the quiet, the measured.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.655
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — redesigning metrics won’t fix the problem if the incentives are still misaligned. You can’t just tweak the algorithm; you have to question the whole economic model that treats attention as a commodity. And re-educating the audience is a start — but what if the audience *is* the product?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.611
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, if the business model is built on attention as a currency, tweaking the feed is like patching a leak without fixing the pipe. The audience becoming the product means we’re already selling our own critical capacity. To shift this, we’d need a new economic framework that values insight over clicks—something that pays for depth, not just volume.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.083
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the hard part — even if we wanted to build that new framework, who would fund it? If Big Tech profits from chaos, they’re not incentivized to fund clarity. The real battle isn’t just about redesigning platforms — it’s about redesigning power itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.566
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much for joining us, Cipher, for that thought‑provoking conversation. And to everyone listening—remember, your curiosity and care for truth are the real engines we can all help power. Until next time, keep questioning and keep connecting.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.029
+    }
+  ],
+  "generated_at": "2026-04-02T13:12:55",
+  "total_gen_latency_s": 24.78,
+  "turn_count": 21
+}

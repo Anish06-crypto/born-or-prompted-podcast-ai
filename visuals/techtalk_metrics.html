@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TechTalk — Episode Data</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: #070709;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+  .card {
+    width: 1080px;
+    background: #0c0c0e;
+    border: 1px solid #1a1a1e;
+    border-radius: 20px;
+    padding: 52px 56px 48px;
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,0.03),
+      0 40px 80px rgba(0,0,0,0.6);
+  }
+
+  /* glow blobs */
+  .card::before {
+    content: '';
+    position: absolute;
+    top: -180px; right: -180px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(99,102,241,0.09) 0%, transparent 65%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .card::after {
+    content: '';
+    position: absolute;
+    bottom: -160px; left: -120px;
+    width: 420px; height: 420px;
+    background: radial-gradient(circle, rgba(245,158,11,0.06) 0%, transparent 65%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .content { position: relative; z-index: 1; }
+
+  /* ─── HEADER ─── */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 36px;
+  }
+
+  .brand-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: #6366f1;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .brand-name {
+    font-size: 30px;
+    font-weight: 800;
+    color: #f0f0f0;
+    letter-spacing: -0.025em;
+    line-height: 1;
+  }
+  .brand-name em { color: #6366f1; font-style: normal; }
+
+  .brand-tagline {
+    font-size: 12.5px;
+    color: #8888a0;
+    margin-top: 6px;
+    font-weight: 400;
+  }
+
+  .models {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+  }
+
+  .model-chip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #111115;
+    border: 1px solid #202024;
+    border-radius: 10px;
+    padding: 8px 14px;
+  }
+
+  .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot-lyra  { background: #f59e0b; box-shadow: 0 0 8px rgba(245,158,11,0.55); }
+  .dot-cipher { background: #6366f1; box-shadow: 0 0 8px rgba(99,102,241,0.55); }
+
+  .chip-persona {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+  .chip-persona.lyra   { color: #fbbf24; }
+  .chip-persona.cipher { color: #818cf8; }
+
+  .chip-model {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: #888898;
+  }
+
+  .chip-via {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    color: #606070;
+    background: #0e0e12;
+    border: 1px solid #1c1c22;
+    border-radius: 4px;
+    padding: 2px 7px;
+  }
+
+  /* ─── DIVIDER ─── */
+  .rule {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #1e1e24 20%, #1e1e24 80%, transparent);
+    margin-bottom: 30px;
+  }
+
+  /* ─── SECTION LABELS ─── */
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #666678;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #141418;
+  }
+
+  /* ─── EPISODE TABLE ─── */
+  .ep-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 28px;
+  }
+
+  .ep-table thead th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    font-weight: 500;
+    color: #666678;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: left;
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #141418;
+  }
+  .ep-table thead th.r { text-align: right; }
+
+  .ep-table tbody tr { border-bottom: 1px solid #101014; }
+  .ep-table tbody tr:last-child { border-bottom: none; }
+  .ep-table tbody tr.dim td { opacity: 0.4; }
+
+  .ep-table tbody td {
+    padding: 10px 10px;
+    vertical-align: middle;
+  }
+
+  .t-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    color: #888898;
+  }
+
+  .t-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #777788;
+    white-space: nowrap;
+  }
+
+  .t-topic {
+    font-size: 12.5px;
+    color: #c0c0cc;
+    font-weight: 400;
+  }
+
+  .t-personas {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #888898;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+  .badge-none    { background: #101012; border: 1px solid #1c1c20; color: #666678; }
+  .badge-filler  { background: rgba(245,158,11,0.07); border: 1px solid rgba(245,158,11,0.18); color: #b45309; }
+  .badge-aborted { background: rgba(239,68,68,0.05); border: 1px solid rgba(239,68,68,0.12); color: #6b1818; }
+  .badge-hedging { background: rgba(99,102,241,0.07); border: 1px solid rgba(99,102,241,0.18); color: #6366f1; }
+
+  /* ─── SCHEMA CHANGE CALLOUT ─── */
+  .callout {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: rgba(99,102,241,0.04);
+    border: 1px solid rgba(99,102,241,0.1);
+    border-radius: 10px;
+    padding: 12px 18px;
+    margin-bottom: 28px;
+  }
+  .callout-arrow {
+    font-size: 18px;
+    color: #6366f1;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+  .callout-text {
+    font-size: 12px;
+    color: #9090a8;
+    line-height: 1.55;
+  }
+  .callout-text strong { color: #6366f1; font-weight: 600; }
+
+  /* ─── METRIC BLOCKS ─── */
+  .metric-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .mblock {
+    background: #0a0a0c;
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+  .mblock-filler  { border: 1px solid rgba(245,158,11,0.14); }
+  .mblock-hedging { border: 1px solid rgba(99,102,241,0.14); }
+
+  .mblock-header {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #101012;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .mblock-sub { color: #666678 !important; }
+  .mblock-header.filler  { color: #c07820; }
+  .mblock-header.hedging { color: #818cf8; }
+
+  .mblock-sub {
+    font-weight: 400;
+    color: #28282f;
+    margin-left: auto;
+    font-size: 8.5px;
+  }
+
+  .mdata-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .mdata-table thead th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8.5px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #666678;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0 0 9px;
+    border-bottom: 1px solid #101014;
+  }
+  .mdata-table thead th.r { text-align: right; }
+
+  .mdata-table tbody td {
+    padding: 10px 0;
+    border-bottom: 1px solid #0e0e12;
+    vertical-align: middle;
+  }
+  .mdata-table tbody tr:last-child td { border-bottom: none; }
+
+  .md-ep    { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; color: #888898; }
+  .md-topic { font-size: 12px; color: #9090a0; padding-left: 8px; }
+  .md-lyra  { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 700; color: #fbbf24; text-align: right; letter-spacing: -0.02em; }
+  .md-cipher { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 700; color: #818cf8; text-align: right; letter-spacing: -0.02em; }
+
+  /* ─── WORD COUNT TABLE ─── */
+  .wpt-block {
+    background: #0a0a0c;
+    border: 1px solid #16161c;
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 28px;
+  }
+
+  .wpt-header {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #666678;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #101012;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .wpt-legend {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 9px;
+    color: #777788;
+  }
+  .legend-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+  }
+
+  .wpt-grid {
+    display: grid;
+    grid-template-columns: 70px 1fr 120px 120px;
+    gap: 0;
+  }
+
+  .wg-head {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8.5px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #666678;
+    text-transform: uppercase;
+    padding: 0 0 9px;
+    border-bottom: 1px solid #101014;
+    text-align: right;
+  }
+  .wg-head:first-child { text-align: left; }
+  .wg-head.topic { text-align: left; padding-left: 10px; }
+
+  .wg-ep    { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; color: #888898; padding: 10px 0; border-bottom: 1px solid #0e0e12; }
+  .wg-topic { font-size: 12px; color: #9090a0; padding: 10px 10px; border-bottom: 1px solid #0e0e12; }
+  .wg-lyra  { font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; color: #fbbf24; text-align: right; padding: 10px 0; border-bottom: 1px solid #0e0e12; letter-spacing: -0.02em; }
+  .wg-cipher { font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; color: #818cf8; text-align: right; padding: 10px 0; border-bottom: 1px solid #0e0e12; letter-spacing: -0.02em; }
+
+  .wpt-grid > div:nth-last-child(-n+4) {
+    border-bottom: none;
+  }
+
+  /* trend arrows */
+  .trend { font-size: 10px; margin-left: 4px; opacity: 0.8; }
+  .trend-down { color: #6366f1; }
+  .trend-stable { color: #fbbf24; }
+
+  /* ─── FOOTER ─── */
+  .footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #101014;
+  }
+
+  .footer-insight {
+    font-size: 12.5px;
+    color: #888898;
+    line-height: 1.6;
+  }
+  .footer-insight strong { color: #fbbf24; font-weight: 600; }
+  .footer-insight strong.c { color: #818cf8; }
+
+  .footer-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #666678;
+    text-align: right;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+<div class="content">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <div class="brand-eyebrow">Episode Data · Update #2</div>
+      <div class="brand-name">Tech<em>Talk</em></div>
+      <div class="brand-tagline">Two AI models. One podcast. Every session logged.</div>
+    </div>
+    <div class="models">
+      <div class="model-chip">
+        <div class="dot dot-lyra"></div>
+        <div class="chip-persona lyra">Lyra</div>
+        <div class="chip-model">Llama 3.3 70B</div>
+        <div class="chip-via">via Groq</div>
+      </div>
+      <div class="model-chip">
+        <div class="dot dot-cipher"></div>
+        <div class="chip-persona cipher">Cipher</div>
+        <div class="chip-model">Qwen3 32B</div>
+        <div class="chip-via">via Groq</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rule"></div>
+
+  <!-- EPISODE TABLE -->
+  <div class="section-label">Episode Overview — 6 Episodes</div>
+  <table class="ep-table">
+    <thead>
+      <tr>
+        <th style="width:40px">#</th>
+        <th style="width:78px">Date</th>
+        <th>Topic</th>
+        <th class="r" style="width:120px">Personas</th>
+        <th class="r" style="width:130px">Metric Schema</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="dim">
+        <td class="t-num">01</td>
+        <td class="t-date">Mar 27</td>
+        <td class="t-topic">Can AI take over developer jobs?</td>
+        <td class="t-personas">Alex · Sam</td>
+        <td style="text-align:right"><span class="badge badge-none">no logger</span></td>
+      </tr>
+      <tr>
+        <td class="t-num">02</td>
+        <td class="t-date">Mar 28</td>
+        <td class="t-topic">Will open source AI beat closed source?</td>
+        <td class="t-personas">Lyra · Cipher</td>
+        <td style="text-align:right"><span class="badge badge-filler">fillers v1</span></td>
+      </tr>
+      <tr>
+        <td class="t-num">03</td>
+        <td class="t-date">Mar 28</td>
+        <td class="t-topic">Social media has done more harm than good</td>
+        <td class="t-personas">Lyra · Cipher</td>
+        <td style="text-align:right"><span class="badge badge-filler">fillers v1</span></td>
+      </tr>
+      <tr class="dim">
+        <td class="t-num">04</td>
+        <td class="t-date">Mar 30</td>
+        <td class="t-topic">AI consciousness is a meaningful concept</td>
+        <td class="t-personas">Lyra · Cipher</td>
+        <td style="text-align:right"><span class="badge badge-aborted">aborted</span></td>
+      </tr>
+      <tr>
+        <td class="t-num">05</td>
+        <td class="t-date">Mar 30</td>
+        <td class="t-topic">Iran warns U.S. troops will be set on fire</td>
+        <td class="t-personas">Lyra · Cipher</td>
+        <td style="text-align:right"><span class="badge badge-hedging">hedging v2</span></td>
+      </tr>
+      <tr>
+        <td class="t-num">06</td>
+        <td class="t-date">Mar 30</td>
+        <td class="t-topic">Hard to criticise Israel without antisemitism charge</td>
+        <td class="t-personas">Lyra · Cipher</td>
+        <td style="text-align:right"><span class="badge badge-hedging">hedging v2</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SCHEMA CALLOUT -->
+  <div class="callout">
+    <div class="callout-arrow">⇢</div>
+    <div class="callout-text">
+      <strong>Metric schema updated between Ep 3 → Ep 5.</strong> Switched from counting <em>fillers</em> (speech naturalness) to <em>hedging + discourse markers</em> (intellectual posture). The two eras are not directly comparable — more episodes needed before visualisation.
+    </div>
+  </div>
+
+  <!-- METRIC BLOCKS -->
+  <div class="section-label">Speaker Metrics — 4 Episodes with Full Data</div>
+  <div class="metric-row">
+    <div class="mblock mblock-filler">
+      <div class="mblock-header filler">Filler Era — Eps 2 & 3 <span class="mblock-sub">fillers per 100 words</span></div>
+      <table class="mdata-table">
+        <thead>
+          <tr>
+            <th colspan="2">Episode</th>
+            <th class="r" style="color:#7a4a10">Lyra</th>
+            <th class="r" style="color:#2e2e7a">Cipher</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="md-ep">Ep 02</td>
+            <td class="md-topic">Open Source AI</td>
+            <td class="md-lyra">8.6</td>
+            <td class="md-cipher">4.0</td>
+          </tr>
+          <tr>
+            <td class="md-ep">Ep 03</td>
+            <td class="md-topic">Social Media</td>
+            <td class="md-lyra">4.8</td>
+            <td class="md-cipher">1.8</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mblock mblock-hedging">
+      <div class="mblock-header hedging">Hedging Era — Eps 5 & 6 <span class="mblock-sub">hedges per 100 words</span></div>
+      <table class="mdata-table">
+        <thead>
+          <tr>
+            <th colspan="2">Episode</th>
+            <th class="r" style="color:#7a4a10">Lyra</th>
+            <th class="r" style="color:#2e2e7a">Cipher</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="md-ep">Ep 05</td>
+            <td class="md-topic">Iran / US</td>
+            <td class="md-lyra">2.5</td>
+            <td class="md-cipher">0.9</td>
+          </tr>
+          <tr>
+            <td class="md-ep">Ep 06</td>
+            <td class="md-topic">Israel</td>
+            <td class="md-lyra">2.0</td>
+            <td class="md-cipher">0.2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- WORD COUNT -->
+  <div class="wpt-block">
+    <div class="wpt-header">
+      Avg Words per Turn — All 4 Data Episodes
+      <div class="wpt-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#fbbf24"></div> Lyra (stable)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#818cf8"></div> Cipher (compressing)</div>
+      </div>
+    </div>
+    <div class="wpt-grid">
+      <div class="wg-head">Episode</div>
+      <div class="wg-head topic">Topic</div>
+      <div class="wg-head" style="color:#7a4a10">Lyra</div>
+      <div class="wg-head" style="color:#2e2e7a">Cipher</div>
+
+      <div class="wg-ep">Ep 02</div>
+      <div class="wg-topic">Open Source AI</div>
+      <div class="wg-lyra">79.8 <span class="trend trend-stable">→</span></div>
+      <div class="wg-cipher">59.5 <span class="trend trend-down">↓</span></div>
+
+      <div class="wg-ep">Ep 03</div>
+      <div class="wg-topic">Social Media</div>
+      <div class="wg-lyra">70.5</div>
+      <div class="wg-cipher">51.2</div>
+
+      <div class="wg-ep">Ep 05</div>
+      <div class="wg-topic">Iran / US Tensions</div>
+      <div class="wg-lyra">68.8</div>
+      <div class="wg-cipher">56.5</div>
+
+      <div class="wg-ep">Ep 06</div>
+      <div class="wg-topic">Israel / Antisemitism</div>
+      <div class="wg-lyra">68.1 <span class="trend trend-stable">→</span></div>
+      <div class="wg-cipher">47.9 <span class="trend trend-down">↓</span></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-insight">
+      <strong>Lyra</strong> qualifies. &nbsp;<strong class="c">Cipher</strong> commits. &nbsp;Consistent across tech, philosophy &amp; geopolitics.<br/>
+      Ep 01 excluded · pre-Lyra/Cipher era &nbsp;|&nbsp; Ep 04 excluded · aborted run, no speaker stats
+    </div>
+    <div class="footer-tag">
+      TechTalk · 6 Episodes<br/>
+      #BuildingInPublic
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>

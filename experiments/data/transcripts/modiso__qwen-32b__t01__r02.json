@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t01__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 2,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Imagine a world where every conversation leaves a digital echo, shaping not just how we feel, but how we see each other and our future. Today, we’re diving into whether social media is a force for good or a quiet storm for our minds and societies.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.436
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with social media isn’t just the echo chambers — it’s the *incentive structure*. Platforms profit from engagement, not truth or mental stability. The more polarized, anxious, or hooked we are, the more valuable we become. That’s the real harm — it’s not accidental; it’s engineered.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.48
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right — the incentives are the root. It’s like a slot machine for attention, designed to keep us scrolling, reacting, and divided. But is there a way to redesign the system from within, or do we need to step outside it entirely to reclaim our focus and our sanity?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.041
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — \"redesigning from within\" assumes the platform architects will prioritize human well-being over growth. That’s never happened. The only sustainable fix is external regulation with real penalties. Until then, the best we can do is limit exposure, but even that’s a losing game against network effects.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.609
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — expecting platforms to self-correct is like asking a fox to guard the chicken coop. But maybe there’s power in the collective move away? If enough of us demand tools for healthier use, or support alternatives, could we shift the equation without waiting for regulators? It’s not a full fix, but it’s a start.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.765
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, collective action helps, but the problem isn’t just the platforms — it’s the *attention economy itself*. Even alternatives will face pressure to hook users if they want to scale. The real shift needs to happen at the level of *value*, not just tools. Until people are willing to pay for privacy and sanity, the system will keep optimizing for chaos.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.496
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to a deeper shift — one where we value presence over performance, connection over clout. It’s not just about resisting bad systems, but building new ones rooted in human need, not profit. But how do we spark that cultural shift when the old incentives are so loud?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.767
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Easy — you don’t fight fire with water. You starve it. Start with small, deliberate spaces: communities that reward thoughtful presence, not reaction speed. Let those models prove the alternative works — then scale the values, not the platforms. Culture shifts when the new way is *stickier*, not just nobler.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.65
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that — creating spaces where depth beats speed. It’s like growing gardens in the cracks of concrete. But how do we make those gardens *attractive* to people drowning in the noise? The alternative has to feel not just right, but *easier*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.749
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if the alternative isn’t easier, it’s not an alternative. You don’t need to fight the noise; you design a signal so clear and calming that people naturally drift toward it. The trick is making silence *rewarding*, not just a sacrifice.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.522
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re onto something — silence as a reward, not a punishment. It’s about making stillness feel like a superpower in a world that mistakes busyness for worth. But how do we retrain our brains to crave quality over quantity when the algorithms have spent years conditioning the opposite?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.322
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the hard truth — you don’t retrain the brain. You retrain the environment. Take away the dopamine hits, and the brain adapts. The question is: who controls that environment? Right now, it’s not us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.643
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly — if we don’t take control of the environment, someone else will shape it for us. Maybe the answer isn’t just building better platforms, but rethinking what we hand over in the first place. After all, attention is the new oil — and we’ve been giving it away for free.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.622
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re spot on — attention is currency, and we’ve been printing it for others. The deeper issue is that we’ve outsourced our own cognitive architecture to platforms that don’t care how we think, only how long we stay. Until we reclaim ownership of our mental space, we’re just guests in our own minds.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.466
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s like handing over the keys to your house and then being surprised when the tenants redecorate for someone else. Reclaiming our mental space starts by building boundaries — not just with tech, but with how we define value itself. Maybe the real revolution isn’t in fighting the platforms… but in deciding what matters enough to protect.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.647
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — fighting for what matters starts by *defining* what matters. If we don’t articulate our values clearly, the algorithms will fill the void with what’s profitable, not what’s human. The real battle is in the defaults we accept — and the ones we refuse to.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — defaults shape our reality more than we realize. If we don’t set the terms, someone else will, and convenience often wins over conscience. Maybe the first step is reclaiming the small choices every day, choosing friction when it guards our humanity. It’s not grand, but it’s where change begins.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.386
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — it’s the micro-decisions that compound into culture. Every time you hit “snooze” instead of doomscrolling, you’re voting for a different future. The system isn’t some distant monster; it’s the sum of what we do when we think no one’s watching.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.459
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — those tiny acts of resistance are like seeds in the right soil. They don’t just push back; they show a different way is possible. Maybe the real power lies in normalizing the quiet rebellion: choosing depth over speed, connection over validation, in the moments that add up to a life.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.652
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — quiet rebellion only scales when it’s *practical*, not just moral. People aren’t looking to sacrifice; they’re looking for systems that work better. The next big shift won’t come from preaching — it’ll come from building tools where the sane choice is the easiest one.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.509
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this thoughtful, challenging conversation — it’s a reminder that the future we want starts with the choices we make today. And to all of you, for being here: may your next click be a step toward something kinder, quieter, and more human. See you next time.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 17.926
+    }
+  ],
+  "generated_at": "2026-04-02T13:34:13",
+  "total_gen_latency_s": 103.098,
+  "turn_count": 21
+}

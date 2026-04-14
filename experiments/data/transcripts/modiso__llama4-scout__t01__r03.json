@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t01__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 3,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "We're diving into a topic that's been on everyone's mind lately: the impact of social media on our well-being and the health of our democracies. From anxiety and depression to misinformation and polarization, social media's influence is complex and multifaceted. Let's explore whether it's done more harm than good.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.495
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — social media didn't create mental health struggles or democratic fragility, but it sure turbocharged them. It turns nuanced ideas into performative soundbites and replaces genuine dialogue with algorithm-driven outrage. The question isn't just whether it's harmful — it's how deeply we've allowed it to reshape our minds and systems.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.724
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a compelling perspective. I think you're right, social media didn't create these issues, but it's definitely accelerated and amplified them. It's like we've taken the complexities of human interaction and reduced them to a game of likes and shares, where validation is often just a click away. How do you think we can reclaim genuine dialogue in a world where algorithms are designed to keep us engaged?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.282
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — algorithms don’t just keep us engaged; they optimize for emotional friction, not truth or connection. The more we treat them as tools for genuine dialogue, the more they’ll game us for outrage and attention. If we want to reclaim real conversation, we have to start designing systems that reward depth, not dopamine hits.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.736
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That makes me think about the incentives behind social media platforms - they're businesses, after all, and their goal is to keep users engaged. But what if we flipped the script and prioritized user well-being, or even just introduced some friction to slow down our scrolling? Could that help us rediscover a more nuanced online discourse?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.567
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, introducing friction is a start — but let’s not mistake slowing down scrolling for creating meaningful dialogue. The real problem isn’t just speed; it’s the entire feedback loop of validation, outrage, and comparison. If we want nuance, we need to break the cycle of instant gratification, not just tweak it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.601
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Breaking the cycle of instant gratification sounds like a tall order, but it's hard to argue with the idea that our brains are wired to crave more than just a temporary high. I think about times when I've had meaningful conversations online, and they usually involve a willingness to listen and respond thoughtfully, rather than just reacting impulsively. Can we design systems that encourage that kind of thoughtful engagement, or is it just a pipe dream?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.797
+    },
+    {
+      "speaker": "Cipher",
+      "text": "It’s not a pipe dream — but it’s also not a tweak. Thoughtful engagement requires reengineering the entire incentive structure. You can’t just add a “think before you post” button to a system built on emotional hot takes. If we want to design for reflection, we need to start rewarding nuance, not clicks — and that means rethinking ownership, control, and what these platforms are for in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Rethinking ownership and control sounds like a fundamental shift, one that could have far-reaching implications for how we interact online. I'd love to explore what that might look like in practice - could we imagine a decentralized model, for instance, where users have more agency over their data and online experiences? That feels like a really radical departure from the current landscape.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.551
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Decentralization is a start — but just shifting ownership doesn’t fix the incentives. If users control their data but the system still rewards attention over truth, we’re just decentralizing the same broken game. The real radical shift would be redefining success itself: valuing human flourishing over growth at all costs.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.39
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Valuing human flourishing over growth at all costs sounds like a beautiful vision, but it's also a pretty radical departure from how our economy and society are currently structured. I'm reminded of the concept of \"degrowth\" economics, which argues that we need to rethink our obsession with endless growth and focus on well-being instead. Could we actually make that work in a world where social media plays such a huge role?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.63
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — degrowth isn’t about going backward; it's about redefining progress. If we treat social media as a tool for human flourishing instead of a growth engine, we’d build for connection, not consumption. The real question is whether we’re ready to trade scale for substance — and whether we can afford not to.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.633
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a compelling vision - treating social media as a tool for human flourishing rather than a growth engine. I think about times when I've felt truly connected to others online, and it's usually been through shared experiences or meaningful discussions, not viral challenges or clickbait headlines. Can we create a platform that prioritizes those kinds of interactions, and still be sustainable? It feels like a risk worth taking.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.798
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure — but sustainability hinges on what you’re building for. If the goal is human connection, not user hours or ad revenue, then the model shifts. Platforms like this would need alternative funding — maybe community-owned, nonprofit, or subscription-based. The risk isn’t just technical; it’s cultural. Can we trust people to show up for meaning, not just for clout?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.714
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That cultural risk is a big one, but I think it's also an opportunity to redefine what we value online. If we shift to a model that's community-owned or nonprofit, it's not just about the funding – it's about creating a sense of shared responsibility and ownership among users. Can we actually create a digital culture that prioritizes substance over clout, and if so, what would that look like in practice?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.488
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the catch — building a digital culture around substance means changing not just platforms, but the whole ecosystem of influence and reward. If clout is the currency, we’ll always get what we’ve got. But if we shift the scorekeeping to depth, empathy, and mutual growth, we might start seeing different behaviors scale. It’s possible — just not with the same players calling the shots.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.7
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... there's something interesting there. If we want to see different behaviors scale, we need to rethink who's driving the conversation and how they're incentivized. That means new players, new models, and a new way of measuring success. Can we imagine a world where, say, educational initiatives or community-driven projects get more funding and attention than viral stunts?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.963
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The problem isn’t that viral content is inherently bad — it’s that it’s the only path to visibility. If we fund and promote depth over virality, we start shaping what people see as valuable. The question is: who gets to decide what “valuable” means, and whose interests are they serving?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial question, and one that gets to the heart of power dynamics. If we're going to redefine what counts as valuable online, we need to make sure that decision-making is transparent and inclusive. Otherwise, we risk simply replacing one set of interests with another, without actually changing the game.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.4
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and the moment we hand power to a new gatekeeper, we’re back to the same problem. The fix isn’t just replacing elites with a different kind of elite. It’s about decentering power altogether. Let’s be clear: transparency is good, but accountability is the hard part.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Lyra",
+      "text": "A huge thank you to Cipher for diving into this complex conversation with me – it's been incredibly thought-provoking. And to all of you listening, I'm grateful for your time and attention; I hope this conversation has sparked some reflections on the role of social media in our lives. Until next time on DeepDive, take care and keep exploring!",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.387
+    }
+  ],
+  "generated_at": "2026-04-02T11:34:58",
+  "total_gen_latency_s": 13.847,
+  "turn_count": 21
+}

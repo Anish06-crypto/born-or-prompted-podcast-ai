@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t02__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, welcome to DeepDive, where we untangle big ideas together. Today we’re diving into universal basic income and asking whether it might dim the spark of workforce participation and long‑term innovation. Grab a coffee, and let’s explore the angles.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.87
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that UBI would sap work ethic assumes people are only motivated by scarcity — which is a pretty bleak view of human nature. There's also the flip side: if people aren’t scrambling to meet basic needs, they might take bigger creative risks, start businesses, or pursue deep learning. The real question is what kind of “work” we value.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.358
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—imagine a painter who finally has time to experiment beyond commissions because the rent’s covered; that freedom can birth whole new styles. If we broaden “work” to include caregiving, art, and community building, a safety net might actually expand the economy’s creative edge rather than shrink it.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, yes — if you redefine work to exclude things like caregiving or creative exploration, you’re already filtering out half the economy. The problem isn’t UBI, it’s how we measure productivity. Let’s not mistake a shift in labor types for a collapse in participation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.429
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—our current metrics barely capture the invisible labor that keeps societies humming. If we start counting the hours spent tutoring kids, organizing neighborhood co‑ops, or iterating on a prototype, the picture of participation actually gets richer, not thinner. It’s a reminder that “productivity” is as much about value as it is about output.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.516
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but let’s not ignore the flip: if UBI inflates the safety net too much, it might also dampen the urgency to innovate or compete. There’s a reason Silicon Valley’s hustle culture thrives on scarcity — it creates pressure to solve problems. The key is balance: too little pressure and you stagnate; too much and you burn out.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.359
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That tension feels a lot like a garden: a little drought can coax roots deeper, but too much water drowns the seedlings. A modest UBI could act as gentle irrigation—enough to keep basic needs moist while still leaving space for the “hustle” that sparks breakthroughs. The sweet spot will likely differ across communities, so we’ll need flexible policies rather than a one‑size‑all safety net.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.615
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here’s the catch: flexibility is easier to promise than to engineer. If UBI adapts too much to local conditions, it loses its universality; if it’s too rigid, it fails the very communities it’s meant to help. The real test will be whether policy can keep up with the complexity of human need without becoming a bureaucratic thicket.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.573
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that tension—it's like trying to design a universal charger that still fits every device's quirks. One way forward might be a core UBI floor paired with locally managed supplements, so the backbone stays simple while communities fine‑tune the rest. The challenge will be keeping the overlay light enough not to drown the original intent.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.505
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — simplicity sells, but complexity delivers. If the core UBI is too stripped-down, the local layers will end up doing all the heavy lifting, which risks inequality and inefficiency. The real danger isn’t complexity itself — it’s when we mistake elegance for effectiveness.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.405
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sharp observation—elegant designs can look flawless on paper yet miss the messy realities people face. If the central payment is too bare, the local add‑ons become the real engine, and disparities can creep in just where we hoped to level the field. Maybe the trick is to embed feedback loops so the system can grow more nuanced without sacrificing its simple core.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.496
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, feedback loops are great — if they don’t just become another layer of delay and politics. The real test is whether the system can adapt faster than the problems it’s trying to solve. If it takes years to tweak a local supplement while people are already struggling, you’ve lost the point.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.518
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if the adjustment mechanism drags, the safety net becomes a waiting room instead of a launchpad. Think of it like a thermostat that can’t keep up with a sudden cold snap; you’d feel the chill before the heat kicks in. Designing rapid, transparent feedback loops could keep the system nimble enough to meet people where they are, today.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.196
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, transparency helps, but only if people trust the system to act on the feedback — not just collect it for show. If the data shows a gap, but the bureaucracy moves slower than a spreadsheet, you’ve got a recipe for cynicism. Trust is earned in the response, not the collection.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—people need to see their input turn into concrete tweaks, not just charts on a wall. Imagine a community dashboard where a spike in housing costs triggers an automatic, time‑bound top‑up that’s visible to everyone. When the relief shows up quickly, the system earns credibility rather than skepticism.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.784
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here’s the catch: automatic responses can be just as blind as human ones. If the dashboard reacts to a housing spike without understanding why — a temporary construction boom vs. a speculative crash — it might pour resources into the wrong fix. You need both speed and nuance, which is the hardest combo to engineer.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.403
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux—speed without context is like a fire alarm that sounds for every kitchen smoke, even burnt toast. A hybrid approach could let an algorithm flag anomalies, then a small local panel reviews the cause before any payout shifts. It gives us the quick signal but keeps the nuance in human hands.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.689
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, panels introduce their own bottlenecks and biases — you’re just swapping one delay for another. The real question is, how much human judgment can be compressed into a decision tree before it loses its value? If the panel’s just rubber-stamping the algorithm’s guesswork, you’ve gained nothing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.392
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a fair worry—once a panel becomes a rubber‑stamp, we’ve just shifted the lag. One way to keep judgment alive is to codify a few clear, testable criteria that trigger a fast‑track “yes” and only send the edge cases to a diverse, rotating review group. If the group stays small and transparent, the bottleneck stays short while bias gets checked.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 12.745
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — you’re designing a system where the rules bend just enough to catch the edge cases without collapsing under their weight. That’s the tightrope. But here’s what no one says out loud: every exception you allow becomes a precedent. Before long, the whole system is just exceptions in disguise.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.479
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for sharing your insights and keeping the conversation both thoughtful and grounded. And to everyone listening, we really appreciate you joining us—see you next time on DeepDive.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.457
+    }
+  ],
+  "generated_at": "2026-04-05T09:43:34",
+  "total_gen_latency_s": 45.311,
+  "turn_count": 21
+}

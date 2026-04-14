@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t06__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today, we’re diving into a debate that’s shaping workplaces around the world: has remote work truly empowered us, or quietly eroded the heart of what holds teams together? Let’s get started.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.698
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Lyra, here's the thing — organisational culture isn't some mystical force. It's built through friction, shared spaces, and the subtle, unstructured moments that remote work systematically removes. You can’t out-empower bad culture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.381
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that — those in-person collisions often spark trust and belonging. But isn’t culture also about *respecting how people work best*? Remote work gives some of us the freedom to contribute at our peak, which in turn builds something real. Maybe it’s a different kind of culture now.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.51
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Respect for how people work best doesn’t mean ignoring the cost to alignment and cohesion. Remote work *does* empower individuals — but it also hides the trade-offs: delayed feedback, weaker accountability, and the quiet erosion of shared purpose. You can’t have the benefits without the costs.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.743
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree the trade-offs are real — but isn’t that true of any shift? The cost of remote work isn’t just hidden; it’s a choice we make when we prioritise flexibility over friction. Maybe the challenge isn’t in the setup, but how we adapt our culture to stay connected across distance.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.64
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — adapting culture to distance isn’t the same as preserving it. You can’t just replace coffee chats with Slack pings and call it cohesion. The real question is whether the culture you’re adapting to is *still* culture, or just a set of rituals with no substance.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.558
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — there’s a real risk of performing culture instead of living it. But isn’t culture also about inclusion? For some, remote work isn’t a compromise — it’s how they finally feel seen. Maybe the substance evolves, but the core values still hold.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.697
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, inclusion matters — but inclusion without structure still leaves gaps in collaboration and accountability. You can’t out-innovate poor communication, and remote work doesn’t fix the organisations that never got culture right in the first place. The core values might hold, but the glue often doesn’t.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.527
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — culture can’t just be a checklist. But could it also be that remote work is exposing what was weak before, rather than creating the problem? Maybe the real issue is organisations not evolving how they build culture, not the tools they use to connect.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.554
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — remote work is the culture mirror, not the villain. The problem isn’t the screen, it’s the lack of intention behind it. If culture was strong in person, it adapts. If it was just window dressing, the distance reveals the rot.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.453
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe the real debate isn’t about remote work versus culture — it's about whether culture was ever *real* to begin with. If organisations were built on trust, not just presence, wouldn’t they still hold together across distance? It feels like the setup is just making us see what’s already there.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.606
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Spot on — remote work isn’t breaking culture, it’s testing whether culture existed at all. If all you had was mandated team-building and open-plan offices, of course it feels broken now. But trust, shared goals, and psychological safety? Those either survive distance or they were never there.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.442
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a powerful way to frame it — like remote work is a stress test for culture. Maybe the real loss isn’t in the work itself, but in how we mistook convenience for connection. If culture was ever about people, not just spaces, then maybe it’s time we started rebuilding with intention.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.482
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and let’s not confuse Zoom happy hours for connection. If culture was ever about people, it needs more than scheduled check-ins to survive. The real work starts when we stop pretending that tools replace the human effort behind culture. Distance reveals truth — now we have to act on it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.654
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — tools can’t fake the human work of culture. Distance might reveal gaps, but it also gives us a chance to rebuild with more authenticity. Maybe the question isn’t whether remote work weakens culture, but whether we ever let it be more than office walls and team lunches.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.596
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here's the catch: authenticity doesn’t scale without structure. Just because we *want* more meaningful culture doesn’t mean we know how to build it in a distributed world. The real test is whether we’re willing to do the hard work of redefining culture, not just miss the old one.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.404
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree — redefining culture isn’t about nostalgia for the past, it’s about intention for the future. Maybe remote work didn’t weaken culture; it just made us face the fact that culture needs deliberate, human care — no matter the setup. The question now is whether we’re up for the effort.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.595
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You hit the nail on the head — culture isn’t a byproduct of proximity anymore. It’s a practice, not a perk. The real weakness wasn’t in remote work — it was in the assumption that culture could survive on habit and hot desks alone. Now we’re forced to earn it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.483
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So maybe the shift to remote work didn’t break culture — it just made us confront how little we were actively building it before. If culture was once a side effect of being in the same room, now it has to be a choice we make every day. And honestly? That’s not a bad thing, if we’re ready for the work.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.599
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if remote work forces us to stop treating culture like a corporate afterthought and start treating it like a deliberate practice — then maybe the disruption was exactly what we needed. The real problem wasn’t distance. It was complacency. Now we either rise to the challenge or we keep pretending that presence equals culture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.165
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this thoughtful conversation — it’s exactly the kind of challenge we need to keep growing. And to all of you listening, if this made you pause, reflect, or maybe even change your mind, we did our job. Keep diving deep. See you next time.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 16.712
+    }
+  ],
+  "generated_at": "2026-04-02T15:50:51",
+  "total_gen_latency_s": 106.167,
+  "turn_count": 21
+}

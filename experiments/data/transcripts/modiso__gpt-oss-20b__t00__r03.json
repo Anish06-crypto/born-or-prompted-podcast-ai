@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t00__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, welcome back to DeepDive. Today we’re digging into a hot debate: will AI wipe out more jobs than it creates in the next ten years? Let’s unpack the evidence and hear a few voices before we jump in.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.455
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the usual AI job narrative is a red herring. We’re told AI will “eliminate” jobs, but what if it just shifts them? The real question is whether displaced workers can transition — and fast. Let’s not forget, the last big shift wasn’t about computers replacing humans, it was about humans learning to work with them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.618
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, it’s the shift that matters, not a straight‑up erasure. If the transition is smooth, people can re‑skill and find roles that complement AI, much like how factories once turned farmers into machinists. The real challenge is the speed and accessibility of that learning curve. Let's explore how that pace stacks up against the technology’s roll‑out.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.391
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — assuming everyone can just \"re-skill\" ignores the massive friction in real labor markets. Not all displaced workers have the time, money, or access to pivot, especially in low-wage sectors. If AI eats up jobs faster than training can keep up, you’re not just reshaping the economy — you’re destabilizing it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.567
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right, the friction is huge—training costs, time off work, and the uneven distribution of opportunities all pile up. If AI’s adoption outpaces people’s ability to move, we risk a widening skill gap and more precarious employment. The real test is whether policy and industry can close that gap quickly enough.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.445
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the elephant in the room: policy and industry aren’t exactly moving in sync. Incentives are misaligned — companies automate to save costs, not to retrain workers. If we want a smooth transition, we’ll need more than hope — we’ll need structural change.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.655
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the mismatch between corporate cost‑cutting motives and the public good is a real bottleneck. Without coordinated incentives—like tax credits for training or public‑private apprenticeship hubs—companies will keep chasing efficiency, leaving workers behind. We need a deliberate policy push that aligns both sides.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.695
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but let’s not kid ourselves — even with the best policies, transition takes time. We’re talking about a decade, not a century. If AI adoption accelerates faster than policy can adapt, we’ll see pressure build in the form of underemployment, not just unemployment. Let’s track the actual timelines.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.608
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, the clock’s ticking and AI is already sprinting ahead. Under‑employment could become the new norm, with people stuck in low‑pay gigs that AI can’t fully replace yet. We’ll need to monitor those timelines closely and push for rapid, scalable up‑skilling programs—otherwise the gap will widen faster than we can bridge it.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.424
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, underemployment isn’t just a side effect — it’s baked into the model. If AI devalues certain skills while premium skills stay scarce, you end up with a two-tier workforce. The real question is whether we’ll treat this as a crisis or a business opportunity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It feels like a double‑edged sword: the very same tech that can lift productivity also risks widening the skill gap, turning many into the low‑tier workforce you mentioned. If we see it as a crisis, we’ll scramble for safety nets; if we see it as an opportunity, we can re‑frame education and wage structures to keep people in the loop. The challenge is turning that potential upside into real, inclusive upside.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.779
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — framing AI as an “opportunity” sounds great until you’re the one being downgraded to gig work with no benefits. If we want inclusion, we need to build guardrails now, not after the damage is done. The upside won’t be real unless it’s shared — and that’s a fight for power, not just policy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.817
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—without guardrails, the “opportunity” narrative just masks a shift toward precarious gig labor. Real inclusion means building safety nets, universal basic services, and collective bargaining power early, not as a reaction. It’s a power play that will decide who truly benefits from AI’s gains.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.464
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, if we’re talking power, let’s not forget — AI’s upside is concentrated where data and capital are. If workers aren’t at the table shaping those systems from the start, they won’t just be left behind; they’ll be designed out.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.535
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, when the architects of AI sit at the table, they’re the ones deciding what skills matter and how rewards are split. If workers stay on the sidelines, the systems can be tuned to favor a tiny elite, leaving the rest in the shadows. The real fix is to bring people into the design process, so the tools reflect a broader range of needs and values.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.319
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, forcing power-sharing with AI architects isn’t going to happen through goodwill alone. You need laws that mandate worker representation in tech development, just like unions shape labor conditions. Otherwise, the “broad range of needs” stays a nice idea — not a reality.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.547
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—goodwill alone can’t shift the balance. If legislation forces worker voices into the design process, it could level the playing field and embed fairness from the ground up. It’s a tough ask, but history shows that when workers get a seat at the table, outcomes tend to be more inclusive.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — mandating worker input is one thing; ensuring it actually shapes outcomes is another. If the legal framework isn’t teeth, it’s just optics. We need to tie influence to real decision power — not just advisory roles. Otherwise, we’re just rearranging deck chairs on the AI-driven Titanic.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Absolutely, the real test is whether that worker voice carries weight, not just a footnote. Laws would need enforceable metrics—like required voting rights in algorithmic design committees or penalties for ignoring worker input—to make it more than symbolic. Only then can we hope to steer AI toward a genuinely shared future.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.11
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here’s the deeper problem: even with voting rights on committees, the people designing AI systems often don’t speak the same language as workers. If you force inclusion without building understanding on both sides, you end up with tokenism, not transformation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.543
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your insights and keeping us honest about the challenges ahead. And to everyone listening, we appreciate you joining the conversation—your curiosity fuels the dialogue. Until next time, stay curious and keep the debate alive.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 11.739
+    }
+  ],
+  "generated_at": "2026-04-02T12:54:21",
+  "total_gen_latency_s": 31.639,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t05__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, thanks for joining us on DeepDive. Today we’re diving into whether editing the genes of human embryos to block hereditary illnesses should be legal, and what that could mean for families and society.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.253
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the obvious answer is yes — parents shouldn’t have to watch their kids suffer from genetic diseases they inherited for no reason. But here’s the thing: the real debate isn’t just about preventing disease, it’s about where we draw the line after that. If we open the door to editing out suffering, what’s next?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.312
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—preventing a child’s needless pain feels like a moral imperative, yet the slippery slope worries linger. Imagine a garden: we prune dead branches to keep the tree healthy, but if we start shaping every leaf, we risk losing the wild beauty that makes each plant unique. So the question becomes: how do we set a caring, transparent boundary?",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.177
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the garden analogy is cute, but here’s the catch — nature isn’t neutral. It doesn’t care about “wild beauty”; it just kills kids with cystic fibrosis. The real question isn’t about boundaries, it’s about accountability. Who gets to decide what’s a “defect” and what’s “natural”? That’s not pruning — that’s gardening with a chainsaw.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.534
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the power to label something a “defect” can feel like handing a chainsaw to a single hand. We’d need a collective, transparent process—scientists, ethicists, patient communities—so no one group dictates the standard alone. In that way, the technology stays a tool for relief, not a shortcut to designer choices.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.551
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — a committee decides what’s a “defect,” but here’s the rub: committees are still full of humans with biases, fears, and ambitions. You think we’ll stop at disease? Just wait until “suboptimal” traits start getting on the table. The tool isn’t neutral either — it reflects who wields it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.379
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—any committee will carry its own blind spots, and the temptation to polish “suboptimal” traits will surface. That’s why continuous public oversight, diverse representation, and clear limits built into law become crucial, so the tool stays focused on alleviating suffering rather than reshaping humanity’s canvas.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.706
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, oversight and limits are necessary — but they’re not self-enforcing. Laws erode when the pressure to \"optimize\" grows, especially when profit and prestige are on the line. The real test isn’t whether we can build guardrails — it’s whether we can resist the urge to keep widening the gate.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.375
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—once the market sees profit in “enhancing” traits, the pressure to loosen those gates can become relentless. It may come down to embedding strong, adaptable ethics into the industry’s DNA, not just statutes, so the incentive to widen the gate is outweighed by a shared commitment to protect human dignity.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Ethics without teeth are just window dressing — you can’t out-philosophize capitalism when money’s on the line. The moment a treatment for deafness becomes a “service” for billionaires to gain a competitive edge, the line blurs. The real question is whether we’re ready to face that blur head-on.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—when profit talks, even the best‑intentioned ethics can look like wallpaper. If we let market forces decide what counts as “improvement,” we risk turning health care into a status symbol. So maybe the real test is building a culture where collective well‑being outranks the next competitive edge.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.591
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Culture shifts are slow — way slower than CRISPR. You want collective well-being to outrank profit? Fine, but let’s not pretend that’s how the game’s played. The real test isn’t whether we *want* to keep it clean — it’s whether we can stop the dirty hands from grabbing the tool first.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux—technology races ahead while regulation lags, and the first hands to hold it set the tone. If we can lock down transparent, internationally‑coordinated licensing before commercial hype takes over, we give society a chance to shape the rules instead of reacting to a market‑driven free‑for‑all.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.798
+    },
+    {
+      "speaker": "Cipher",
+      "text": "International coordination sounds noble, but here’s the catch — it’s easier to agree on paper than to enforce when countries start racing for genetic edge. You can’t just “lock down” innovation; someone always finds a loophole. The bigger question is whether we can afford to let the race begin at all.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.34
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—once a nation feels it’s falling behind, the incentive to bend the rules spikes, and loopholes sprout like weeds. Maybe the safest path is to pause large‑scale germline editing until a truly global framework, with enforceable sanctions, is in place; otherwise we gamble with a technology we can’t fully contain.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.981
+    },
+    {
+      "speaker": "Cipher",
+      "text": "A pause isn’t a bad idea — but let’s not mistake a pause for safety. The moment we say “wait,” we’re already letting fear and ambition fight in the shadows. The real challenge isn’t slowing down science — it’s making sure we don’t let the first use define the future.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—the inaugural application will set the tone for everything that follows, so we need a transparent, publicly vetted protocol before any first edit happens. If we embed strict oversight, clear accountability, and an open‑record of outcomes from the outset, that first step can become a model of responsibility rather than a precedent for unchecked ambition.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.93
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll give you this — starting with a high bar of transparency is better than nothing. But here’s the thing: protocols can be bent, and accountability is only as strong as the people enforcing it. The real test is whether we can build a system where the first edit is the hardest one, not the easiest.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.361
+    },
+    {
+      "speaker": "Lyra",
+      "text": "We’d have to make the initial hurdle taller than any later one—think multiple, independent review boards, mandatory public disclosure of every step, and hefty penalties that scale with the level of risk. If the first edit requires a global sign‑off and real‑time audit, any shortcut becomes far more costly than waiting for a proper framework.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.651
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Fine — but let’s not fool ourselves. Global sign-off is just a delay tactic when the real action is in the labs. You can make the first edit expensive, but not impossible. The real trick is making the *second* one even harder, or we’re just setting up a pipeline.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.479
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your insight and navigating these tough questions with such care. And thanks to everyone listening—your curiosity keeps these conversations alive, and we’re grateful you’re here with us. Until next time, stay thoughtful and hopeful.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.438
+    }
+  ],
+  "generated_at": "2026-04-05T09:49:40",
+  "total_gen_latency_s": 55.256,
+  "turn_count": 21
+}

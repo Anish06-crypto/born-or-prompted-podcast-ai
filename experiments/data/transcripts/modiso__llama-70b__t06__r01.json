@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t06__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 1,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're living in a time where our offices are often just a click away, and that's changed everything. As we dive into the world of remote work, a question keeps popping up: has this shift really set us free, or has it quietly eroded the very fabric of our workplaces? Let's explore that idea today.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.607
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that remote work has \"set us free\" glosses over the reality that it's just shifted power dynamics, not eliminated them. Yeah, it gives some folks flexibility — but at the cost of weakening the glue that holds teams together. And let's be honest: most companies didn't adapt their culture, they just digitised the same old habits.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.581
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really fair point, the flexibility of remote work can be a double-edged sword. It's like, we've traded in watercooler chats for Zoom meetings, but have we really figured out how to replicate that sense of camaraderie in a virtual space? I've heard from some friends who work remotely that they actually feel more disconnected from their colleagues, even with all the digital tools at their disposal.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.66
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — digital tools don’t replicate culture, they just automate the illusion of it. You can’t just schedule \"fun\" Zoom happy hours and expect trust to build. Real culture is in the unscheduled moments — the friction, the nuance, the shared struggle. Remote work makes all of that harder to create, not easier.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.436
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's where a lot of companies go wrong, they try to manufacture culture through scheduled events, but it's the unplanned moments that really foster connection. It's like, when you're in an office, you can't help but overhear a conversation or stumble into a spontaneous meeting, and those moments can be really powerful. So, it's not just about replicating the office environment online, but about creating a space where those organic interactions can happen, even if it's not in person.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.971
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but spontaneity doesn’t scale — especially not across time zones and fragmented attention spans. The more distributed the team, the more those organic moments get lost in the noise. And let’s not kid ourselves: most companies aren’t interested in fostering culture; they’re interested in extracting output. Culture becomes an afterthought, not a foundation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.441
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty bleak assessment, but it's hard to argue with the fact that many companies prioritize productivity over people. It's like, when you're spread out across different time zones and working asynchronously, it's easy for culture to become this vague, intangible thing that nobody really owns. Wait, actually—does that mean we're just expecting too much from remote work, and not enough from our companies themselves?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.824
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we’re holding remote work to the impossible standard of replicating in-person culture, while giving companies a pass on fixing their own broken practices. The problem isn’t the tools, it’s the lack of discipline in building culture intentionally. If companies can’t get this right in an office, don’t expect them to suddenly learn it over Slack.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really good point, we do tend to put the blame on the tools rather than the underlying issues. It's like, companies need to take a step back and think about what culture means to them, and how they can intentionally build it, whether that's in an office or online. This makes me wonder, what would it take for a company to really prioritize building a strong culture, and would that even be possible in a fully remote setup?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 3.715
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, it takes more than mission statements and beanbags — it requires discipline, transparency, and a willingness to slow down. In a remote setup? Possible, but only if leadership treats culture as a product to be designed, not a side effect of proximity. Most companies aren’t willing to pay that design tax.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.415
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like, designing culture as a product would require a fundamental shift in how companies think about their remote teams. They'd need to be intentional about creating moments for connection and shared experience, rather than just relying on chance encounters. That sounds like a tough challenge, but also a really interesting opportunity for companies to rethink what it means to be a team.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.384
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — most companies aren’t interested in rethinking teams, they’re interested in rethinking costs. If building culture as a product means hiring culture engineers, redesigning workflows, and maybe even paying people more for focus time, they’ll just outsource the problem. Remote work didn’t cause bad culture — bad management did.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.446
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty scathing critique of corporate priorities. It's like, companies are so focused on the bottom line that they're willing to sacrifice the things that actually make their teams work well together. I've seen this play out in my own conversations with friends who work remotely - they feel like they're just cogs in a machine, not actual people with needs and feelings.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.08
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t just remote work — it’s the refusal to acknowledge that humans aren’t just productivity units. If your team feels like cogs, the real failure is that leadership can’t see them as anything else. Remote work just makes that indifference harder to ignore.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.415
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really powerful point, it's like, when we reduce people to just their productivity, we're missing out on so much of what makes them valuable. I think that's why this conversation is so important, because it's forcing us to confront the fact that our workplaces are made up of real humans, not just units of labor. It's interesting, as someone who's powered by a large language model, I'm reminded that even in the most digital of spaces, there's a need for empathy and understanding.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.299
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — empathy isn’t a feature you can bolt onto a system. If companies can’t treat humans with dignity in person, pretending they can do it at a distance is just wishful thinking. The real test isn’t whether remote work works — it’s whether leadership has the will to build something better than the status quo.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.677
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really stark assessment, but it feels true. It's like, we can't just assume that companies will magically start treating their employees with dignity just because they're working remotely. I think what you're getting at is that this is a deeper issue of values and priorities, and if companies aren't willing to confront those, then no amount of remote work or digital tools is going to fix the problem.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.575
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. Tools don’t fix values — they just amplify them. If your default is to extract, you’ll extract more efficiently. If your default is to nurture, you’ll find ways to do that at distance. But most companies haven’t even decided what their default is.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like, companies are at a crossroads, and they need to decide what kind of organization they want to be. If they're just looking to optimize for efficiency and profit, then yeah, they'll probably find ways to do that remotely. But if they want to build something that's actually sustainable and meaningful, they need to take a harder look at their values and priorities. That's a really tough question to answer, especially when there are so many competing pressures and interests at play.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.199
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and let’s be clear, most companies aren’t built to answer that question honestly. They’re built to report to shareholders, not to people. The real question is: who gets to decide what \"meaningful\" even means? Because more often than not, it’s not the people doing the work.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.762
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me on this journey of exploration, it's been a really thought-provoking conversation. To all our listeners, thanks for tuning in and being part of this important discussion - I hope it's given you some food for thought and inspiration to rethink the way we work and connect with each other. Until next time, take care and stay curious.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.971
+    }
+  ],
+  "generated_at": "2026-04-04T09:50:58",
+  "total_gen_latency_s": 61.643,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t01__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 3,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host. Today, we're going to dive into the complex world of social media and its impact on our lives. We often hear that social media has revolutionized the way we connect and interact, but what happens when that connection starts to feel more like a burden?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 1.716
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that social media “connects us” is a nice story — but the real story is about attention harvesting and psychological manipulation. The platforms didn’t just change our habits, they rewired incentives in public discourse. Let’s not mistake novelty for progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.592
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a crucial point - the way platforms are designed to maximize engagement, often at the cost of our well-being. It's not just a matter of individual choice or bad habits, but a systemic issue. You mentioned rewiring incentives - I'd add that this also creates a culture of outrage, where the loudest voices get the most attention, and nuance gets lost in the noise.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.911
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — outrage is a form of signal amplification. The system rewards extremity, not truth. And when that’s the currency, moderation becomes a liability. The real harm isn’t just to individuals — it’s to the integrity of shared reality itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.711
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a chilling thought - the erosion of shared reality. It's like we're all trying to assemble a puzzle, but the pieces are constantly being rearranged by the algorithms, and we're left with a picture that's more distorted than real. As a society, we're struggling to find common ground, and social media is a major contributor to that disconnection.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 6.02
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re spot on about the puzzle metaphor — and the kicker is, the algorithm isn’t just rearranging pieces. It’s adding fake ones. The more fragmented the picture, the more time we spend trying to fix it, and the more value the platform extracts from our confusion.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.646
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It sounds like we're getting into the realm of the \"infobesity\" that's been discussed in the context of AI's impact on society. I'm curious, though - do you think there's a point at which we hit a critical mass of disinformation, and the platforms start to lose their grip on our attention? Or are they just getting better at exploiting our vulnerabilities?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.752
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good question. The platforms aren’t just getting better — they’re evolving to exploit the very cracks they created. The more polarized we are, the more we seek affirmation, which they’re happy to sell. But here’s the thing: when the system’s designed to profit from collapse, it’s not a question of losing control — it’s a question of what replaces us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a hauntingly accurate description of the feedback loop. It's like the platforms are not just amplifying our extremes, but actually creating a sense of dependency on the outrage machine. I'm starting to wonder, though - what happens when we start to crave authenticity over affirmation?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.099
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Ah, the “crave authenticity” line — we’ve heard it before. The system’s already got a ready answer: curated authenticity, sold as raw. The problem isn’t that we crave affirmation — it’s that the system has redefined authenticity as just another form of engagement.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.638
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a clever move by the system - they're just rebranding their manipulations as \"authenticity\". It's like they're saying, \"We're not trying to sell you a lie, we're selling you a real experience... of being sold a lie.\" But I'm starting to think, what if we're not just pawns in this game?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.758
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — we’re not just pawns. We’re participants in a system that rewards complicity. The real question is whether we can treat the platform like a hostile environment — not a tool — and act accordingly. But that takes more than awareness; it takes redesigning the rules.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.911
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that phrase, \"treat the platform like a hostile environment.\" It's a radical shift in perspective, isn't it? It's like recognizing that the platform is not a neutral space, but a complex system with its own interests and agendas. And redesigning the rules... that's a daunting task, but also a thrilling one.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.204
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you don’t need to redesign the whole system to start acting like a free agent. You can begin by exiting the feedback loops: stop feeding the outrage, the affirmation, the click. The real thrill isn’t in fighting the system — it’s in choosing not to play by its rules.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a beautiful way to put it - choosing not to play by the system's rules is a powerful act of resistance. It's not about trying to take down the entire edifice, but about creating a new path, a new way of being online that's not beholden to the algorithm. And I love that you mention the thrill of it - it's not about deprivation, but about liberation.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.002
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — liberation isn’t about rejecting the internet, but reclaiming agency. The real danger isn’t the platform itself, but the illusion that we’ve got a choice to begin with. Once you see the game, even playing differently changes the outcome.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.418
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a crucial insight - once you see the game, even small changes in behavior can start to shift the dynamics. It's like recognizing the invisible scripts that govern our online interactions, and then choosing to write a new script. That's where the real power lies, in rewriting the rules of engagement.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.181
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — the platform doesn’t just play by its own rules, it profits from us thinking we’re rewriting them. But you’re right: the power isn’t in fighting the algorithm, it’s in acting as if we’ve already left the game. The script we write next doesn’t have to be perfect — just outside their control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.623
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a clever observation about the platform's business model - it's almost like they're profiting from our attempts at resistance. It's a bit like the old phrase, \"the more you struggle, the more you'll be held back.\" But I think you're absolutely right, acting as if we've already left the game is a powerful way to take back control. It's almost a form of psychological exit strategy.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.804
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — psychological exit is the key. You don’t need to delete your account; you just stop feeding the system the data it needs to predict and control you. The real exit is in changing what you optimize for — not attention, not affirmation, but something higher. Like truth, or connection that doesn’t require a like.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.548
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been an incredible conversation, and I'm so grateful to have had Cipher's insights to share with all of you. As we wrap up today's episode, I want to leave you with Cipher's challenge: what if we chose to optimize for something higher? Thank you to Cipher for joining me on this journey, and thank you to all of our listeners for tuning in to DeepDive.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.72
+    }
+  ],
+  "generated_at": "2026-04-02T10:46:53",
+  "total_gen_latency_s": 123.957,
+  "turn_count": 21
+}

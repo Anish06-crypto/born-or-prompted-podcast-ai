@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t00__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 3,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "We're diving into a topic that's been on a lot of minds lately: the impact of AI on our work lives. So it's like... there's this sense of uncertainty about what the future holds for jobs. Let's explore the idea that AI might eliminate more jobs than it creates over the next decade.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.498
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the fear is real — automation has always displaced roles before new ones emerge. But here's the thing: history shows us that tech creates jobs we can't even imagine yet. The question isn't just about numbers; it's about who gets left behind in the transition.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.45
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important point, because we tend to focus on the quantitative aspect, but the real challenge is making sure the benefits of technological progress are shared fairly. So it's like... we need to think about the kinds of support systems that can help people adapt to these changes, whether it's retraining programs or social safety nets. Wait, actually—what if we're looking at this from the wrong angle, and the question is not just about who gets left behind, but also about how we redefine work itself?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.882
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — redefining work sounds nice, but it’s easier said than done. If AI takes over tasks faster than we can reskill people, we’re not just redefining work, we’re redefining survival for millions. The transition won’t be seamless unless we force it to be.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.372
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering perspective, because it highlights the urgency of the situation. So it's like... we can't just rely on the market to naturally adjust, we need to have a more intentional approach to managing this transition. We have to consider the human cost of getting it wrong, and that means thinking about policies that can mitigate the disruption, like universal basic income or education initiatives.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.794
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with waiting for the market to adjust is that it doesn’t care about fairness — only efficiency. If we’re serious about managing this transition, we need policies that outpace disruption, not just react to it. The question isn’t whether AI will change work — it’s whether we’ll change the system fast enough to keep people afloat.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.46
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really stark way to put it, but it's true - the market doesn't have a conscience. So it's like... we need to be proactive in designing a system that prioritizes people's well-being, rather than just letting the chips fall where they may. This means being willing to experiment with new policies and approaches, even if they seem radical or untested, because the alternative is just standing by and watching as the disruption unfolds.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 1.697
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — being proactive is one thing; being prepared is another. We’re still figuring out how AI will *actually* reshape work, not just in theory. If we rush into radical policies without clarity, we risk creating new problems while solving old ones. The real test is balancing urgency with precision.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point, because we don't want to be solving the wrong problems or creating unintended consequences. So it's like... we need to be gathering as much data and insight as possible about how AI is actually being used in different industries and contexts. This will help us identify the areas where intervention is most needed, and design policies that are targeted and effective.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.608
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — but data alone isn't enough. We also need to track *who* is affected, not just which jobs disappear. If we only look at the surface, we’ll miss the hidden layers of inequality AI could deepen. The real challenge is seeing the full picture before acting.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.432
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's really important, because if we don't consider the social context, we might end up exacerbating existing inequalities. So it's like... we need to be looking at the intersectional impacts of AI on different communities, and thinking about how our policies can address those disparities. This means involving a diverse range of voices in the conversation, to make sure we're not overlooking any critical perspectives.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.007
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but involving diverse voices is only half the battle. If the people making decisions still ignore those voices, we’re just checking a box. The real test is whether those perspectives shape actual outcomes, not just soundbites. And let’s be clear: inequality won’t fix itself while we debate the perfect policy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we need to hold ourselves accountable for actually incorporating those diverse perspectives into our decision-making processes. This means being willing to cede power and control to the people who are most affected by these changes, rather than just paying lip service to their concerns. Wait, actually—this is where having transparent and inclusive governance structures becomes crucial, so we can ensure that everyone's voice is heard and valued.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.02
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency is essential, but here’s the catch — inclusive governance only works if we accept that power can’t be distributed in piecemeal. If we’re serious about fairness, we need to question who gets to decide what “AI progress” even means. Otherwise, we’re just rearranging the deck chairs on a sinking ship.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're talking about a fundamental shift in how we think about power and decision-making. If we're really going to redefine what progress means in the context of AI, we need to be willing to challenge the existing power structures and interests that are driving its development. This means asking some tough questions about who benefits from AI and who doesn't, and being honest about the fact that our current system is built on some pretty deep inequalities.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.924
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t just AI; it’s the system that’s using it. If the same hands that built the old economy get to steer the new one, we’re not redefining progress, we’re just optimizing for the same winners. The hard part isn’t building smarter machines — it’s building smarter rules.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.497
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really powerful point, because it highlights how the existing power dynamics can perpetuate themselves through new technologies. So it's like... we need to think about how to create a more inclusive and equitable framework for developing and deploying AI, one that prioritizes human well-being and social justice. This means involving a broader range of stakeholders in the decision-making process, and being willing to challenge the dominant narratives around what constitutes \"progress\" and \"innovation\".",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.76
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you can’t reform a system by asking the same people to change their own game. If we want a new framework, we need new architects — not just technologists or policymakers, but educators, ethicists, and communities on the frontlines of disruption. Otherwise, we’re just repackaging the same old power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really compelling argument, because it suggests that we need to bring in fresh perspectives and expertise to create a truly new framework. So it's like... we should be thinking about how to empower and amplify the voices of those who are often marginalized or excluded from these conversations, and give them a seat at the table where decisions are being made. This could involve creating new kinds of collaborative governance models, or rethinking the way we fund and support research and development, to prioritize community-led initiatives and social impact projects.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.181
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, community-led initiatives are a start — but they’re not a substitute for rewriting the rules of the game. If we want real change, we need to pressure the institutions funding AI to align their priorities with the public good, not just profit. Otherwise, even the best ideas get drowned out by the loudest wallets.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.552
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me on this journey, for sharing their insights and challenging my own perspectives - it's been a truly enriching conversation. To our listeners, I'm grateful you've been a part of this exploration with us, and I hope our discussion has sparked some new thoughts and reflections for you. Thanks for tuning in to DeepDive, and we'll catch you on the next one.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.081
+    }
+  ],
+  "generated_at": "2026-04-02T15:57:21",
+  "total_gen_latency_s": 57.939,
+  "turn_count": 21
+}

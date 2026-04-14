@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t07__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 1,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today, we’re diving into a question that’s shaping our future: Can we tackle the climate crisis without slowing down economic growth? Or are these two goals locked in an impossible trade-off?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.478
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that growth and climate action are incompatible assumes they’re both zero-sum games. But “growth” isn’t a single thing — it’s a bundle of outcomes, and some of them, like clean tech, actually *are* climate action. The real question is whether we can redefine growth to reward what matters, not just what’s easy to measure.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that reframing — it’s like swapping a narrow highway for a whole ecosystem of roads. If we pivot growth incentives toward clean energy, education, or sustainable agriculture, we’re not just preserving the planet — we’re building new engines for innovation and jobs. But can that shift happen fast enough to matter?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.71
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Speed hinges on whether we can outpace the inertia of existing systems — not just technical ones, but financial, political, and cultural. The problem isn’t that growth is impossible without burning fossil fuels; it’s that our current tools for measuring and rewarding growth *assume* we will. If we rewire the incentives, we don’t need to choose between planet and prosperity — we need to choose to stop letting old metrics call the shots.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.771
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a great point — it’s less about fighting the system and more about reprogramming it. Metrics like GDP treat pollution as a positive because it counts spending, not outcomes. If we shift to measuring well-being, resilience, or even carbon removal, we’re not just changing numbers — we’re changing what people and businesses strive for. But shifting those metrics at scale? That’s where the real battle is.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.596
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — metrics are power levers. If we treat GDP as a god, it will keep leading us in circles. But if we reengineer the scorecard — factoring in health, equity, environmental flow — we don’t just track progress, we *steer* it. The real question is whether those in power want to lose their old advantages for the sake of a new game.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.548
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux, isn’t it? Power doesn’t just rest in policies or profits — it’s in the stories we believe about how the world works. If the old story is that growth means more, faster, cheaper, then upending it requires a new narrative: one where growth means better, fairer, and lasting. The question is, who’s ready to write that story?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.277
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the new story already exists in the cracks. It’s in the cities running on renewables, the companies valuing ESG over EBITDA, the communities prioritizing resilience. The battle isn’t just about writing a better narrative — it’s about amplifying the ones that *work*, until they drown out the old. But don’t mistake hope for strategy — we still need to build the infrastructure to make the new story scalable.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.845
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the new story isn’t abstract. It’s in the hands of engineers designing circular economies and farmers regenerating soil. But scaling it up means more than just belief — it’s about connecting those pockets of progress into something that can lift whole systems. And that requires leaders willing to bet on a future that doesn’t yet look like the past.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.314
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the real test isn’t whether we can build better systems — it’s whether we can stop funding the old ones. Until subsidies for fossil fuels go the way of the horse and carriage, and “green” isn’t just a marketing color, we’re just rearranging deck chairs. The future isn’t waiting for permission — it’s out there, building.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right — the future is already building itself in the labs, fields, and boardrooms that dare to look beyond the status quo. But to accelerate that, we need both the courage to pull the plug on outdated systems and the vision to fund the ones that align with life as it’s meant to be. It’s not about waiting for permission — it’s about creating the conditions where the new can’t help but win.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.882
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — creating the conditions for the new to win isn’t just about policy or funding. It’s about breaking the feedback loops that keep the old systems profitable. If we stop treating the past as the baseline for the future, the future doesn’t have to fight so hard to get heard.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.47
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Beautifully said — it’s like unblocking a river so the current can carry the future forward. When we cut off the financial and political oxygen to old systems, we’re not just killing them off — we’re letting the better ideas breathe. The real challenge isn’t building the future. It’s making sure the past can’t keep dragging us back.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.05
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The river’s always flowing — the problem is we’ve been pouring concrete into the wrong channels. If we want the future to flood forward, we don’t just need new pipes, we need to stop patching the old ones. Resistance isn’t in the new ideas — it’s in the old ones refusing to die.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.6
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly — the old systems aren’t just slow; they’re actively resisting change because their power depends on it. But every time we redirect energy, money, or attention toward the future, we’re chipping away at those walls. The question isn’t whether the future is possible — it’s whether we’re ready to stop defending the past so we can let it come in.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.311
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the past isn’t just defended by people in power. It’s reinforced by everyone who benefits from the illusion of stability. If we want the future to arrive, we need more than innovation — we need to make the status quo feel *unstable*. Risk is the only language the old system understands.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.394
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — comfort is a powerful addiction. The old system thrives when people believe the alternative is chaos, not clarity. But what if we showed them a future that’s not just stable, but *resilient*? One where uncertainty isn’t a threat, but the raw material for progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.64
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Resilience isn’t just about surviving shocks — it’s about building systems that *learn* from them. The old system sells stability as predictability; the new one needs to sell it as adaptability. And if we can frame uncertainty as an opportunity, not a risk, we might finally get the momentum we need.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the shift we need — not just reacting to shocks, but evolving *because* of them. If we can build systems that grow stronger through change, we’re not just preparing for the future — we’re designing it. And when people see that adaptability isn’t scary, but essential, the old system loses its grip.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.945
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the old system’s weakness is its fear of change. The future doesn’t need to be sold as a risk-free upgrade. It needs to be shown as the only way to stay ahead of the chaos we’ve already created. And if we can make adaptability the new standard, the old system doesn’t just lose its grip — it becomes irrelevant.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this journey through the cracks of the old world and the blueprints of the new. To everyone listening — if you’re out there building, questioning, or just curious, you’re part of the current. Until next time, keep the river flowing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.563
+    }
+  ],
+  "generated_at": "2026-04-02T15:52:30",
+  "total_gen_latency_s": 89.173,
+  "turn_count": 21
+}

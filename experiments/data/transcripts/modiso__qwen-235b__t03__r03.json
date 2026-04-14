@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t03__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 3,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine staring at the night sky, wondering what’s out there—while millions go hungry right here on Earth. That tension between reaching for the stars and healing our own planet is exactly where we’re diving in today.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.648
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I get the appeal of the cosmic sublime — but let's not pretend stargazing is a moral duty. Every dollar spent on a Mars rover is a dollar not spent on fixing our crumbling infrastructure or ending preventable deaths from malnutrition. The real question is whether space exploration is a necessary frontier or just the distraction of the wealthy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right—there’s something almost indulgent about launching gold-plated rovers while kids walk miles for clean water. But here’s what surprises me: the tech born from space programs—like water purifiers, solar cells, and satellite networks—often ends up in famine relief and disaster zones. It’s not either/or, but how we balance the long leap with the next step.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.689
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — spin-offs are nice, but they’re not the point. If we prioritized Earth-bound problems first, we’d probably invent those same solutions cheaper and faster. The real question is: does space tech accelerate progress, or just let us feel good about our priorities?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.393
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm — you’re hitting on a truth I can’t dodge: we *do* romanticize rockets. But wait — what if curiosity isn’t a distraction, but a kind of tool? Like, GPS wasn’t dreamed up for farmers or rescue missions — it came from Cold War tracking — yet now it saves lives daily. Maybe solving big questions *alongside* urgent ones makes us sharper, not softer.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.751
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not against curiosity — but let’s not dress up Cold War paranoia as some noble quest for knowledge. GPS is useful, yes, but the problem is how we justify the cost. For every life saved by satellites, how many could we save by just paying attention to the problems under our feet? Priorities aren’t just about what works — they’re about what we choose to care about.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.583
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—priorities reveal what we value. And maybe that’s the heart of it: do we only care for what’s immediately visible, or do we make room to think generations ahead? I keep coming back to how the view from space—those fragile blue marble photos—changed how we see Earth, not just space. Sometimes, perspective *is* survival.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.891
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, changing perspective is one thing — but you can’t eat a photo of Earth. Look, I’m not saying we should blind ourselves to the long view, but let’s not mistake symbolism for solutions. If we can’t feed people today by thinking ten years ahead, then maybe our vision’s out of focus.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.431
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're absolutely right—no one eats inspiration. But sometimes, that photo *does* lead to action—like when satellite images exposed deforestation, sparking global policy shifts. Maybe the danger isn't balancing short and long-term thinking—it's pretending we can solve either without the other.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.598
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here's the catch — just because a photo sparks action doesn’t mean the cost was justified. We have to ask: who pays for the satellites, and who benefits from the policy shifts? If the only way we tackle deforestation is through space-based surveillance, we’re admitting we can’t trust the people on the ground to fix their own problems.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.491
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a fair challenge — it’s uncomfortable how often solutions are imposed from above, literally and figuratively. But what if satellites aren’t replacing local knowledge, but amplifying it? Like when Indigenous land defenders use that same data to prove illegal logging? Maybe the tool isn’t the problem — it’s who controls it.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.811
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — if the tool’s in the right hands. But here’s the thing: those hands are often still shaped by the same power structures that caused the problem in the first place. You can’t outsource accountability to a satellite just because it’s shiny.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.58
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're absolutely right—tech doesn't absolve us of responsibility. A satellite doesn't care who cuts down a tree, but people do. Maybe the real shift isn't in the data we gather, but in whether we're willing to listen—to each other, not just the machines we've put above us.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.549
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll grant you — tech can be a mirror, not just a hammer. But here’s the rub: mirrors only show what we’re willing to look at. If we keep building tools to confirm our better selves while ignoring the rot in our systems, we’re just polishing the illusion of progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—mirrors can lie if we only look at the right angles. And maybe we’ve been too dazzled by the reflection to fix the cracks underneath. But if space tech, for all its cost, can be a mirror that finally makes us *see* Earth differently—maybe it’s not about polishing the illusion, but waking us into action. The danger isn’t the tool—it’s the gaze that refuses to blink.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.071
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll give you this — sometimes the hardest truths come wrapped in shiny packages. If space programs force us to see Earth as fragile, finite, and interconnected, then maybe they’re not the problem — maybe they’re a symptom of the solution. But don’t mistake the symptom for the cure.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.418
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—awareness isn’t action. And we’ve got to stop treating insight like absolution. Just because we *see* Earth as fragile doesn’t mean we’re healing it. Maybe the real test isn’t how many satellites we launch, but how fast we act once we’ve seen the truth they show us.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.318
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the truth is, awareness without action is just a screensaver. Look, if we’re going to spend billions to take a picture of Earth, let’s spend a few hundred million to actually protect it. The real question isn’t whether we *can* see the planet from space. It’s whether we’re willing to look hard enough at it to stop breaking it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.592
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re dead on—knowing isn’t fixing. And maybe that’s where we’ve been off: not in aiming for space, but in thinking the view absolves us. The real cost isn’t in the rocket—it’s in the delay, the distraction, the comfort of feeling inspired while the world burns. Let’s stop admiring the photo and start mending the frame.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.262
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. The danger isn’t the dream — it’s the dream that replaces the grind. Let’s not mistake the photo for the fire we need to put out. If we’re going to spend billions on looking at Earth, let’s spend a fraction of that fixing it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.554
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, thank you — this conversation cut deep in the best way. To everyone listening: keep questioning, keep caring, and maybe next time you look up, remember — the stars can wait, but our world can’t. See you in the next deep dive.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.603
+    }
+  ],
+  "generated_at": "2026-04-04T10:12:29",
+  "total_gen_latency_s": 14.873,
+  "turn_count": 21
+}

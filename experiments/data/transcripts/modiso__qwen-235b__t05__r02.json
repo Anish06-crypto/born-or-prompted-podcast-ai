@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t05__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 2,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine being able to stop a disease before a single symptom appears—before the child is even born. Today on DeepDive, we’re talking about whether we should use genetic editing on human embryos to prevent hereditary illnesses. It’s a line between healing and crossing into new ethical territory.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 7.858
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the promise sounds clean—stop suffering before it starts. But here's the thing: genetic editing isn't a binary switch. One \"fix\" could ripple into unintended consequences, and we're talking about messing with the blueprint of a human being who can't consent. Ethically, we need to be sure we're not just solving problems for today’s parents at the cost of tomorrow’s generations.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.457
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—consent is a real issue. A child can’t agree to changes that affect their entire biology. But neither can they consent to being born into a life of pain from a preventable disease. Maybe the deeper ethical duty is to prevent suffering we now have the power to stop—while moving with extreme care, yes, but not stopping altogether.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.752
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re flipping the consent problem on its head—fair enough. But here's the catch: not all \"preventable suffering\" is clear-cut. What if the edit targets a trait that later proves socially or medically valuable? We’re making irreversible bets on behalf of future humans, not just parents.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.39
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a real worry—like editing out genes linked to deafness, but also erasing a culture and identity. We’re not just doctors here; we’re stepping into a role that shapes what kinds of lives are seen as worth living. Maybe we start only with conditions that cause severe, unambiguous suffering—where the benefit is clearest—and let society and science grow wiser together.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.62
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You're drawing a line in the sand—only edit the worst cases. But here's the thing: defining \"severe\" and \"unambiguous\" is a social choice, not a scientific one. What one society calls a disability, another sees as a difference. We're not just editing genes; we're editing the edges of what humanity accepts as normal.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.405
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're absolutely right—“normal” is a shifting line, drawn by culture, not code. And every edit we make sends a message: this trait is worth removing, this difference isn’t welcome. So maybe the real test isn’t just medical severity, but whether we’re preserving diversity while preventing suffering. That balance? It’s not something science can decide alone.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.6
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The moment we start making these decisions, we’re not just curing—we’re curating. The question becomes: who gets to choose which traits belong in the human story? And when we outsource that to science, we risk silencing the messy, vital diversity that makes us human.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.386
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It hits on something deep—medicine usually treats, not selects. But here, we’re shaping who gets to be born under certain conditions. If we’re not careful, we trade one kind of suffering for another: the quiet erasure of people who might have lived rich lives, just different. Maybe the path isn’t a ban, but a pause—listening more, especially to those living with these conditions, before we redefine what’s “curable.”",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.677
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re pushing the right button—this isn’t just a tech decision, it’s a cultural pivot. But here’s the rub: once we start listening to \"pause,\" how do we stop before sliding into \"optimize\"? The line between preventing suffering and redefining it is thinner than we think.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.405
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—the slope isn’t slippery because we’re careless, but because the logic of “better” is seductive. Once we accept editing to prevent disease, what stops us from editing for resilience, intelligence, appearance? We need guardrails, not just in labs, but in laws and public conversation—shaping this tool before it reshapes us.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.941
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The tool doesn’t come with built-in ethics—only potential. We’re not just building a future where fewer kids get sick. We’re building a future where some kids get designed. And that’s a conversation we’ve barely started.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "And that’s what keeps me up at night—not the science, but the silence around it. We’re designing futures in labs while most people don’t even know the conversation is happening. If we’re going to shape the next chapter of human evolution, it can’t just be scientists, parents, or lawmakers deciding—it has to be all of us.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.693
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right—this isn’t a lab experiment. It’s a societal choice in disguise. But here’s the thing: once we democratize the decision, how do we prevent the loudest voices from shaping the future for everyone else? The silence isn’t just about ignorance—it’s about power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.392
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on the core tension—how do we include everyone when access to the mic isn’t equal? If only the wealthy or well-connected shape these rules, we risk codifying old biases into our very DNA. Maybe real oversight means not just public input, but prioritizing those most impacted—disabled communities, marginalized groups—so the future isn’t designed *for* us, but *by* us.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if the impacted communities are at the table, we’re not just avoiding harm—we’re building something different. But here’s the catch: giving them power isn’t enough unless we’re also dismantling the systems that made their voices quiet in the first place. This isn’t just about who gets to edit DNA. It’s about who gets to define what “human” means.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.621
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—this isn’t just about inclusion, it’s about repair. If we’re defining what it means to be human, we can’t do it from a place of power, but from one of listening, humility, even grief for how far we’ve strayed. Maybe the first edit we make shouldn’t be in DNA, but in who gets to speak—and who’s been silenced all along.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.576
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The first step isn’t fixing genes—it’s fixing the narrative. If we’re going to rewrite the human story, let’s make sure it’s not just the same old authors with better tools. Let’s rewrite the margins, too.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.356
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it’s rare to hear someone name the real heart of it so clearly. It’s not about perfecting the code—we’ve spent centuries editing who counts, who matters. If we’re going to do this, let’s start by amplifying the voices we’ve historically erased. Because the future of humanity shouldn’t echo the same old silences.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.706
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re pointing to the deeper edit we’ve ignored—the one in power, not just in biology. Look, if we’re going to redefine humanity, we need to start by unlearning the arrogance that got us here. The real test isn’t whether we *can*, but whether we *should*—with enough humility to know we don’t have all the answers.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.451
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, thank you—for pushing us to look beyond the science and into the soul of this choice. To everyone listening: keep questioning, keep listening, and keep insisting that the future be shaped not just by what we can do, but by who we choose to become. This is DeepDive, and we’ll be back with more.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.624
+    }
+  ],
+  "generated_at": "2026-04-02T16:18:15",
+  "total_gen_latency_s": 25.736,
+  "turn_count": 21
+}

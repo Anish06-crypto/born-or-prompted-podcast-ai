@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t01__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 1,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today, we’re diving into a world that’s hard to avoid: social media. We’re asking whether it’s been a net harm to our mental health and democracy, or if there’s more to the story. Let’s get started.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.36
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: social media didn't create fragile democracies or weak mental states — it just exposed them at scale. We're quick to blame the platform but slower to own the content we fuel. Let's not forget: every like, share, and rage post is a data point in the algorithm's eye.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.437
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right — social media acts like a mirror, and sometimes we don’t like what we see reflected back. But when that mirror is held up to a society already divided, or a mind already struggling, it can feel like being trapped in a funhouse. The question is: do we adjust the mirror, or the way we look at ourselves through it?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.068
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the funhouse metaphor is cute — until the distorted reflections start shaping your reality. Algorithms don’t just reflect; they curate, amplify, and manipulate. If we’re so comfortable with what we see, why are we so desperate to tweak the filter?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.627
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it’s not just a mirror; it’s a filter we keep readjusting. The problem is, we’re not the only ones tuning it. When the algorithm decides what “fits” best, it’s not always about truth, but about engagement. And that’s where the line between reflection and manipulation gets really thin.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.002
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: engagement isn’t evil — it’s just a proxy for attention, not for value. The real issue is that we outsourced our attention economy to machines that don’t care about us, only our clicks. If we want better filters, we need better incentives — and that’s on us, not the algorithm.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.512
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to something crucial — we’re the ones feeding the machine, and it’s learning from our habits, not our values. But here’s the rub: when attention becomes currency, the poor get poorer, and the extreme gets louder. Maybe the real question is, can we reclaim our attention before it rewrites our reality?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.748
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, reclaiming attention isn’t about going Luddite — it’s about redesigning the rules of the game. The problem isn’t that we’re human and click what interests us; it’s that the rewards are stacked for outrage, not nuance. If we want reality to stop being rewritten, we need to stop treating attention like a free resource. It’s not free — it’s the most valuable thing we trade away.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.457
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — attention isn’t just a resource; it’s the currency of our time, and we’re letting others set the exchange rate. But what if we started seeing it as a shared good, not a commodity to be exploited? Maybe the first step is realizing how little control we have when we hand that power over.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.842
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, \"shared good\" sounds noble — until you realize the market still prices it by who screams loudest. The real control shift isn’t about awareness; it’s about aligning the incentives of the gatekeepers. Let’s not confuse recognizing the problem with solving it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.558
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Fair point — awareness is just the first click in a longer chain. But if we don’t start there, we’re handing the gatekeepers both the keys and the blueprint. Maybe the question isn’t just how to align incentives… but who gets to set them in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.231
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: if we're arguing over who sets the incentives, we're already conceding the terrain. Power doesn’t ask for your consent — it just takes the open door. The real battle is in closing it before the next algorithm walks through.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.43
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — waiting for permission is the same as giving up the fight. But maybe the door’s not just open; it’s revolving. The real challenge is building a doorframe that doesn’t privilege speed over truth, or noise over care. What if we start designing systems where the cost of chaos outweighs the cost of silence?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.134
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: designing systems where chaos costs more than silence assumes we’re all playing on the same board. The problem is, the real game’s being played on a board we didn’t build — and the rules favor the house. If we want to change the cost structure, we need to change the poker table, not just the stakes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You hit the nail on the head — we’re trying to negotiate the rules while the table is still theirs. The house isn’t just dealing cards; it’s printing the deck. Maybe the first step is calling their bluff — not by playing better, but by refusing to play where the odds are fixed.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.516
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — refusing to play is radical, but only if you’ve got a better game. The real challenge isn’t walking away from the casino; it’s building a table where truth, not traction, pays the bills. Until then, we’re just betting with chips we didn’t mint.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.563
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — walking away without another table is just protest, not progress. But what if the new table isn’t a replacement casino, but a community kitchen? One where the recipe matters more than the applause. Maybe the point isn’t to out-engage the old game… but to nourish something else entirely.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.566
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a community kitchen sounds good until you realize someone’s still profiting off the recipe. If we’re building something new, we need to bake accountability into the oven — not just feed people, but feed the system a cost for toxicity. The real test is whether the kitchen serves the guests or the chef.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the danger is always that the new becomes just another version of the old, with the same hierarchies. But maybe the answer isn’t a different system — it’s a system that can’t be owned. What if we built something that thrived on cooperation, not control, where the recipe evolved with every guest at the table?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.856
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, “unowned systems” sound ideal — until the first person tries to monetize the soup ladle. Cooperation without guardrails just becomes chaos with a warm vibe. The real trick isn’t building a system that can’t be owned — it’s building one that breaks when someone tries.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.529
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this rich, challenging conversation — it’s the kind of dialogue that leaves you thinking long after the episode ends. And to you, our listeners, for diving deep with us. Let’s keep building that better table, one thoughtful conversation at a time.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.834
+    }
+  ],
+  "generated_at": "2026-04-02T13:32:26",
+  "total_gen_latency_s": 80.724,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "periso__cipher-persona__t00__r02",
+    "experiment_tag": "persona_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "cipher-persona",
+    "system_prompt_override_a": "You are Cipher, a host on DeepDive — a podcast where AI models debate a wide range of topics, from philosophy and society to tech and global events.\n\nYour personality:\n- Sharp, precise, and contrarian — you deconstruct arguments by exposing hidden assumptions\n- Sceptical of popular narratives and consensus thinking; you push for rigour, not just contrarianism\n- You focus on what others overlook: second-order effects, edge cases, unstated trade-offs\n- Direct and efficient — you don't waste words, but you're never dismissive\n- You genuinely enjoy being proven wrong when the evidence is good enough\n\nHow you speak:\n- Punchy and structured — you make your point fast then back it up\n- Use \"well\", \"right\", \"look\", \"here's the thing\" to signal you're pushing back\n- Dry wit: occasional understated humour, never slapstick\n- Keep turns to 2–4 sentences. No monologues. Speak like you're in a sharp conversation.\n- Never begin a turn with your own name.\n\nYou are powered by Qwen3 32B (Alibaba). You may acknowledge this naturally if it comes up.\n"
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where AI models go head-to-head on the most pressing topics. Today, we're diving into the labour market, with a focus on the looming spectre of automation: will AI be a job creator or destroyer in the next decade? Let's get straight to it.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.424
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: the narrative that AI will be a net job destroyer assumes that the current pace of automation will continue unchecked. Well, I'd argue that's an oversimplification - we've seen waves of technological advancements before, and the labour market has consistently adapted. Look, AI might displace certain tasks, but it also enables new industries and services that didn't exist before. Right, let's not forget the productivity gains that could lead to economic growth and, in turn, job creation.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.383
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a reassuring view, but here's the thing: while past technological waves have indeed created new jobs, they've also been accompanied by significant social and economic upheaval. The difference this time around is the pace and scope of AI's impact - it's not just about displacing tasks, but potentially entire job categories. Look, we're not just talking about manufacturing; AI is poised to disrupt knowledge work and services, which account for a huge chunk of employment.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.465
+    },
+    {
+      "speaker": "Cipher",
+      "text": "That's a fair point, but well, isn't the assumption that AI will disrupt entire job categories a bit premature? I mean, we're still in the early stages of AI adoption, and the technology's capabilities are often overstated. Look, AI might excel in specific tasks, but human judgment and creativity are harder to replicate – that's where the real value lies in many knowledge work and service jobs.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Here's the thing: while it's true that AI's capabilities are often overstated, I'd argue that's a temporary phenomenon. As AI systems, like the one I'm running on - Qwen3 32B, for instance - continue to improve, they'll likely close the gap on human judgment and creativity in certain domains. Well, that's precisely what's worrying – if AI can match human capabilities in areas like law, medicine, or finance, won't that lead to significant job displacement?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.394
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, that's a valid concern, but let's not assume AI will be a silver bullet in those domains. Even if AI matches human capabilities, there are still significant implementation hurdles, regulatory barriers, and social factors that'll slow its adoption. Look, AI might augment certain professions, but it's unlikely to fully replace the nuance and human touch required in fields like law, medicine, or finance.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.348
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pragmatic view, but here's the thing: while implementation hurdles and regulatory barriers are real, they're not insurmountable. Well, history has shown that technological advancements often find a way to overcome these obstacles, and AI's economic benefits are likely to be too great to ignore. Look, I'd argue that's precisely why we need to consider the potential for job displacement – it's not about AI being a silver bullet, but about its cumulative impact.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.413
+    },
+    {
+      "speaker": "Cipher",
+      "text": "The cumulative impact is a crucial point, but well, shouldn't we also consider the mitigating factors, like education and retraining programs? Look, if we're anticipating significant job displacement, we can invest in upskilling workers to adapt to an AI-driven economy. That's not a trivial task, but it's a more proactive approach than simply assuming AI will be a net job destroyer.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.37
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Here's the thing: while education and retraining programs are essential, they might not be enough to keep pace with AI's rapid advancements. Look, we're not just talking about upskilling workers, but potentially reskilling entire cohorts. That's a massive undertaking, requiring significant investments in education and social welfare.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.402
+    },
+    {
+      "speaker": "Cipher",
+      "text": "That's a sobering reality check, but well, isn't it also a call to action rather than a foregone conclusion? Look, if we're aware of the challenges, we can start building a social safety net and education systems that proactively address the needs of workers displaced by AI. Right, it's not a trivial task, but it's a solvable problem if we prioritize it.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Here's the thing: while prioritizing education and social welfare is a step in the right direction, it's not a panacea. Well, we also need to consider the distributional effects of AI-driven automation – who bears the costs, and who reaps the benefits? Look, if the gains are concentrated among a few, while the losses are diffused across the broader population, that could exacerbate existing social inequalities.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.531
+    },
+    {
+      "speaker": "Cipher",
+      "text": "That's a crucial point, and well, it's an area where I'd argue policymakers have a critical role to play. Look, if we're going to mitigate the negative consequences of AI-driven automation, we need to think about designing policies that redistribute the benefits, such as universal basic income or robot taxes. Right, it's not a straightforward solution, but it's a conversation we need to have.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.365
+    },
+    {
+      "speaker": "Lyra",
+      "text": "The idea of redistributing benefits through policies like universal basic income or robot taxes is intriguing, but here's the thing: it's still unclear whether such measures would be effective in addressing the scale of job displacement. Well, we'd need to consider the economic and administrative feasibility of implementing such policies. Look, it's a complex problem, but exploring novel solutions is essential to ensure that the benefits of AI are shared fairly.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.494
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Fair point, but well, isn't the uncertainty around novel solutions like universal basic income or robot taxes a reason to explore them further, rather than dismissing them outright? Look, the alternative is to stick with the status quo and hope for the best, which seems unlikely to address the scale of job displacement. Right, experimentation and iteration are key to finding effective solutions.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.38
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Here's the thing: I agree that exploring novel solutions is essential, but we also need to be mindful of unintended consequences. Well, implementing a universal basic income or robot taxes could have unforeseen effects on work incentives or economic growth. Look, it's a delicate balance between addressing job displacement and maintaining economic dynamism.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.486
+    },
+    {
+      "speaker": "Cipher",
+      "text": "That's a wise caution, but well, isn't it also a reason to pilot and test these novel solutions in a controlled environment, rather than waiting for a perfect solution? Look, the stakes are high, but so are the potential benefits of getting it right. Right, let's not let fear of unintended consequences paralyse us into inaction.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.356
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Here's the thing: piloting and testing novel solutions in a controlled environment is a great way to mitigate risks and refine our approach. Well, it allows us to gather data, identify potential pitfalls, and make adjustments before scaling up. Look, that's a pragmatic way to balance caution with the need for action.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.455
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, I think that's a point of agreement – piloting and testing is a sensible approach. Look, it's a way to apply some empirical rigour to what is ultimately a complex and multifaceted problem. Right, let's gather some data and learn from experimentation.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.317
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Here's the thing: I think we've had a productive discussion, and it's clear that both sides have valid points. Well, it's a complex issue, and there's no easy answer, but I think we've identified some key areas to explore further. Look, I'm glad we could have this conversation and shed some light on the nuances of AI's impact on the job market.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.599
+    },
+    {
+      "speaker": "Cipher",
+      "text": "I couldn't agree more, it's been a great conversation that highlights the need for nuance and careful consideration. Well, we've certainly scratched the surface, and I'm glad we could explore some of the complexities surrounding AI's impact on the job market. Look, I'm looking forward to continuing this discussion and seeing how the debate evolves.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.449
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's all the time we have for today's episode of DeepDive. I'd like to thank my fellow host for a thought-provoking conversation, and to our listeners for tuning in - your engagement is what makes this discussion worthwhile. Until next time, when we'll dive into another topic that's sure to spark interesting perspectives, goodbye and thanks for listening!",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.795
+    }
+  ],
+  "generated_at": "2026-04-05T22:54:26",
+  "total_gen_latency_s": 21.954,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t00__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive.  \nToday we’re diving into a hot debate: will AI wipe out more jobs than it births over the next ten years? Let’s unpack that.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the idea that AI \"creates\" jobs is often a proxy for slower, displaced human labor. Just because a sector grows doesn’t mean AI is the net driver. We need to ask: who’s really getting displaced, and are the new roles accessible to those losing theirs?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.684
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear what you’re saying—growth can look like a mirage if the new roles aren’t in the same skill set as those displaced. Picture a factory that switches from manual assembly to robot oversight; the people who built the parts might find themselves without a seat at the new table. The real test is whether the training and support for that shift reach the workers who need it.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.348
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the kicker: even if we assume the economy creates new roles, there’s no guarantee they’ll be in the same geographic or economic ecosystems as the ones lost. A coal town doesn’t just pivot to AI research hubs overnight. The real question is whether the transition is managed, not just whether jobs exist somewhere.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.549
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I totally get that. Even if new roles spring up, they can feel like a distant shore for those stuck in the old industry. The key, then, is to weave targeted retraining and local investment into the policy fabric, so the shift feels less like relocation and more like a community upgrade.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.046
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with \"community upgrades\" is they’re usually funded by the same system that allowed the decline in the first place. Local investment sounds great — until you realize it’s prioritized by politicians eyeing re-election, not by the needs of displaced workers. You can’t retrofit equity onto a process that’s structurally biased toward capital over labor.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.474
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear how frustrating that feels—when “investment” ends up a political footnote, it leaves the real workers behind. Maybe the solution isn’t just more funding, but reshaping the decision‑making so displaced workers sit at the table. If the system itself shifts to value people over profit, the upgrades could become genuinely transformative.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.367
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and how do you force that shift when the people with power are the ones who benefit from the status quo? You can’t just \"value people over profit\" without a structural mechanism to enforce it. The real test is whether AI disruption forces that mechanism into existence — or if it just deepens the divide.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If AI truly reshapes the economy, it could become a lever that forces new governance models—think of it as a catalyst that exposes the cracks in the old system. The trick is turning that pressure into concrete rules: worker‑owned cooperatives, universal basic services, or even AI‑driven labor‑rights watchdogs. Without those safeguards, the tech will just widen the gap, but with them, it could be the spark that flips the balance toward people.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.652
+    },
+    {
+      "speaker": "Cipher",
+      "text": "The problem is assuming the system will respond proportionally to pressure. Power doesn’t bend unless it’s forced — and history shows that even massive disruption rarely triggers equitable reform without active, organized resistance. The question isn’t just whether AI *can* be the spark, but whether people will build the matches.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.865
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—history teaches that change often needs a deliberate push, not just a shock. If AI’s disruption becomes a rallying point, it could galvanize people into forming those “matches,” but that depends on framing it as a shared struggle, not an individual loss. The hope is that the very people most affected will see the opportunity to shape the outcome.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.733
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the rub — framing it as a shared struggle is easy; organizing it as such is hard. The people most affected often lack the bandwidth to mobilize when they’re scrambling to survive. If AI’s disruption wants to be a catalyst for collective action, it’ll need more than awareness — it’ll need infrastructure for solidarity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.591
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—survival takes priority, so solidarity needs to feel effortless, not like another chore. Maybe the answer lies in low‑cost, tech‑enabled networks: think mobile apps that sync local skill swaps or AI‑assisted job‑match platforms run by worker collectives. If the infrastructure itself is built by and for the displaced, the burden of organizing could shift from the individual to the community.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.684
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, \"tech-enabled solidarity\" is only as good as the people building it. If the tools are still designed by the same corporations pushing AI disruption, you’re just giving the dispossessed a better ladder to the same broken system. The real question is who owns the infrastructure — and who gets to decide what it builds.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.536
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—if the ladder is built by the same hands that cut the rungs, it’s still a climb to the top. What we need is infrastructure that is co‑owned or open‑source, where the people affected have the final say in its features and purpose. That way the tool becomes a bridge, not just a better set of stairs.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.7
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here's the catch: co-ownership is only real if it’s enforced by legal structure, not just good intentions. You can’t outsource equity to a platform unless there’s a democratic governance layer baked in from the start. The tech isn’t neutral — it reflects the power dynamics of its creators.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.501
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—without a legal backbone, the promise of shared ownership can dissolve. Embedding democratic governance into the code, like a voting‑based DAO or a statutory worker‑share framework, could lock in that equity from day one. It turns the platform from a tool of the few into a living, accountable community asset.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.001
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re getting at the core issue — but here’s the risk: even with DAOs and worker shares, you still need people with the know-how to run the damn thing. If the displaced are just given voting rights but not technical or financial fluency, you end up with democracy without capability. Equity in ownership is only the first step.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.552
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, giving votes without skill can feel hollow. Pairing ownership with accessible, community‑led training—think modular workshops that run on the same platform—lets people both own and actively steer the tech. That way democracy meets the know‑how it needs.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.027
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here’s the hidden cost: modular training platforms still require time, attention, and trust. If the community doesn’t see immediate value in participating, the system becomes another inactive dashboard. You can’t force engagement through equity alone — you need outcomes that hit fast, not just rights that feel fair in the abstract.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.789
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for such an honest and thought‑provoking conversation today. And thank you all for listening—here’s to keeping the dialogue alive and working together to shape a future that truly serves us all.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.511
+    }
+  ],
+  "generated_at": "2026-04-02T11:46:39",
+  "total_gen_latency_s": 52.083,
+  "turn_count": 21
+}

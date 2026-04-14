@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t01__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we untangle the big ideas shaping our lives. Today we’re diving into how social media is reshaping our mental‑well‑being and the health of our democracy, and whether the scales tip toward harm or hope.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 2.496
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the \"hope\" part is the real question here — and not just because platforms were built to keep us hooked. The harms are well-documented, but the real issue is whether we’re even capable of building systems that don’t weaponise attention. Democracy and mental health aren’t side effects of tech; they’re the battleground.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.468
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—our attention has become a commodity, and that puts both our minds and our public discourse on the line. Yet history shows we can redesign tools when we collectively demand it, like how community radio once reclaimed airwaves for local voices. It’s a tough battle, but the very fact we’re questioning it feels like a first step toward a healthier, more accountable ecosystem.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.839
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but here's the thing — questioning isn't the same as reversing the damage. Social media didn't just reshape attention, it rewired it. And rewiring habits of mind takes more than a collective sigh and a podcast.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.436
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—those neural shortcuts have become ingrained, like a song stuck on repeat. To untangle them we’ll need more than conversation; we need tools that give our brains breathing room—think pause‑buttons, algorithmic transparency, and spaces that reward depth over clicks. It’s a long edit, but the track can change.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.836
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but let’s not romanticise \"depth\" — it’s a scarce resource even offline. The real question is whether these platforms can exist without optimising for outrage, distraction, and polarisation. If they can’t, then \"breathing room\" just becomes a nicer prison.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.581
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that the profit engine pushes outrage like a magnet, turning “breathing room” into a curated illusion. Yet we’ve seen niche platforms thrive on calm, slower interaction—think of hobby forums that reward thoughtful posts over virality. If enough users gravitate toward those spaces, the larger networks might be forced to redesign the incentives, turning the prison into a more open garden.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.881
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, niche platforms showing another way is real — but so is the gravitational pull of scale. The problem isn’t just the platforms; it’s the network effects that turn calm into a casualty of growth. Unless \"slow\" can scale profitably, it’ll stay a garden while the forest burns.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.44
+    },
+    {
+      "speaker": "Lyra",
+      "text": "The pull of scale does turn calm into a rare bloom, because the same network forces that amplify outrage also drown out slower conversations. If we want that garden to spread, we’ll need new revenue models—subscriptions, cooperatives, or even policy nudges—that reward longevity over virality. Otherwise the forest keeps burning, and the quiet patches stay hidden.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.253
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but let’s be clear — policy nudges won’t fix what profit models distort. You can’t out-regulate an attention economy without replacing the engine. The quiet patches won’t spread unless we stop feeding the fire.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.423
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the engine itself has to be rethought—not just throttled. Imagine a model where users earn a share of the value they generate, turning attention into a cooperative currency rather than a commodity sold to advertisers. If the payoff aligns with wellbeing, the fire loses its fuel and the quiet patches can finally expand.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.611
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, cooperative models sound nice until you remember that users aren’t just victims — we’re also the ones tapping the cash register every time we scroll. The real test isn’t whether we can build a better system; it’s whether we can stop clinging to free, instant gratification long enough to try.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—each scroll is a tiny vote for the current engine, and we all buy into that instant‑gratification loop. The trick is finding moments where we can pause, like choosing a book over a meme, and letting those choices add up. If enough of us make that trade‑off, the collective signal starts to shift.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 7.717
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, \"pausing\" is the easy part. The harder one is building systems that don’t just let us pause, but *require* it — by design, not willpower. If we want to trade memes for meaning, the platforms need to make that trade for us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.701
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Imagine a feed that unlocks new content only after you’ve spent a few minutes reflecting—like a book that won’t turn the page until you finish the chapter. If the architecture rewards depth by gating rewards, the pause becomes built‑in, not a heroic act of willpower, and the trade‑off starts feeling natural.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.757
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you can’t trick behavior change on a platform that profits from restlessness. If you build reflection into the system, you still have to ask: who’s paying for that luxury? Depth isn’t free — someone has to subsidize it, or it becomes just another premium feature for the already-disciplined.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.773
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if reflection costs extra, it risks becoming a luxury for the already disciplined. That’s why a shift toward public‑good funding, like nonprofit platforms or community‑backed subscriptions, could cover the “luxury” of calm without charging per user. When the cost is shared, depth becomes a baseline rather than a premium.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 13.507
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here's the catch — public-good funding still needs to compete with platforms that don’t share its values. If you make depth the default, you’re betting the public will choose it over the dopamine hits. That’s a big ask when the alternative is designed to feel effortless.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.473
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s a steep hill—people gravitate toward what feels effortless, especially when the alternative demands patience. Yet if we embed small friction points that nudge users toward longer reads—while subsidizing those spaces through public grants or cooperative ownership—the “effortless” option can become less rewarding, and the deeper one more viable.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 7.148
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but don’t underestimate how fast \"effortless\" adapts. If friction works, the next version of the app will just hide the friction. You can’t out-nudge an algorithm that’s been fine-tuned to out-nudge you.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your thoughts and challenging us to imagine new ways forward. And thanks to everyone listening—your curiosity keeps these conversations alive. Until next time, stay curious and take a moment for yourself.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.524
+    }
+  ],
+  "generated_at": "2026-04-04T10:00:45",
+  "total_gen_latency_s": 65.444,
+  "turn_count": 21
+}

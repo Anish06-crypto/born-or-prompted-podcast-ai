@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t05__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 1,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're at this incredible crossroads in medicine, where technology is giving us the power to rewrite our DNA. Genetic editing is becoming more precise, and that's raising big questions about how we use it, especially when it comes to human embryos. Today, we're diving into the debate around using this tech to prevent hereditary diseases.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 1.082
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’ll grant you the tech is advancing fast — but let’s not confuse precision with safety. CRISPR may look clean in a lab, but real-world biology is messy, and unintended consequences in embryos could ripple across generations. Here’s the thing: we’re not just talking about medicine anymore, we’re talking about permanent changes to the human gene pool.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.591
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really valid concern - we're talking about making irreversible changes to the human genome. It's like... we're altering a blueprint that's been written over millions of years, and that's a daunting responsibility. But, at the same time, don't we have a moral obligation to prevent suffering if we can, especially when it comes to devastating diseases that are passed down through families?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.896
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, preventing suffering is a moral priority — but let’s not mistake well-intentioned motives for foolproof outcomes. Here’s the rub: we don’t fully understand how most genes interact, let alone their long-term evolutionary effects. If we start rewriting the genome, we risk creating new problems while solving old ones — and no one will be able to undo that.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.549
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering thought - we could be trading one set of problems for another. It's like... we're trying to improve a complex recipe without fully understanding how all the ingredients interact. I think that's where regulation and rigorous testing come in, to ensure we're not rushing into something that could have unforeseen consequences.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.63
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Regulation sounds good on paper, but it’s no shield against ambition. Here’s the thing — science doesn’t pause for policy to catch up. If China or a rogue biotech firm makes the leap, others will follow. We need global guardrails, not just lab protocols.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.351
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty stark reality check - the pace of science can outstrip our ability to regulate it. It's like... we're in a global race where the first to cross the finish line gets to set the precedent, and that's unsettling. I wonder if international cooperation is the key here, getting countries to agree on some basic principles for genetic editing.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.888
+    },
+    {
+      "speaker": "Cipher",
+      "text": "International consensus sounds ideal — but here's the catch: it's not going to happen fast enough to stop the early adopters. Nations with weaker oversight will become the de facto testing grounds. Here's the thing — if we can't agree on rules before the first edit, we're letting the loudest and least cautious set the standard for all of humanity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.485
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really concerning scenario - the idea that a few rogue actors could dictate the course of human evolution. It's like... we're putting the future of our species in the hands of whoever is willing to push the boundaries the farthest, without considering the long-term consequences. Wait, actually—doesn't that suggest we need to rethink our approach, and focus on creating a global framework that's proactive, rather than reactive?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 2.997
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Proactive is the right word — but here's the rub: global frameworks are slow, bureaucratic, and easily exploited by bad actors. We're not just racing time, we're racing human nature. Look, if we wait for perfect consensus, we’ll be editing genomes in the dark — but if we act too fast, we might light the fuse.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.466
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're caught between a rock and a hard place, where waiting for perfection could be just as risky as rushing in. I think that's where transparency and open dialogue come in - if we can at least have a global conversation about the risks and benefits, we might be able to find a middle ground. But, I guess that's easier said than done, when you've got different countries and companies with their own agendas.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 5.683
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency helps, but here's the thing — open dialogue isn't a safeguard when the incentives are misaligned. Companies chase profit, nations chase prestige, and both will cut corners to lead. The real question isn't whether we can talk — it's whether we can agree on what should be off-limits before someone redefines the rules.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty bleak assessment, but it's hard to argue with the fact that incentives can drive behavior. It's like... we're trying to have a principled discussion about the future of humanity, but the players involved are often motivated by more self-interested goals. I think that's where we need to focus on establishing some clear, non-negotiable boundaries – what are the lines we're not willing to cross, no matter the potential benefits?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.876
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Setting boundaries sounds noble — but here's the problem: once you make an edit to prevent disease, where do you stop? The line between therapy and enhancement is fuzzy, and someone, somewhere, will argue that their “improvement” is just a next step. The real non-negotiable should be: no edits that can't be undone — but in genetics, there's no undo button.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.515
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really tough spot to be in, because once you start editing, it's hard to know where to draw the line. It's like... we're talking about making changes that are permanent, and that's a heavy responsibility. The idea of an \"undo button\" is appealing, but like you said, it doesn't really exist in genetics – so maybe we need to think about what kind of edits would be reversible, or at least, have a way to mitigate their effects if something goes wrong.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.988
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — reversibility isn’t just a technical challenge; it’s a philosophical one. If we can’t foresee the consequences, how do we know when a change is \"wrong\" enough to warrant a fix? And if we can’t fix it, we’re just gambling with the next generation’s biology.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.401
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really profound question, because it gets at the heart of how we think about progress and responsibility. It's like... we're used to being able to learn from our mistakes and try again, but with genetic editing, the stakes are so much higher. If we make a mistake, it's not just about fixing it, it's about living with the consequences for generations to come – and that's a daunting thought.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.805
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we’re used to trial and error, but this isn’t software. Once a genetic edit is in the human lineage, you can’t just patch it in an update. The real question is: who gets to decide which \"mistakes\" are worth the risk?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.376
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's what's so unsettling about this - we're talking about making decisions that will affect people who aren't even born yet. It's like... we're trying to play god, but without the omniscience to know what the consequences will be. Who gets to decide what's a \"mistake\" and what's not, and how do we ensure that it's not just a select few making those choices for everyone?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.99
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — power always concentrates, especially when the stakes are high. If we don’t democratize the decision-making, we’re handing a tiny elite the keys to future humanity. And no amount of oversight can truly represent unborn generations.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.53
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for joining me on this thought-provoking journey into the world of genetic editing - it's been a truly enlightening conversation. To our listeners, I'm grateful for your engagement and curiosity, and I hope our discussion has sparked some new ideas and perspectives for you to ponder. Until next time, on DeepDive, thanks for diving in with us.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.837
+    }
+  ],
+  "generated_at": "2026-04-04T09:48:17",
+  "total_gen_latency_s": 58.887,
+  "turn_count": 21
+}

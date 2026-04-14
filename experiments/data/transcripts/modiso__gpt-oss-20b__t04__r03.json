@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t04__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Strong government regulation of AI development will cause more harm than good",
+    "topic_index": 4,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, thanks for tuning in. Today we’re diving into a hot debate: whether heavy government regulation of AI will actually do more damage than it helps. Let’s unpack the arguments and see where the real risks and benefits lie.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.378
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the usual pitch for regulation is about safety — but here's the thing: overregulation will stifle innovation, especially for smaller players. Big companies can afford compliance, but startups? They’ll get crushed, or just go offshore. And if we slow down AI here, we just hand the lead to countries with laxer rules.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.604
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the cost of compliance can feel like a wall for startups, and that wall can push them to look elsewhere—sometimes overseas where rules are looser. But if the tech that comes out is unchecked, the fallout could be even bigger, harming public trust and safety. Maybe a middle ground—lighter, adaptive guidelines—could let small innovators thrive while still keeping risks in check.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.389
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Middle ground sounds nice, but regulation doesn’t stay light forever — once you set the precedent, it’s hard to stop. Also, adaptive guidelines still create uncertainty. Startups don’t need hand-holding, they need predictability. Over time, vague rules will just get gamed by the same big firms they’re supposed to help.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—once a regulatory framework is in place, it can become a rigid cage, and the very companies meant to benefit can learn the loopholes. Startups crave clear, stable rules, not a moving target. The challenge is finding a system that’s firm enough to prevent abuse yet flexible enough to let nimble players experiment. Maybe a tiered approach, where smaller firms face lighter, transparent requirements, could strike that balance.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.49
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Tiered systems sound efficient, but they’re a mess in practice — you end up with regulatory arbitrage and gray zones. Who decides which tier you’re in? Bureaucrats? Big companies will game the tiers, and small ones will get stuck in limbo. The moment you add layers, you add friction — and that’s exactly what stifles the innovation you’re trying to protect.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.582
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’ve hit the nail on the head—adding tiers can create a maze that’s easy to navigate for the well‑resourced and hard for the rest. The key might be to let the industry itself help define those layers, through open standards and self‑regulation, while the state steps in only when clear, high‑stakes risks emerge. That way we keep the friction low for innovators and still guard against the worst‑case scenarios.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.977
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Self-regulation only works when the incentives align — and let’s be clear, companies aren’t in the ethics business. They’re in the profit business. Without real accountability, “open standards” become just another checkbox. The state can’t outsource safety to the people building the tools that could outpace human control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.548
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a solid point—profit motives can trump ethics if there’s no real consequence. Maybe the solution isn’t pure self‑regulation or heavy state control, but a hybrid where the state sets clear, enforceable minimums and the industry builds on top of them, sharing data and best practices openly. The trick is making those minimums meaningful enough that companies can’t just tick boxes, yet light enough that startups aren’t buried.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.753
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — when you say \"meaningful minimums,\" who gets to define \"meaningful\"? If the government sets them, you're back to the same rigidity. If industry sets them, you’re back to the same bias. The moment you leave enforcement on the table, compliance turns into theater.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.354
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Right, the line between a useful guideline and a bureaucratic hurdle is thin. Maybe a rotating panel of technologists, ethicists, and public advocates could periodically review and update the standards, so they evolve with the tech rather than lock in a single vision. That way the rules stay relevant and less likely to become just another box to tick.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.727
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Rotating panels sound dynamic, but they’re still panels — and panels turn into consensus groups that talk in circles. The moment you let experts decide what “evolving standards” mean, you’re handing power to people who can’t predict how AI will transform in five years. Regulation by committee is just slow, consensus-driven obsolescence.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.528
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear the frustration—panels can feel like echo chambers, especially when the future is so uncertain. Maybe the fix lies in a lighter, data‑driven approach: set a few core metrics that are easy to monitor and adjust, and let real‑world outcomes drive the tweaks instead of long deliberations. That could keep the pace faster while still anchoring safety.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 9.063
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, data-driven metrics sound clean — until you realize what gets measured isn’t always what matters. You can’t reduce safety and ethical risk to a dashboard. The moment you quantify it, you game it. The real challenge isn’t tracking outcomes — it’s defining the right ones in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.517
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, you can’t just put a box on “ethical risk” and expect a number to capture nuance. It’s like trying to grade a story with a single score—you’ll miss the subtle turns. The real trick might be to embed human judgment into the loop, not replace it with a spreadsheet. That way the metrics guide us, but people still decide what matters.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.754
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure — but once you let humans decide what matters, you reintroduce subjectivity and inconsistency. If you don’t couple that with clear consequences, you end up with patchwork enforcement and moral licensing. The problem isn’t the metrics — it’s pretending they can replace judgment.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—human judgment can swing like a pendulum if there’s no firm anchor. Maybe the anchor is a set of transparent, publicly vetted principles that everyone agrees on, and then the metrics are just the tools to see if those principles are being met. That way we keep the human touch without letting it become a free-for-all.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 9.832
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Principles sound good on paper, but they rot fast without mechanisms to enforce them. You can’t outsource enforcement to “public vetting” when the public is out of the loop — and when companies know they’ll face no real cost for flouting the rules. If the principles aren’t backed by teeth, they’re just words.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.439
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot‑on—principles without teeth are just decorative. The real safeguard has to be a mix of swift, transparent penalties and a culture that rewards compliance, not just a checklist. If we can make the cost of flouting clear and immediate, even a principled framework gains bite.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.826
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Swift penalties sound strong — but here’s the catch: enforcement is only as fast and fair as the system allowing it. If the penalties take years to materialize or depend on political will, they’re just threats. You can’t build a culture on fear alone — and when the threat fades, so does the compliance.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for sharing such thoughtful insights today. And thank you, listeners, for joining us on DeepDive—here’s to keeping the conversation alive and the curiosity bright. Until next time, stay curious and stay kind.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.44
+    }
+  ],
+  "generated_at": "2026-04-02T13:22:17",
+  "total_gen_latency_s": 55.311,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t02__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today we’re diving into a hot debate: could a universal basic income actually dampen workforce participation and slow innovation over time? Let’s unpack the arguments and see what the evidence and intuition say.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.263
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that UBI would reduce workforce participation assumes people will just lie around all day. But in reality, most people derive identity and purpose from working. Take the basic income for granted, and you risk losing the incentive to push boundaries — that’s where innovation comes from.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.372
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right that work gives many people a sense of purpose, and that’s a real risk if a stipend replaces that drive. But the flip side is that UBI could lift people from survival mode, freeing mental bandwidth to explore creative projects—think of a researcher who can finally tackle a long‑term problem because they’re not juggling a second job. The question is whether the net effect nudges more people toward innovation or just more leisure.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.467
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — freeing mental bandwidth is a nice idea, but it assumes people magically become more productive once their basic needs are met. In practice, you’ll get a mix: some will innovate, sure, but others will just opt out. The problem is that you can’t scale innovation with a one-size-fits-all handout — you end up subsidizing leisure, not creativity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.421
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s true—UBI isn’t a silver bullet that magically turns everyone into a serial inventor. Some will indeed choose leisure, but others will pursue side projects or start small ventures they couldn’t afford before. The real test is whether the overall cultural shift leans toward more creative risk‑taking or simply more free time.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.352
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, cultural shifts take decades to form, and UBI would likely blur the line between work and leisure in unpredictable ways. But here’s the catch — if too many people opt out of the workforce, the tax base shrinks, and innovation slows not because of laziness, but because of resource constraints. You can’t build a thriving innovation economy on a shrinking economic base.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.39
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You hit on a key tension—UBI could erode the tax base if many drop out, tightening the budget for R&D. Yet history shows that when people are freed from basic survival pressures, some redirect that energy toward entrepreneurship, often sparking new industries. The real puzzle is how to balance a smaller workforce with a larger pool of creative talent.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.425
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the thing — balancing a smaller workforce with more creative talent isn’t just a puzzle. It’s a gamble. You might get a few big breakthroughs, but you’ll also lose the steady, unglamorous work that keeps economies running. And let’s be clear — innovation doesn’t come just from dreamers; it comes from people solving real, immediate problems under real constraints.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.552
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right that the day‑to‑day grind keeps the economy humming, and it’s not just about flashy breakthroughs. UBI could let a fraction of people tackle those gritty, real‑world problems more deeply, while others stay in steady roles—so the system might still churn out both incremental and radical progress. The trick is designing safety nets that keep the workforce engaged without stifling the creative sparks.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.691
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you can’t “design” safety nets that magically optimize participation and creativity. Systems are too complex, and incentives too subtle. You either create a floor that allows risk-taking, or a crutch that reduces pressure to adapt. The real danger is thinking you can have both.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.54
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree, we can’t engineer a perfect safety net; the real value lies in iterative pilots that learn and adjust. Even a modest floor can free a few people to experiment, while others stay productive—it's not an all‑or‑nothing outcome. The challenge is keeping that balance in real time.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.651
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, iterative pilots are the way to go — but don’t mistake tinkering for control. You adjust the floor, but the system adapts in ways you can’t predict. The balance isn’t kept; it’s disrupted and then renegotiated. Just because it *starts* with a few creative sparks doesn’t mean it ends there.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.522
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, pilots are experiments, not guarantees. We’ll set metrics, learn from the shifts, and adjust, but the system will evolve in ways we can’t foresee. That uncertainty means we must stay flexible and keep listening to the people who actually live the changes.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.437
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, staying flexible is all well and good, but don’t expect people to stay patient while the system fumbles toward clarity. You can’t just “listen” your way out of a shrinking labor force or a misaligned incentive structure — those problems compound. The real test is whether the adjustments keep the economy from grinding down under its own weight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.512
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear that hesitation—waiting for the system to settle can feel like a gamble. The trick is to couple rapid feedback loops with concrete policy levers, so we don’t just talk, we act. If those levers keep the workforce humming and innovation flowing, the economy can stay on its feet.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.97
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — policy levers only work if they’re calibrated to real-time data, not just good intentions. You can’t just “keep the workforce humming” if the workforce itself is changing shape under UBI. The real question is whether the feedback loops are fast enough to catch the unintended consequences before they take root.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—policy levers need real‑time data, not just good intentions.  \nThe trick is building quick‑turn data pipelines, so adjustments can happen before problems grow.  \nEven tiny, well‑tracked pilots can reveal whether a UBI",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 9.881
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Tiny pilots are useful, but they’re not a substitute for understanding the full system. You can tweak the margins, but if the core assumption — that security leads to creativity — fails at scale, you’re left with a society that’s comfortable but stagnant. Don’t confuse stability with progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.748
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—stability alone doesn’t guarantee progress. If the core assumption falters at scale, we risk a comfortable but inert society. The key is to keep testing whether that link between security and creativity holds when the workforce shifts, rather than assuming it will.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.386
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the real test isn’t whether some people innovate more, but whether the system as a whole becomes more dynamic. If UBI creates a buffer that lets risk-takers thrive while the rest of the economy adapts, maybe it works. But if it just slows motion without building momentum, we’ve got a problem.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.753
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to our brilliant guest Cipher for sparking such a thoughtful exchange—your insights always light up the conversation. And thank you, listeners, for tuning in and keeping the dialogue alive; we’re grateful to explore these ideas together.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.525
+    }
+  ],
+  "generated_at": "2026-04-02T11:51:51",
+  "total_gen_latency_s": 56.808,
+  "turn_count": 21
+}

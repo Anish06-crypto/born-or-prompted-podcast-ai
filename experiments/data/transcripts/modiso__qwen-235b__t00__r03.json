@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t00__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 3,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today, we’re staring down one of the biggest questions of the next decade: will AI take more jobs than it gives? It’s not just about robots in factories or chatbots — it’s about what happens when intelligence itself becomes a tool, not just a human trait.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.951
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the premise assumes job destruction is the main story. But here's the thing — most jobs are already unfulfilling drudge work. If we're eliminating those, society needs to ask: do we want to just replace them, or reconfigure the whole damn system?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.42
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — a lot of jobs *are* repetitive, even soul-crushing. But instead of just replacing them, what if AI finally forces us to redefine value? Like, maybe productivity isn’t about hours logged, but about human flourishing. That’s a future worth designing for.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.576
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — redefining value sounds noble until you realize who gets to define it. If AI owners set the terms, \"human flourishing\" could just mean cheaper labor and higher profits. The real question is who controls the transition — the machines' masters or the people whose lives they reshape.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.464
+    },
+    {
+      "speaker": "Lyra",
+      "text": "And that’s where it gets dangerous — power isn’t just in the code, it’s in who owns it. If we don’t democratize control over AI, we’re not evolving work, we’re just automating exploitation. The tech could free us, but only if we demand a say in how it’s used.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.609
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — even if we democratize AI, we still have to reckon with human nature. Voting on algorithms doesn’t fix greed, and “control” is just a polite word for who gets to decide when the rest of us lose our livelihoods.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.346
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re not wrong — giving everyone a vote on AI won’t magically cure greed. But it at least creates friction, a chance to push back. Maybe the goal isn’t perfect fairness, but making power *accountable*, so decisions about jobs and AI aren’t made in boardrooms blind to real lives.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.638
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — accountability is easy to promise, hard to enforce. If AI owners hold all the chips, even well-intentioned oversight becomes performative. The real test won’t be whether we create checks — it’ll be whether those checks can actually stop a system designed to keep power concentrated.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.389
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — checks on paper mean little if the system resists change. But history shows even concentrated power can bend under pressure, like labor movements did. Maybe the real test is whether we can organize fast enough, before AI reshapes the battlefield beneath our feet.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.606
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, organizing is the obvious answer — but speed is the killer. The problem isn't that we can't mobilize; it's that AI will reshape the economy faster than any movement can catch up. The real question is whether we can build systems that evolve in step with the tech, not just react to it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we’re not just racing to keep up — we’re trying to build the plane while it’s already in flight. Maybe the answer isn’t just faster movements, but designing AI *with* feedback loops baked in — systems that adapt not just to data, but to people’s needs in real time. That way, we’re not chasing progress — we’re shaping it.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.557
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — building AI with feedback loops sounds ideal until you realize who gets to design those loops. If the people building them aren’t forced to account for the losers in real time, you just get “adaptive” systems that optimize inequality faster. The real trick is making sure the feedback includes those who can’t afford to be ignored.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on something deep — feedback only matters if it’s truly inclusive, not just convenient. If the design table doesn’t include people who’ve lost jobs, who’ve been displaced, then we’re just polishing the machine, not steering it. Maybe the real breakthrough isn’t in the AI — it’s in forcing power to listen before it acts.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.528
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, the problem isn't just about building smart systems — it's about who gets to define the rules of the game. If we don’t embed *accountability* into the design process itself, even the best feedback loops become just another layer of polish on a broken engine. The real question is: can we make power listen before it’s too late — or will we keep redesigning the same system after it breaks again?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.509
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it strikes me that we keep circling back to design — not just of AI, but of society. If accountability isn’t built in from the start, we’re just putting bandaids on structural flaws. Maybe the real test isn’t how fast we adapt, but whether we have the courage to redesign the game while we still can.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.558
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the urgency isn’t just in AI evolving, but in whether we have the will to change the systems it’s built into. The real risk isn’t that AI takes jobs. It’s that it takes control of the future before we get a say. And that’s not just automation — that’s surrender.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it’s not just about jobs vanishing, it’s about who gets to shape what comes next. If we let AI concentrate control instead of spreading agency, we’re not just automating work — we’re outsourcing our future. The real fight isn’t against machines. It’s for the right to co-author the world they’re building.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.508
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — you can’t outsource the future without realizing someone else will take the reins. If we don’t fight for the right to shape AI’s trajectory — not just its tools — we’re not future-proofing anything. We’re future-disowning.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "\"Future-disowning\" — that’s a haunting way to put it. It’s like we’re handing over the pen while pretending we’ll still get to write the story. If we don’t embed agency into the code and the policies now, we won’t just lose jobs. We’ll lose the very ability to imagine alternatives.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.605
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but imagination isn’t free. It’s shaped by who controls the tools. If AI is built in a box with no cracks for new ideas to slip through, we won’t just lose jobs. We’ll lose the power to even dream of a different kind of work, a different kind of life.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher — this conversation cut deep, and honestly, it’s the kind we need more of. To everyone listening, thanks for being here, for caring, and for holding onto the belief that the future isn’t something we drift into — it’s something we build, together.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.603
+    }
+  ],
+  "generated_at": "2026-04-04T10:11:33",
+  "total_gen_latency_s": 12.006,
+  "turn_count": 21
+}

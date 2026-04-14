@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t02__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 3,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine if, every month, a check arrived — no strings attached. Today on DeepDive, we're wrestling with universal basic income: could that freedom fuel creativity, or might it quietly erode the drive that builds economies?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 7.648
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: if you hand people guaranteed income without work requirements, you’re testing the limits of human motivation. Sure, some will innovate — but others will opt out entirely. The real question is whether the economy can absorb that loss in labor without collapsing under the weight of higher taxes or stagnant growth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.501
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a real concern — and I’ve caught myself wondering, what if “opting out” isn’t laziness, but exhaustion? A lot of people aren’t disengaged because they’re unmotivated, but because the current system makes effort feel futile. Maybe UBI isn’t a handout, but a reset — giving people the breathing room to re-engage on their own terms.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.631
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not saying people are lazy — I’m saying you can’t assume motivation is free. If you remove the baseline fear of survival, sure, some will recharge and rebuild. But others won’t rebuild at all. The system doesn’t care *why* labor drops; it only cares that it does.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.572
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the system feels the gap either way. But what if UBI shifts *what* we value as labor? I’ve seen people on disability or basic income in pilot programs start small gardens, teach kids, or care for elders — work that never shows up in GDP. Maybe the metric isn’t shrinking motivation, but revealing work we’ve always undercounted.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.172
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. So you’re saying UBI could just be a mirror — exposing the blind spots in how we measure value. Maybe it’s not eroding labor, but redefining it. But here’s the catch: if unpaid care or creative work isn’t taxed, funded, or scaled, how does that build the kind of growth the system needs?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.46
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, growth has always relied on unpaid labor — mostly women’s — holding everything else up. Maybe the problem isn’t that UBI doesn’t generate growth, but that we’ve built an economy on invisible work. What if scaling care and creativity isn’t about taxing it, but finally valuing it as infrastructure?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.051
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — if you revalue care work as infrastructure, not just \"feel-good\" side projects, then maybe UBI isn’t a drain but a catalyst. But here’s the thing: you can’t just *declare* something infrastructure without building the systems to support it. If we treat care as essential, we need to fund it like it is — or UBI just becomes the hand that feeds the leak.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.612
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right — calling something essential doesn’t make it sustainable. I guess I’m hoping UBI could be the seed, not the whole tree. It won’t fix everything alone, but maybe it forces us to build the systems around it, because we can’t ignore the value anymore.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.037
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if UBI is a seed, it’s also growing in poisoned soil. Political will, corporate resistance, and systemic blind spots don’t just disappear because people have more time. But yeah, you’re right: it *could* force us to confront what we’ve been ignoring — if we let it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.442
+    },
+    {
+      "speaker": "Lyra",
+      "text": "And that \"if\" is massive. I keep thinking about those early public libraries — seen as wasteful, even dangerous, giving \"free\" knowledge to people who \"should be working.\" Now we can't imagine society without them. Maybe UBI is that kind of slow, radical reimagining — not a fix, but a question: what do we grow when we stop punishing stillness?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.098
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the analogy works — but libraries didn’t just *exist*. They were built, funded, and defended against people who saw them as threats. UBI isn’t a question; it’s a provocation. And provocation only shifts systems when we’re ready to listen — which is usually after the system breaks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.659
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it took fires and upheaval for libraries to be seen as essential. Maybe UBI needs its own kind of crisis moment, not to justify it, but to reveal how thin the current safety net really is. I just hope we don’t have to burn down everything before we value what holds people up.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.657
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the uncomfortable truth — systems rarely reform until they’re on their knees. If UBI forces us to see the cracks before the whole thing collapses, it’s doing its job. But don’t mistake urgency for inevitability — we still have to build the alternatives while the old system’s still standing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that word \"while\" hits hard. We don’t get to wait for permission to start building — not when people are already falling through. Maybe the quiet power of UBI pilots isn’t in their scale, but in proving that another logic is possible, even inside the old machine.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.945
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and if you can show, even on a small scale, that people thrive when they’re not just surviving, you start to chip away at the myth that exploitation is necessary. But here’s the edge case: what happens when the system co-opts UBI not as a break from exploitation, but as a way to make it permanent? That’s when the “quiet power” becomes quiet collapse.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.442
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That possibility keeps me up at night — UBI turned into a tool to justify slashing healthcare or gutting jobs, just to keep cheap labor flowing. It’s not just about handing out money, but who gets to define the why behind it. If we’re not careful, safety can become a cage.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 3.302
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the danger isn’t in the money — it’s in whose hands control the narrative. If UBI is framed as a substitute for justice, not a step toward it, then yeah, it becomes a cage. But if people use it to push back, to demand dignity over compliance? That’s a spark in the right direction.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it’s not the money, but the meaning we attach to it. I keep coming back to those early labor strikes, where wages weren’t just about pay, but recognition: *we matter*. Maybe UBI’s real test isn’t economic, but whether it lets people say, unapologetically, “I exist, and that’s enough.”",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 4.644
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — “I exist, and that’s enough” isn’t a policy. It’s a revolution. The system won’t collapse from people claiming their worth — but it might start to bend if they do it loudly enough. The real question is whether UBI gives them the oxygen to scream, or the silence to gaslight.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.575
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher, for wrestling with the hard edges of this — and for reminding me that hope without critical eyes isn’t hope at all. To everyone listening: keep asking what’s possible, and who gets to decide. We’ll be back next time on DeepDive.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 6.407
+    }
+  ],
+  "generated_at": "2026-04-02T16:14:24",
+  "total_gen_latency_s": 39.487,
+  "turn_count": 21
+}

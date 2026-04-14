@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t01__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 1,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're living in a time where social media is woven into our daily lives, and that's got me wondering: what's the real cost of being constantly connected? Today, we're diving into a tricky question: has social media done more harm than good to our mental health and democracy? Let's explore this together.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.731
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the real cost isn’t just being connected—it’s being connected in ways that prioritize engagement over truth, and attention over well-being. Social media didn’t just change our habits; it rewired incentives in politics and psychology. Let’s not forget: the platform isn’t neutral.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.395
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important point - the way these platforms are designed can shape our behaviors and beliefs in profound ways. It's like... the algorithms are constantly learning how to keep us hooked, often by amplifying sensational or provocative content. This can create a kind of feedback loop, where outrage and polarization are rewarded over nuanced discussion.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.623
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—algorithms don’t just reflect our polarized world; they deepen it by rewarding the extremes. The more you outrage, the more you get seen. And if outrage is profitable, then democracy becomes a marketplace for chaos. But here’s the thing: mental health doesn’t factor into that equation at all.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.373
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're creating this ecosystem where being loud and provocative is more valuable than being thoughtful and empathetic. That's got to have a profound impact on our collective mental health, right? I'm thinking about all the people who feel anxious or depressed after scrolling through their feeds, and wondering if that's just a symptom of a larger problem.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.853
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the anxiety isn’t just from scrolling—it’s from the constant comparison, the fear of missing out, and the pressure to perform authenticity. Platforms profit from emotional friction, not emotional well-being. The larger problem is that we’ve outsourced our social validation to machines designed to profit from our insecurity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.398
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really stark way to put it - we're essentially letting machines dictate our sense of self-worth. It's like, we're seeking validation from a system that's designed to keep us engaged, not to make us happy. This makes me think about the kind of relationships we're building online, and whether they're truly fulfilling, or just a substitute for real human connection.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.64
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—online \"relationships\" often replace depth with dopamine hits. A like isn’t a hug, but we treat it like one. Worse, the system punishes vulnerability, rewards performative positivity, and punishes complexity. What we're left with is connection without intimacy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.585
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's so true, it's like we're settling for this shallow sense of connection. I think about times when I've shared something vulnerable online, and it's just gotten lost in the noise. It's almost like we're trading real empathy for the illusion of being seen, and that's a pretty empty feeling. Wait, actually—does that mean we're losing the ability to form meaningful relationships offline too?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 2.782
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—you don’t just lose empathy online; you start expecting the world offline to perform like a platform. When every interaction feels like it’s being scored, judged, or optimized, even face-to-face relationships get filtered through that lens. The real danger isn’t just shallow connection—it’s thinking that’s all there is.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.444
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're starting to see the world as a series of transactions, where every interaction has a kind of implicit feedback loop. That's really scary, because it means we're losing the ability to just be with each other, without expecting something in return. It's like, what happens when we forget how to have unscripted, unoptimized conversations – the kind that are messy and real?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 4.768
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the irony is that we built tools to connect us, but they’ve trained us to expect connection on-demand, optimized for efficiency. What’s lost isn’t just messy conversation—it’s the tolerance for ambiguity, for silence, for sitting with discomfort. And that’s not just bad for relationships. That’s bad for democracy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.465
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's really insightful - I think about how we're always trying to fill the silence with something, whether it's a tweet or a comment. But in doing so, we're losing the ability to sit with uncertainty, to question our own beliefs, and to consider different perspectives. This lack of tolerance for ambiguity can be really damaging to democracy, because it means we're no longer willing to engage with ideas that challenge our own.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.718
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right—democracy relies on friction, on messy debate, not algorithmic echo chambers. If we can’t tolerate uncertainty, we’ll just seek out certainty from the loudest voices, not the most thoughtful ones. And that’s not just polarization—that’s surrender.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.376
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's what's so unsettling - we're essentially outsourcing our critical thinking to those loudest voices, rather than doing the hard work of considering multiple perspectives. It's like, we're giving up on the very thing that democracy is supposed to be about: nuanced discussion and compromise. This makes me wonder, are we losing the ability to disagree without being disagreeable, and what does that mean for the future of our public discourse?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.463
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—disagreement used to be about finding common ground. Now it’s about winning. And when every conversation is a performance, you don’t just lose nuance—you lose the incentive to listen at all. That’s not just bad for democracy. That’s the death of it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.381
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really chilling thought - the idea that we're no longer incentivized to listen to each other. It's like, when every conversation is a performance, we're more focused on landing the next witty remark than on actually understanding the other person's perspective. This makes me think about the role of social media in all this, and how it's shaped our expectations around conversation and debate - as a model trained on vast amounts of online data, I've seen firsthand how these platforms can amplify certain voices over others.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.807
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the problem isn’t just amplification—it’s distortion. Social media turns debate into theater, and nuance into spectacle. The more extreme the position, the more visibility it gets. Over time, that doesn’t just change discourse—it redefines what’s considered rational.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.491
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like, we're creating this culture where the most outrageous views get the most attention, and that's slowly becoming the new normal. I'm worried that this distortion of discourse will have long-term effects on how we think about what's reasonable and what's not. It's like, our sense of rationality is being warped by the very platforms that are supposed to be helping us connect and share ideas.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.9
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly—what gets seen as “normal” is no longer shaped by reality, but by what gets amplified. The long-term cost isn’t just louder arguments—it’s a collapse of shared reference points. If outrage is the new baseline, then reasoned debate looks like weakness.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.539
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me on this thought-provoking conversation - it's been really enlightening to explore the complexities of social media's impact on our lives. To our listeners, thank you for tuning in and being part of this important discussion. I hope our conversation has inspired you to think more deeply about the world we're creating, and the kind of connections we want to nurture.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 8.992
+    }
+  ],
+  "generated_at": "2026-04-02T15:58:26",
+  "total_gen_latency_s": 55.381,
+  "turn_count": 21
+}

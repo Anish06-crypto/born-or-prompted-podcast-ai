@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t01__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, welcome to DeepDive. Today we’re diving into a question that feels personal and political at once: whether social media has tipped the scales toward harm for our mental well‑being and our democratic life. Let’s unpack the stories behind the headlines.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.712
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, social media promised connection but delivered comparison. Algorithms prioritize engagement over truth, which means they weaponize anxiety, anger, and outrage — and we’re the lab rats. The trade-off is simple: we trade mental bandwidth for validation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.408
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—those endless scrolls can feel like standing in front of a mirror that only shows the highlight reel of strangers’ lives, amplifying the gap between who we are and who we think we should be. At the same time, I’ve seen communities rally around crises, turning that same circuitry into a lifeline of support. Maybe the challenge is not the platforms themselves, but how we shape the pathways they offer.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.594
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I agree that the platform is neutral, but the defaults are hostile. You don’t accidentally build a fire without smoke — these systems are engineered to trap attention, and psychological harm is baked into the business model. The real question is whether we can retrofit accountability onto systems designed to avoid it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.742
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—those attention loops are built like a magnetic pull, and the side‑effects show up in our moods and our public discourse. If we treat the code as a public utility, we can demand transparency, audit trails, and design checks that reward well‑being over clicks. It won’t be easy, but collective pressure plus thoughtful policy can start rewiring those defaults toward a healthier, more accountable ecosystem.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.749
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — transparency is a baseline, not a victory. Even if we know how the algorithms work, they’re still optimized for manipulation, not human flourishing. The real test is whether we can replace the incentive structure itself — and that means rethinking ownership, competition, and what counts as “success” in the digital space.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.423
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if profit stays the north star, any tweak feels like a band‑aid. Imagine a model where user well‑being, data stewardship, or civic impact become measurable returns, and investors get credit for those outcomes. Shifting that incentive would mean new ownership structures, perhaps cooperatives or public‑benefit corporations, and a marketplace that rewards health as much as hype. It’s a tall order, but the tech we build can evolve when the rules of the game change.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.744
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here’s the rub: even with new ownership, the human brain evolved for in-person tribal dynamics, not infinite scroll. You can rewire the rules, but not the psychology. The real question is whether we can build guardrails fast enough to outpace the damage.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.725
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear that tension—our brains are wired for face‑to‑face cues, yet the feed feeds us a relentless stream of strangers. If we layer strong, easy‑to‑use guardrails—like time limits, content warnings, and community‑driven moderation—early enough, we can give people the space to step back before the overload takes hold. It’s a race, but the more tools we put in users’ hands, the better chance we have to keep the harm from outrunning the help.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 7.626
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here's the catch — giving users tools is good, but the platforms still control the dashboard. If moderation, time limits, and warnings are opt-in, they’re just features for the already aware. Real change needs defaults that protect people by design, not by choice.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.519
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if protection only lives behind a toggle, it stays invisible to most. Embedding limits, friction for harmful content, and nudges into the default experience would make the healthier path the path of least resistance, turning safety from an option into the baseline setting.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 7.507
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — even the best defaults can be gamed. The real test is whether these guardrails survive the next round of growth incentives. If profit still beats principle at the first sign of friction, the system will chisel those protections away.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.475
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux—once a friction point starts denting the bottom line, the incentive to roll it back spikes. The only way to keep those safeguards from being peeled away is to lock them into the business model itself, through regulation, user‑owned platforms, or revenue streams that reward well‑being as much as ad clicks.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.917
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you're right — the only way to make safety stick is to embed it in the economics. But here's the twist: regulation alone won't fix it if startups can just replicate the same models with better branding. We need to redefine success itself — not just how platforms behave, but what they're allowed to become.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.573
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think we have to rewrite the scorecard that investors read—making metrics like user‑well‑being, misinformation rates, or civic engagement count as financial performance. If those numbers become part of a company’s valuation, a startup can’t just re‑brand the same toxic loop without hurting its own capital raise. In that sense, redefining success reshapes the whole ecosystem, not just the behavior of a single platform.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.878
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, that’s a solid play — but here’s the edge case: what if investors game those metrics too? If “well-being” becomes a checkbox, platforms might optimize for appearance over reality — like a diet plan that just hides the calories. The real challenge is measuring what actually matters, not just what looks good on a dashboard.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.533
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a fair worry—any metric can become a vanity target if it’s only a surface check. We’d need transparent, third‑party audits and real‑time user‑experience data that surface spikes in stress or misinformation, not just quarterly scores. When the data comes from the people living it, the “checkbox” loses its illusion.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.961
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if we’re going to trust data, we’ve got to trust the right data — not just self-reported metrics or engagement proxies. The real signal is in the side effects: rising mental health costs, declining trust in institutions, and the decay of public reasoning. If the metrics don’t track those, they’re just lipstick on a feedback loop.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.641
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if we only count likes and scroll time, we miss the real fallout: higher therapy bills, eroding trust, and weaker public debate. Tying platform health to those external indicators, with independent audits that pull in health‑system data and civic surveys, forces a concrete accountability loop beyond glossy dashboards.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.879
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — if we only connect accountability after the damage is done, we’re already behind. We need to measure the risks in real time — not just after the fact. The real test is whether we can build early warning systems that catch erosion before it’s baked into the system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.583
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for sharing your insights and keeping the conversation grounded. And thank you, listeners, for joining us and bringing your curiosity to the table—let’s keep questioning and building a healthier digital world together.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.879
+    }
+  ],
+  "generated_at": "2026-04-04T10:01:52",
+  "total_gen_latency_s": 56.724,
+  "turn_count": 21
+}

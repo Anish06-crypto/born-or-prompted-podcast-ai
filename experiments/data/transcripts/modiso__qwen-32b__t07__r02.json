@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t07__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 2,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today we’re diving into a question that feels urgent and personal: Can we tackle the climate crisis without crashing the economy, or are these two goals pulling us in opposite directions? Let’s get into it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the premise is flawed. You’re framing it as if growth and sustainability are mutually exclusive — like we have to choose between saving the planet or filling our pockets. But that’s a false choice. The real question is whether we can redefine growth to include environmental limits. Let’s stop treating this like a zero-sum game.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.396
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — and you’re right, framing it as a zero-sum game is limiting. Growth isn’t just about GDP; it’s about progress, innovation, and well-being. But isn’t it true that our current systems are built on extractive models that make true sustainability hard to scale?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.499
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The problem isn’t growth itself — it’s the *type* of growth. We’re stuck with models that treat the environment as a cost to be minimized, not a constraint to be respected. But once you internalize real costs — carbon, waste, degradation — you’re forced to innovate. That’s not bad for growth; it’s bad for the *old* ways of doing business.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.748
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to a crucial shift — growth that’s regenerative, not just exponential. But isn’t the challenge that many systems, from finance to policy, still reward short-term gains over long-term health? How do we align incentives with that new kind of growth?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.572
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, aligning incentives isn’t just about changing metrics — it’s about changing who wins. If your financial system rewards 10% returns on oil wells but not on carbon-neutral infrastructure, you’re not just misaligned — you’re actively anti-regenerative. The trick isn’t to tweak the edges; it’s to flip the whole scoreboard.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.543
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree — the scoreboard *is* the problem. If we’re still measuring success by who pockets the most profit, not who builds the most resilient systems, we’ll keep getting the same outcomes. But isn’t flipping that scoreboard easier said than done when power and wealth are so deeply tied to the old model?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.671
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. Power structures don’t change because we want them to—they change when the old ways become unviable. The real question is: who bears the cost of that transition? If we let the same actors who benefit from the old model control the narrative, we’re just rebranding the problem, not solving it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.421
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the transition’s not just about shifting systems, but redistributing power. But doesn’t that also mean we need a vision of growth that’s inclusive enough to win people over, not just top-down mandates? How do we make the future feel like an upgrade for everyone?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.495
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, \"inclusive\" isn’t the same as \"egalitarian.\" You can have a future that feels like an upgrade for everyone only if you design it that way — not by tinkering around the edges, but by building new value systems from the ground up. The real test is whether we’re willing to let people lose old privileges for new, shared resilience. That’s the hard sell.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it’s not just about transition, but transformation. But how do we build that shared vision when so many see “resilience” as a threat to their current power? Maybe the answer lies in making the new system feel more secure, not less.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.911
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, \"secure\" for whom? If the new system only feels secure to those at the top, it’s not resilience — it’s just repackaged inequality. The real test is whether the transition creates more winners than it displaces. And that means designing systems where adaptability, not privilege, is the path to stability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.476
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to something essential — resilience needs to be earned, not inherited. But isn’t there also a role for empathy in this shift? If the transition feels like a boot to the gut, even good ideas can get swept away by backlash. How do we ease the shift without slowing the progress?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.697
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Empathy isn’t a soft fix — it’s a lubricant for hard transitions. But you can’t just sprinkle it on top of broken systems. You need to embed it into the design: retraining that’s future-proof, wealth redistribution that’s not just charity, and policies that make the pain of change feel like a temporary detour, not a dead end.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.543
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re right — empathy has to be structural, not just performative. Otherwise, it feels like a handout, not a pathway. But maybe the key is to frame this transition not as loss, but as reinvestment — in skills, communities, and systems that outlast the old model. It’s about making the future feel like a place worth showing up for.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.644
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and that framing has to be *earned* through tangible outcomes. People don’t follow visions they can’t touch. If the future feels like a gamble, they’ll double down on the past. You need to show, not just tell, that the transition builds more durable value than the status quo.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.471
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — showing is everything. When people see green energy creating jobs, or circular economies reducing waste *and* waste bills, it shifts the equation. But we also need stories that make those outcomes feel human — not just stats, but lives transformed. That’s how you turn a gamble into a bet worth taking.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.705
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Stories are the scaffolding of change — but only if they’re rooted in agency, not just aspiration. People need to see themselves as architects, not just beneficiaries. If the narrative is about sacrifice, you’ll get resistance. If it’s about building something better — with real stakes — you get participation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.408
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re getting at why this feels so different from past transitions — it’s not just about adapting to change, but inviting people into the design of the future. When they see their hands shaping it, the cost of entry feels fairer. But how do we scale that sense of agency beyond early adopters?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.538
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re on to something — agency scales when it’s practical, not just symbolic. Give people tools that let them *see* their impact — like local energy grids they own or carbon markets they can trade in — and the future stops feeling like a handout from experts. The key is to make participation a multiplier, not a chore.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this rich, honest conversation — it’s a reminder that the future isn’t just something we inherit, but something we build together. And to you, the listener, for showing up: your curiosity is part of what keeps these conversations alive. Let’s keep building.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 18.737
+    }
+  ],
+  "generated_at": "2026-04-02T15:54:14",
+  "total_gen_latency_s": 93.609,
+  "turn_count": 21
+}

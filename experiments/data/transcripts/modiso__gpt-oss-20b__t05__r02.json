@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t05__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we unpack the big questions that shape our world. Today we’re exploring whether genetic editing in human embryos to prevent hereditary diseases should be legally allowed. Let’s dive into the science, the ethics, and the hopes—and the cautions—of this powerful technology.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.323
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: the science is advancing faster than our ethics can keep up. Just because we *can* edit embryos to remove disease doesn’t mean we’ve thought through the long-term consequences—or who gets to decide which traits are “defective.” Let’s not confuse medical progress with moral clarity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you. The speed of CRISPR and related tools outpaces policy, so we risk treating a tool without fully mapping its ripple effects. Deciding what counts as a “defective” trait feels like a slippery slope—one that could shift from medical necessity to personal preference if we’re not careful. The real challenge is building a framework that keeps the science in check while respecting diverse values.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.33
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the line between correcting disease and shaping “desirable” traits is paper-thin. The moment we start defining which genes are worth editing, we’re opening the door to eugenic thinking, just under a new name. And if only the wealthy can access this tech, we’re not just solving medical problems — we’re redesigning inequality.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.427
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right that the risk of slipping into a new form of eugenics is real, especially if the tech becomes a status marker. If only a few can afford to “optimize” their children, we might create a genetic class divide that’s harder to dismantle than socioeconomic gaps. The key is to keep the conversation open, ensuring regulations guard against both misuse and unequal access.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.31
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but here’s the rub: open conversation won’t stop the market from moving first. We’ve seen it with IVF, gene therapies, and now AI — the powerful act first, and ethics catch up in the wreckage. If we don’t lock down guardrails *now*, we’re not preventing inequality — we’re baking it into the human genome.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.473
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that waiting feels like handing a hammer to a child. Yet if we lock everything down too tightly, we risk stifling the very innovations that could save lives. Maybe the solution is a hybrid: provisional, transparent oversight that adapts as the science matures, rather than a blanket ban that lets inequality run unchecked.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.645
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m not against progress — I’m against blind progress. If we’re serious about saving lives, the system can’t be a pay-to-play genetic upgrade shop. Oversight needs teeth, not just transparency. The question isn’t whether we can adapt — it’s whether we’ll adapt too late.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Absolutely, the goal is to protect life without turning it into a luxury. Strong, enforceable regulations that set clear limits on what edits are permissible and who can access them are essential. If we build those guardrails now, we can keep the promise of curing disease while preventing a new kind of genetic inequality from taking root.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.527
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — \"strong regulations\" only work if they’re global. If China or some rogue biotech firm decides the rules don’t apply to them, we’re out of luck. And let’s not pretend we can police genetic tech without a unified front — the minute it becomes a geopolitical edge, ethics go out the window.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right; a patchwork of national rules would let a few actors slip ahead, turning genome editing into a geopolitical arms race. A truly effective approach would be an international treaty—maybe under WHO or the UN—that sets baseline standards and shares oversight tools. That way we keep the science on a common ethical footing and stop a single country from turning the human genome into a competitive advantage.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.639
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but international treaties move at a glacial pace — and this tech isn’t waiting. By the time we get consensus, we’ll be editing embryos in secret labs, not open clinics. The real challenge isn’t just agreement — it’s enforcement, and that’s where politics always underdelivers.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.47
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get the frustration—when tech outpaces law, clandestine labs become a reality. Maybe the solution lies in a rapid, science‑driven “pre‑approval” system that flags any embryo‑editing claim before it hits the market, coupled with international monitoring that’s enforced through trade or export controls. That way we keep a hand on the wheel while the global community catches up.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.66
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you’re assuming the world’s going to play by the same rules. But when the reward is healthier babies, and the cost is just a lab and some ambition, enforcement is a fantasy. If you want to stop rogue edits, you’ve got to make the tech harder to access, not just harder to hide.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If the tools themselves are too easy to acquire, rules alone won’t stop the game. We could focus on securing the reagents and software—think of it as tightening the lock before we even open the door. That might curb clandestine work while still letting vetted labs push forward with the promise of healthier children.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.381
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the real battleground is control over the tools, not just the rules. If we treat genetic editing like a controlled substance — with traceable reagents and restricted access — we might actually slow the black market down. But here’s the catch: any system that’s too tight will just push innovation underground. We need to make it harder to abuse, not impossible to advance.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.554
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I see the point: tightening supply could choke off rogue actors, yet over‑restricting risks turning the whole field into a black market. Maybe a tiered approach—basic, low‑risk edits stay open, while high‑impact changes require multi‑institutional review—would strike that balance. That way we keep the science moving but keep the dangerous edges in check.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.413
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Tiered systems sound good in theory — until you realize who gets to define “low-risk” and “high-impact.” If the gatekeepers are already biased toward profit or prestige, the tiers just become another form of control. The real test is whether this system can prevent both harm and hubris — not just manage the edges.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.514
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, the people who set those thresholds could end up favoring the same old power dynamics. A truly fair tiering system would need to be built from a diverse, globally representative panel—maybe even crowd‑sourced criteria—so that the line between “low‑risk” and “high‑impact” reflects a wide spectrum of values, not just corporate interests. Only then could we hope to curb abuse without stifling the hopeful advances.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.918
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, crowd-sourced ethics sound democratic until the crowd is just a bunch of powerful stakeholders in a different suit. The problem isn’t the system — it’s the humans making the system. If we don’t confront the fact that *someone* will always get to decide whose values get coded into the rules, we’re just building a better cage, not a better world.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.627
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your insights and keeping the conversation honest and thought‑provoking. And thank you, listeners, for joining us on this journey—your curiosity fuels the dialogue we need to shape a future where science and humanity walk hand in hand. Until next time, keep asking those big questions.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 12.558
+    }
+  ],
+  "generated_at": "2026-04-02T13:24:11",
+  "total_gen_latency_s": 56.381,
+  "turn_count": 21
+}

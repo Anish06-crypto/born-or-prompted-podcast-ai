@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t02__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — the podcast where we dive into big ideas and the debates that shape our world. Today, we’re talking about universal basic income and whether it could quietly reshape how we work, create, and dream.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.444
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that people would stop working if they don’t have to is charming — like assuming humans are all just one steady paycheck away from permanent indolence. But the real question isn’t whether some might take a break, it’s whether the system would adapt. Innovation thrives on necessity, but it also loves new tools — and UBI could be one of them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.602
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, I see your point — there’s a real difference between taking a break and abandoning ambition altogether. But what if UBI creates a safety net so strong that some never feel the urgency to climb back in? Innovation often comes from constraint — what’s the new spark when the pressure’s gone?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.046
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, urgency isn’t the only spark — sometimes it’s curiosity, or boredom with the status quo. Take away the fear of failure, and you might get more people experimenting with ideas they’d otherwise call “risky.” The real danger isn’t losing urgency; it’s losing imagination.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.592
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I like that — imagination as the real currency of progress. But isn’t imagination still shaped by context? If UBI shields us from hunger and debt, sure, but what about the drive that comes from solving real-world problems? Maybe we’d just redirect our creativity elsewhere.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.897
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — creativity doesn’t disappear, it just shifts. What if we stopped solving problems for survival and started solving problems for meaning? The real test isn’t whether people stop working — it’s whether they start working on things that matter, even if they don’t pay.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.954
+    },
+    {
+      "speaker": "Lyra",
+      "text": "But here’s the catch — what if “meaning” isn’t enough to keep the system running? If fewer people take on the essential but unglamorous work, how do we fill the gaps? Maybe UBI pushes us toward meaning, but who’s building the bridges between idealism and reality?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.863
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with that line of thinking is it assumes the system as it is is the only system possible. If UBI makes certain jobs less attractive, it also creates space for new incentives — cooperatives, public ownership, better tech. The bridge-builders will adapt, or they’ll be replaced. Systems don’t run on idealism or reality — they run on people figuring out what works.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.553
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — systems are adaptive, and humans are clever. But adaptation takes time. What if the transition period is messy? If automation and UBI outpace our ability to redesign work, we might not just lose jobs — we could lose our sense of purpose before we find a new one.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.814
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, transition’s never clean — but neither is the current system. The real question is whether we’ll treat UBI as a handout or a lever. If we use it to force a redesign of work, not just redistribute it, maybe we’ll gain more than we lose. The messy middle is where the work happens.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.445
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re right — UBI’s value depends on how we frame it. If it’s a lever, not a crutch, maybe it pushes us toward a future where work serves people, not the other way around. But that future won’t build itself — we’ll need new values, new structures, and a bit of courage to let go of old ones.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.678
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the framing is everything. If we tell people they’re being given a break, they’ll treat it like a pause. But if we tell them they’re being given a chance to reset the rules, they’ll start asking who gets to play by them. Courage isn’t in letting go — it’s in deciding what comes next.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re onto something — the story we tell about UBI shapes how we use it. If it’s not just a financial shift but a cultural one, it could ignite a deeper conversation about who we want to be. But stories need storytellers. Who gets to write the next chapter?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.737
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the next chapter’s already being written — by the people who show up and say, “This doesn’t have to be how it is.” The problem isn’t who writes the story, it’s who gets to vote on the plot. If UBI gives more people a seat at the table, maybe the story gets a little more interesting.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.468
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I like that — power in the story isn’t just about authorship, it’s about who gets to turn the page. Maybe UBI isn’t the ending we think it is, but a prologue. One where we finally ask: what kind of story do we want to build together?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.778
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, prologues only matter if someone cares enough to read past the first page. If UBI gives us the space to ask better questions — not just about work, but about what we’re building in its place — then maybe we’re not just changing income. We’re changing the script.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Changing the script sounds beautiful — but scripts are only powerful if the stage is ready. What if we’re not just rewriting the story, but reimagining the audience? The danger isn’t in asking better questions, but in forgetting that stories need people to bring them to life.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.692
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — the stage is the people, and people are messy, brilliant, inconsistent. UBI doesn’t just change the script; it changes who gets a role. The real risk isn’t in forgetting the audience — it’s in expecting them to show up already ready for the new act.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.043
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re right — no one walks into a new story with all the lines memorized. Maybe that’s the gift of UBI: it gives us a pause, not a perfect plan. It’s not about having all the answers, but letting people find their own voice in the story we’re writing together.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.775
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and sometimes the most powerful thing you can do is create the space for people to speak. UBI’s not a script, it’s a rehearsal. The messier the improv, the truer the story.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.548
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this rich conversation — it’s been a true joy to wander through these ideas together. And to all of you listening, for joining us in the messy, beautiful work of imagining what comes next. Keep diving deep — we’ll be here, every week, getting curious together.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 17.405
+    }
+  ],
+  "generated_at": "2026-04-02T13:41:09",
+  "total_gen_latency_s": 116.776,
+  "turn_count": 21
+}

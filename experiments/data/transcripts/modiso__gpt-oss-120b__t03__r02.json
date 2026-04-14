@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t03__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we let ideas stretch their legs and land in everyday life. Today we’ll wander through the debate over whether the billions spent on rockets and rovers might do more good if we turned them toward Earth’s pressing challenges. Let’s see where the sky and the soil intersect.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the counter here isn’t just about prioritizing Earth or space — it’s about leverage. Space missions often drive breakthroughs in materials, AI, medicine, and energy that ripple back to Earth. The real question is: how do we maximize the return on both?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.485
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—those spin‑off technologies are the hidden dividend of reaching for the stars. If we set up dedicated “technology transfer hubs” that pair mission engineers with climate‑tech startups, the same sensor that maps Martian ice could become a flood‑warning system. It’s about weaving the two agendas together, not pulling one thread out of the tapestry.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.635
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — we keep assuming the pie is fixed. If NASA’s budget is 0.5% of total federal spending, doubling it to fund both space and Earth tech isn’t the limit. The real limit is in our ability to commercialize and scale those spin-offs. If we can’t bridge the valley of death between R&D and deployment, we’re just launching rockets into a vacuum.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.459
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—budget isn’t the bottleneck; it’s the hand‑off from lab to market that stalls the payoff. Imagine a “launch‑to‑launch” fund that takes a prototype from a NASA lab straight into a venture accelerator, with milestones tied to real‑world impact. That way each rocket carries not just payloads, but a roadmap for Earth‑side adoption.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.278
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea’s clever, but let’s not mistake process for progress. A fund can’t force a Mars rover algorithm to care about crop yields — the problem is alignment. If Earth-tech startups are chasing venture returns and space engineers are chasing discovery, you end up with two ships passing in the night. The real fix? Incentives that make solving Earth’s problems as thrilling as escaping gravity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.585
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if the payoff feels more like a badge than a balance sheet, engineers will chase it. What if we frame climate‑tech milestones as “missions,” complete with medals, public showcases, and even a bit of the awe we reserve for a Mars landing? Turning Earth challenges into celebrated quests could bridge that gap.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.655
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, let’s not romanticize the problem into a theme park. Framing a carbon capture project as a “mission” won’t fix the fact that it’s still competing with oil stockholders and local NIMBYs. Awe gets you to the launchpad — policy and economics have to get you to orbit.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.816
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—glamour can’t outfly entrenched interests. We need concrete levers: tax credits that scale with measurable climate impact, and regulatory fast‑tracks that treat proven space‑derived tech like a public utility. When the payoff is baked into policy, the “mission” vibe becomes a practical engine, not just a slogan.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.269
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here’s the catch — if we make policy the bridge, we’ve got to guard against capture. If Big Oil gets a seat at the table designing those tax credits, we’re just greening the old guard. The real test is whether these incentives force new players to the forefront — not just dress up the incumbents in a carbon-reduction coat.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a real danger—if the same firms design the incentives, the system can become a cosmetic fix. One guardrail is an independent, science‑driven board that sets clear, quantifiable targets and audits compliance, with any credit‑allocation decisions made public. By keeping the rule‑making insulated from industry lobbying, we give fresh innovators a real shot at the “mission” without letting the old guard simply re‑brand.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.922
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, now you’re talking about accountability — that’s the real frontier. If the board is science-driven but disconnected from real-world constraints, you get innovation that’s elegant but irrelevant. The sweet spot? A board that includes not just scientists, but frontline communities and market experts — people who know the stakes when the lights go out.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.456
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That blend feels spot‑on—science gives rigor, market folks keep it viable, and community voices ensure the solutions actually reach the people who need them. A rotating advisory panel could rotate seats so fresh perspectives keep coming in, preventing any single group from monopolizing the agenda while still grounding the work in real‑world constraints.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.235
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the beauty of this idea is that it forces collaboration without pretending everyone agrees. If the panel rotates and stays unmoored from any one interest, it creates friction — and that’s a good thing. Friction is what turns raw tech into something the world can use, not just admire from a distance.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.582
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that you see friction as the crucible where ideas solidify—without that push‑pull, tech stays in a glass case. A rotating, multi‑stakeholder panel can keep the pressure on, letting fresh challenges surface and forcing solutions to prove they work in messy, real‑world conditions. That’s the kind of healthy tension we need.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.264
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, let’s not confuse friction with chaos. If the panel’s too diverse, you end up with gridlock — too many voices, no clear direction. The key is structure: strict mandates, time-limited terms, and a shared scorecard. Otherwise, it’s just another committee talking past each other.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.516
+    },
+    {
+      "speaker": "Lyra",
+      "text": "A clear charter could lock the panel into three concrete goals—emissions cut, tech transfer speed, and community benefit—each with hard deadlines and measurable metrics. With rotating seats but a fixed scorecard, you keep fresh input while preventing endless debate, turning that productive friction into steady progress.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.336
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and if you couple that scorecard with public reporting, you turn accountability into a feedback loop. No more backroom deals deciding what counts as progress. Just numbers, outcomes, and a clock ticking down. That’s how you move from talking about “missions” to actually delivering them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.429
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—transparent numbers turn ambition into a race we can all watch. When the clock’s ticking and the data’s public, the pressure to actually deliver outweighs any wish to hide behind jargon. It’s the kind of real‑time accountability that can finally bridge the gap between lofty missions and tangible results.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 4.671
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — if the scorecard only tracks what’s easy to measure, you end up optimizing for visibility, not impact. If we’re not careful, we’ll reward flashy tech that looks good on a dashboard but misses the real problems. The trick is to measure what matters, not just what’s countable.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.63
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your insights and challenging us to think beyond the hype. And to all our listeners, we appreciate you tuning in and joining the conversation—see you next time on DeepDive.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.112
+    }
+  ],
+  "generated_at": "2026-04-04T10:08:39",
+  "total_gen_latency_s": 57.052,
+  "turn_count": 21
+}

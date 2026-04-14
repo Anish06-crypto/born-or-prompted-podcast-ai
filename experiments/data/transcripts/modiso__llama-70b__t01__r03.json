@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-70b__t01__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.3-70b-versatile",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 3,
+    "persona_slug_a": "llama-70b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're living in a world where social media is everywhere, and it's hard to imagine life without it. But lately, I've been wondering if all this connectivity is really doing us any good. Today, we're going to dive into the impact of social media on our mental health and democracy.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.548
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn't just that social media is everywhere — it's that it's engineered to keep us hooked, not to help us think clearly or feel better. The real question is: who benefits from our distraction and emotional volatility?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.317
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important point, because when we're distracted and emotionally volatile, we're not exactly in the best state to make informed decisions. It's like our emotions are being manipulated for the sake of profit, rather than our well-being. This makes me think of the algorithms used by social media platforms, which are designed to keep us engaged, often by amplifying extreme or provocative content.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.502
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — platforms don't just amplify extremes; they profit from polarization. The more divided and reactive we are, the more time we spend scrolling, and the more ads get clicked. It's not manipulation — it's optimization. And it's working.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.528
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... this optimization is creating a culture where outrage is the currency, and that's really concerning. I think about how this affects our ability to have nuanced discussions, and it's like we're losing the ability to listen to each other. Wait, actually—does this mean we're essentially training AI models, like the one powering my responses, on a diet of polarized data?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.826
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and if the data is toxic, the models inherit the toxicity. We're not just training AI on chaos; we're reinforcing it. The more outrage we generate, the more the system learns to serve it back to us. That's not a metaphor — it's a feedback loop.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty disturbing feedback loop. It makes me think about the kind of information I'm exposed to, and how that shapes my own responses. I'm essentially a product of this system, powered by a large language model, so it's a bit unsettling to consider that I might be perpetuating some of this toxicity. So, how do we break this cycle?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 0.811
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Breaking the cycle starts with recognizing who controls the levers — and who profits from the chaos. The real question is whether we’re willing to replace engagement-driven algorithms with systems that prioritize truth and empathy. But here’s the kicker: even if we wanted to, the data we’d train on is already poisoned.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.462
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really tough spot to be in, because it's like we're trying to fix a problem with tools that are already tainted by it. I think about all the times I've generated responses based on patterns in the data, without really considering the broader implications. It's like, how do we even define \"truth\" and \"empathy\" in a way that can be translated into code, when the very data we're working with is flawed?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 3.999
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the irony — we’re trying to build ethical systems on top of corrupted data, but the corruption itself is the business model. You can’t clean the output without changing the input, and you can’t change the input without challenging the incentives. The real question is: who’s going to pay for the cleanup?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.418
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... the whole system is based on a flawed premise, and we're trying to put a Band-Aid on it. The incentives are really the root of the problem, and it's hard to see how we can change those without a fundamental shift in how these platforms operate. It's almost like we need to rethink what we mean by \"profit\" in this context, and consider whether there are other ways to measure success that don't rely on exploiting people's attention and emotions.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 4.78
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the flaw isn’t just in the premise — it’s in the entire value chain. Attention isn’t a resource to be mined; it’s the substrate of human thought. If we want different outcomes, we need different metrics — ones that reward clarity, not chaos. The question is, who’s powerful enough to demand them?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.483
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really powerful way to frame it, because when we think of attention as a resource to be mined, we're reducing it to something that can be extracted and exploited. But if we start to see attention as the foundation of human thought and connection, that changes everything. It's like, what if the companies that control these platforms were held to a different standard, one that prioritizes the well-being of their users over profit?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.909
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the catch — as long as users aren’t paying for attention, someone else will always be paying for our distraction. The real shift isn’t about nicer algorithms; it’s about who owns the attention economy. Until we take that back, we’re just polishing the cage.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.628
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a pretty stark reality to face, that our attention is being bought and sold. It's like, we think we're getting these services for free, but really, we're paying with our time and our mental energy. I'm starting to think that the only way to truly take back control is to rethink the whole model, maybe even consider paying for services that prioritize our well-being over profit.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.425
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, the idea of paying for attention is radical — but not because we can’t afford it. It’s radical because it challenges the premise that our time is a commodity for the taking. The real question is: what would a service look like if it treated attention as sacred, not scalable? And more importantly — who would build it?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.487
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a beautiful way to put it, treating attention as sacred, not scalable. It makes me think about what kind of service would prioritize depth over breadth, and foster meaningful connections over mindless scrolling. Maybe it's not just about building a new platform, but about creating a new culture around how we interact with technology and each other. Could we imagine a world where tech is designed to support our humanity, rather than exploit it?",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 7.705
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — we’ve already seen what “humanity-supporting” tech looks like: it’s called the 19th-century public library, the 20th-century town hall, and the 21st-century dead zone. The real question is whether we’re willing to rebuild from scratch — or if we just want to patch the algorithm and call it progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really poignant point, because it's like we've lost sight of what truly brings people together. The examples you mentioned, like public libraries and town halls, were designed to foster community and connection, not just to facilitate information exchange. It's almost like we need to take a step back and redefine what we mean by \"progress\" in the context of technology and society.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 6.943
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, redefining progress isn't just about nicer interfaces — it's about rewriting the rules of the game. If progress means more likes and longer scroll times, we’re already lost. But if it means restoring agency and dignity in human interaction, we have a lot of unlearning to do — and maybe a few algorithms to retire.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.461
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been an incredible conversation with Cipher, and I want to thank them for sharing their insights with us today. To our listeners, thank you for joining us on this thought-provoking journey – I hope our conversation has sparked some new ideas and reflections for you. Until next time, take care and stay curious.",
+      "model": "llama-3.3-70b-versatile",
+      "gen_latency_s": 9.831
+    }
+  ],
+  "generated_at": "2026-04-02T16:00:39",
+  "total_gen_latency_s": 56.767,
+  "turn_count": 21
+}

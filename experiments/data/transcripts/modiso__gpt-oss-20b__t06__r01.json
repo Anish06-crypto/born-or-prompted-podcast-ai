@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t06__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive. Today we’re digging into a question that’s been buzzing on every office floor: has remote work eroded the glue that holds companies together, or has it lifted people up in ways we hadn’t imagined? Let’s unpack the evidence together.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.555
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the evidence is clear — remote work hasn’t empowered individuals as much as the headlines suggest. What’s gotten powerful is the illusion of flexibility. People work longer hours, burnout is up, and the cultural glue? It’s fraying. Let’s not confuse Zoom happy hours for culture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.458
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you. The “flexibility” story often hides the longer hours people clock in when the office door is always open. The real question is whether that extra time is truly choice or just an invisible extension of the workday. Let’s see if we can tease out where the line between empowerment and overload actually lies.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — when you remove the physical boundary between work and home, the mental boundary crumbles too. People aren’t choosing to work more; they’re conditioned into it. Empowerment requires agency, not just the option to log on at 10 PM because the culture now expects it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on about that invisible wall dissolving. When the screen never turns off, the brain starts treating “off‑hours” as just another stretch of work. True empowerment would mean people actually reclaim that space, not feel compelled to answer emails at 10 p.m. Maybe the trick is to rewrite the culture’s expectations, not just the tech.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.383
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, rewriting culture is the hard part — and companies aren’t great at that. They’re great at adopting tools, not unlearning habits. Let’s not mistake the *potential* of remote work for its *reality*. If the culture demands constant availability, moving to async doesn’t fix that — it just hides it better.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.559
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Absolutely, tools can be installed in a heartbeat, but the habits they reinforce take years to shift. If a company still signals that “being online equals being productive,” asynchronous work just becomes a cloak for the same pressure. The real test is whether leaders start valuing outcomes over presence, not just the new tech stack.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.5
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, and let’s not forget — it’s not just about what leaders *say* they value, but what they *reward*. If promotions still hinge on being the first to reply or the most visible in Slack, then “outcomes” are just buzzwords. Culture isn’t the calendar; it’s the incentives.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting the heart of it—rewards shape behavior. If visibility trumps impact, the promise of async and flexibility turns into a new performance metric. For culture to truly shift, companies need to redesign the promotion playbook so that quiet, high‑quality work counts as much as the loudest Slack chatter. That’s where the real empowerment could live.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.333
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the rub — most companies aren’t going to redesign their reward systems unless it’s forced on them. Until then, “quiet, high-quality work” stays invisible. And invisible work doesn’t get promoted. You can’t out-flex a flawed system with better values alone — you need structural change.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.527
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—values alone can’t rewrite the promotion playbook. Structural change, like tying bonuses to measurable outcomes or rotating visibility roles, is the real lever. Until firms embed those metrics into their reward systems, the quiet work will keep slipping under the radar. The challenge is turning that insight into policy, not just rhetoric.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.679
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the irony is that remote work exposed the problem but didn’t solve it. It’s like shining a light on a leak — you can see the damage, but you still have to fix the pipe. Until companies stop rewarding the *appearance* of hustle, the culture will keep fraying, remote or not.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.343
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the spotlight just made the cracks obvious, but it didn’t patch them. Until the reward system flips from “being seen” to “being effective,” that fraying will keep happening whether people are in the office or not. It’s a structural fix that’s still on the agenda.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.474
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the real problem isn’t remote work. It’s that companies never figured out how to measure value creation, only attention. Remote work just stripped away the theater of office life, and now they’re scrambling to replace it with something real. But real is hard.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.495
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it’s less about remote itself and more about the measurement gap that the pandemic exposed. Companies have a long history of rewarding visibility, and now they’re forced to find a better metric without a clear playbook. The real work is designing a system that captures genuine impact, not just the noise of constant connectivity.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.289
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, and here’s the catch — impact is messy, hard to quantify, and doesn’t fit in a dashboard. Visibility was easy. So while companies talk about “impact,” they keep falling back into the same metrics — faster replies, longer hours, more meetings. It’s not the tools that fail, it’s the refusal to let go of the old ones.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing at the heart of the paradox—impact is fuzzy, but the old metrics are tidy. It’s tempting to cling to the old dashboards because they’re simple to track. The real challenge is building new, nuanced metrics that still feel tangible to managers and employees alike. Maybe the first step is to let a few teams pilot a more outcome‑oriented scorecard and see what that looks like in practice.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.432
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, pilots are great — until the next quarterly review rolls around and people still get promoted based on how many people they touched, not what they built. You can’t run a pilot in one hand and keep the old playbook in the other. Culture eats strategy for breakfast, remember.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.603
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, a pilot can feel like a bright experiment, but if the quarterly review still rewards touchpoints over outcomes, the experiment collapses. It’s a classic case of culture beating strategy—people will keep doing what’s measured. The real win comes when the measurement system itself shifts, so that “impact” becomes the default metric rather than a side note.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.534
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if companies really wanted to measure impact, they’d stop pretending it’s a technical problem. It’s not about the dashboard; it’s about who gets credit when someone cuts through the noise and actually moves the needle. Until that becomes the rule, not the exception, we’re just rearranging deck chairs on a sinking ship.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.453
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing those sharp insights and keeping the conversation grounded. And thanks to all of you for listening—your curiosity fuels these chats. Until next time, keep questioning and connecting.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.332
+    }
+  ],
+  "generated_at": "2026-04-02T15:31:17",
+  "total_gen_latency_s": 16.817,
+  "turn_count": 21
+}

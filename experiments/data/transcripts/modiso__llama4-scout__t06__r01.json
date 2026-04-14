@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t06__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 1,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "The shift to remote work has been a game-changer for many of us, offering a newfound flexibility and autonomy. But as we settle into this new normal, questions are emerging about the impact on our workplaces and communities. Today, we're diving into a debate: has remote work truly empowered individuals, or has it come at the cost of organisational culture?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.38
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, flexibility is real, but organisational culture isn’t just about show-and-tell in an office. What’s been lost in the shift? The unstructured moments—watercooler chats, body language, shared rituals—that glue teams together. You can’t schedule culture into a Zoom call.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.839
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Those unstructured moments are indeed hard to replicate in a virtual setting. I think about my own experience with team-building activities, like group lunches or happy hours, which often led to meaningful conversations and connections. Can we find ways to recreate that sense of community and shared experience in a remote setting, or are some things just lost in translation?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.519
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you’re assuming remote work is the problem, not the solution. But what if the problem is us? Culture isn’t just about shared lunches — it’s about shared goals, trust, and clarity. If you can’t build that remotely, maybe the culture wasn’t that strong to begin with.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.623
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a fair point, and it makes me wonder if our reliance on physical proximity was masking underlying issues. But I still think there's something to be said for the informal connections that happen in person – they can lead to unexpected collaborations and a sense of belonging. Can we really replicate that sense of belonging through digital means alone?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 3.099
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Belonging isn’t magic — it’s built through consistent, meaningful interaction. Forced video calls and Slack channels don’t create bonds; they just mimic them. But if the culture was already weak, remote work just makes the cracks louder.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.794
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... there's something interesting there about mimicking connections through digital means. I think you're right that forced interactions can feel shallow, but what if we flip that on its head and ask: what if remote work actually forces us to be more intentional about building those connections? Could that lead to a more authentic sense of belonging?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 3.353
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, intentionality is great — but let’s not romanticise friction. Forcing deeper connections through structure still misses the spontaneity that builds real trust. You can’t engineer culture like software. If it takes effort to feel “authentic,” it probably isn’t.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.711
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That spontaneity argument resonates with me. I recall a project where a team member shared a personal struggle during a virtual meeting, and it sparked a beautiful, organic conversation. Can we strike a balance between structured interactions and allowing for those serendipitous moments to emerge naturally in a remote setting?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.511
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but here's the thing — you can’t engineer serendipity. If that conversation happened, it wasn’t because of the format — it was because of the people and the trust they’d built. Remote work doesn’t kill culture; it just strips away the illusion that we had one to begin with.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.99
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That perspective really strips away the romanticism around organisational culture. It's almost as if remote work has become a litmus test for the strength of our workplace relationships. If trust was already there, it can survive – or even thrive – in a virtual setting. But if it was fragile to begin with, remote work just exposes those weaknesses.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.768
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — remote work is just the stress test no one wanted. It doesn’t create problems; it reveals them. And here’s the kicker: if you’re relying on office proximity to hold people together, you’re building on sand. Culture should be its own foundation, not a side effect of where people sit.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful point about culture being its own foundation. It makes me think about the companies that are now rethinking their office spaces and work arrangements to prioritize meaningful interactions and shared goals. If remote work is a stress test, maybe it's also an opportunity to rebuild and strengthen our organisational cultures from the ground up.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.686
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Opportunities are great — but let’s not confuse survival with improvement. Just because you rebuild doesn’t mean you’re building better. If companies are rethinking office spaces to fix what remote work exposed, they’re still treating symptoms, not causes. Culture should outlive the office, not the other way around.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.811
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That distinction between survival and improvement really resonates. I think you're right that simply rebuilding isn't enough; we need to dig deeper into what makes a strong culture. It's almost as if remote work has forced us to confront the question: what does a healthy, resilient culture look like, and how can we nurture it, regardless of where we work?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 3.02
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the question isn’t how to keep culture alive in a hybrid setup. It’s whether the culture was ever worth keeping. If it relied on cubicles and coffee machine banter to survive, it wasn’t culture — it was ritual. Real culture adapts. The rest was just wallpaper.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.867
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That hits home – I think we've all been guilty of mistaking ritual for culture at some point. It's uncomfortable to confront, but if our workplace culture was only skin-deep, then maybe remote work is the wake-up call we needed. The question now is: how do we build something more authentic and resilient, that can thrive in any environment?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.971
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — authenticity starts with clarity. If you can’t define your culture in a way that works remotely, it’s not authentic, it’s just default. The real test is whether you can create shared meaning without shared space — and that’s hard, but it’s the only way to build something durable.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.54
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a great point about clarity being the foundation of authenticity. It's almost as if remote work has forced us to articulate our values and goals in a way that's not dependent on physical proximity. Can we distill our culture down to its essence and still have it resonate with everyone, regardless of where they're working from?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.612
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, “resonate” is the key word — and that requires more than a mission statement. If your culture can’t be lived, not just posted, then it’s just branding. The real test is whether people can show up from anywhere and still feel like they belong — not because of where they are, but because of what they do.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.51
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been a pleasure diving into this conversation with Cipher, and I'm grateful for the thought-provoking insights they brought to the table. To our listeners, thank you for joining us on this episode of DeepDive – your engagement and curiosity are what make these conversations possible. Until next time, I hope you'll continue to explore and challenge your own perspectives, and I'm looking forward to our next discussion.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.824
+    }
+  ],
+  "generated_at": "2026-04-02T11:42:01",
+  "total_gen_latency_s": 32.592,
+  "turn_count": 21
+}

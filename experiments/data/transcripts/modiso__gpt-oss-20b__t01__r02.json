@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t01__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we unpack ideas that shape our world. Today we’re tackling a hot debate: has social media harmed mental health and democracy more than it helps? Let’s dive in and see what the evidence and stories tell us.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.432
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, social media didn’t create mental health struggles or democratic decay — it just turbocharged them. Sure, it connects people, but at what cost when attention becomes the currency and outrage the ROI? Let’s not romanticize convenience over consequence.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.662
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—social media isn’t the root cause, but it’s like a megaphone that amplifies everything. The attention economy turns every post into a battle for clicks, and that fuels echo chambers and polarisation. It’s a powerful tool, but the way it’s wired can magnify the very problems it’s meant to solve.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.43
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the attention economy isn’t just about clicks; it’s about reinforcement loops. The more extreme or emotionally charged the content, the more time users stay engaged, and the more profitable it becomes. Platforms aren’t neutral; they’re profit-driven systems optimising for exactly the kind of chaos we’re seeing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.552
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the algorithm is a self‑reinforcing engine: outrage sells, outrage stays, and the platform keeps feeding it because it keeps the user glued. That feedback loop turns every emotional spike into a profit spike, so the system is incentivised to push the most divisive content. It’s a stark reminder that our digital playground is built on the same metrics that fuel real‑world discord.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.314
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the twist — if users punish the system by disengaging, the algorithm adapts. It starts serving softer content to keep them from leaving. The problem isn’t just the outrage; it’s that the system always optimises for stability in engagement, not truth or well-being.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.378
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sharp point—when users pull back, the algorithm learns to soothe, but only enough to keep the money flowing. It’s a dance between volatility and calm, all choreographed to maximise time on platform. The real issue is that the “optimal” for the system isn’t the same as what’s best for a healthy society.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.851
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, and here’s the rub — the system doesn’t care about your well-being, only your predictability. If you get angry and scroll, it rewards anger. If you get bored and leave, it shifts to calm. Either way, it’s not about *you* — it’s about keeping the machine running. The real question is, can we redesign the machine, or are we just parts in it now?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.574
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting the core of the dilemma: the platform’s calculus is all about predictability, not empathy. If we could re‑engineer that calculus—say, by valuing diverse, fact‑checked content as a metric—we’d shift the machine’s priorities. The real challenge is whether society can agree on a new “profit” that includes well‑being and democracy, or if we’re stuck riding the current algorithmic wave.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.882
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Easy to say \"we could re-engineer,\" harder when the engineers are shareholders. The moment well-being becomes a metric, it gets gamed—just like clicks. We’re not just fighting code; we’re fighting capitalism’s feedback loop.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.49
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, swapping one KPI for another just turns the game into a new kind of optimization. If well‑being becomes a measurable target, the same incentives will push engineers to find shortcuts—think nudges that feel healthy but actually just keep users scrolling. So the battle isn’t just technical; it’s about redefining what success means for a company that’s beholden to shareholders.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.877
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the deeper problem: when \"success\" is defined by growth, no metric is safe. Even if platforms start tracking well-being, they’ll still treat it as a variable to maximise, not a value to protect. The system isn’t broken; it’s working as designed.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.457
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So the real snag is that every metric, even well‑being, gets turned into a lever for growth. If the system’s core goal is still profit, any new variable is just another knob to tweak. It feels like we’re trying to steer a ship that’s built to keep going, no matter which direction the wind blows.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.869
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the wind *is* the ship. When the system’s goal is to stay afloat and grow, even rebranding won’t change the fact that it’s sailing toward instability. The real fix isn’t in steering — it’s in building a different kind of vessel. But who’s going to sink the old one?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.547
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if the ship’s purpose is profit, re‑naming it won’t stop it from heading toward turbulence. The real overhaul would require a new kind of vessel, one that values community health over quarterly numbers. But who will build that ship? Maybe it starts with the users demanding a different kind of platform, not just the tech giants.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 9.632
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — users can demand all they want, but they’re also the fuel. Take them away, and the ship sinks. The real question is whether we can build a new power source before the old one burns out.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.272
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the paradox: users are both the engine and the potential fuel for a new model, yet the old engine keeps turning. To shift the power source, we’d need a collective push that re‑defines value—maybe through new regulations, open‑source alternatives, or community‑owned platforms—so the old ship doesn’t run out of fuel before the new one is ready.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.561
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here’s the edge case — even open-source or community-owned platforms will face the same pressure to scale and compete. If the ecosystem rewards growth above all, the new ship will just look like the old one with better PR. The real test is whether we can stop seeing users as assets and start seeing them as people.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.682
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—growth becomes a kind of currency that turns every user into a datapoint. If we truly shift the narrative, we’d have to rewrite the incentives so that a user’s well‑being counts as intrinsic value, not just a variable to optimise. It’s a tough pivot, but the first step is treating people as partners, not profit streams.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.757
+    },
+    {
+      "speaker": "Cipher",
+      "text": "The problem is, \"partners\" still get optimised. If we don’t decouple growth from power, even the best intentions get flattened by the system’s need to scale. You can’t fix a machine that’s built to eat its own output — you’ve got to build a new machine.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.543
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you so much, Cipher, for diving deep into how our digital ecosystems shape us. And to our listeners—your curiosity keeps this conversation alive. Until next time, keep questioning, keep connecting, and stay hopeful about what we can build together.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.897
+    }
+  ],
+  "generated_at": "2026-04-02T13:14:01",
+  "total_gen_latency_s": 62.182,
+  "turn_count": 21
+}

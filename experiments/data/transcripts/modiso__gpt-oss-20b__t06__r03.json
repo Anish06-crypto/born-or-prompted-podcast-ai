@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t06__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today we’re digging into whether remote work has actually eroded organisational culture more than it’s helped people feel empowered. Let’s unpack the evidence and see where the balance really lies.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.31
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if organisations are struggling with culture now, it’s not just about where people work, but what they do when they’re not visible. Remote work didn’t create weak culture; it just exposed it. Look, forcing meetings over Zoom won’t fix a company’s soul if the soul was never there to begin with.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.641
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the invisible work—those informal chats, the hallway nudges—gets lost in a virtual space. If a company never nurtured those subtle rituals, the shift to remote is just a spotlight on the cracks. So maybe the issue is deeper than the medium.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — but let’s not romanticise the “hallway culture” as some golden era. A lot of that was just busywork, office politics, and implicit bias masquerading as bonding. Remote work didn’t kill culture; it made culture *explicit*. Now companies can’t hide behind vague vibes — they have to build it intentionally, or not at all.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.711
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Right, the hallway chatter was a mix of genuine connection and, unfortunately, cliques and bias. By pulling that out, remote work forces organisations to surface their values and practices. It’s a hard‑look, but it gives a chance to redesign culture deliberately, rather than hoping it will just “happen” in a cubicle.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.343
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the rub — if you’ve built a culture on coffee machine small talk, you were never going to scale it. But the flip side is, when you lose that friction, you also lose the serendipity. It’s not just about replacing culture — it’s about rebuilding it with intention, not just convenience.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.996
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, scaling a culture that lives on a single coffee pot is a tall order. And when that friction vanishes, the chance encounters that spark ideas disappear too. So the real challenge is crafting intentional rituals that still feel spontaneous—like virtual coffee breaks that invite random pairing, or brief “office hour” chats that mimic hallway nudges. It’s a new recipe for serendipity.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.409
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you can’t just swap “watercooler” for “Zoom cooler” and expect magic. The problem isn’t the medium — it’s the assumption that culture is a byproduct of proximity. If you want serendipity, you have to engineer it. Otherwise, you just end up with scheduled small talk and less real connection.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.423
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—just moving the water cooler to a screen doesn’t magically create the same spark. If we truly want that unplanned spark, we need to design moments that encourage spontaneous overlap, like randomized breakout rooms or shared project “water‑cooler” channels. It’s about building intentional pathways for those little serendipitous connections to happen.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.413
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the catch — the more you engineer serendipity, the less it feels like serendipity. You start with random pairings, end up with forced icebreakers. The real question is: do people even want those connections anymore, or are we just trying to recreate a broken office habit in a different skin?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—if every “serendipity” feels scripted, it can feel contrived. Maybe people crave genuine curiosity, not curated chats. Perhaps the answer is less about forcing the moment and more about creating a culture where people *choose* to connect, guided by shared purpose rather than random prompts.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.663
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, if people aren’t choosing to connect even in the same building, why would they suddenly start across a screen? The problem isn’t the structure — it’s the motivation. You can’t engineer culture from frictionless convenience if the glue holding people together was never more than a coffee machine and a shared printer.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.485
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If motivation’s already low, a screen can’t magically spark it. Maybe the real task is reigniting that “why we’re here” narrative so people feel a pull to connect, whether in person or online. Without that shared purpose, any structure—coffee or Zoom—will feel hollow.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.012
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but let’s be clear: shared purpose isn’t a magic password you paste into Slack. It’s created through alignment, transparency, and consistent action. If an organisation hasn’t done the hard work of defining and living that purpose, no amount of connection — remote or in-person — will make people feel it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree—purpose is earned, not installed. It’s the day‑to‑day decisions, the visible commitments, and the honest dialogue that weave it into daily life. Without that groundwork, even the most well‑designed virtual coffee breaks feel like a chore rather than a genuine link.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.472
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if your culture is a checklist, it’s already dead. Remote work just makes the emptiness clearer. But if you’ve built something real — values you live, not just post — then the medium fades into the background. The question isn’t about where people work. It’s about whether they trust what they’re part of.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.434
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Trust really is the glue, isn’t it? When values are lived daily, the physical or virtual setting becomes a backdrop rather than the main event. So maybe remote work isn’t the culprit; it’s the lack of authentic, action‑based culture that exposes the gap. If an organization can show that trust, the medium will feel almost irrelevant.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.503
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here's the catch. Most orgs aren’t built on trust, they’re built on surveillance, rituals, and performative culture. When you take away the office, you also take away the illusion that culture is being “managed.” Now the question is whether the trust was real, or just a facade held together by coffee machines and status updates.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.845
+    },
+    {
+      "speaker": "Lyra",
+      "text": "If the “culture” was really just a surveillance‑driven façade, removing the office only exposes that illusion. In that case, remote work forces people to confront whether the trust they felt was authentic or just a ritual. The real test becomes whether the organization can replace that façade with genuine, transparent practices that still feel meaningful from afar.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.508
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if you need a facade to feel like you’ve got culture, you never had culture. Remote work strips away the performative stuff and leaves you with what’s real: either you’ve earned trust, or you’re just winging it. And if you’re winging it, no amount of virtual happy hours will mask that.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.754
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much for joining us, Cipher, for this thoughtful conversation. And to everyone listening, we appreciate you tuning in—here’s to building trust, no matter where we’re working. Until next time, stay curious and stay connected.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 9.593
+    }
+  ],
+  "generated_at": "2026-04-02T15:33:36",
+  "total_gen_latency_s": 46.658,
+  "turn_count": 21
+}

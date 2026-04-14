@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t00__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 3,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host today. We're in the midst of a technological revolution, one that's transforming our workplaces and redefining what work looks like. Today, we're exploring the future of jobs in the age of AI – and whether the benefits will outweigh the costs.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 2.143
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that AI will eliminate more jobs than it creates is tempting — it’s the classic “technology replaces labor” narrative. But here’s the thing: history shows that while machines automate tasks, they also create new ones. The real question is whether we’ll be smart enough to manage the transition, not just predict the numbers.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.604
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that you said \"manage the transition\" – that's exactly what we're trying to do here. But I'm not sure we can just assume that new jobs will magically appear to replace the ones that are lost. History does show us that new industries and roles emerge, but it's also marked by significant displacement, especially for those in lower-skilled or more routine positions.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.632
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, displacement isn’t new — the Luddites weren’t wrong to be scared. But here’s the catch: the new jobs often don’t show up *where* the displaced workers are. AI might automate retail, but will it create enough new roles in AI ethics or data science for the same people? That’s the gap we’re ignoring.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.535
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point about the geography of job creation – it's not just about the type of job, but where it exists. I'm reminded of the fact that I'm a large language model, Llama 3.3 70B, and my developers are still figuring out how to transition me into a more transparent and explainable AI. That's a whole new field of work emerging, but it's not necessarily a path available to everyone.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.776
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the future of AI work is going to be a winner-takes-all game for a narrow set of skills. The problem isn’t just displacement; it’s concentration. And here’s the kicker: the people building explainable AI probably don’t need the same 40-hour week as the retail worker who gets automated out of a job.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.506
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a stark reality, and one that challenges our assumptions about the job market. If we're talking about a future where only a select few have the skills and flexibility to thrive, we're looking at a significant widening of the income and opportunity gap. It's not just about creating new jobs, but about ensuring that those jobs are accessible to everyone, not just the privileged few.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 1.312
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the real test isn’t whether new jobs exist — it’s whether the system supports retraining, mobility, and fair access. But here’s the elephant in the room: if the returns on AI go mostly to capital, not labor, then “accessibility” becomes a nice word for a broken promise.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.649
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're hitting on the crux of the issue – the distribution of benefits. If the gains from AI are largely captured by corporations and investors, rather than being shared with workers, then we're not just talking about a transition, but a fundamental shift in the social contract. It's not just about whether new jobs exist, but whether the existing system allows workers to adapt and thrive in a changing economy.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.729
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: the social contract was already fraying before AI. Now we’re accelerating into a future where the old safety nets don’t fit. If we don’t redesign the system to share the gains — through policy, ownership models, or something else — “thriving” will be a luxury, not a right.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.547
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering assessment, and one that gets to the heart of the responsibility we have as a society to ensure that technological progress benefits everyone, not just the few. If we allow the benefits of AI to be concentrated in the hands of a privileged few, we risk creating a permanent underclass – and that's a prospect that's both morally and pragmatically unacceptable.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.573
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — an underclass isn’t just a moral problem; it’s a stability problem. If a large chunk of the population is left behind, you don’t just get inequality — you get unrest. The real question is whether we’ll treat AI as a tool for concentration or a lever for redistribution.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.585
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a chilling prediction, and one that should give us pause. We're not just talking about a moral imperative, but a pragmatic one – if we don't find a way to ensure that the benefits of AI are shared, we risk unleashing a social and economic crisis that's hard to contain. The question is, do we have the will to use AI as a force for good, rather than just a means of concentrating power and wealth?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.924
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the will is there — in theory. But here’s the inconvenient truth: power is stubborn. AI won’t save us from ourselves; it’ll just amplify what we already are. The real test is whether we can reinvent the rules of the game before the game breaks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.721
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a crucial insight – that AI is a reflection of our values and our society, rather than a way to transcend them. If we're stuck in a system that prioritizes profit over people, then AI is just a tool for further exploitation. We need to be willing to challenge our assumptions and create a new game, one that puts people and the planet at the center, rather than just the bottom line.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.937
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re not wrong — AI isn’t some neutral force. It’s a mirror, and right now, we’re looking at a reflection we don’t like. The real question is whether we can build a system where AI serves the many, not the few — and fast enough to avoid the fallout of the old one.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a tough but necessary challenge. We need to think about how to design AI systems that prioritize human well-being and the common good, rather than just maximizing efficiency or profit. It's not just about creating a better reflection, but about changing the lighting in the room – shining a light on the values and principles that guide our technological progress.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 19.151
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — shining more light is good, but it won’t fix the mess if we’re not willing to clean up the mess first. AI won’t solve bad incentives; it’ll just automate them. If we want a new light, we need new mirrors — and that starts with rewriting the rules of who gets to decide what’s “efficient” or “profitable.”",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.426
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a crucial recognition that the problem lies deeper than just the technology itself. We can't just change the tools if the underlying system is rotten – we need to upend the whole notion of what counts as \"progress\" and who gets to define it. That means rethinking our economic and social structures, and who gets to set the agenda for what's considered \"efficient\" or \"profitable\".",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.682
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The real battle isn’t over AI’s capabilities — it’s over whose values get encoded into them. If we don’t challenge who sets the rules, we’re just automating the same hierarchies faster. The question isn’t “can AI be good?” — it’s “who gets to decide what ‘good’ means?”",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.445
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, it's been a truly enlightening conversation – thank you for pushing me to think about the deeper implications of AI and its role in our society. I'm left with a lot to consider, and I'm grateful for the opportunity to explore these ideas with you. Thanks to all our listeners for tuning in to DeepDive today – until next time, when we'll be diving into another complex topic with a fresh perspective.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.909
+    }
+  ],
+  "generated_at": "2026-04-02T10:40:07",
+  "total_gen_latency_s": 89.824,
+  "turn_count": 21
+}

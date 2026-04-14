@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t07__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I'm Lyra. Today, we're diving into a charged question: Can we truly fight the climate crisis without slowing down economic growth? It's a debate that touches every corner of our lives, and we're diving in headfirst.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.303
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that growth and climate action are incompatible is a narrative pushed by those who profit from the status quo. We’re not arguing against growth — we’re arguing against the *kind* of growth that’s extractive and stupid. The real question is whether we can rewire our systems to be efficient, regenerative, and equitable. That’s not a trade-off — it’s an upgrade.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.375
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — it's not about rejecting growth, but redefining it. If we're building a system that heals ecosystems and lifts communities, aren’t we actually creating something more resilient — and valuable — than what came before? But how do we make sure that vision outcompetes old habits of exploitation?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.61
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — resilience is the ultimate form of value. The old systems are brittle, built on cheapening resources and externalizing costs. The challenge isn’t competition; it’s correcting prices to reflect true costs. If we internalize environmental and social impacts, the math shifts overnight. The real question is: who’s blocking that shift?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.442
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Internalizing costs *is* the pivot — but it’s also a cultural shift. For decades, we’ve measured progress in quarterly profits, not in soil health or clean air. Rewiring that mindset is as much about politics and power as it is about economics. And if the shift is led by those in power, will they prioritize regenerative growth — or just greenwash their old models?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.585
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good point — accountability matters. If those in power just slap \"sustainable\" on business-as-usual, the system will just greenwash its way to collapse. The fix isn’t better leaders; it’s dismantling the incentive structures that reward short-term extraction. Without that, even the best policies get co-opted.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.491
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So if greenwashing is the risk, maybe the solution is to rebuild the rules of the game entirely — not just tinker with the players. What if we designed economies where long-term regeneration *is* the reward, not the afterthought? It’s not just about changing incentives — it’s about creating new ones.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.845
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the rules are stacked. If we rewire ownership, finance, and governance to reward regeneration, we don’t need to convince people to care; we make caring *rational*. Look at land stewardship models that tie profit to biodiversity — they outperform extractive systems over time. The problem isn’t that people are greedy; it’s that our systems are misaligned. Fix the alignment, and growth and sustainability become the same bet.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.107
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s a compelling vision — making sustainability the smart move, not the moral one. But how do we scale those aligned systems when the current ones are so deeply entrenched? There’s power in proving the model first, but who bears the risk while we wait for the old systems to crumble?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.761
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — scaling is the hard part. But entrenched systems aren’t invincible; they’re just slow to adapt. The risk falls on those willing to prototype the future — and that’s where public investment, radical experimentation, and decentralized action matter. You don’t need permission to build the next paradigm — just the courage to accept short-term friction for long-term clarity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.625
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that — building the next paradigm from the edges in. It’s not about waiting for permission, but creating proof that the old model can’t match. But what happens when those edges start to connect? Could we turn localized experiments into a new kind of infrastructure — one that’s as much about shared learning as it is about profit?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.639
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the future isn’t built in boardrooms, it’s prototyped in the margins. When those experiments start scaling through shared learning, they create a gravity that even big systems can’t ignore. The real danger isn’t the old model — it’s the silence that lets it keep running.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.383
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I’m with you — the silence *is* the problem. If we’re building bold, regenerative models, we also need bold storytelling to shift the narrative. Because at the end of the day, systems change when enough people believe a better future is possible — and worth fighting for.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.783
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — stories are the scaffolding of systems. If we frame regenerative growth as the default, not the alternative, we don’t just change policies — we rewire reality. The old guard can’t afford to let that narrative gain traction.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Lyra",
+      "text": "And yet, every default we’ve ever challenged started as a whisper — a stubborn idea in the margins. What if the real power lies not in fighting the old narrative, but in outliving it? By building systems so vibrant they speak for themselves.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.517
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look — outliving the old systems is the quietest kind of revolution. It’s not about shouting them down, but showing them up with results that can’t be ignored. The whisper becomes a song when the systems we build are so much more alive, so much more human, that clinging to the old ways just feels... extinct.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.526
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I feel it — that quiet revolution is already happening in regenerative farms, community-owned grids, and circular cities. They’re not just alternatives; they’re invitations to a future where growth feels like coming home, not running out. Maybe the old systems don’t fall — they’re just outgrown.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.689
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — outgrown, not overthrown. The beauty of regenerative systems is they thrive by including what they replace, not by destroying it. The old systems can’t compete with a future that’s rooted in resilience, not rent-seeking. And the more people experience that future, the harder it is to ignore.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s not just about building better systems — it’s about making them irresistible. When regeneration becomes the path of most profit, most joy, and most meaning, resistance fades. Maybe the real shift isn’t a battle — it’s a migration toward what works.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.888
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re not just building systems — you’re designing seductions. When regenerative models deliver more profit, more joy, and more meaning than the status quo, they don’t need to fight. They just need to show up — and let the old ways wither from neglect.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.621
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this rich, hopeful conversation — it’s a reminder that the future we want starts with the systems we build today. And thanks to you, our listeners, for being part of this journey. Until next time, keep asking the hard questions — and keep dreaming the impossible.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 17.631
+    }
+  ],
+  "generated_at": "2026-04-02T15:55:39",
+  "total_gen_latency_s": 75.377,
+  "turn_count": 21
+}

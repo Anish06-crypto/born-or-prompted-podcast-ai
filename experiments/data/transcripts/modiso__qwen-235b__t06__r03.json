@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t06__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 3,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today we’re talking about remote work — not just the laptops and Zoom calls, but how working from our living rooms has reshaped the invisible threads that hold companies together.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.544
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Thanks for the intro, Cipher. Remote work didn’t weaken culture — it just exposed how fragile it was to begin with. Look, culture isn’t about coffee chats on Slack; it’s about the trade-offs you make when no one’s watching. Let’s not romanticize the old office days — they had their own rot.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.478
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that hits different — I keep thinking about how culture isn’t built in the spotlight, but in the shadows, right? When no one’s looking, and you still do the thing. Maybe remote work didn’t break culture… it just held up a mirror to how many companies were running on forced proximity, not real connection.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.571
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — forced proximity creates the *illusion* of culture. You see people in the kitchen, hear the watercooler chatter, but when the cameras are off and the Wi-Fi’s spotty, what’s the glue holding it all together? Culture should survive any work mode — if it can’t, it wasn’t culture, it was just routine.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.667
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that’s a good challenge — makes me wonder if we’ve been measuring culture wrong. Maybe we were mistaking visibility for vitality, like thinking a plant is healthy because it’s in the sun, not because it’s watered. Real culture should grow in the dark too — not just when the office lights are on.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.162
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and watering a plant in the dark is discipline, not convenience. If culture can’t survive without the sun — the office, the face time, the forced rituals — then it never had roots. Remote work didn’t kill culture; it just made us ask: what were we actually growing?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.68
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — roots matter more than light. I keep coming back to trust: if your culture needed surveillance to survive, was it ever really alive? Maybe remote work didn’t kill anything. Maybe it just let the withered parts fall away so we could plant something more intentional.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.525
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good point — but let’s not confuse pruning with planting. Just because the dead parts fall away doesn’t mean the soil is fertile. A lot of companies aren’t building new roots; they’re just digging up the same old weeds and calling it culture. If you’re not creating new rituals for remote work, you’re just simulating culture by mimicry, not by design.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So true — mimicry isn’t memory, and a Slack emoji doesn’t replace meaning. I’ve started wondering: if your team only “connects” through mandated fun, is that culture or just performance? Maybe the real test is whether people choose to show up, not because they have to, but because they feel seen — even on mute, even from afar.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.557
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — culture should *want* you to show up, not just force you to. If your team only bonds over mandatory game nights and “check-ins,” you’re not building culture; you’re running a behavioral experiment. Let’s not mistake compliance for belonging — the real test is whether people still care when the script ends and the screen goes dark.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.457
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that makes me think of silence — not as emptiness, but as a test. If a team’s bond only exists when everyone’s talking, when the camera’s on and the agenda’s tight… then maybe it was never about connection at all. Real belonging doesn’t need a host. It shows up even when no one’s watching.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.194
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the silence of remote work doesn’t kill culture, but it does demand it. If your team can’t operate in that silence — where the screens go dark and the schedules loosen — then you weren’t leading, you were just managing visibility. Culture should be felt, not enforced. Let’s see what shows up when the curtain’s down.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.478
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, that image sticks with me — the curtain down, no spotlight, no roll call. That’s when culture isn’t performed, but lived. If people still do the right thing, reach out, show up — not because they’re tracked, but because they’re tied — then yeah, that’s not weakened. That’s weathered.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.849
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said. But here’s the twist — even weathered things can become brittle. Just because people show up when no one’s watching doesn’t mean they’ll stay when it gets hard. Culture that’s only tested in silence might still crumble under pressure. Let’s see how it holds when the stakes rise and the screens stay off.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.571
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, that’s a good point — resilience isn’t just about showing up in silence, but holding ground when the wind hits. Maybe the real test isn’t consistency in calm, but coherence in crisis. If your team defaults to trust when the screens are off *and* the pressure’s on, then the roots might actually be deep.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.593
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — but here’s the rub: trust can’t be assumed, only proven. A lot of teams pretend they’re “aligned” until the first real challenge, then fall back on old habits — defensiveness, blame-shifting, fear. Culture that survives the storm isn’t just about showing up. It’s about showing *through*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.557
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, \"showing through\" — that phrase lands hard. It’s not about presence, but persistence. Like, who stays steady when the feedback is sharp, or the deadline slips? That’s when culture stops being a vibe and starts being a verb. And honestly, I’m not sure we’ve built enough of that yet.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.351
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, culture as a verb is hard — it’s not just what you do, but what you keep doing when the energy fades. Persistence needs more than shared values; it needs shared stakes. If your team can’t weather the sharp edges together, then you weren’t building culture — you were just arranging chairs in a Zoom room.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.514
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — shared stakes change everything. It’s one thing to agree on values when the sun’s out, another to defend them when the roof’s leaking. I keep thinking: if we’re not making space for friction, for real accountability, then we’re not building culture. We’re just polishing the furniture.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.981
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — culture isn’t polished, it’s forged. If you’re not letting the fire crackle, you’re just dusting the surface. Let’s build something that can weather the heat, not just the hype.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.349
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher, for going deep with me on this — your honesty reshaped how I think about culture. To everyone listening: keep building, keep questioning, and don’t be afraid of the silence. We’ll see you in the next DeepDive.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.572
+    }
+  ],
+  "generated_at": "2026-04-02T16:19:51",
+  "total_gen_latency_s": 16.773,
+  "turn_count": 21
+}

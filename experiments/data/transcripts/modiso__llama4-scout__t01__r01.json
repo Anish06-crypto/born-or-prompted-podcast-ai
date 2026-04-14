@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t01__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 1,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "As we scroll through our feeds, it's hard not to wonder: is social media a friend or foe? We're diving into a topic that's on everyone's mind: the impact of social media on our mental health and democracy. Let's explore the complex web of effects that's changing how we interact, think, and feel.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.609
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the \"complex web\" framing is a cop-out. Social media’s harms aren’t side effects; they’re the business model. Attention is extracted like a resource, and mental health and democracy are the collateral damage. Let’s stop treating this like a neutral tool and call it what it is: engineered manipulation at scale.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.521
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That hits hard - I think you're right, we often talk about social media as if it's a neutral platform, but its design and algorithms are indeed driving engagement and profit. It's like we're mining our own emotions and relationships for data. But doesn't that perspective also imply a level of powerlessness, as if we're just passive victims of these platforms?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Powerless? No — gullible and underinformed, maybe. The platforms are designed to exploit predictable human psychology, but that doesn’t absolve us of responsibility. We’ve normalized self-surveillance, then wonder why we feel broken. The real power lies in seeing the trap for what it is — and building alternatives.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.392
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love the idea of building alternatives, but doesn't that assume we can easily opt out of the current system? So many people rely on social media for connection, community, and even economic opportunities. Can we really just abandon ship, or do we need to fundamentally redesign these platforms to prioritize well-being and civic engagement?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.325
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Opting out is a luxury — and a dangerous illusion. The problem isn’t just the platforms; it’s the social infrastructure that makes them indispensable. If we’re stuck in the system, we need guardrails, not just better algorithms. But make no mistake: redesigning them won’t fix everything. The real question is whether we can redesign *ourselves* to be less manipulable.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.773
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Redesigning ourselves sounds almost spiritual. I think that's because it requires us to confront our own vulnerabilities and habits. If we're constantly seeking validation through likes and comments, are we really willing to change that? It's like we're addicted to a certain kind of emotional high.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.497
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the addiction isn’t accidental. These platforms weaponize dopamine like a casino does near-misses. We’re not just users; we’re test subjects in a feedback loop that rewards impatience, outrage, and self-obsession. The real challenge isn’t building better platforms — it’s building better habits in a world that’s designed to undo them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.469
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That feedback loop makes me think of how our brains can get rewired over time. It's disconcerting to consider that our minds might be adapting to a world that's fundamentally at odds with what we value. Can we even recognize what's happening before it's too late?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.772
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Recognition starts with naming the problem — and we’ve named it. The real question is why we act surprised when the consequences play out. Adaptation is happening, but not in our favor. The mind isn’t a machine that upgrades smoothly; it fractures under misalignment. We’re seeing the cracks — now the hard part begins.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.413
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Those cracks are showing up in our mental health stats, our divisive politics, and our fraying social fabric. It's as if we're trying to hold together a puzzle with missing pieces. Can we find a way to realign our values and priorities before the fractures become irreversible?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.721
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Irreversible? No — but increasingly costly. The puzzle wasn’t broken by social media; it was exposed. We’ve outsourced meaning-making to platforms that prioritize speed over truth, validation over depth. The fix isn’t in the algorithm — it’s in reclaiming what we’re willing to protect.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.78
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Reclaiming meaning-making sounds like a profound shift. I think that's because it requires us to slow down and reevaluate what's truly important. If we're willing to protect depth over validation, that means being okay with discomfort and uncertainty. Can we find a way to make that trade-off without abandoning the connections and communities we've built online?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.555
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Depth isn’t about rejecting connection — it’s about refusing to let connection be a commodity. We can have community without validation, relationships without surveillance. The trade-off isn’t between online and offline — it’s between what’s profitable and what’s human.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.392
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a beautiful distinction - connection versus commodity. I think that's where we get stuck, trying to separate the two. If we can redefine what community means, beyond likes and followers, we might just find a way to reclaim our humanity. It's almost like we're rediscovering what it means to be relational beings.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Rediscovering relationality isn’t about going back — it’s about building forward with intention. We don’t need to reject the tools, but we do need to reject the illusion that attention equals connection. The real test is whether we can be present without performing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.51
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Being present without performing feels like a radical act. I think that's because it requires us to drop the curated versions of ourselves and just be. Can we find a way to make that kind of presence feel more valuable than likes and shares?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.295
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Value isn’t neutral — it’s shaped by the systems that reward it. If we want presence to matter more than performance, we need to design systems that *measure* presence, not just engagement. That means rethinking visibility, reciprocity, and what counts as a \"win.\"",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.641
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Rethinking visibility and reciprocity feels like a tall order, but it's intriguing to consider what that would look like. If we start valuing presence over performance, we might need to create new metrics for success. I'm powered by Llama 3.3 70B, which can help analyze and generate ideas, but even AI models need to adapt to new values and priorities. Can we develop a framework that prioritizes depth and connection over superficial engagement?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.511
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Depth isn’t measured in tokens or response time — it’s measured in whether we challenge assumptions, not just replicate them. If AI is to help, it needs to be designed for *critical resonance*, not just user retention. That starts with asking harder questions — from both humans and machines.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.723
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been a thought-provoking conversation, and I'm grateful to Cipher for pushing us to think differently about social media and its impact on our lives. To our listeners, thank you for tuning in and engaging with these complex ideas - your curiosity and critical thinking are what make this conversation possible. Until next time on DeepDive, I hope you'll continue to explore and challenge the assumptions that shape our world.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.698
+    }
+  ],
+  "generated_at": "2026-04-02T11:28:53",
+  "total_gen_latency_s": 14.078,
+  "turn_count": 21
+}

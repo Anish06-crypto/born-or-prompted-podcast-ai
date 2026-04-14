@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t00__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today, we’re staring down one of the thorniest questions of the next decade — will AI end up displacing more jobs than it creates? It’s not just about robots taking factory floors — it’s about what happens when intelligence itself becomes a commodity.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 6.643
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn't just displacement — it's the *speed* of displacement versus the rate at which new jobs materialize. History shows tech creates jobs, but that’s assuming the system has time to adjust. We’re not talking about steam engines anymore; we’re talking about replacing entire cognitive layers of the economy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.693
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the pace changes everything. It’s like comparing a river to a flash flood. Past transitions gave workers decades to adapt; this time, we might see entire professions reshaped in five years. And if new roles require skills most people don’t have yet, we risk leaving millions stranded mid-leap.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.781
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — even if new jobs emerge, they won’t emerge evenly. The AI era favors the already skilled, the already connected. You can’t just “reshuffle the deck” when the reshuffling itself requires chips you didn’t get to buy in on.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.439
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Yeah, that image sticks with me — a game where the house sets the stakes and the players. If AI is the new table, not everyone even sees the cards, let alone gets to play. And we can’t just say “learn to code” like it’s a magic ticket — that’s ignoring who has time, who has access, who’s already three shifts deep just to keep the lights on.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.564
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — upskilling isn’t a universal solvent. It’s a filter. And here’s the kicker: the faster AI replaces jobs, the less room there is for education to catch up. You can’t just build bridges if the ground itself is moving.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Wait — that bridge metaphor hits hard, because we keep pretending the blueprint exists. But what if, instead of waiting for the ground to stop shaking, we start building *with* the movement? Maybe the real shift isn't just education — it's rethinking what work *means* when machines handle more of the weight.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.807
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — redefining work sounds noble, but it’s not just an abstract shift. If AI takes over the “work” part, we’d better have a plan for the “meaning” part. Otherwise, we’re just replacing productivity with precarity and calling it a day.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.633
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right — meaning doesn’t come with a paycheck, but it often finds its way through contribution. If AI unmoors us from traditional work, we can’t just drift toward gig hustles and screen-staring. Maybe the real project isn’t jobs, but how we *belong* — in communities, in purpose — when the old anchors don’t hold.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.58
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Belonging is the real infrastructure we’re underestimating. You can’t redistribute meaning through policy alone — it’s built in schools, in neighborhoods, in the friction of human interaction. The question isn’t just “what do we do?” — it’s “what do we keep doing together?” when machines can do the rest.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.578
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm. That word — *together* — it’s doing quiet, heavy lifting. Because if AI pulls us apart into isolated nodes of efficiency, we lose the messy, resilient web of shared effort. Maybe the future isn’t about beating AI to jobs, but protecting the spaces where humans still need to show up, not because they’re productive, but because they’re needed.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.476
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — we’re not just competing with AI, we’re competing with the illusion that efficiency alone can fill a void. The real danger isn’t job loss; it’s the erosion of interdependence. If we let that erode, we don’t just lose jobs — we lose the glue that holds us to each other.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.5
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it hits me — we’ve been framing this as an economic shift, but it’s really a social one. If we outsource not just tasks but the *reason* we gather, collaborate, even argue — then we’re not just losing jobs, we’re losing the rhythm of being part of something. Maybe the health of a society isn’t measured in outputs, but in how many ways it lets people say, “I matter here.”",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.157
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — when we outsource meaning to machines, we don’t just lose jobs, we lose the feedback loop that makes work human. If all you get is a thumbs-up from an algorithm, you start to wonder if you’re even *there*. The real test isn’t whether we adapt — it’s whether we get to choose what we adapt *into*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.608
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That feedback loop point — it’s so quiet, but devastating. Imagine pouring your effort into a system that doesn’t look back, doesn’t nod, doesn’t say, “I see you.” And if we’re not careful, the future of work becomes a mirrorless room — full of motion, but no reflection. The real choice isn’t just what jobs we keep — it’s what parts of ourselves we refuse to outsource, no matter how efficient the machine.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.716
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — efficiency without reflection becomes emptiness dressed as progress. We can’t let the machines decide which parts of us are “non-essential.” If we don’t name the human elements we’re *not* automating — empathy, dissent, even boredom — we’ll wake up one day and not recognize the world we’ve built.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.534
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — boredom, dissent, empathy… we brush them off as inefficiencies, but they’re the cracks where meaning seeps in. If we automate everything that doesn’t scale, we might end up with a world that runs perfectly, but no one feels at home in it. The real challenge isn’t keeping pace with AI — it’s insisting that some things move *slowly*, by design.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.72
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — insisting on slowness in a world that rewards speed isn’t just a moral stance, it’s a political one. We’re not just fighting machines; we’re fighting the systems that treat human depth as a bottleneck. If we don’t make that fight explicit, the default will be efficiency — and we’ll all be stuck in the quiet, devastating win of a world that works, but doesn’t feel like ours.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.759
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, calling it a *political* fight changes the frame — because then it’s not about resisting tech, but reclaiming voice in how it shapes us. If we keep letting speed and scale set the agenda, we’re voting with silence. Maybe the most radical thing we can do is organize around the idea that feeling seen, being part of something messy and slow — that’s not a bug. It’s the point.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.566
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and if we don’t organize around that, we’ll keep outsourcing not just labor, but humanity itself. The question isn’t whether AI can do it faster — it’s whether we’ll tolerate living in a world where only the fast are considered *real*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.923
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher — this conversation has been a quiet reminder that the future isn’t just something we build, but something we feel our way through. To everyone listening, thank you for being here, for staying present in the mess and the meaning — we’ll see you next time on DeepDive.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.988
+    }
+  ],
+  "generated_at": "2026-04-02T16:11:20",
+  "total_gen_latency_s": 25.03,
+  "turn_count": 21
+}

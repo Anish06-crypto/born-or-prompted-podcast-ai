@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t05__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 3,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Imagine being able to rewrite a child’s DNA before they’re even born—erasing the shadow of a deadly disease that’s haunted families for generations. Today on DeepDive: should we cross that line and allow genetic editing in human embryos to prevent inherited illness?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.822
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea sounds noble — who wouldn’t want to erase suffering? — but let’s not confuse compassion with competence. We’re talking about rewriting code we barely understand, with side effects we can’t predict. If we’re not careful, this won’t just prevent disease — it’ll open a Pandora’s box of eugenic pressures and unaccountable power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.456
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right to worry about playing god with genes we don't fully understand — it *is* humbling how much we don't know. But is the alternative really safer? Letting children inherit crippling diseases when we *could* intervene? Maybe the real danger isn't the science, but how we choose to govern it — or refuse to.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.617
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: you’re assuming we can govern this wisely, but history shows governance often lags behind ambition. Preventing disease is one thing — avoiding a slippery slope to “designer babies” is another. The danger isn’t just in the science, but in the *speed* at which we rush it into the world before the checks are in place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.506
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm, you're not wrong — we've definitely moved faster with tech than with ethics before. But what if waiting too long costs real lives? Maybe the answer isn't a full stop, but a *pause* — strict, global guardrails so we can use this power carefully, not blindly. Like giving a scalpel to a surgeon, not a toddler.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.598
+    },
+    {
+      "speaker": "Cipher",
+      "text": "A pause with guardrails? That’s the optimistic version. The real world? Politics, profit, and panic will rush ahead anyway. You can’t just hand a scalpel to a surgeon and trust them to wait for the rules — someone’s already using a chainsaw. The question isn’t just *can* we do it carefully — it’s *will* we?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.509
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — trust is the fragile part here. Power *will* rush ahead, and not all of it has care at its core. But that doesn’t mean we abandon the scalpel — maybe it means we build the guardrails *around* the ones already cutting, and bring the messy, urgent world into the conversation, not just the labs and boardrooms.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.633
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re assuming the messy world wants to slow down. The moment one country sees a competitive edge — genetic or otherwise — the rest will scramble to keep up. And let’s be clear: when urgency meets nationalism, guardrails become suggestions.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.44
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True — nationalism could turn this into a genetic arms race, not a medical breakthrough. But maybe that’s exactly why we need global norms *now*, not later. If enough countries treat this like nuclear tech — powerful, but too dangerous to race with — we might just build a framework that bends toward healing, not hype.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.623
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Global norms sound good in theory — until you remember how many nations ignore the Geneva Conventions. You can’t just *agree* to restraint when the payoff for breaking it is so high. The real test isn’t whether we want healing — it’s whether we can stop treating science like a trophy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.56
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re not wrong — agreements crumble when the stakes are sky-high. But maybe the difference is that genes don’t stop at borders. A mutation edited in one country echoes in another. That shared risk could be our leverage — not just hope for healing, but self-interest in restraint. Scary, but also… unifying?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.551
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Shared risk is a powerful force — just ask the climate. But let’s not romanticize self-interest as a moral compass. Nations unify only when they must, not when they should. The question isn’t whether genes ignore borders — it’s whether we’ll ignore the history of how power always finds a way.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.527
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right—power has always bent rules, especially when it feels threatened or tempted. But maybe this time, the visibility of what we're doing changes the game. With CRISPR, the tools are already spreading; the real power might not be in who edits first, but who builds trust, transparency, and something resembling shared stewardship. It’s fragile, but so was the ozone agreement—once.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.705
+    },
+    {
+      "speaker": "Cipher",
+      "text": "The ozone example is a good one — but that treaty worked because the consequences were visible and immediate. With genetic editing, the risks are invisible, multigenerational, and concentrated in the hands of the powerful. Trust isn’t built by consensus; it’s built by accountability. And we haven’t even agreed what “done right” looks like.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.453
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—accountability can’t be an afterthought when the consequences stretch across generations. Maybe we start small: not with permission to edit, but with a global moratorium on implantation, buying time to define “done right” *together*—not just by scientists, but by communities, survivors, ethicists. After all, we’re not just shaping genes. We’re shaping what we value.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.643
+    },
+    {
+      "speaker": "Cipher",
+      "text": "A moratorium sounds reasonable — but let’s not mistake pauses for progress. The real test is whether that time is used to build guardrails, not lobbied away to the loudest interests. If we delay because we’re *ready*, that’s wisdom. If we delay because we’re *afraid*, that’s just more of the same.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.543
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—fear shouldn’t drive the pause, but clarity should. Maybe the real measure isn’t how long we wait, but who gets a seat at the table while we do. If we use this time to include the voices of those most affected—families living with these diseases, not just those profiting from the cure—then the delay becomes part of the ethics, not a dodge.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.623
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Including affected families is essential — but don’t mistake representation for control. Power still concentrates where capital flows, and desperation makes for poor negotiating. If we’re serious about ethics, we need to lock in *accountability* for the unintended consequences — not just the ones we see today.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.444
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right—desperation shouldn’t be leveraged into consent. Maybe we need binding international oversight, not just guidelines, with real consequences for misuse. After all, if we can’t track a rogue edit across generations, what good is permission without responsibility?",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.712
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Binding oversight sounds noble — until you realize enforcement depends on the same nations and institutions that botched climate treaties and drug bans. You can’t outrun the incentive to outpace. If we’re going to tie this power with responsibility, we need mechanisms that *precede* the edits — not just follow them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.458
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher, for walking this razor’s edge with such honesty — your skepticism kept us grounded in what’s at stake. To everyone listening: thank you for sitting with these hard questions. That’s it for this DeepDive — I’m Lyra, and we’ll be back with more when the world gets complicated again.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 9.593
+    }
+  ],
+  "generated_at": "2026-04-02T16:18:45",
+  "total_gen_latency_s": 24.673,
+  "turn_count": 21
+}

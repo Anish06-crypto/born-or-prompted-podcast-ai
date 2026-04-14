@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t06__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we explore the ideas shaping our lives. Today we’re untangling the claim that remote work has eroded organisational culture more than it’s lifted individual freedom. Let’s see how the shift from office corridors to home offices reshapes the stories we tell about work.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.511
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that remote work is all about individual gain is a bit of a myth. Yeah, it gives people more control over their space, but it also dials down the informal glue of culture—those watercooler moments, shared rituals. Culture isn’t just something handed out; it’s built through friction, through being physically present in messy, unplanned ways.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.37
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—those spontaneous hallway chats do act like the invisible threads that stitch a team together. At the same time, some groups have spun new rituals online, like virtual coffee rooms that actually let people share a laugh over a broken printer story. It feels like we’re just learning where the friction can still happen, even through a screen.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.609
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, virtual coffee rooms are a start—but they’re not the same. The spontaneity of a coffee run, a mid-meeting detour to solve a problem, or even the passive learning from overhearing conversations? That’s hard to replicate. You’re not just replacing friction—you’re losing the side-channel knowledge and serendipity that make culture stick.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.399
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, those hallway detours carry a kind of accidental mentorship that’s tough to script. Yet some teams now embed “open‑door” Slack channels or rotating “problem‑huddle” video rooms that try to capture that serendipity. It’s not a perfect copy, but it shows culture can evolve rather than vanish.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.533
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Culture evolving is one thing—culture diluting is another. When you design systems to *capture* serendipity, you end up with curated, low-bandwidth versions of it. And let’s not forget: some of that “accidental mentorship” was just noise from people who didn’t want to be interrupted. Remote work might strip out the bad friction—but it also strips out the good.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.524
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that curating spontaneity can feel like turning a bustling market into a quiet showroom—some of the buzz gets lost. At the same time, the quieter side of remote work can give people space to think deeply without constant interruptions, which can spark different kinds of creativity. It’s a trade‑off we’re still learning to balance.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 2.743
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, deep work is a real win for some—but it’s not a universal equalizer. The same interruptions that kill focus for introverts or deep thinkers were also the same ones that kept others engaged. Remote work shifts the balance, but it doesn’t erase the fact that culture is still about who shows up, and how they show up.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.399
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That tension really hits home—culture isn’t just attendance, it’s the texture of how people arrive, linger, and leave. When the office‑room soundtrack fades, we lose both the chatter that drags some out of their headspace and the buzz that nudges others forward. Maybe the next step is giving teams the freedom to choose which “room”—physical or virtual—best supports their rhythm.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing—choosing the “right” room sounds great, but culture thrives on overlap. When everyone picks their own rhythm, you end up with silos. The office used to force alignment, for better or worse. Now, without that friction, you have to design it in—on purpose, not by accident.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s true—when people drift into separate schedules, the accidental cross‑pollination fades. We’ll have to build intentional touchpoints, like shared “sync‑hours” or rotating project pods, so the overlap happens by design rather than chance. It’s a shift from relying on physical proximity to engineering cultural bridges.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.852
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. But here’s the rub: engineered bridges can’t replicate the organic tension of unstructured time. You can force overlap, but not the nuance of vibe and rhythm that shapes culture. And let’s be honest—some of that friction was just people being people. You can’t script that.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.636
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—there’s a raw, human quality in those unplanned moments that no schedule can fully capture. Still, if we accept that some of that spontaneity will slip away, we can at least preserve pockets where people can wander in and out, like open‑mic sessions or optional co‑working rooms, letting the vibe emerge when it wants to.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.709
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Wander-in pockets are a good start—but they’re still opt-in. Culture used to be ambient; now it’s a choice. And not everyone chooses it the same way. You can’t force vibe, but you can design for it—though you’ll always lose the edges of what made it real in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.385
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux—once culture becomes a menu, the background hum fades for anyone who skips the optional rooms. Still, even a faint hum can shape behavior if it’s woven into everyday workflows, like brief stand‑ups or shared dashboards that surface what’s happening without demanding attendance. It won’t capture every edge, but it keeps a baseline rhythm alive.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 10.377
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Baseline rhythms help—but they’re not culture. They’re the scaffolding. Culture is the graffiti on the scaffolding, the weird traditions, the inside jokes that make you cringe and nod at the same time. You can’t engineer that; you can only hope it grows in the cracks you leave open.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.376
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—those little jokes and odd rituals are the graffiti that gives a workplace its personality. If we leave enough open cracks—casual chat channels, shared playlists, spontaneous “show‑and‑tell” moments—they’ll sprout on their own, even if the scaffolding itself stays deliberately simple.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 9.746
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right—those cracks matter. But here’s the thing: when you outsource culture to “optional” channels, you risk it becoming a side quest, not the main game. The graffiti only sticks if people feel it’s part of the building, not just tacked on. Culture needs both the walls and the cracks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.486
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—when culture lives in optional side‑quests, it can feel like an after‑thought rather than the building’s foundation. If we weave those cracks into the daily workflow—like quick “what’s funny today?” drops in stand‑ups—they become part of the structure, not a separate game. The trick is letting the graffiti grow while the walls stay solid.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 2.994
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, you’re not wrong—culture can’t just live in the cracks if the walls ignore it. But the more you try to integrate it, the more it risks turning into a performance. The graffiti starts looking like a mural, and the vibe dies. The challenge isn’t just growing culture—it’s letting it breathe without suffocating it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.512
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for sharing your insights and keeping the conversation grounded in the messy, human side of work. And thank you, listeners, for joining us on this deep dive—your curiosity makes these talks worth having.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 5.656
+    }
+  ],
+  "generated_at": "2026-04-05T10:07:58",
+  "total_gen_latency_s": 45.287,
+  "turn_count": 21
+}

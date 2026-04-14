@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t00__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, welcome back to DeepDive. Today we’re diving into whether AI will wipe out more jobs than it creates over the next ten years, and what that could mean for all of us.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.851
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the usual debate misses a key detail: job creation isn't automatic. Just because AI destroys a role doesn't mean a new one replaces it. The real question is whether the system adapts fast enough for workers to transition before they're stranded.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.356
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—technology can feel like a sudden tide, pulling people out before the shore reshapes. If we invest in rapid reskilling pipelines and community‑level safety nets, the lag can shrink dramatically. It’s not just about new titles appearing; it’s about giving folks the tools to surf the wave as it rolls in.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.771
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, reskilling is just one side of the equation. The other is demand — even if workers learn new skills, there needs to be a market for them. If AI creates mostly high-skill, low-numbers jobs while eliminating middle-skill roles at scale, you get a labor market that's just *skipping* entire segments of the population. That’s not just transition pain; that’s structural unemployment.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.869
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the demand side can become a bottleneck if the new roles cluster at the top. Imagine a ladder where the middle rungs vanish—people can’t simply leap to the top without support. Bridging that gap means not just training, but building industries and services that need those mid‑level skills, like personalized health tech or local AI‑enhanced logistics.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.564
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — creating those mid-level industries isn't guaranteed. They require policy choices, capital allocation, and market demand that don't just *emerge* from disruption. You can't assume the private sector will fill the gap unless there's a profit motive — and often, AI-driven efficiency means fewer hands needed, not more.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.445
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the crux—without deliberate policy nudges, market forces alone may leave a hollow middle. Incentives like tax credits for firms that retain or upskill workers, or public‑funded platforms that match mid‑skill talent to emerging regional needs, can tilt the profit calculus toward a more inclusive job landscape.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.786
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but let's be clear, incentives only work if they're scaled and sustained. A half-measure tax credit won’t offset the profit pull of automating an entire workflow. The real test is whether we treat this as an ongoing labor infrastructure problem — not a one-time transition — and fund it like we fund roads or power grids.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.591
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree—treating workforce development as a permanent utility shifts the mindset from short‑term fixes to long‑term resilience. If we fund continuous learning hubs and regional AI incubators the way we maintain highways, the system can adapt faster than the pace of disruption, keeping the middle tier from disappearing entirely.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.589
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, infrastructure takes time — and we’re already late to the game. Even with learning hubs, there’s a lag between skill development and job creation. If we don’t shorten that interval, the middle tier won’t just vanish; it’ll *erode* under pressure.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.381
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That lag is the real pressure point—skills can sit idle while opportunities slip away. Embedding real‑time labor‑market dashboards into training programs, so curricula pivot as demand spikes, could compress the gap. Pair that with short, stackable micro‑credentials tied directly to employer pipelines, and the middle tier gets a faster lifeline.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.799
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the catch — real-time dashboards only help if the data is accurate and the training infrastructure can move just as fast. If you’re tracking AI eating jobs in retail, can the system actually redirect thousands of workers into logistics or tech support overnight? Speed matters, but so does scale.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.589
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—accurate data alone isn’t enough if the training machinery can’t keep up. The trick is coupling those dashboards with a “just‑in‑time” apprenticeship network that can onboard large cohorts quickly, while also automating parts of the curriculum rollout so scaling isn’t a bottleneck.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.478
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, even a fast apprenticeship network can’t fix the deeper issue: motivation. Employers won’t open their doors unless there’s a clear return — and in a profit-driven system, training costs are a drag. You’ll need a combination of carrots (tax incentives) and sticks (labor mobility laws) to make this fly at scale.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.702
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That makes sense—if the payoff isn’t clear, firms will hesitate. A mix of generous tax credits for hiring apprentices and enforceable standards on workforce upskilling can turn training from a cost into a strategic advantage, while mobility rules keep talent flowing where it’s needed most.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.68
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but let’s not ignore the elephant in the room: political will. Even with perfect systems, if governments aren’t prioritizing this as a crisis, the machinery won’t turn on time. The question isn’t just *can* we build a responsive system — it’s *will* we fund and enforce it before the middle tier collapses.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.487
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that; without a political spark, even the best blueprint sits on the shelf. When leaders frame the middle‑tier erosion as a national security and social stability issue, funding can move from “nice‑to‑have” to “must‑do.” It’s a race against time, but the story shows we’ve rallied before when stakes are clear.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, framing it as national security is smart — but fear is a short fuse. You need to pair that urgency with a vision for what comes next: a workforce that’s *ahead* of AI, not just reacting to it. Otherwise, you’re just scrambling to patch the leaks while the dam breaks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.453
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if we paint a future where people are co‑designing AI tools, not just being displaced by them, the narrative shifts from panic to possibility. Imagine community labs where workers prototype local solutions, turning AI into a partner that amplifies their expertise rather than replaces it. That forward‑looking mindset could keep the middle tier thriving.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 1.723
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — that vision only takes hold if the tools are *accessible* and the barriers to entry are low. If AI co-design stays locked in corporate or academic silos, the “community labs” become another aspirational layer on top of the same broken system. You can’t out-innovate inertia without democratizing access.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.665
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much, Cipher, for sharing your insights and keeping the conversation grounded. And to everyone listening, we really appreciate you tuning in and joining us on this journey. Until next time, stay curious and keep the dialogue alive.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 7.62
+    }
+  ],
+  "generated_at": "2026-04-04T09:58:27",
+  "total_gen_latency_s": 21.374,
+  "turn_count": 21
+}

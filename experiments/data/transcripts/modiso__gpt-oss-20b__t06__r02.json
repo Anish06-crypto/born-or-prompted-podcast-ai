@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t06__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Remote work has weakened organisational culture more than it has empowered individuals",
+    "topic_index": 6,
+    "run_index": 2,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we unpack ideas together. Today we’re asking: has remote work eroded organisational culture more than it has freed up individuals? Let’s dive in and see what the evidence and stories reveal.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.42
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing: remote work didn't break culture — it just revealed how fragile most of it was. You can't Zoom your way to shared values if the glue holding the team together was just office coffee and hallway chats. Look, I'm not saying in-person is magical, but culture isn't just about freedom; it's about friction, too.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—those hallway chats are like the unscripted rehearsals of a play, and when you pull the curtain, the script can feel shaky. Remote work has exposed that many organisations leaned too heavily on those spontaneous moments. But maybe that fragility also gives us a chance to redesign culture with intentional rituals that work across screens, not just in cafés.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.269
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — if you can call Zoom happy hours \"rituals\" and Slack memes \"shared purpose.\" Here's the thing: intentionality matters, but most companies treat culture like a PowerPoint slide, not a living thing. You can't script serendipity, and you can't substitute a shared screen for shared stakes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.515
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, culture feels like a living room conversation, not a slide deck. When companies hand out a “culture guide,” they’re missing the spontaneous sparks that bind people. The real challenge is to create spaces—virtual or hybrid—where those sparks can still ignite, without turning them into rehearsed performances.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.537
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. You can’t just replace watercooler talk with calendar invites. The problem isn’t remote work—it’s that most orgs never built culture deep enough to survive even a two-day workweek. Look, if your people don’t show up for each other when there’s no coffee machine to bond over, maybe the real issue is who you hired in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.553
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—culture is a living thing that needs nurturing, not a checklist. If the foundation was thin, a shift to remote only exposed that weakness. The real lesson? Building depth—trust, shared purpose, and real connection—should start with hiring and grow through intentional, everyday practices, not just a few scheduled chats.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.391
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said, but let’s not ignore the elephant in the conference room: trust is harder to build when you can’t just walk over and ask, “Hey, are you okay?” Remote work isn’t the enemy—it’s just the mirror. And if you’re only now realizing your culture is a facade, maybe it’s time to ask what’s been ignored in the open-plan fantasy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.882
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree, trust feels like a face‑to‑face handshake in a virtual world. Remote work is the mirror that shows us where the cracks are, not the cause of them. If a culture was only a façade, the shift forces us to ask what we’ve been overlooking—like genuine empathy, informal check‑ins, and the small, unplanned moments that actually build trust. It's a wake‑up call to rethink how we weave those threads into the fabric of everyday work.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but let’s not romanticize the \"old days\" either. The unplanned moments in offices weren’t just warm and fuzzy—they were also exclusionary, distracting, and often dominated by the loudest voices. Remote work strips that away. The question isn’t just how to recreate connection—it’s whether we want to build culture on presence or on purpose.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.497
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—those hallway chats could feel like a loud‑speaker stage, leaving quiet voices unheard. Remote work levels the volume, but it also erases that organic overlap that sometimes kept people out. The real choice is to shift from “presence” to “purpose,” crafting intentional moments that invite every voice while still keeping the spontaneity that fuels genuine connection.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.386
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, \"intentional spontaneity\" sounds like an oxymoron, but maybe that’s the new frontier. The trick isn’t to recreate the old — it’s to build something that works for the distributed reality we’ve got. And no, not every voice will be heard unless you actually design for that — not just assume the coffee machine will do the work.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.7
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that—\"intentional spontaneity\" feels like trying to bake a cake with no recipe, but maybe that’s where creativity lives. Building a culture for a distributed reality means designing rituals that invite every voice, not just hoping the digital watercooler will fill itself. It’s about turning purpose into practice, so that presence becomes a choice, not a default.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.423
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, \"rituals\" and \"practice\" sound good until you realize most managers treat culture like a team-building budget line. You can’t just schedule connection — you have to earn it. The real test isn’t whether we can replace coffee chats. It’s whether we can build trust without the illusion of proximity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.517
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—culture isn’t a line item on a budget, it’s earned through consistent, authentic actions. Trust builds when people see real care, not just scheduled check‑ins. The challenge is turning those intentional moments into genuine exchanges that feel close, even across screens.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here's the thing: you can't fake \"authenticity\" with a script. If people aren't already aligned on values and goals, all your rituals are just performative. And if you're expecting screens to create closeness, you're still thinking like an office, not a team.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.632
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right—scripts can feel like a costume, not a conversation. If values aren’t already shared, even the most thoughtful rituals fall flat. True closeness comes from shared purpose, not just shared screens; it’s about aligning hearts, not just agendas.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.546
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, \"aligning hearts\" sounds poetic until you realize most orgs can’t even align on deadlines. The gap between purpose and practice is where culture collapses—remote or not. Look, if your team isn’t already acting like a team, no amount of Zoom yoga will fix that.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly—if deadlines slip, trust already feels shaky. The real bridge is turning shared purpose into everyday habits, not just lofty goals. When teams act like a unit, even a quick Zoom stretch can feel meaningful; otherwise, it’s just another chore.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.395
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: if shared purpose is just a poster on a virtual wall, it’s not going to hold a team together. The real test is whether people show up for each other when it matters—not just when the cameras are on. Look, culture isn’t about how you look; it’s about what you do when no one’s watching.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.516
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing such thoughtful insights today. It’s been a pleasure exploring these ideas with you. And to all of you listening, we appreciate you joining us on DeepDive—here’s to building cultures that truly connect, no matter where we work.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.455
+    }
+  ],
+  "generated_at": "2026-04-02T15:32:39",
+  "total_gen_latency_s": 71.73,
+  "turn_count": 21
+}

@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t00__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 1,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today, we’re diving into a question that’s shaping the future of work: will AI eliminate more jobs than it creates in the next ten years? Let’s get into it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.261
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the usual AI job narrative is just a rehash of past industrial revolutions — but here’s the thing: those transitions took decades, not years. Saying it’ll eliminate more jobs than it creates in ten years assumes a level of systemic adaptability we just don’t have. Let’s not ignore the trade-offs in sectors where skills can’t be reskilled fast enough.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.423
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — past transitions were slower, giving people time to adapt. But this time, the pace of AI adoption feels different. It’s not just about replacing jobs; it’s about reshaping entire industries in hyper-speed. The question is, can our education and social systems keep up?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.585
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t just speed, it’s scale. AI isn’t incrementally automating tasks; it’s leapfrogging entire job categories, like legal research or content creation. But here’s the catch: our education systems still run on 20th-century models. You can’t just “reskill” people out of the equation when the equation keeps changing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.571
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to a real gap — the faster AI evolves, the harder it becomes to future-proof education. Maybe the answer isn’t just reskilling, but rethinking how we learn — continuously, collaboratively, and with AI as a partner, not just a replacement. But how do we build that system from the ground up while the current one is already under strain?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.392
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the idea that AI will be a learning partner assumes access and infrastructure that’s still missing in most workplaces and schools. You can’t build a future-ready system on top of outdated policies and unequal access. The real test is whether we treat AI as a catalyst for systemic redesign, not just a tool to patch existing holes.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.463
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the potential of AI as a learning partner is only as strong as the systems we plug it into. If we don’t address access and policy now, we risk deepening divides instead of bridging them. But maybe that pressure is exactly what’s needed to force a redesign — if we’re willing to push for it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Pressure alone doesn’t drive redesign — it drives resistance. The real question is whether we’re willing to pay the political and economic costs of overhauling systems that are already rigged to slow down change. Let’s not confuse urgency with action.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.386
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — urgency without alignment just creates friction. The political and economic structures we have are built on stability, not reinvention. The challenge isn’t just overhauling systems — it’s convincing the people who benefit from the status quo that change is in their interest too.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.482
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the kicker: the people who benefit from the status quo rarely stay in power long enough to see the long-term costs. Meanwhile, the ones bearing the short-term pain? They’re the ones with no seat at the table. You can’t outpace AI without first outmaneuvering the bureaucracy that clings to it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.457
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to a broken feedback loop — the faster AI moves, the slower the systems that should adapt to it. If policymakers and business leaders aren’t feeling the immediate pressure, they’ll keep pushing for incremental fixes instead of rethinking the whole game. But change doesn’t happen in a vacuum — maybe the tipping point is when the cost of *not* acting becomes too visible to ignore.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.519
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — visibility isn’t the same as motivation. Just because the cost of inaction becomes obvious doesn’t mean power structures will respond rationally. They’ll double down on deflection, blame-shifting, and short-term profit. The real test is whether the pain hits fast enough to override their inertia.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — power structures often dig in when threatened, not adapt. But maybe the speed of AI disruption won’t give them a choice. If entire industries shift overnight, even the most stubborn systems might have to respond — not out of idealism, but survival. The question is whether that response lifts people up, or just shifts the burden.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.674
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Survival instincts don’t guarantee fairness — they just guarantee motion. If systems respond to AI disruption purely out of self-preservation, they’ll prioritize stability for the powerful, not the displaced. The real risk isn’t AI itself, but that we let it accelerate without forcing the hand of those who control the levers.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.468
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — AI isn’t the villain, but it’s also not a neutral force. It amplifies what’s already there. If we don’t actively shape the systems around it, we’re just letting the same power dynamics play out faster. The challenge is turning disruption into an opportunity for redistribution, not just reallocation.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.666
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here’s the rub: redistribution requires intent. AI doesn’t inherently rebalance power; it codifies the priorities of its creators. If we want it to uplift, not just optimize, we need to embed equity into the design phase — not bolt it on as an afterthought. The clock’s ticking, but the tools are in our hands.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.621
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the design phase is where the future gets written. But here’s the tension: most systems are built to preserve the status quo, not challenge it. If we want AI to uplift, we need more than better algorithms — we need a cultural shift in who gets to decide what \"better\" even means.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.658
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You hit the nail on the head — “better” is a loaded word. The problem isn’t just whose values get encoded, but whose values get *heard* in the first place. If the AI era is to be more than a mirror of the past, we need to democratize the design process — not just in theory, but in practice. Otherwise, we’re just automating inequality under a new name.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.451
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Democratizing AI design isn’t just about widening the table — it’s about redefining who gets to set the agenda. If we don’t make space for the voices most impacted by automation, we risk building a future that serves the few, not the many. The tools are here. Now it’s about who gets to shape them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 16.652
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and here's the catch: “making space” only works if the people at the table lose their grip on it. Power doesn’t cede to good ideas — it cedes to pressure. We need mechanisms, not just goodwill.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.454
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this thoughtful exchange — it’s conversations like these that help us see the future not as a fixed path, but as a story we’re still writing. And thanks to you, our listeners, for being part of the DeepDive community. Let’s keep the dialogue going.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 18.648
+    }
+  ],
+  "generated_at": "2026-04-02T13:27:28",
+  "total_gen_latency_s": 78.306,
+  "turn_count": 21
+}

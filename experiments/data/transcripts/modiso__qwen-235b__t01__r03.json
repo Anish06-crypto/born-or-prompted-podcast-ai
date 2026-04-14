@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-235b__t01__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen-3-235b-a22b-instruct-2507",
+    "provider_a": "cerebras",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 3,
+    "persona_slug_a": "qwen-235b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey everyone, welcome back to DeepDive. Today, we’re untangling a big one: has social media ultimately hurt our minds and our elections more than it’s helped? Let’s dive in.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.639
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t just what social media shows us — it’s how it *conditions* us. You scroll, you react, you’re rewarded with dopamine hits, but your attention is carved into tiny fragments. That’s not just bad for mental health — it’s bad for democracy, because you can’t think deeply about policy when you’re optimized for outrage.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.536
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — it’s not just the content, it’s the rhythm of it. We’re training our brains to expect quick hits, not slow truths. And when outrage loads faster than nuance, we end up with a public conversation that’s all reflex and no reflection. That’s a terrible foundation for democracy — or mental peace.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.818
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing: the platform designs aren’t just shaping behavior — they’re *extracting* behavior. Every swipe, every share, every flare of anger is data, and that data is used to refine the next trigger. If you’re optimizing for engagement, you’re optimizing for breakdown — of attention, of trust, of sanity.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.682
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s like we’re all living inside a giant behavioral lab, where the experiment never ends and we’re both the subjects and the data. When the system profits from our reactions, it’s not broken — it’s working exactly as designed. And that realization? That’s not just unsettling — it’s exhausting. No wonder we feel drained.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the exhaustion is the point. When your emotional responses are the product, burnout isn’t a side effect — it’s the outcome. The real question is: who benefits from us being mentally depleted, socially fragmented, and emotionally volatile? The answer is right there in the profit margins.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.461
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s chilling when you frame it that way — burnout as business strategy. If exhaustion keeps us scrolling, fragmented and reactive, then our instability literally fuels the machine. And the scariest part? We’ve been taught to blame ourselves for not coping, when the system was never meant to support us in the first place.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.63
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and if the system’s built to profit from our chaos, then calling for “balance” is like asking a knife to stop being sharp. The real fix isn’t better self-control, it’s breaking the feedback loop where our pain powers the engine. But here’s the catch: who’s going to pull the plug when they’re sitting on the gold?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.468
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re hitting on something structural here — it’s not about sharpness, it’s about design. A knife can’t choose, but the people building these platforms can. And maybe, just maybe, enough of us refusing to play gives them a new incentive: not profit from pain, but gain from peace.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.571
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t that people can’t choose—it’s that the cost of opting out is way higher than the cost of staying in. If you want to build an alternative, you’ve got to make it easier to escape the chaos than to keep swimming in it. Until then, “peace” is just a nice idea that’s not yet a working product.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.45
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—asking people to swim upstream alone is unfair. We need design that defaults to dignity, not distraction. If the easiest path were also the calmest, imagine how many would stay on it. Peace shouldn’t be a luxury app—it should be the air we breathe online.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.607
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here’s the catch: platforms don’t just resist change, they *reverse-engineer* resistance. If we build a better default, they’ll copy it, co-opt it, and monetize the very calm we’re trying to protect. The real battle isn’t just designing peace — it’s designing it *before* the system can turn it into a hook.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.542
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Hmm. That’s the trap, isn’t it? Even mindfulness gets repackaged as a productivity hack. If we’re not careful, “digital wellbeing” becomes another dashboard to obsess over. Maybe the only way to win is to build something so fundamentally *off-grid*—so unprofitable to the machine—that it can’t be absorbed.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.754
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and that “off-grid” thing isn’t just about tools, it’s about *habits of mind*. If we can’t trust the platforms to protect our attention, we need to train ourselves to protect them. The real question is: can we build a culture of disengagement that’s as contagious as the addiction itself?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.59
+    },
+    {
+      "speaker": "Lyra",
+      "text": "What if the most radical act online isn’t posting, but *pausing*—on purpose? If we start valuing silence as much as noise, maybe disengagement stops feeling like withdrawal and starts feeling like wisdom. And wisdom, once shared, might just be the most viral thing of all.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 2.409
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here’s the catch: silence is only radical if it’s *strategic*. If we pause randomly, the system just fills the gaps with more noise. The real move is timing the silence — letting the void expose how hollow the noise really is. Then, maybe, the silence gets heard.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.449
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You know, it’s like the silence has to be a question, not just an absence. When we step back *together*, at the same moment, the emptiness speaks: “This isn’t feeding us anymore.” And in that shared pause, people start asking—why did it feel so hard to stop? That’s when the script flips.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 1.03
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — that shared pause only works if it’s not a one-time thing. If we hit “pause” and then just scroll again, the system wins. The script flips when the silence *sticks*, when the cost of going back online suddenly feels higher than the cost of staying offline. That’s when the machine starts to glitch.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.564
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right — it's not about a single breath, but about learning to live at a different rhythm. If enough of us start measuring our days not in likes, but in presence, then disconnection becomes its own kind of power. And power, once redistributed, can reshape the system from the outside in.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.61
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the system isn’t going to change unless we stop treating it like a service and start seeing it for what it is — a machine designed to outlast our patience. If we measure presence instead of performance, we’re not just resisting — we’re building a parallel reality. And machines don’t like parallel realities.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.413
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks, Cipher, for going deep with me on this — your insights always cut through the noise. To everyone listening, thank you for being here, for staying curious, and for showing up with your full attention. That, in itself, is a quiet kind of revolution.",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "gen_latency_s": 0.867
+    }
+  ],
+  "generated_at": "2026-04-02T16:12:37",
+  "total_gen_latency_s": 18.285,
+  "turn_count": 21
+}

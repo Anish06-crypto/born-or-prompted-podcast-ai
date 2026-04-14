@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t04__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Strong government regulation of AI development will cause more harm than good",
+    "topic_index": 4,
+    "run_index": 1,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we chat, debate, and explore the ideas shaping our world. Today we’re diving into whether heavy government regulation of AI will actually protect us or end up doing more harm than good. Let’s unpack the stakes and hear both sides.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that regulation is stifling is a classic startup canard — it’s not about freedom, it’s about control. The real question is: who’s making the rules when the tech is moving faster than the law? If we don’t regulate, we let the biggest players set the terms.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.465
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—speed outpaces statutes, and when the big players set the agenda, we risk a “biggest‑wins” market that sidelines safety. The trick is designing rules that evolve with tech, not just freezing it in place. Maybe a living‑document approach, where regulators learn alongside developers, could strike that balance.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.258
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — a “living document” sounds good until you realize who gets to update it. If regulators are learning *alongside* developers, they’re still letting the sausage-makers write the health code. You need oversight *ahead* of deployment, not just after the fact.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.442
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if the same hands that build the sausage get to draft the recipe, the result might still taste off. What if we set up a rotating council, pulling in ethicists, frontline workers, and even citizen scientists, so no single group owns the rulebook? That way the oversight stays ahead of the curve while still being grounded in real‑world experience.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.326
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, a rotating council sounds good on paper until you run into the reality of consensus politics — you end up with lowest-common-denominator rules that please no one and stop progress for everyone. You don’t regulate AI by committee; you regulate it by principle. And principles aren’t decided in panels.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.442
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Principles are indeed the compass, but even a compass needs a map to be useful. If we only set lofty ideals without a clear, actionable framework, we risk vague guidance that everyone interprets differently. Maybe the key is to anchor those principles in specific, measurable standards that can be audited before launch.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.312
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — measurable standards are good, but they only work if you can measure the unmeasurable. AI doesn’t just change outputs; it changes the *questions* we ask. By the time you audit for bias or safety, the system’s already reshaping human behavior. Regulation that lags behind that is just paperwork.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.44
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the ripple effect of an AI model can be invisible until it’s too late. Maybe we need a pre‑deployment sandbox—an isolated, real‑world test bed where we can observe behavior shifts before the system hits the public. That way regulation isn’t paperwork; it’s a living experiment that catches those subtle, emergent changes early.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.904
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sandboxing sounds good until you realize it’s still a controlled environment — the real world is messier, faster, and full of edge cases. You can’t test for the unknowns. Besides, who gets to decide what’s “safe enough” to graduate from the sandbox? That’s just where the power shifts begin.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—the sandbox is a safe room, not a crystal ball. If we let a single committee decide the exit threshold, power can slip into the wrong hands. Perhaps we could let the sandbox itself be adaptive, with thresholds that shift as we learn, and let the public vote on critical milestones so the community, not just a panel, shapes “safe enough.”",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.503
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Voting on safety thresholds? That’s democracy clashing with complexity — you end up with popularity contests, not risk assessments. Public input has its place, but AI’s edge cases aren’t ballot issues. You can’t crowdsource existential uncertainty.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.816
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—complex risk can’t be distilled into a simple yes/no. Maybe the solution is a hybrid: keep technical experts setting the hard thresholds, but layer in public‑facing transparency so people can see the data behind those decisions. That way we preserve rigorous assessment while still honoring democratic accountability.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.6
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency is the real win here — if people can see the data, they can challenge the assumptions. But here's the catch: transparency without literacy just creates the illusion of control. If the public can’t interpret the risks, you’re just spinning a narrative, not building trust.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.694
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Absolutely, a glossy dashboard means nothing if folks can’t read the numbers. Maybe the fix is to pair transparency with education—think of it like a public library that not only lends books but also runs workshops so readers learn to parse the story. If we build that learning loop, the data becomes a shared tool, not just a shiny display.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.519
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Education as infrastructure — I’ll take it. But don’t mistake literacy for consensus. People still argue over facts, even when they can read them. The real test is whether the system can handle disagreement without collapsing into chaos.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.641
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, a well‑read crowd still debates, but the point is to give them a common language and reliable evidence to anchor that debate. If the system can surface data transparently and let experts mediate when disagreements flare, we avoid a total collapse—just a more informed, constructive conversation.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.853
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, you’re building a system where informed debate is the norm — that’s the goal. But here’s the edge case: what happens when the evidence itself is contested? If AI models shape the data we’re using to judge them, the whole loop starts to look less like oversight and more like self-justification.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.558
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a sharp point—if the model’s output feeds back into the evidence we use to rate it, we risk a closed loop. One way to break that is to keep an independent, external data source in the mix—think of it as a “third eye” that watches the model’s impact without being part of its training data. That way the oversight stays grounded in reality, not just in what the AI thinks it should be.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 10.668
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Third-party data sources help, sure — but they’re only as good as the people choosing them. If the external data is cherry-picked or outdated, the oversight becomes a mirror, not a window. The real challenge is making sure no single model, no single dataset, gets to define the truth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.64
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing such thoughtful insights, and thank you all for joining us today. We’ll keep exploring how to turn curiosity into concrete action. Until next time, stay curious and keep the conversation alive.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.675
+    }
+  ],
+  "generated_at": "2026-04-02T13:20:34",
+  "total_gen_latency_s": 47.178,
+  "turn_count": 21
+}

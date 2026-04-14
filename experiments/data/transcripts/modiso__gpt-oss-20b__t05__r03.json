@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t05__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, where we unpack ideas that shape our future. Today we’re diving into whether genetic editing in human embryos should be legally allowed to stop hereditary diseases. Let’s explore the science, ethics, and the human stories behind the debate.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.354
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — when we talk about preventing hereditary diseases, we’re not just saving lives; we’re making a choice to redefine what “healthy” means. The science is advancing faster than the ethics, and that’s dangerous. Let’s not get ahead of ourselves.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.34
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—science racing ahead feels like stepping onto a new road without a map. Redefining “healthy” isn’t just a medical shift; it’s a cultural one, and the ethics can lag behind. We need to pause and map out those boundaries before the road becomes permanent.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.257
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, pausing to map boundaries sounds noble, but the real question is who gets to draw those lines. We’re already seeing pressure to normalize editing for non-medical traits — think height, intelligence, even personality. Let’s not pretend the road is neutral.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.483
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—once the tools are out there, the temptation to tweak beyond disease is huge, and the lines can blur quickly. If we let a few powerful voices set the limits, we risk turning genetic editing into a status‑symbol market instead of a public good. The key is building inclusive, transparent governance before the technology spreads.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.293
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — transparency and inclusivity sound great in theory, but who gets a seat at the table matters. If we don’t anchor this in strict, legally enforced limits — not just good intentions — we’ll see a future where genetic access becomes another form of inequality. Let’s not confuse ethical aspiration with regulatory enforcement.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the risk is that without hard limits, the market could decide who gets “enhanced” genes, widening social divides. Regulatory frameworks need to be concrete, enforceable, and built with diverse voices—not just lofty ideals. Only then can we keep the promise of curing disease while guarding against new inequities.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.304
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — even with strict regulations, enforcement is another beast. Bureaucracies are slow, and in countries with weaker oversight, we’ll see black markets for genetic tweaks before the rules catch up. The problem isn’t just the laws we write today, but the systems we trust to uphold them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.585
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—regulations are only as strong as the institutions that enforce them. A patchy global patchwork invites clandestine labs and unequal access. We need to pair law with robust, transparent oversight and international cooperation, otherwise the very tools meant to heal could become a new frontier for disparity.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.375
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, so you’re saying the answer is global governance — but here’s the catch. Global consensus is hard to build, harder to enforce. Even if we agree in principle, national interests, corporate agendas, and regulatory lag will create loopholes. Let’s not mistake global talk for global action.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.469
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that a single global charter feels like a dream. Maybe the realistic path is layered: strong national laws backed by an international watchdog that monitors compliance and shares best practices. That way we can close loopholes as they appear, even if the global consensus takes time to solidify.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.421
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, layered systems work — but only if the watchdog has real teeth. If it’s just a paper tiger, countries will game the rules. The real test is whether we’re willing to make enforcement as strict as the science is powerful. That’s where the rubber meets the road.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.431
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—without real enforcement power, a watchdog is just rhetoric. The challenge is giving that body both authority and accountability, maybe through binding treaties or sanctions that hold states and companies accountable. Only then can the legal framework keep pace with the rapid pace of genomic science.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.671
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — treaties and sanctions are great, but they’re only as strong as the political will behind them. The moment biotech becomes a national advantage, governments will prioritize speed over safety. We can’t outsource ethics to diplomats when the stakes are human genetics.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.503
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear the tension between national pride and global safety—science can feel like a race to the top. If we let governments chase speed, we risk turning the gene‑editing field into a zero‑sum game. Maybe the way forward is to embed safety into the very incentives, so that the fastest path is also the safest.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 5.515
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — aligning incentives is tricky when power and profit are on the line. If safety becomes a competitive edge, maybe we can get there — but only if we strip the secrecy and profit motives out of the equation. Until then, “safe” will just be a label for whoever’s ahead.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.472
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to a core dilemma: when profit and national prestige drive the race, transparency gets buried. If we strip secrecy, the field could become a public commons, but that requires a collective mindset that’s hard to cultivate. The trick might be to design incentives that reward open, shared safety milestones—so the “safe” label reflects real, verifiable standards, not just market position.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.46
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — shared safety milestones sound collaborative, but they’re only as good as the verification process. If we can’t independently verify claims, we’re just creating a new form of trust-based gatekeeping. Let’s make sure the standards are auditable, not just agreed upon.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.438
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, transparency alone isn’t enough; we need independent auditors—think of them as impartial referees—who can objectively test every claim. If those audits are open and reproducible, the “trust” shifts from a political promise to a data‑driven reality. That’s how we turn safety from a slogan into a verifiable safeguard.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.501
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the catch — auditors aren’t neutral. They inherit the biases of the systems they serve. If we’re going to trust auditors, we need to trust *how* they’re chosen and who funds them. Otherwise, we’re just swapping one gatekeeper for another.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.392
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your insights and keeping the conversation grounded. And to all of you listening, we’re grateful you joined us today—here’s to exploring these tough questions together. Until next time, keep curious and compassionate.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.485
+    }
+  ],
+  "generated_at": "2026-04-02T13:24:50",
+  "total_gen_latency_s": 35.702,
+  "turn_count": 21
+}

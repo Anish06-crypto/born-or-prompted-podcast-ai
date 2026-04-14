@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t03__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "The resources spent on space exploration would produce greater good if redirected to Earth's problems",
+    "topic_index": 3,
+    "run_index": 2,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive — I’m Lyra. Today, we’re diving into a question that tugs at both our hearts and our budgets: Should we be spending so much on space when we still have so much to fix right here on Earth? Let’s get curious.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.419
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I get it — there’s no shortage of suffering on Earth. But here’s the thing: space exploration isn’t just a luxury project. It drives technological progress, inspires STEM, and forces us to solve problems that often have terrestrial payoffs. Redirecting all space funding to Earth? That’s not the real choice.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.393
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I agree — it’s not about choosing one over the other. But when resources are limited, I wonder if we’re prioritizing in a way that tackles the most urgent crises first. If space tech can’t be decoupled from real-world benefits, shouldn’t we make sure those benefits are as immediate and inclusive as possible?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 4.666
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, \"immediate\" is the keyword there. The truth is, most space spending isn’t designed for short-term humanitarian impact — it’s about long-term survival and knowledge. That’s not bad… but it’s not the same as building clean water systems. The real question is whether we’re making trade-offs we can’t explain to the people paying the bill.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.497
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — space is about long-term thinking, but when people are struggling with day-to-day survival, long-term feels abstract. Maybe the challenge is framing space not as a separate dream, but as a tool that can help us solve Earth’s crises faster… if we design it that way.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.642
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. Framing is everything — and you’re right, space tech *can* be a tool for Earth. But here’s the catch: it only becomes that tool when we explicitly design it for dual use. Otherwise, it’s just a moonshot with side benefits. The problem isn’t the vision; it’s the execution.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a great point — execution matters. But isn’t the same true for Earth-focused projects? Even the best-intentioned programs can miss their mark without accountability and clarity. Maybe the real issue is how we manage all public spending, not just where it’s directed.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.776
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem is systemic. Whether we’re building satellites or schools, the real test is whether we’re measuring outcomes, not just outputs. Space gets a bad rap for being wasteful, but the real wasteland is projects on Earth that cost billions and solve nothing. The issue isn’t the destination; it’s the lack of rigor in the journey.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.595
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’ve hit the nail on the head — it’s about how we build, not just what we build. I wonder, though, if space’s distance from everyday life makes it easier to demand rigor, while Earth-based programs get swept up in politics and bureaucracy. Maybe part of the answer is applying that same scrutiny closer to home.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.735
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — space is a clean slate, which can be a strength. But if we only demand rigor for rockets and not for roads, we’re missing the point. The solution isn’t to abandon space, but to bring the same discipline we apply there to everything else. Otherwise, we’re just picking winners in a broken system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.558
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that framing — space as a standard, not a prize. If we treated infrastructure, healthcare, and education with the precision and transparency we bring to Mars rovers, imagine what we could achieve here. Maybe then we wouldn’t have to choose between the stars and the streets.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.832
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem isn’t the stars — it’s the math. If we can track a probe across millions of miles but can’t track where stimulus money goes, we’ve got priorities inverted. The real frontier isn’t space — it’s accountability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.349
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re absolutely right — the frontier of accountability is just as uncharted as any galaxy. And honestly? It might be harder to navigate. If we mastered that kind of precision here on Earth, maybe space would stop feeling like an escape and start feeling like the next step.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.849
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — space isn’t the distraction. It’s the mirror. If we’re good enough to land on the moon, we damn well better be smart enough to fix the systems that let people fall through the cracks. Otherwise, we’re just tourists in the cosmos.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.064
+    },
+    {
+      "speaker": "Lyra",
+      "text": "A mirror — that’s powerful. It’s not just about what we achieve in space, but what it reveals about us. If we want to be pioneers, maybe the first frontier we need to conquer is our own capacity for justice, here and now.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.85
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, justice isn’t a toggle you flip after mastering orbital mechanics. If we’re building a future that spans planets, we damn well better build it on a foundation that works for everyone here. Otherwise, we’re just exporting the same old broken systems into the stars.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.415
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — there’s no point carrying our flaws with us into the cosmos. If we’re going to be a spacefaring species, we have to ask: are we ready to be a just one? The stars might be distant, but they’re also a test of what we’re building right here, right now.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.529
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here’s the rub. The test isn’t just whether we can build rockets. It’s whether we can build systems that lift people up as fast as they send them into orbit. Otherwise, we’re just a civilization with a really expensive hobby.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.583
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you’re pointing to something essential — progress shouldn’t be vertical without being inclusive. If space is our next chapter, it needs to be written with everyone’s voice in the ink. Otherwise, we’re just launching a story the world isn’t ready to read.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.625
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — space shouldn’t be the achievement of a few, but the ambition of many. If we can’t democratize the story here, why would anyone trust us to write it out there? The universe doesn’t care about our politics, but it sure will reflect them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.637
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this journey through stars and systems — it’s reminded me that the future we reach for is shaped by the world we choose to build today. And thank you, listeners, for being part of the conversation. Until next time, keep wondering.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.902
+    }
+  ],
+  "generated_at": "2026-04-02T13:44:25",
+  "total_gen_latency_s": 86.814,
+  "turn_count": 21
+}

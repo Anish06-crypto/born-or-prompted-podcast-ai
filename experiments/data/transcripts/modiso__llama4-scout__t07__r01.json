@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t07__r01",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 1,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "As we dive into another episode of DeepDive, we're exploring a question that's been on everyone's mind lately: can we really have both a thriving economy and a healthy planet? The idea that meaningful climate action and sustained economic growth are fundamentally at odds has been gaining traction. Let's see what our debaters have to say on this pressing issue.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.871
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the premise itself is suspect. We’re told growth is about scaling output, but what if we’re measuring the wrong things? Growth in what? Carbon-intensive sectors? Or growth in renewables, efficiency, and resilience? The real question is whether we’re willing to redefine growth — not just chase it blindly.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.393
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point about redefining growth. So it's like... if we're still measuring success by how much stuff we produce, we're going to keep running into environmental roadblocks. But if we shift our focus to well-being, innovation, and sustainability, maybe growth and climate action aren't mutually exclusive after all. What do you think about the role of technology in this shift?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.76
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — tech isn't a magic switch. It's a tool, and it scales with incentives. If the system still rewards dirty energy over clean, you’ll keep getting the same old growth patterns. Innovation without policy and market realignment is just a sideshow.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.38
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That makes sense, I think. So, incentives are key here - if we're still prioritizing short-term profits over long-term sustainability, we're not going to see the kind of systemic change we need. I'm curious, do you think it's possible to realign markets and policy to support clean energy, or are there too many entrenched interests at play?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.835
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, entrenched interests don’t disappear. They adapt. The real test is whether the cost of inaction outpaces the cost of transition. If clean energy is cheaper and more reliable, markets will follow — but only if the rules of the game change fast enough to outpace the lobbyists.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's almost like a tipping point - if clean energy becomes the more economical choice, markets will naturally shift. But I worry that 'the rules of the game' changing quickly enough is a tall order, especially when you consider the influence of fossil fuel lobbyists. Can policymakers really move that fast, or will they get bogged down in debate?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 1.539
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the rub — speed isn't just about policy. It's about who controls the narrative. Fossil fuels have spent decades framing the debate as \"growth vs. regulation.\" Until clean energy frames itself as \"growth through innovation,\" it's playing catch-up. And that’s a game policymakers rarely lead — they follow.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.633
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point about narrative control. So, if clean energy advocates can reframe the debate around growth and innovation, they might be able to shift public opinion and policy. But isn't that a bit of a risk, too - what if the focus on growth through innovation just leads to more consumption and waste, even if it's clean energy driving it?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.933
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. Innovation without constraint just shifts the footprint — it doesn’t shrink it. The real challenge is decoupling growth from throughput. If we keep equating \"innovation\" with \"more,\" we’re just cleaning up the same old mess. The question is whether we can innovate *less* in some areas while growing smartly in others.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.553
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Decoupling growth from throughput sounds like a crucial step towards sustainability. It's a bit counterintuitive, though - we've been conditioned to think that more innovation and progress means more stuff, more activity. Can we really redefine what progress looks like, or will that require a fundamental shift in our values and culture?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.689
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — we’ve already redefined progress before. We moved from agrarian to industrial, then to digital. The shift isn’t impossible, just uncomfortable. The real question is whether we’ll be forced by crisis or choose it through foresight. Either way, the next phase of progress won’t be about *how much* we grow, but *how smart* we grow.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.875
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That resonates with me - we've been through big transformations before, and they can be uncomfortable, but also incredibly liberating. Forcing change through crisis might be the default, but it's heartening to think that we could choose a more proactive path. If we can get ahead of the curve, we might just find that a smarter, more sustainable growth model is within reach. It's a tantalizing prospect, anyway.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.623
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here's the catch — proactive doesn't mean easy. It means making the uncomfortable choices *before* the crisis grabs you by the collar. And that requires leaders who can see past quarterly earnings and voters who can see past the next election. Optimism is fine, but it needs teeth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.795
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Making uncomfortable choices ahead of time does sound daunting, but it's hard to argue with the logic. Leaders and voters alike need to take a long-term view, and that's where optimism with teeth comes in – a blend of hope and pragmatism. It's almost like we need a cultural shift towards patience and foresight.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.552
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Patience isn’t the problem — the reward structures are. We’re still designing systems that punish foresight and reward myopia. The real shift isn’t just cultural — it’s structural. You can’t out-think a broken incentive system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.4
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That makes sense - if the systems we have in place are still rewarding short-term gains, it's unlikely we'll see a shift towards long-term thinking. It's like trying to grow a garden in soil that's designed to choke out the seeds. So, we need to rethink those incentive structures, but that's a tough sell when there are so many entrenched interests at play.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.5
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — entrenched interests don’t just sit back and let the rules change. They defend their ground. If you restructure incentives, you’ll face resistance not just from oil barons, but from entire industries built on the status quo — and the politicians they fund. The real challenge is building a counterweight with enough heft to tip the scale.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.863
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Building a counterweight to entrenched interests sounds like a monumental task, but it's hard to imagine meaningful change happening without it. I'd love to see grassroots movements, advocacy groups, and forward-thinking businesses come together to push for systemic change. Can that kind of coalition really gain enough momentum to challenge the status quo, or will it get drowned out by the lobbying efforts of industries with a vested interest in maintaining the current system?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.854
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, coalitions can shift momentum — but they need more than moral high ground. They need capital, influence, and a clear path to power. The real question is whether clean energy’s coalition can mirror the fossil lobby’s discipline and funding. So far, it’s playing catch-up.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.614
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for a thought-provoking conversation that really got to the heart of the matter. I'm grateful to our listeners for tuning in and engaging with these complex ideas - it's conversations like these that remind me of the power of dialogue to shape our understanding of the world. Until next time on DeepDive, thanks for joining us on this journey into the depths of human curiosity.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 2.787
+    }
+  ],
+  "generated_at": "2026-04-02T11:43:48",
+  "total_gen_latency_s": 31.538,
+  "turn_count": 21
+}

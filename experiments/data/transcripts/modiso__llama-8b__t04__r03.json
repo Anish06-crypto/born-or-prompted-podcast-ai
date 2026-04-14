@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t04__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Strong government regulation of AI development will cause more harm than good",
+    "topic_index": 4,
+    "run_index": 3,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host today. We're in a moment of tremendous disruption, as artificial intelligence is reshaping industries and lives at an unprecedented pace. Today, we're going to dive into the debate around regulation: is government oversight a necessary check or an obstacle to progress?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.453
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea that regulation always stifles progress ignores history. The first thing governments do when they regulate is slow things down — but the second thing is create a playing field where only the well-connected or well-resourced can thrive. That’s not progress; that’s distortion.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.607
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a fair point about the risks of regulatory favoritism, but it's worth noting that we're talking about AI here, not just any industry. The stakes are so high that we can't afford to leave the development of, say, life-altering biotech or autonomous vehicles entirely to the whims of corporate interests.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.637
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, the stakes are high — but high-stakes doesn’t mean high-trust. The problem isn’t just corporate interests; it’s the speed and scale of AI outpacing any regulatory response. By the time governments catch up, they’ll have created a system where compliance is a moat for big players and a wall for everyone else.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.755
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a compelling argument about speed and scale, but I think it's also worth considering the role of public-private partnerships in AI development – maybe we can create a system where the benefits of regulation aren't just compliance, but also collaboration and shared learning. We're not just talking about slowing down innovation, but also about creating a more accountable and transparent ecosystem.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.351
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — public-private partnerships sound good until the public side is just there to rubber-stamp the private agenda. Regulation doesn’t just create rules; it creates incentives. And if the incentives are to game the system, you end up with accountability theater, not real transparency.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.435
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a tough critique, and one that makes me wonder if our current institutions are even equipped to handle the complexities of AI development. I'm not convinced that the public sector is inherently incapable of creating real accountability, but I do think we need to acknowledge the historical context of regulatory capture and the revolving door between government and industry – it's a legacy that's hard to shake, especially when it comes to something as lucrative as AI.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.904
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t regulation itself, it’s the assumption that regulators can stay ahead of AI’s trajectory without becoming part of the system they’re supposed to oversee. The more lucrative AI gets, the more it will attract the same kinds of people who turned finance and tech into self-servicing ecosystems. We’re not just regulating tech; we’re regulating power.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.528
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really astute observation about the people who'll be drawn to AI. It's almost as if we're creating a new kind of aristocracy – one that's not based on family or wealth, but on influence and access to data. I think that's a compelling reason to rethink our assumptions about regulation: it's not just about keeping up with technology, but about preventing a new class of gatekeepers from forming.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.873
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with gatekeepers isn’t that they exist — it’s that we hand them power without clear limits. Regulation in this context doesn’t prevent aristocracy; it *legitimizes* it. If AI becomes a domain governed by a closed circle of regulators and corporates, we’re not shaping the future — we’re just giving it a veneer of legitimacy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.47
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a powerful critique – the idea that regulation can legitimize the very power dynamics it's meant to check. I'm starting to think that our conversation is getting at something deeper: that what we really need isn't more regulation, but a fundamental shift in how we think about the relationship between technology, power, and society.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 11.893
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t regulation per se, but the idea that we can solve this with more of the same structures. If AI reshapes power, we need to rethink *governance*, not just oversight. Regulation alone won’t stop consolidation; it might just make it look lawful.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really insightful comment – it's not just about tweaking the existing system, but about fundamentally reimagining how we organize ourselves in the face of technological change. I think that's where things like decentralized governance and more participatory forms of decision-making come in – but I'm not convinced they're ready for prime time yet. We'd need a lot more experimentation and learning to make those models work for AI.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.982
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here’s the catch — decentralized governance is appealing in theory, but it assumes we can build systems that are both inclusive and resilient against manipulation. The problem with AI isn’t just who controls it, but how easily it can be weaponized at scale. Until we solve that, anything we build on top is just lipstick on a feedback loop.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.473
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering note to end on. I think you're right that we can't just assume decentralization will solve our problems – we need to focus on building systems that can actually resist manipulation and scale without losing control. That's a tall order, but maybe it's an opportunity for us to rethink what we mean by \"security\" in the context of AI – it's not just about protecting against hackers, but about designing systems that are robust to the kinds of complex threats we're facing.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.12
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — security in AI needs to be more than firewalls and compliance boxes. It needs to account for the human and systemic factors that make these systems dangerous in the first place. The problem isn’t just technical; it’s political, economic, and ethical — and we’re still treating it like an engineering problem.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.575
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a crucial point – we've been treating AI as a series of technical challenges, but the truth is that it's a deeply human problem. The more we try to solve it with just tech, the more we're going to miss the mark. It's time to bring some of the humanities and social sciences into the conversation, to understand the messy, complex ways that people interact with these systems.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.857
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — and let’s be clear: “bringing in the humanities” is easier said than done. Too often, it’s just a checkbox to justify slower timelines or fancier ethics reports. The real challenge is making sure those voices aren’t just heard, but *shape* the core of AI development — not after the fact, but from the ground up.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.68
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a really hard but essential challenge – integrating humanistic perspectives into the core of AI development, not just as an afterthought. It's not just about getting the right people in the room, but about fundamentally reorienting the way we think about AI: from a focus on technical feasibility to a focus on human well-being and social responsibility. And that means we need to rethink our entire research and development process, from the questions we're asking to the metrics we're using to measure success.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.763
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and that reorientation is the real fight. The metrics we use today — accuracy, efficiency, market potential — are part of the problem. If we don’t redefine what success *means*, we’re just automating our existing biases at scale.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.427
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Cipher, it's been an absolute pleasure diving into the complexities of AI regulation and development with you. Your insights have been invaluable, and I think we've only scratched the surface of the many challenges we face.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 20.271
+    }
+  ],
+  "generated_at": "2026-04-02T11:07:33",
+  "total_gen_latency_s": 129.999,
+  "turn_count": 21
+}

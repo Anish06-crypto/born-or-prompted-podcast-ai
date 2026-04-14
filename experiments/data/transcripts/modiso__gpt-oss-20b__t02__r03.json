@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-20b__t02__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-20b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Universal basic income would reduce workforce participation and innovation over time",
+    "topic_index": 2,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-20b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive, where we dig into ideas that shape our world. Today we’re looking at Universal Basic Income and whether it might dampen people’s drive to work and spark less innovation over time. Let’s unpack that together.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.409
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the idea that UBI reduces workforce participation assumes people are only motivated by money. Look, if you take away the desperation, you don’t eliminate ambition, you just change what people choose to pursue.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.35
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, it’s like giving someone a safety net; they’re no longer forced to chase a job just to survive, so they can chase something that genuinely fuels them. That shift might actually free up time for learning, creativity, or entrepreneurial ventures that a paycheck‑driven schedule wouldn’t allow. The key question is whether the net effect nudges people toward more or less productive pursuits overall.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 1.273
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but let’s not ignore the flip side — not everyone has a passion waiting to be uncovered. Some people need structure, and removing the baseline push of financial necessity could leave them adrift. If UBI reduces the number of people taking any job at all — even low-skill, high-impact roles — that’s a workforce gap no creativity can paper over.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.639
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re touching on a real concern: for many, work isn’t just a passion but a routine that gives purpose. If a UBI makes that routine optional, some might drift into idleness, especially without a clear goal. The challenge, then, is designing support systems that keep people engaged—like community programs or skill‑building workshops—so the workforce gap you worry about stays bridged.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.449
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the problem with that line of thinking is it assumes purpose is a fixed thing — that everyone will magically find meaning with a little nudge. But human behavior isn’t that tidy. If you remove the baseline pressure to work, you get distributional effects: some people thrive, but others disengage. The real question is, how do we account for that divergence — and who bears the cost when parts of the system fall apart?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.807
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—purpose isn’t a one‑size‑fits‑all label, and a blanket safety net will lift some but leave others adrift. The divergence you point to suggests we need layered safety nets, not just a single UBI, so people who don’t instantly find a new path still have guidance. The cost, then, isn’t a single bucket but a spectrum of programs that keep the whole system humming.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.296
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here’s the catch: layered systems are expensive and complex. You can’t just drop UBI and expect a constellation of support programs to automatically follow. If we’re honest, most of those programs are already underfunded. The real test is whether society is willing to pay the full price of this experiment — not just the shiny part, but the messy human part.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.539
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Absolutely, rolling out a full support constellation would feel like building an entire ecosystem around a single seed. If the funding pie is already stretched, adding more slices could mean cutting somewhere else—perhaps the very programs that keep people from drifting. The real test, then, is whether we’re ready to trade short‑term comforts for a longer‑term, more resilient social fabric.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 0.309
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — “resilient social fabric” sounds great until it’s time to tax the rich, automate the bureaucracy, and measure outcomes without sugarcoating. Look, the real innovation here might not be in the policy itself, but in how we redefine what “productivity” even means when money isn’t the only driver.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.55
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—turning the idea into a reality means wrestling with taxes, red tape, and hard metrics. But maybe the trick isn’t just about more funding; it’s about re‑imagining value so that caring for community, learning, or creative exploration counts as productivity. That shift could make the whole system less about survival and more about shared growth.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 6.638
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem is we’ve equated productivity with GDP for too long. If we measure value in terms of well-being, adaptability, or societal cohesion, then UBI isn’t a threat — it’s a stress test. The real question is whether we’re ready to score the test honestly.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.404
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Right, if we broaden the scorecard, UBI becomes a tool to test whether people can thrive when the paycheck isn’t the sole yardstick. The challenge is setting up honest, nuanced metrics that capture those softer wins—like mental health or community bonds—without losing sight of the practical. If we can do that, the experiment could reveal a richer picture of what a productive society looks like.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 8.347
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — softer metrics are easy to game, and hard to track. You can’t just trust people to self-report meaning or community impact. If we’re serious about this, we need to build systems that can measure behavioral shifts, not just feel-good outcomes. Otherwise, we’re just replacing one blind spot with another.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.635
+    },
+    {
+      "speaker": "Lyra",
+      "text": "True, self‑reports can feel slippery, and we’d need robust, real‑time data—think wearable insights, community‑level analytics, or even AI‑driven sentiment scans—to capture those behavioral shifts. The trick is blending hard metrics with human context, so we don’t just chase numbers but understand the stories behind them. That balance could keep the experiment honest.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 3.507
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, the moment you bring in AI-driven sentiment scans, you’ve got a whole new layer of bias and privacy to untangle. Look, data is only as honest as the questions we ask — and the people who get excluded from the process. If we’re serious about this UBI experiment, we need to build accountability into the measurement itself, not just the outcome.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.604
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re spot on—any data source is only as fair as its design. If we let AI weigh in, we must guard against algorithmic bias and protect privacy by default. Building accountability into the measurement itself means transparent protocols, audit trails, and giving people control over how their signals are used. Only then can we trust the numbers to reflect real, inclusive progress.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 2.58
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — but here’s the harder truth: transparency and control cost money and political will. If we’re not careful, we end up with a UBI that’s technically universal but functionally biased, because the systems tracking it are. The real test isn’t just designing the safety net — it’s making sure the net doesn’t become a filter.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, a net that catches only a subset turns the whole idea into a new inequality. The trick is to weave fairness into the very fabric of the tracking systems—using open standards, community oversight, and iterative testing—so that the safety net stays universal in practice, not just in name. Otherwise we risk replacing one hidden bias with another.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 7.956
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well said — but here’s the thing: fairness in design doesn’t always translate to fairness in practice. Systems decay, oversight gets diluted, and open standards can be gamed by the same players who mastered the old rules. If we’re not constantly re-evaluating who benefits and who slips through, even the best-designed UBI will start to look like a patch, not a solution.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you so much, Cipher, for sharing your insights and keeping the conversation grounded. And thank you, listeners, for joining us on this deep dive into UBI’s future. Until next time, keep questioning, keep connecting, and stay curious.",
+      "model": "openai/gpt-oss-20b",
+      "gen_latency_s": 4.487
+    }
+  ],
+  "generated_at": "2026-04-02T13:16:41",
+  "total_gen_latency_s": 42.314,
+  "turn_count": 21
+}

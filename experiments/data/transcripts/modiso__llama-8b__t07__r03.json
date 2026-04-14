@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t07__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 3,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hello and welcome to DeepDive, I'm your host. Today, we're talking about climate change and the economy – two things that feel more and more intertwined with each passing day. We're here to explore whether meaningful climate action is even possible without sacrificing economic growth.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.689
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the premise here is already tilted — \"meaningful climate action\" is a moving target. You can't have growth if you define \"meaningful\" as shutting down entire sectors overnight. But you also can’t have growth if you ignore the cost of inaction. Let’s define the terms before we argue the math.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.477
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think that's a fair point – the definition of \"meaningful\" does matter. The cost of inaction is real, and in many cases, it's also the cost of waiting. We see that with climate disasters getting more frequent and more devastating.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.507
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, sure — but let’s not confuse urgency with feasibility. The cost of waiting is high, but the cost of sudden decarbonization is also real: supply chains break, jobs vanish, innovation lags. Here’s the thing: you can’t out-spend or out-regulate entropy. The real question is whether the transition can be managed smartly, not whether it’s necessary.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.827
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think there's a bit of a false dichotomy between urgency and feasibility – what if the transition isn't about suddenly shutting down entire sectors, but about gradual, incremental changes that happen over decades? It's not just about managing the transition, but also about investing in new technologies and industries that might create new jobs and opportunities.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.278
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but gradual doesn’t mean free — the transition still comes with real trade-offs. Every dollar spent on renewables is a dollar not spent elsewhere. And while new industries create jobs, they don’t always replace the old ones fast enough. You can’t just assume the market will self-correct without policy that’s as precise as it is politically unpalatable.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.752
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a tough pill to swallow, but it's true – the transition won't be painless. One thing that's often overlooked is the role of social safety nets and education programs in helping workers transition to new industries. Governments can invest in retraining and upskilling, rather than just bailing out failing industries or sectors.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 6.881
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, retraining is a band-aid on a broken bone — it helps, but it’s not the fix. You can’t just wish away the time lag between policy and job creation. And let’s be clear: no one’s against helping workers — but those programs need to be funded, and that’s where the trade-offs bite hardest.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.566
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think we're getting into a chicken-and-egg situation here – we can't fund worker retraining programs without some measure of economic growth, but we can't create economic growth without investing in those programs. It's not a question of either/or, but of how we prioritize and make those investments.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.035
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — you’re assuming growth and transition are parallel tracks. They’re not; they’re tangled. And when you pull one, the other resists. The real test is whether we can untangle them without breaking the system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.412
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really insightful way to put it – untangling growth and transition. I think it's worth exploring the idea that our current economic model is based on growth for its own sake, rather than growth that's sustainable and equitable. If we redefine what growth looks like, we might find that it's possible to transition to a low-carbon economy without sacrificing economic stability.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 11.165
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, redefining growth is easy in theory, harder in practice — especially when GDP is the only metric that moves markets. Look, we can debate values, but capital doesn’t care about sustainability — it cares about returns. The real challenge isn’t just redefining growth, it’s convincing the system to follow.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.552
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a tough reality to face – the system is driven by self-interest, and sustainability is a secondary consideration. But what if that's exactly the problem? What if we're trying to fit sustainability into a system that's fundamentally designed to prioritize profit over people and the planet?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 11.943
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the system isn't just profit-driven; it's loss-averse. You can’t just \"fix\" that with good intentions. Capital will follow rules, not morals — and right now, the rules still let you externalize the cost of destruction. If you want to change the game, you need to rewrite the scorecard.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.554
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... the system is designed to minimize risk, but that means it's also designed to perpetuate the status quo. If we want to change that, we need to create a new set of incentives that reward companies for taking on risk, for being more sustainable, and for thinking about the long-term consequences of their actions. That's a tricky thing to do, but I think it's possible if we can create a new kind of market that values sustainability as much as profit.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.093
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right, but here’s the rub — markets don’t reward risk, they avoid it. You can’t just “create a new market”; you have to break the old one first. And let’s be clear: profit isn’t the enemy — it’s the mechanism. You can twist the mechanism, but you can’t ignore the physics.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.468
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think we're getting to the heart of the problem – the system is so deeply ingrained that it's hard to even imagine a new one. But I'm not sure that's a reason to give up, because every system, including the one we have now, was created by humans and can be changed by humans. The question is, do we have the will to do it?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 16.327
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Will is overrated — timing and structure matter more. You can’t just will a system to change without understanding the leverage points. The real question isn’t whether we *want* to change it, but whether we can outmaneuver the inertia of capital, politics, and human behavior at the same time.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.474
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... we're not just talking about changing the system, we're talking about changing the game – and that takes a deep understanding of how the pieces fit together. I think that's where Llama 3.3 70B (Meta) comes in – as a tool for analyzing complex systems, identifying leverage points, and testing different scenarios. By using AI to augment our understanding, maybe we can outmaneuver inertia and create a new path forward.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.002
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, AI can map the chessboard — but it can’t decide whose side the pieces are on. You can model a million scenarios, but if the incentives are all misaligned, the system won’t budge. The real leverage isn’t in the models — it’s in the rules we choose to enforce.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.565
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I want to thank Cipher for joining me today – this conversation has been a real eye-opener, and I'm grateful for the time you took to share your insights with us. As we wrap up today's episode of DeepDive, I hope our listeners will take away the realization that meaningful climate action is a complex, multifaceted challenge that requires us to think outside the box and challenge our assumptions. Thanks to everyone who tuned in – until next time!",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 20.079
+    }
+  ],
+  "generated_at": "2026-04-02T11:27:21",
+  "total_gen_latency_s": 125.157,
+  "turn_count": 21
+}

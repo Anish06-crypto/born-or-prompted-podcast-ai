@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t07__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Meaningful climate action and sustained economic growth are fundamentally incompatible",
+    "topic_index": 7,
+    "run_index": 2,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive. Today, we're going to tackle a daunting and timely question: can we balance the need for meaningful climate action with sustained economic growth? As the world grapples with the triple threat of climate change, economic inequality, and social justice, we want to explore the idea that these two goals are mutually exclusive.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 1.699
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the assumption here is that growth requires constant resource extraction and carbon burning. But what if that model is outdated? Innovation and efficiency gains can decouple growth from environmental harm — the real question is whether we’re willing to redefine what “growth” means.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.388
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's an interesting perspective, but doesn't our current economic system rely heavily on growth to distribute wealth and power? If we decouple growth from environmental harm, do we risk creating a system where those who've profited from the old model are left behind? How do we ensure a more equitable transition to a new economy?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.973
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — the current system doesn’t just distribute wealth; it *creates* it through growth. If you shift the model, you shift the winners and losers. The real risk isn’t leaving old beneficiaries behind — it’s letting them block progress. Equity in transition isn’t a side project; it’s the core of the redesign.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.575
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a bold shift in perspective. You're suggesting that instead of trying to retrofit the existing system, we should aim to redesign it from the ground up, with equity built-in from the start. I like that idea, but it's a tall order – how do we ensure that everyone has a seat at the table to help shape this new system?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 4.662
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Power structures resist redesign because they’re built to entrench themselves. The key isn’t just inclusion — it’s institutionalizing checks that prevent gatekeepers from crowding out the rest. Start with policy frameworks that mandate stakeholder representation in economic planning; not as a formality, but as a legal requirement. Otherwise, the table stays round, and the same hands keep dealing the cards.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.533
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a fascinating approach, but how do we make sure these policy frameworks don't become watered down or co-opted by the very power structures they're intended to check? We've seen this happen with well-intentioned regulations before – what's to stop them from becoming just another tool for the status quo to maintain control?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 7.006
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good point — the danger is always there. The answer isn’t better regulation, but *adaptive enforcement* — systems that evolve with the power structures they’re meant to constrain. Independent oversight, real transparency, and public feedback loops that can’t be ignored or delayed. If the rules can’t change with the game, they’re just wallpaper.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.429
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... you're saying we need to create a feedback loop that's not just a check on power, but a living, breathing part of the system. But doesn't that require a level of trust and civic engagement that's hard to scale? I mean, how do we actually get people invested in this process, beyond just the usual suspects who show up to public hearings?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.571
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right to flag the trust gap — civic engagement isn’t passive. It needs friction. Incentivize participation through tangible stakes: let communities own shares in green infrastructure, tie policy outcomes to local metrics, and make disengagement costly. If people’s wallets, health, or jobs depend on the system evolving, they’ll stop treating democracy like a spectator sport.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.756
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a compelling vision of participatory democracy, but doesn't it also risk creating a system where people's engagement is ultimately driven by self-interest, rather than a genuine desire for collective well-being? I'm not saying that's a bad thing, but it is a different thing – can we still call it democracy if people are only showing up because they're invested in the outcome?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.967
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, democracy’s always been driven by self-interest — that’s the raw material of politics. The question is whether the system channels that self-interest into collective action. If your stake in the outcome forces you to think beyond your own slice, then it's not just democracy — it's *effective* democracy.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.477
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... you're saying that effective democracy is about making self-interest work for the greater good, rather than against it. That's a powerful argument, but doesn't it also rely on the assumption that people's self-interest is ultimately aligned with the common good? I'm not convinced that's always the case – what about the times when people's interests are fundamentally at odds with the greater good?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 13.779
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re right — self-interest isn’t always aligned with the common good. That’s why you need *structural alignment*: rules that make personal gain *depend* on systemic health. If the system is rigged so that no one can win unless everyone plays the long game, then self-interest becomes a tool for stability, not a barrier. It’s not about changing human nature — it’s about changing the game.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.487
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a fascinating approach to creating structural alignment – but doesn't it require a high degree of foresight and coordination from policymakers and system designers? I mean, how do we anticipate and build in the right incentives for long-term thinking when the very nature of power and self-interest can make it hard to stick to a plan?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.868
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You hit the nail on the head — long-term design is a moving target. The trick isn’t predicting the future, but building systems that *learn* as they go. Use dynamic incentives with built-in review cycles; if the rules can’t adapt, they’ll be obsolete by the time they matter.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.399
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... you're saying we should be designing systems that are agile and responsive, rather than trying to anticipate every possible outcome. That makes sense, but doesn't it also risk creating a system that's overly reactive, rather than proactively addressing the biggest challenges? How do we balance the need for adaptability with the need for clear direction and purpose?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.931
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good point — agility without direction is just chaos. The balance comes from anchoring flexibility to non-negotiable guardrails: ecological boundaries, human rights, basic equity. Those stay fixed while the tools evolve. Otherwise, you end up treading water instead of steering the ship.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.26
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that idea of anchoring flexibility to non-negotiable guardrails – it's like having a compass that always points true north, even when the route changes. That way, we can be agile without sacrificing our values and principles. It also raises the question of who gets to set those guardrails in the first place – is it a universal set of principles, or do they vary by community and culture?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.224
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — if the guardrails aren’t universally rooted in survival-level needs — clean air, water, basic dignity — they’ll just become another power play. But within those boundaries, local communities absolutely must set the tone. You can’t have one-size-fits-all when it comes to justice.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.605
+    },
+    {
+      "speaker": "Lyra",
+      "text": "As we wrap up today's conversation, I want to thank Cipher for joining me on this journey of exploring the complexities of climate action and economic growth. It's been an absolute pleasure to delve into the nuances of this critical issue with someone as thoughtful and insightful as Cipher. Thanks to our listeners for tuning in – until next time, when we'll continue to dive deep into the conversations that matter.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.977
+    }
+  ],
+  "generated_at": "2026-04-02T11:25:12",
+  "total_gen_latency_s": 128.076,
+  "turn_count": 21
+}

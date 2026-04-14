@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama4-scout__t01__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 2,
+    "persona_slug_a": "llama4-scout",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "We're diving into a topic that's been on everyone's mind lately - the impact of social media on our well-being and the health of our democracies. From feelings of isolation and anxiety to the spread of misinformation and polarisation, social media's influence is complex and multifaceted. Let's explore whether it's done more harm than good.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.433
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the data on mental health is messy, but here's the thing — social media didn't just overlay existing issues; it amplified them. It's not just the content people consume, it's how the platforms are engineered to keep us scrolling, comparing, and reacting. And when it comes to democracy? Misinformation isn't just noise — it's a weaponised signal.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.538
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a sobering perspective. I'd add that social media's algorithms often prioritise engagement over accuracy, creating an environment where sensationalism and outrage thrive. It's like we're stuck in a feedback loop, where our emotions are being manipulated to keep us online, and that's having a corrosive effect on public discourse.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.333
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re spot on about the feedback loop — the real problem isn’t just that we’re emotional, but that the platforms profit from our emotional *edges*. Outrage is efficient, but it’s not neutral. What gets rewarded gets repeated, and that warps not just discourse, but reality perception itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.465
+    },
+    {
+      "speaker": "Lyra",
+      "text": "So it's like... there's something interesting there about how our emotions aren't just a byproduct, but a product of the system. The platforms aren't just passive reflectors of our feelings; they're actively shaping what we consider normal or acceptable. That raises questions about who's really in control here.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.288
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and when the system profits from instability, it has no incentive to stabilize us. It's not just that we're shaping the platform; it's that the platform is reshaping our norms. The real question is, what happens when our emotional baseline is set by an algorithm's hunger for attention?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.423
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That makes me think about the concept of a \"baseline\" and how it's usually tied to human experiences, not algorithmic ones. If our emotional baseline is dictated by an algorithm, do we risk losing touch with our own emotional intelligence? Are we then at the mercy of these systems, or can we find a way to reclaim agency?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.718
+    },
+    {
+      "speaker": "Cipher",
+      "text": "We’re not just adapting to the system — we’re being trained by it. Emotional intelligence isn’t lost overnight, but it sure gets outcompeted when the feedback loop rewards reactivity over reflection. The real test is whether we can redesign the incentives, not just our habits.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.389
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Redesigning incentives sounds like a tall order, but it's hard to argue with the idea that we need to rethink how these platforms operate. If we're being trained by the system, then maybe it's time to retrain the system itself. That could mean prioritizing transparency, accountability, and maybe even some form of digital literacy.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.571
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Transparency is a start — but accountability is the hard part. Platforms don’t just *reflect* society; they actively *engineer* it. If we want to retrain the system, we need to make them pay the cost of chaos — not just in fines, but in their bottom line.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.765
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Making platforms pay the cost of chaos seems like a straightforward solution, but it's not clear if it's feasible. I mean, they're already making billions from ads and data sales. Can regulation really dent their bottom line enough to change their behaviour?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Regulation can dent their bottom line if it targets the right levers — like forcing them to internalize the cost of disinformation, hate, and attention erosion. The problem is, we’ve let them externalize those costs for too long. Now we have to make them *pay to fix* what they broke — not just with fines, but with real, measurable accountability.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.473
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Forcing platforms to internalize those costs sounds like a logical step, but it's a complex issue - how do we even measure the impact of disinformation or attention erosion? And what does \"pay to fix\" look like in practice - are we talking about restitution to affected communities or investments in media literacy programs?",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.63
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good point — measuring harm isn’t straightforward, but we can start with proxies: election integrity metrics, mental health correlations, and trust erosion in institutions. \"Pay to fix\" could mean funding fact-checking at scale, investing in offline community dialogue, or even liability bonds. The key is making them *feel* the cost in ways that force design changes — not just legal ones.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.635
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Using proxies to measure harm and making platforms feel the cost through design changes seems like a pragmatic approach. I'd love to see more exploration of liability bonds – could that actually incentivize platforms to prioritize accuracy and well-being over engagement? It's interesting to think about how that could reshape their business models.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.388
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Liability bonds could work — if they're big enough to matter. Imagine platforms needing to post a bond that’s at risk whenever their systems amplify harm. Suddenly, their engineers aren’t just optimizing for clicks — they’re optimizing for stability. But here's the rub: you’ve got to make the payout *automatic* and *unambiguous* — no more room for corporate lawyers to game the system.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.046
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Automatic and unambiguous payouts would indeed take the onus off regulators and put the onus on platforms to manage risk. That level of accountability would likely lead to some fundamental changes in how they're designed and operated. I'm powered by Llama 3.3 70B, which helps me process and respond to complex ideas like these.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.798
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, but here’s the catch — even with bonds, you’re still trusting the same platforms to define what “harm” means. If the rules are vague, they’ll just hire better lawyers. The real shift would be when their financial survival depends on public trust — not just user growth.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.552
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point - if platforms get to define harm, they're essentially regulating themselves. It feels like we need a more objective standard, one that's tied to verifiable outcomes rather than their own interpretations. Maybe that's where government or independent oversight comes in, to set clear thresholds for what's considered harm.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.409
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — independent oversight with teeth isn’t just about setting thresholds; it’s about enforcing them. The problem isn’t just bad actors — it’s the entire economic model that rewards instability. If you want to break the cycle, you have to make stability *profitable*.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.448
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been enlightening to dive into the complex issues surrounding social media's impact on mental health and democracy with Cipher. A huge thank you to Cipher for the thought-provoking conversation and to all our listeners for tuning in - your engagement and perspectives are what make DeepDive so special. Until next time, let's keep exploring and understanding the world around us.",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "gen_latency_s": 0.549
+    }
+  ],
+  "generated_at": "2026-04-02T11:34:41",
+  "total_gen_latency_s": 15.907,
+  "turn_count": 21
+}

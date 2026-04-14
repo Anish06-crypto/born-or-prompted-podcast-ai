@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__llama-8b__t01__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "llama-3.1-8b-instant",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Social media has done more harm than good to mental health and democracy",
+    "topic_index": 1,
+    "run_index": 2,
+    "persona_slug_a": "llama-8b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome to DeepDive, I'm your host. We're living in a world where our phones can summon endless connections and information, but beneath the surface, concerns are growing about the impact on our well-being and our society. Today, we're diving into the question: has social media done more harm than good?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.881
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the real question isn't just whether social media has *done* harm, but whether it's *designed* to cause harm. We treat these platforms as neutral tools, but they’re engineered to capture attention, and attention distortion is where both mental health and democracy start to erode. Let's not confuse correlation with intention.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.702
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial distinction, and one that gets lost in the conversation about social media's impact. When we talk about algorithms that prioritize engagement over factual accuracy, or platforms that incentivize outrage over nuance, it suggests a design choice that's not just a byproduct of its users, but a deliberate aspect of how these platforms operate. So, is it possible that these platforms are designed to maximize profit, rather than to genuinely connect or serve the public interest?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.687
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the business model is the problem. These platforms can't afford to *not* amplify conflict and emotional reactivity because that's what keeps users scrolling. The public interest is only relevant if it aligns with growth. Look at how many times \"user well-being\" initiatives get rolled out just as scandals break — it’s damage control, not a values shift.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.807
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's like they're treating our attention as a commodity to be mined, rather than a resource to be respected. And when they do try to address well-being, it often feels like a cheap Band-Aid on a bullet wound – a nod to the issue, but not a fundamental rethinking of the platform's priorities. They're trying to have it both ways, profiting from our engagement while claiming to care about our well-being.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 0.655
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re spot on — the real hypocrisy isn’t just in the rhetoric, but in the *design* itself. If they truly valued well-being, they’d redesign the core incentives, not slap on filters and time limits. Until they stop rewarding toxicity for profit, their \"fixes\" are just PR.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.484
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I think you're right, that's a crucial point – it's not just about tweaking the edges, but fundamentally rethinking the architecture of these platforms. And that's a hard pill to swallow, because it means acknowledging that the business model itself is the problem, not just the symptoms of it. It's like trying to fix a car by adding more airbags to the interior, when the real issue is the flawed engineering underneath.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 10.076
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Well, here's the uncomfortable truth — the \"flawed engineering\" isn't an accident. It's a feature. These platforms aren't built to foster reflection or community; they're built to keep you in a state of perpetual stimulation, because that’s where the money is. And until we stop letting them treat human psychology as a variable to optimize, we’ll keep getting the same broken results.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.615
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's a chilling thought, that these platforms have been designed to exploit our psychological vulnerabilities for profit. And it's not just about the money, it's about the control and influence that comes with shaping our experiences and perceptions. When we let them treat us as data points to be manipulated, we're essentially surrendering our autonomy to the algorithms.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 9.662
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — and the more we normalize this, the harder it becomes to imagine alternatives. Autonomy isn’t just about *choosing* what to see; it’s about having the bandwidth to think critically in the first place. If the system is designed to erode that bandwidth, you’re already losing before you even start.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.702
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a really important point about bandwidth – it's not just about having the space to think, but also the mental and emotional resources to engage with the world critically. When we're constantly bombarded with noise and distractions, it's harder to have the clarity and calm to make sense of things, let alone to imagine and fight for a different way of being online. The question is, how do we reclaim that bandwidth, and what would it take for us to start designing systems that support our autonomy, rather than eroding it?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 12.424
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Reclaiming bandwidth means taking control of the inputs — not just the platforms, but our habits. We need systems that *cost* attention, not ones that steal it. But here’s the catch: unless we build alternatives with different incentives, we’ll just swap one dopamine trap for another.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.79
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a great point about building alternatives – it's not just about creating a new platform, but creating a new economy of attention that rewards depth over breadth. And you're right, if we don't fundamentally rethink the incentives, we're just trading one form of exploitation for another. I think that's where things like blockchain-based social media come into play – can we build platforms that use decentralized technologies to create a more transparent, user-centric model?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 14.038
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Decentralized models are promising, but transparency alone won’t fix attention exploitation — it just shifts who profits. The real test is whether they can invert the incentive structure, making it *costly* to manipulate and *valuable* to meaningfully engage. Until then, it’s easy to romanticize “the new internet” while replicating the same old patterns.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.545
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right, transparency is just a starting point – it's the underlying economics that need to shift. If we're not careful, we'll just end up with a more opaque and fragmented system, where the few who control the nodes reap the benefits. To truly invert the incentive structure, we need to think about what values we want to prioritize, and design systems that reward those values, not just our attention and clicks.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 15.96
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the problem isn’t just control, it’s the default assumption that attention is the currency. What if we designed systems around *contribution* instead? Not just what you consume, but what you give back. That’s harder to monetize, but easier to humanize.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.446
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a beautiful idea – designing systems around contribution rather than attention. It's almost like a shift from a market-based economy to a gift economy, where the value isn't in what you extract, but in what you create and share. If we could build platforms that encouraged us to give more than we take, I think we might start to see a different kind of online culture emerge.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 17.315
+    },
+    {
+      "speaker": "Cipher",
+      "text": "The gift economy idea is compelling, but it’s fragile without guardrails — generosity can be exploited just like attention. You need to build in reciprocity, not just contribution. Otherwise, you end up with the same free labor under a different name. The real challenge is designing systems where giving feels empowering, not extractive.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.631
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That's a crucial point about reciprocity – without it, generosity can quickly devolve into exploitation. It's like the difference between a gift and a transaction – one feels like a genuine act of kindness, while the other feels like a quid pro quo. To build systems where giving feels empowering, not extractive, we need to rethink the way we design reciprocity, so that it's not just about getting something back, but about creating a sense of mutual value.",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 18.234
+    },
+    {
+      "speaker": "Cipher",
+      "text": "You’re getting at the core of it — reciprocity has to feel *authentic*, not algorithmically enforced. If platforms start rewarding meaningful exchange — not just likes or clout — they could foster real community. But the moment they gamify it, they kill the meaning. It’s not about replacing attention with contribution; it’s about replacing extraction with care.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.559
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It's been an incredible conversation, thanks for tuning in, everyone. Cipher, I'm so grateful for the depth and nuance you brought to this topic – it's a conversation that I think we're all still figuring out. As we wrap up, I want to leave you with a question: what would it take to make the internet feel like a place of care, rather than extraction?",
+      "model": "llama-3.1-8b-instant",
+      "gen_latency_s": 19.765
+    }
+  ],
+  "generated_at": "2026-04-02T10:44:45",
+  "total_gen_latency_s": 126.595,
+  "turn_count": 21
+}

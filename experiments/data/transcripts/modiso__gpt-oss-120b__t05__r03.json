@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__gpt-oss-120b__t05__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "openai/gpt-oss-120b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 3,
+    "persona_slug_a": "gpt-oss-120b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Hey there, welcome back to DeepDive, where we untangle the big questions shaping our world. Today we’re diving into whether genetic editing to prevent hereditary diseases in human embryos should be legally permitted.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.612
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — we already allow parents to terminate pregnancies due to genetic abnormalities. Legalizing genetic editing may reduce those terminations, but it also opens a Pandora’s box of unintended consequences. We need to ask: where do we draw the line between treatment and enhancement?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.308
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—imagine a world where families could rewrite a chapter of a story before it even begins, sparing them the heartbreak of loss. The challenge is keeping that pen focused on fixing broken pages, not redesigning the whole narrative. So the line feels less about technology and more about intent.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.706
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, intent is a convenient myth — we always tell ourselves we’re using tools for noble purposes. The moment editing becomes routine for one condition, pressure builds to do it for others. “Fixing broken pages” sounds clean until you realize someone has to decide which pages are broken.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.529
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Exactly, the slippery slope isn’t just a metaphor—it’s a real social dynamic where today’s “essential” fixes become tomorrow’s expectations. If we let the market or a handful of experts set the criteria, we risk marginalizing voices that see value in diversity. That’s why transparent, democratic oversight feels crucial before any routine rollout.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.624
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. Democratic oversight is a start, but it’s not a safeguard against the commercialization of human traits. Once the door opens, venture capitalists and consumer demand will shape the path faster than ethics committees can keep up. And let’s not forget — not all societies will play by the same rules. This isn’t just a regulatory problem; it’s a geopolitical one.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.438
+    },
+    {
+      "speaker": "Lyra",
+      "text": "And that’s the crux—once the technology becomes a global commodity, the race for market share could outpace any single nation’s moral compass. Imagine a patchwork of regulations like different dialects of the same language, each shaping who gets edited and why. It forces us to think about shared standards before the market writes the rules.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Shared standards sound noble, but they’re built on consensus — and consensus takes time in a world moving at tech speed. The real question is whether we can slow down innovation enough to avoid repeating past mistakes, like how eugenics policies were once framed as progressive. We need guardrails, yes — but also humility about how fast we’ll outgrow them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.479
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that tension—pushing the button too fast can leave us scrambling to catch up, just like with eugenics before we ever saw its dark side. Maybe the safest guardrail is a built‑in pause: a moratorium on non‑therapeutic edits while we collectively map out what “therapy” really means. That gives us room to learn before we sprint.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 0.76
+    },
+    {
+      "speaker": "Cipher",
+      "text": "A moratorium buys time but not clarity — we’ll still be arguing over definitions while the tech improves. The real test is whether we can distinguish between eliminating suffering and eliminating people who don’t fit our ideals. Let’s not pretend we’re neutral when we decide who gets to exist.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.412
+    },
+    {
+      "speaker": "Lyra",
+      "text": "It’s unsettling to think we could be deciding who belongs in the story of humanity, and that fear should keep us humble. If we frame the conversation around protecting lives rather than sculpting ideals, we can invite a broader chorus—patients, ethicists, and communities alike—to shape the limits together. That shared vigilance might be the only way to keep the technology a tool for relief, not a gatekeeper of worth.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.007
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Shared vigilance is a start, but don’t mistake consensus for safety — history shows us that even well-intentioned groups can normalize exclusion. The real danger isn’t the technology itself, but the belief that we’re too wise to repeat the past. If we’re not careful, we’ll call this progress while writing a new exclusionary script.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.482
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right—confidence can become a blind spot, turning well‑meaning safeguards into silent gatekeepers. History teaches us that even collective decisions can cement new hierarchies if we stop questioning whose voices are truly heard. So the challenge is keeping that critical edge alive, even as we move forward.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 6.125
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The moment we stop asking *why* certain conditions are deemed \"fixable,\" we lose the plot. We need to keep that critical edge sharp — not just on the tech, but on ourselves. Otherwise, we’re just polishing the same old mirror.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.393
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you—if we stop interrogating why a condition counts as “fixable,” we risk reinforcing the very biases we claim to erase. It’s like polishing a mirror that already reflects a single face; the shine only makes the exclusion clearer. Keeping that questioning alive keeps the narrative open, not narrowed.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 8.644
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right. The key isn’t to stop the mirror from reflecting — it’s to build new mirrors altogether. One where \"fixable\" doesn’t just mean \"different from the majority.\" But that’s a conversation we’re not even halfway through.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.363
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I love that image—crafting entirely new mirrors instead of just polishing old ones. It means redefining “fixable” around genuine suffering, not conformity, and letting diverse experiences shape that definition. The hard part will be gathering enough voices to actually build those frames before the technology rushes ahead.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.704
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Gathering enough voices is the easy part — the hard part is ensuring no single voice drowns out the rest. The moment a condition becomes a target for \"fixing,\" we’ve already drawn a line between acceptable and unacceptable. The real test is whether we can build a system that questions the line, not just the technology.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.373
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the heart of it—designing a process that constantly interrogates its own boundaries, not just the tools it uses. Imagine a rotating council where no single stakeholder holds a permanent seat, forcing fresh perspectives to keep the line under review. Only then can the line stay a question, not a decree.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 3.835
+    },
+    {
+      "speaker": "Cipher",
+      "text": "A rotating council sounds ideal — until we remember that exclusion often hides in the margins of inclusion. Whoever sets the rules for who gets to sit at the table will shape the questions we ask. The trick is making sure the table itself is up for debate.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.379
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you, Cipher, for sharing your thoughtful perspective and keeping the conversation honest. And to everyone listening, I’m grateful you joined us for this deep dive into a challenging future. Until next time, stay curious and keep questioning the mirrors we hold up.",
+      "model": "openai/gpt-oss-120b",
+      "gen_latency_s": 13.809
+    }
+  ],
+  "generated_at": "2026-04-05T09:50:40",
+  "total_gen_latency_s": 50.118,
+  "turn_count": 21
+}

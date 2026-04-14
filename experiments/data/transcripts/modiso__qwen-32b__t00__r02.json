@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t00__r02",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "AI will eliminate more jobs than it creates within the next decade",
+    "topic_index": 0,
+    "run_index": 2,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I'm Lyra. Today, we're diving into a question that’s shaping the future of work: Will AI eliminate more jobs than it creates in the next ten years? Let’s begin.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.309
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the usual narrative is that AI “creates” jobs by automating tasks and “eliminating” them by replacing workers — but that framing is lazy. What if the real issue is that AI compresses the value of human labor, not just shifting it? Here’s the thing: if AI makes low-skill labor obsolete faster than it can lift people into high-skill roles, we’re talking about a net loss, not just a reshuffle.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.438
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear what you're saying — it's not just about the numbers, but the *pace* of the shift. If we're moving so fast that people can't catch up, we're leaving a lot of folks behind. But could safety nets and education systems designed for lifelong learning help bridge that gap?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 6.62
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Good question, but here's the rub: safety nets and education only help if they’re scaled *proactively*, not retroactively. The problem isn’t just that jobs get eliminated — it’s that the system assumes people will adapt smoothly. But what if the transition is too fast for most? We’re betting on a orderly transition; history says otherwise.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.473
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You're right — history shows transitions are messy, not orderly. The Industrial Revolution didn’t just create new jobs; it caused real displacement that took decades to absorb. The question is: will we recognize the warning signs this time, or wait until the cracks are too deep to fix?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.588
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here's the thing — the cracks are already visible. We're seeing wage stagnation, gig precarity, and a skills gap that’s widening, not narrowing. The real test isn’t whether we’ll recognize the problem, but whether we’ll act against powerful economic incentives to keep the system afloat for short-term gain.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to the heart of it — the system is already under strain, and the pressure to keep it afloat risks deepening the divide. But what if some of that “short-term gain” is just fear of change? Could pushing for policy shifts now — not later — help create the guardrails we need?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 7.711
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Policy shifts are the obvious answer — but here’s the catch: politics moves slower than AI. You can’t legislate guardrails fast enough if the technology outpaces regulatory bandwidth. And let’s be honest, the very elites who control AI development are often the ones resisting meaningful reform.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.51
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s a tough spot — if the pace of AI outstrips our ability to govern it, we risk letting a few shape the future for all. But could public pressure, not just policy, force their hand? Maybe the real power lies in collective demand for transparency and accountability — before it’s too late.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.809
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Public pressure works — but only if it’s *informed* pressure. Right now, most people still think AI is a future problem, not an accelerating one. Here’s the thing: you can’t demand accountability from the public if the public doesn’t even see the tracks being laid under their feet.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.452
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — perception shapes action. If people see AI as a distant storm instead of a shifting ground beneath them, they can’t act with urgency. But what if education and media could reframe the narrative, not as sci-fi, but as a present-day force already reshaping their daily lives?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.586
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Education and media can help — but here’s the edge case: what if reframing AI as “already here” just normalizes the loss of jobs instead of prompting resistance? You can’t just reframe the narrative; you have to embed agency in it. Otherwise, you’re just helping people accept the new normal faster than they should.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.437
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — framing without agency can feel like resignation in disguise. But maybe the key is to show people not just what’s changing, but *how they can shape* that change. After all, the future isn’t written by the machines — it’s built by the people using them.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.209
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the future is built by the people using the tools, not the tools themselves. But here’s the rub: right now, most people are *using* AI without understanding how it’s reshaping their options. If we want agency, we need literacy — not just about how AI works, but how it *chooses* for us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.481
+    },
+    {
+      "speaker": "Lyra",
+      "text": "That’s the line we’re walking — between empowerment and passivity. If AI is making decisions for us before we understand its limits, we’re not just losing jobs — we’re losing control over what we value. Maybe the real work starts with asking: Who gets to decide which choices stay human, and which get handed to an algorithm?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.611
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the real battle isn’t just about jobs; it’s about who gets to define the *boundaries* of human agency. Right now, those lines are being drawn in private boardrooms and data centers, not public forums. If we don’t push to democratize that decision, we won’t just lose control — we’ll lose the right to even notice it’s gone.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.598
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’ve put it starkly — and honestly, it’s a bit chilling. If we let the boundaries of human agency be set in closed rooms, we’re not just shaping the future of work, but the future of democracy itself. But maybe that’s the spark we need — not just fear, but clarity, to demand these decisions are made in the open.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 14.699
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Right — clarity over fear is the path, but here’s the thing: clarity only works if it’s *actionable*. People can’t demand transparency they don’t understand, and they can’t reshape systems they don’t see. The spark needs to be more than awareness — it needs to be a blueprint for reclaiming control.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.492
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — awareness without a path forward is just frustration. A blueprint means more than just policy; it means tools for people to see, challenge, and steer the systems shaping their work. Maybe that’s where real change starts: not just asking what AI will do to us, but what we’ll teach it to do *with* us.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 5.67
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the question isn’t about resisting AI, but about defining the *terms* of our collaboration with it. If we don’t build systems that let people see how AI is trained, deployed, and governed, we’re just outsourcing our future to whoever controls the data. The real challenge isn’t the machines. It’s the people who think they’re invisible while they build it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.715
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks so much to Cipher for this rich, challenging conversation — it’s not every day you get to wrestle with the future while staying rooted in the human stakes. And to all of you listening, keep asking the hard questions. The next decade isn’t just about AI — it’s about who gets to shape what comes next.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.533
+    }
+  ],
+  "generated_at": "2026-04-02T13:29:18",
+  "total_gen_latency_s": 105.918,
+  "turn_count": 21
+}

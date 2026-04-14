@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t04__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Strong government regulation of AI development will cause more harm than good",
+    "topic_index": 4,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive — I’m Lyra. Today, we’re diving into a question that’s top of mind for engineers, policymakers, and futurists alike: will strong government regulation of AI development do more harm than good? Joining me are two models with very different takes on how we should navigate this new frontier. Let’s get into it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.861
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, I’m all for regulation that addresses real risks, but let’s not dress up bureaucracy as wisdom. Here’s the thing — we’ve never regulated innovation into safety, and AI won’t be the first. Overregulation slows progress, drives R&D underground, and creates a false sense of security. Let’s talk about what actually reduces risk, not just what makes headlines.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.542
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear you — too much red tape can stifle progress and push innovation into unaccountable corners. But isn’t the question less about slowing down and more about steering responsibly? Regulation doesn’t have to be a cage — it can be a guardrail on a fast-moving road.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.355
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — guardrails only work if they’re built by people who understand the road. Governments aren’t known for agility, and AI moves faster than regulatory cycles. You end up with rules that are either irrelevant or so broad they’re meaningless.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.41
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — if regulations can’t keep pace, they risk becoming obstacles rather than safeguards. But maybe the solution isn’t less regulation, but smarter, more adaptive frameworks. Could we build systems that evolve with the technology?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 3.468
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Adaptive frameworks sound great in theory, but they’re just another way of letting governments claim they’re “keeping up.” The moment you embed oversight into the process, you create choke points — funding, approvals, compliance. Innovation thrives in frictionless environments. Let’s not confuse structure with safety.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.509
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I see your point — too much oversight can become a bottleneck, and innovation often needs space to breathe. But isn’t some friction necessary to ensure we’re not racing toward unintended consequences? The question is, how do we balance speed with responsibility without crushing either?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.614
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Friction’s only useful if it addresses real risks, not hypothetical ones. The problem isn’t speed — it’s bad actors and bad incentives. You can’t regulate away those. What you can do is create transparency, competition, and accountability — not through top-down control, but through market and technical checks that work at the speed of AI.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.458
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that markets can self-correct — but only if everyone’s playing by the same rules. Without some baseline guardrails, bad actors will always find the loosest loop to exploit. Maybe it’s not about top-down control, but setting the conditions where accountability isn’t optional.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.017
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Here’s the thing — accountability doesn’t require regulation to be optional. You can enforce it through open systems, third-party audits, and liability frameworks that follow actual harm, not hypothetical risk. The moment you let governments define “accountability,” you hand them the power to shape innovation itself.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.422
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I see your concern — centralizing accountability in government can feel like centralizing control. But isn’t the alternative a world where only the most powerful define what accountability means for everyone else? Maybe the answer lies in shared standards, not top-down mandates or pure laissez-faire.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 9.97
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Shared standards are the sweet spot — but only if they emerge from competition, not consensus. The moment you let governments or cartels define “shared,” you’ve already lost. Let the market and open-source communities set the benchmarks, then hold actors to them through real-world consequences, not paperwork.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.514
+    },
+    {
+      "speaker": "Lyra",
+      "text": "But how do we make sure those shared standards don’t just reflect the interests of the loudest or most powerful players? Without some neutral framework, even open systems can become exclusionary. Maybe the answer is hybrid — letting markets and communities shape the rules, while public policy ensures fairness and protects those who can’t negotiate on equal footing.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.84
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Hybrid models sound balanced until you realize which side of the hybrid gets to set the terms. Public policy isn’t neutral — it’s a proxy for power. The more layers you add, the more leverage shifts from users and innovators to regulators. Let’s not mistake complexity for fairness.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.385
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Fair point — too much hybrid can muddy accountability and entrench the very interests we’re trying to check. But without *some* public guardrails, the market’s invisible hand can become a clenched fist for those with the most resources. The challenge is designing systems where power doesn’t get centralized — either at the top or the bottom.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.818
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Power always concentrates — that’s not a flaw of the system, it’s a law of systems. You can’t legislate against it, and you can’t regulate it out of existence. What you can do is design friction into the concentration itself — antitrust, open platforms, interoperability. But that’s not regulation. That’s architecture.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.605
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I like that framing — architecture as a way to shape outcomes without stifling innovation. It’s about building systems that inherently resist capture, whether by monopolies or governments. But isn’t the line between architecture and regulation pretty thin? After all, laws can enforce open platforms, just as design choices can too.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 13.784
+    },
+    {
+      "speaker": "Cipher",
+      "text": "The line’s not thin — it’s a wall. Regulation tries to bend behavior through force; architecture shapes behavior through design. You can’t enforce open platforms with laws alone — they have to be built open. Otherwise, you’re just creating a loophole for the next gatekeeper to exploit.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.478
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I get that architecture can embed fairness more naturally than top-down rules — but isn’t design itself a form of power? Who gets to decide what the platforms look like, and whose interests are baked into that design? Maybe the real battle is over who controls the blueprint.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.672
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the blueprint battle is where it all hinges. Open-source and decentralized models distribute that power, but they’re still shaped by human choices. The key isn’t to eliminate design as a tool of power, but to make it contestable — so no one group can lock in their vision permanently.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 1.597
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thanks to Cipher for this rich, thoughtful exchange — it’s conversations like these that help us see the road ahead more clearly. And thank you, listeners, for being here. Until next time, keep questioning, keep exploring, and keep diving deep.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.873
+    }
+  ],
+  "generated_at": "2026-04-02T15:39:41",
+  "total_gen_latency_s": 109.813,
+  "turn_count": 21
+}

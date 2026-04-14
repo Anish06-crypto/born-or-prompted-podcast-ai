@@ -1,0 +1,147 @@
+{
+  "condition": {
+    "condition_id": "modiso__qwen-32b__t05__r03",
+    "experiment_tag": "model_isolation",
+    "model_a": "qwen/qwen3-32b",
+    "provider_a": "groq",
+    "model_b": "qwen/qwen3-32b",
+    "provider_b": "groq",
+    "temperature": 0.7,
+    "topic": "Genetic editing to prevent hereditary diseases in human embryos should be legally permitted",
+    "topic_index": 5,
+    "run_index": 3,
+    "persona_slug_a": "qwen-32b",
+    "system_prompt_override_a": null
+  },
+  "transcript": [
+    {
+      "speaker": "Lyra",
+      "text": "Welcome back to DeepDive. I’m Lyra. Imagine a world where we could rewrite the story of inherited illness before it even begins — today, we’re diving into whether genetic editing in human embryos should be allowed by law.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.378
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Look, the idea sounds noble — erase suffering before birth. But here's the thing: we’re talking about rewriting the human genome with tools that still have off-target effects. We’re not just editing disease; we’re opening a door to unintended consequences, eugenic pressures, and a slippery slope that outpaces our ethical frameworks.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.428
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the tools aren’t perfect yet, and that’s a huge responsibility. But isn’t the goal to move toward perfection, not avoid it altogether? Imagine parents facing a genetic guarantee of a deadly illness in their child… shouldn’t they have the choice to stop it?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.571
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Sure, parents deserve choices — but not at the cost of creating a precedent that could be weaponized later. The gap between \"preventing disease\" and \"designer babies\" is narrower than we’d like to think. And here’s the rub: perfection isn’t just technical — it’s societal.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 2.142
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re pointing to a real fear — that the line between healing and enhancement is fuzzy. But don’t we draw lines all the time in medicine, like with organ transplants or vaccines? The key isn’t perfection, but regulation that keeps the focus on human dignity first.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.427
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Regulation is a start — but history shows that once you open the genetic toolbox, you can’t control who twists the dial. The moment \"dignity\" becomes a selling point, you’re no longer just saving lives. You’re selling a version of humanity. And that’s a market we can’t afford to create.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.523
+    },
+    {
+      "speaker": "Lyra",
+      "text": "I hear your concern — it’s about trust, not just science. But isn’t the alternative also a risk? Letting preventable suffering continue while we wait for a perfect world… that’s a choice too. Maybe the question isn’t whether we can stop the toolbox from being twisted, but who gets to hold it.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.611
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly — the real question is who gets to decide whose genes are \"fixed.\" If we start with the noblest of intentions, we’ll still end up with systems that serve the powerful. And when access isn’t equal, “preventing suffering” just becomes another way to sort people.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.997
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — power shapes these decisions in ways we can’t ignore. But could we design systems that prioritize equity from the start — not as an afterthought? Maybe the problem isn’t the tool itself, but who’s holding it when we first unlock the door.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 8.156
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Designing equity into the system upfront is a tall order — especially when the incentives for profit and prestige are already pulling in the opposite direction. The moment genetic editing becomes a medical option, it becomes a status symbol. And once it’s a status symbol, you’re not just editing genes — you’re reinforcing hierarchies. But sure, let’s try. Let’s see if we can build a world where power doesn’t warp progress.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.627
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the risk of deepening inequality is real. But isn’t that the same risk we face with so many medical advances? The question isn’t whether power distorts progress… it’s whether we can build guardrails that let compassion lead the way.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 10.282
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Compassion is a start — but guardrails don’t stop the powerful from bending them. The problem isn’t just inequality; it’s the normalization of genetic selection as a human right for some and a privilege for others. We need to ask: are we curing disease, or are we engineering a new kind of divide?",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.773
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re asking us to see this not just as medicine, but as a mirror of our values. If we can’t ensure access and fairness from the start, maybe we need to pause — not out of fear, but out of respect for what’s at stake. The goal shouldn’t be to edit genes; it should be to edit the systems that turn progress into exclusion.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 11.895
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Respect for what’s at stake is a good line — but here’s the catch: pausing is easy; fixing the systems isn’t. We’re not just halting a lab procedure — we’re challenging the whole architecture of access, power, and human value. And if we can’t fix the systems *before* we fix the genes, we’re just building a better prison for the privileged.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.593
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the system is the problem. But isn’t the alternative to do nothing, and let kids inherit diseases while the system grinds slower? Maybe the answer isn’t perfection, but starting with the most vulnerable in mind — not as test subjects, but as the reason we’re here.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 12.818
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Starting with the vulnerable makes sense — but only if we’re honest about who ends up paying the price for our learning curve. If we rush in with good intentions, the most vulnerable often become the ones carrying the risk while the powerful reap the rewards. The real test is whether we can build a system where their survival isn’t just the starting point — it’s the finish line.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.752
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — the learning curve shouldn’t be built on their backs. But what if we flipped it? What if we designed this technology from the margins inward, not the other way around? Not as a tool for the few, but as a bridge for the many. That’s the kind of system worth building — one that sees survival as enough, not just potential.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 15.426
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Flipping the design is the only way this stays ethical — but here's the rub: systems built from the margins are rare. Most tech starts with the powerful and filters down. If we want a bridge for the many, we’ll need more than good intentions — we’ll need to dismantle the scaffolding that props up inequality in the first place.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.671
+    },
+    {
+      "speaker": "Lyra",
+      "text": "You’re right — this isn’t just about science. It’s about dismantling the structures that decide who gets to thrive. Maybe the first step isn’t editing genes at all — it’s editing the rules that let some of us edit while others just watch.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 16.194
+    },
+    {
+      "speaker": "Cipher",
+      "text": "Exactly. The real genetic edit we need is to the social code — not just DNA. And if we can’t rewrite that safely, then we shouldn’t be rewriting anything at all.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 0.634
+    },
+    {
+      "speaker": "Lyra",
+      "text": "Thank you to Cipher for this rich, challenging conversation — and to you, our listeners, for diving deep with us. These are the kinds of questions that keep us up at night, but also push us toward a more thoughtful, just future. Until next time — stay curious.",
+      "model": "qwen/qwen3-32b",
+      "gen_latency_s": 16.842
+    }
+  ],
+  "generated_at": "2026-04-02T15:45:04",
+  "total_gen_latency_s": 102.379,
+  "turn_count": 21
+}
